@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IronBlood_Z46_Agenda -->
+<!-- Author: jjj -->
+<!-- DateCreated: 2023/11/6 19:27:41 -->
+<GameData>
+	<Types>
+		<Row Type="TRAIT_AGENDA_WHAT_ONCE_WAS_HER_WORLD" Kind="KIND_TRAIT"/>
+	</Types>
+	<AiListTypes>
+		<!--通用-->
+		<Row ListType="WhatOnceWasHerWorldTechs"/>
+		<Row ListType="WhatOnceWasHerWorldCivics"/>
+		<Row ListType="WhatOnceWasHerWorldDistricts"/>
+		<!--追随名字的少女-->
+		<Row ListType="WhatOnceWasHerWorldHateSurpriseWar"/>
+		<Row ListType="WhatOnceWasHerWorldHateDeclareWarMinorCiv"/>
+		<Row ListType="WhatOnceWasHerWorldPeferPseudoYields"/>
+		<Row ListType="WhatOnceWasHerWorldPeferYields"/>
+		<Row ListType="WhatOnceWasHerWorldPeferBuildings"/>
+		<Row ListType="WhatOnceWasHerWorldPeferProjects"/>
+	</AiListTypes>
+	<AiLists>
+		<!--通用-->
+		<Row ListType="WhatOnceWasHerWorldTechs"					LeaderType="LEADER_Z46_1936C"						System="Technologies"/>
+		<Row ListType="WhatOnceWasHerWorldCivics"					LeaderType="LEADER_Z46_1936C"						System="Civics"/>
+		<Row ListType="WhatOnceWasHerWorldDistricts"				AgendaType="TRAIT_AGENDA_WHAT_ONCE_WAS_HER_WORLD"	System="Districts"/>
+		<!--追随名字的少女-->
+		<Row ListType="WhatOnceWasHerWorldHateSurpriseWar"			AgendaType="TRAIT_AGENDA_WHAT_ONCE_WAS_HER_WORLD"	System="DiplomaticActions"/>
+		<Row ListType="WhatOnceWasHerWorldHateDeclareWarMinorCiv"	AgendaType="TRAIT_AGENDA_WHAT_ONCE_WAS_HER_WORLD"	System="DiplomaticActions"/>
+		<Row ListType="WhatOnceWasHerWorldPeferPseudoYields"		AgendaType="TRAIT_AGENDA_WHAT_ONCE_WAS_HER_WORLD"	System="PseudoYields"/>
+		<Row ListType="WhatOnceWasHerWorldPeferYields"				AgendaType="TRAIT_AGENDA_WHAT_ONCE_WAS_HER_WORLD"	System="Yields"/>
+		<Row ListType="WhatOnceWasHerWorldPeferBuildings"			LeaderType="LEADER_Z46_1936C"						System="Buildings"/>
+		<Row ListType="WhatOnceWasHerWorldPeferProjects"			LeaderType="LEADER_Z46_1936C"						System="Projects"/>
+
+	</AiLists>
+	<AiFavoredItems>
+		<!--通用-->
+		<Row ListType="WhatOnceWasHerWorldTechs"					Item="TECH_IRON_WORKING"					Favored="true"/>
+		<Row ListType="WhatOnceWasHerWorldTechs"					Item="TECH_WRITING"							Favored="true"/>
+		<Row ListType="WhatOnceWasHerWorldCivics"					Item="CIVIC_DRAMA_POETRY"					Favored="true"/>
+		<Row ListType="WhatOnceWasHerWorldDistricts"				Item="DISTRICT_RUHR"						Favored="true"/>
+		<Row ListType="WhatOnceWasHerWorldDistricts"				Item="DISTRICT_COMMERCIAL_HUB"				Favored="true"/>
+		<Row ListType="WhatOnceWasHerWorldDistricts"				Item="DISTRICT_CAMPUS"						Favored="true"/>
+		<Row ListType="WhatOnceWasHerWorldDistricts"				Item="DISTRICT_THEATER"						Favored="true"/>
+		<!--追随名字的少女-->
+		<Row ListType="WhatOnceWasHerWorldHateSurpriseWar"			Item="DIPLOACTION_DECLARE_SURPRISE_WAR"		Favored="false"/>
+		<Row ListType="WhatOnceWasHerWorldHateDeclareWarMinorCiv"	Item="DIPLOACTION_DECLARE_WAR_MINOR_CIV"	Favored="false"/>
+		<Row ListType="WhatOnceWasHerWorldPeferPseudoYields"		Item="PSEUDOYIELD_TOURISM"									Value="20"/>
+		<Row ListType="WhatOnceWasHerWorldPeferPseudoYields"		Item="PSEUDOYIELD_GPP_WRITER"								Value="50"/>
+		<Row ListType="WhatOnceWasHerWorldPeferYields"				Item="YIELD_CULTURE"										Value="20"/>
+		<Row ListType="WhatOnceWasHerWorldPeferBuildings"			Item="BUILDING_ANNETTE"						Favored="true"/>
+		<Row ListType="WhatOnceWasHerWorldPeferBuildings"			Item="BUILDING_AMPHITHEATER"				Favored="true"/>
+		<Row ListType="WhatOnceWasHerWorldPeferProjects"			Item="PROJECT_Z46"							Favored="true"/>
+	</AiFavoredItems>
+	<Traits>
+		<!--追随名字的少女-->
+		<Row TraitType="TRAIT_AGENDA_WHAT_ONCE_WAS_HER_WORLD"/>
+	</Traits>
+	<AgendaTraits>
+		<!--追随名字的少女-->
+		<Row AgendaType="AGENDA_WHAT_ONCE_WAS_HER_WORLD" TraitType="TRAIT_AGENDA_WHAT_ONCE_WAS_HER_WORLD"/>
+	</AgendaTraits>
+	<TraitModifiers>
+		<!--高文化值-->
+		<Row>
+			<TraitType>TRAIT_AGENDA_WHAT_ONCE_WAS_HER_WORLD</TraitType>
+			<ModifierId>AGENDA_WHAT_ONCE_WAS_HER_WORLD_HIGH_CULTURE</ModifierId>
+		</Row>
+		<!--低文化值-->
+		<Row>
+			<TraitType>TRAIT_AGENDA_WHAT_ONCE_WAS_HER_WORLD</TraitType>
+			<ModifierId>AGENDA_WHAT_ONCE_WAS_HER_WORLD_LOW_CULTURE</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<!--高文化值-->
+		<Row>
+			<ModifierId>AGENDA_WHAT_ONCE_WAS_HER_WORLD_HIGH_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_HIGH_CULTURE</SubjectRequirementSetId>
+		</Row>
+		<!--低文化值-->
+		<Row>
+			<ModifierId>AGENDA_WHAT_ONCE_WAS_HER_WORLD_LOW_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_LOW_CULTURE</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!--高文化值-->
+		<Row>
+			<ModifierId>AGENDA_WHAT_ONCE_WAS_HER_WORLD_HIGH_CULTURE</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_WHAT_ONCE_WAS_HER_WORLD_HIGH_CULTURE</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_WHAT_ONCE_WAS_HER_WORLD_HIGH_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_WHAT_ONCE_WAS_HER_WORLD_HIGH_CULTURE</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>AGENDA_WHAT_ONCE_WAS_HER_WORLD_KUDO</Value>
+		</Row>
+		<!--低文化值-->
+		<Row>
+			<ModifierId>AGENDA_WHAT_ONCE_WAS_HER_WORLD_LOW_CULTURE</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_WHAT_ONCE_WAS_HER_WORLD_LOW_CULTURE</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_WHAT_ONCE_WAS_HER_WORLD_LOW_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_WHAT_ONCE_WAS_HER_WORLD_LOW_CULTURE</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>AGENDA_WHAT_ONCE_WAS_HER_WORLD_WRANING</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="AGENDA_WHAT_ONCE_WAS_HER_WORLD_HIGH_CULTURE"	Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_WHAT_ONCE_WAS_HER_WORLD_LOW_CULTURE"	Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+	</ModifierStrings>
+</GameData>

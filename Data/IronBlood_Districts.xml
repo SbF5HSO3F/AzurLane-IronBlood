@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IronBlood_Districts -->
+<!-- Author: jjj -->
+<!-- 优先级：997-->
+<!-- DateCreated: 4/15/2023 3:18:48 PM -->
+<GameData>
+	<Types>
+		<Row Type="DISTRICT_RUHR"	Kind="KIND_DISTRICT"/>
+		<Row Type="DISTRICT_KRUPP"	Kind="KIND_DISTRICT"/>
+	</Types>
+	<DistrictReplaces>
+		<Row CivUniqueDistrictType="DISTRICT_RUHR"	ReplacesDistrictType="DISTRICT_INDUSTRIAL_ZONE"/>
+		<Row CivUniqueDistrictType="DISTRICT_KRUPP" ReplacesDistrictType="DISTRICT_ENCAMPMENT"/>
+	</DistrictReplaces>
+	<Districts>
+		<Row DistrictType="DISTRICT_RUHR"
+			 Name="LOC_DISTRICT_RUHR_NAME"
+			 Description="LOC_DISTRICT_RUHR_DESCRIPTION"
+			 PrereqTech="TECH_IRON_WORKING"
+			 PlunderType="PLUNDER_SCIENCE"
+			 PlunderAmount="25"
+			 AdvisorType="ADVISOR_GENERIC"
+			 Cost="27"
+			 CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH"
+			 CostProgressionParam1="40"
+			 Maintenance="1"
+			 RequiresPlacement="true"
+			 RequiresPopulation="true"
+			 Aqueduct="false"
+			 NoAdjacentCity="false"
+			 InternalOnly="false"
+			 ZOC="false"
+			 CaptureRemovesBuildings="false"
+			 CaptureRemovesCityDefenses="false"
+			 MilitaryDomain="NO_DOMAIN"
+			 CityStrengthModifier="2"
+			 TraitType="TRAIT_CIVILIZATION_DISTRICT_RUHR"/>
+		<Row DistrictType="DISTRICT_KRUPP"
+			 Name="LOC_DISTRICT_KRUPP_NAME"
+			 Description="LOC_DISTRICT_KRUPP_DESCRIPTION"
+			 PrereqTech="TECH_BRONZE_WORKING"
+			 PlunderType="NO_PLUNDER"
+			 AdvisorType="ADVISOR_CONQUEST"
+			 Cost="27"
+			 CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH"
+			 CostProgressionParam1="40"
+			 Maintenance="1" 
+			 RequiresPlacement="true"
+			 RequiresPopulation="false"
+			 Aqueduct="false" 
+			 NoAdjacentCity="true" 
+			 InternalOnly="false"
+			 ZOC="true"
+			 HitPoints="100"
+			 CaptureRemovesBuildings="true"
+			 CaptureRemovesCityDefenses="false"
+			 MilitaryDomain="DOMAIN_LAND"
+			 Appeal="-1"
+			 CityStrengthModifier="2"
+			 TraitType="TRAIT_CIVILIZATION_DISTRICT_KRUPP"/>
+	</Districts>
+	<District_GreatPersonPoints>
+		<Row DistrictType="DISTRICT_RUHR"	GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER"	PointsPerTurn="2"/>
+		<Row DistrictType="DISTRICT_KRUPP"	GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL"	PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_KRUPP"	GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER"	PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_KRUPP"	GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
+	</District_GreatPersonPoints>
+	<District_TradeRouteYields>
+		<Row DistrictType="DISTRICT_RUHR"	YieldType="YIELD_PRODUCTION"	YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="0"/>
+		<Row DistrictType="DISTRICT_RUHR"	YieldType="YIELD_GOLD"			YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="0"/>
+		<Row DistrictType="DISTRICT_RUHR"	YieldType="YIELD_CULTURE"		YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_KRUPP"	YieldType="YIELD_PRODUCTION"	YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
+		<Row DistrictType="DISTRICT_KRUPP"	YieldType="YIELD_SCIENCE"		YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="1"/>
+	</District_TradeRouteYields>
+	<District_CitizenYieldChanges>
+		<Row DistrictType="DISTRICT_RUHR"	YieldType="YIELD_PRODUCTION"	YieldChange="3"/>
+		<Row DistrictType="DISTRICT_RUHR"	YieldType="YIELD_GOLD"			YieldChange="4"/>
+		<Row DistrictType="DISTRICT_RUHR"	YieldType="YIELD_CULTURE"		YieldChange="2"/>
+		<Row DistrictType="DISTRICT_KRUPP"	YieldType="YIELD_PRODUCTION"	YieldChange="3"/>
+		<Row DistrictType="DISTRICT_KRUPP"	YieldType="YIELD_SCIENCE"		YieldChange="3"/>
+	</District_CitizenYieldChanges>
+	<District_Adjacencies>
+		<!--获得-->
+		<Row DistrictType="DISTRICT_RUHR"	YieldChangeId="Commerical_Hub_Production"/>
+		<Row DistrictType="DISTRICT_RUHR"	YieldChangeId="River_Ruhr"/>
+		<Row DistrictType="DISTRICT_RUHR"	YieldChangeId="Resource_Production"/>
+		<Row DistrictType="DISTRICT_RUHR"	YieldChangeId="District_Production"/>
+		<Row DistrictType="DISTRICT_RUHR"	YieldChangeId="Government_Production"/>
+		<!--给予-->
+		<Row DistrictType="DISTRICT_RUHR"			YieldChangeId="Ruhr_Krupp"/>
+		<Row DistrictType="DISTRICT_COMMERCIAL_HUB" YieldChangeId="Ruhr_Commercial_Hub"/>
+		<Row DistrictType="DISTRICT_CAMPUS"			YieldChangeId="Krupp_Campus"/>
+	</District_Adjacencies>
+	<Adjacency_YieldChanges>
+		<!--获得-->
+		<Row ID="River_Ruhr"			Description="LOC_River_Ruhr"			YieldType="YIELD_PRODUCTION"	YieldChange="2" TilesRequired="1" AdjacentRiver="true"/>
+		<!--给予-->
+		<Row ID="Ruhr_Krupp"			Description="LOC_Ruhr_Krupp"			YieldType="YIELD_PRODUCTION"	YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_KRUPP"/>
+		<Row ID="Ruhr_Commercial_Hub"	Description="LOC_Ruhr_Commercial_Hub"	YieldType="YIELD_GOLD"			YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_RUHR"/>
+		<Row ID="Krupp_Campus"			Description="LOC_Krupp_Campus"			YieldType="YIELD_SCIENCE"		YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_KRUPP"/>
+	</Adjacency_YieldChanges>
+	<DistrictModifiers>
+		<!--宾根-->
+		<!--<Row>
+			<DistrictType>DISTRICT_KRUPP</DistrictType>
+			<ModifierId>KRUPP_COPY</ModifierId>
+		</Row>-->
+		<!--生产非平民单位获得科技值-->
+		<Row>
+			<DistrictType>DISTRICT_KRUPP</DistrictType>
+			<ModifierId>KRUPP_GRANT_SCIENCE_PER_UNIT_COST</ModifierId>
+		</Row>
+		<!--生产军事单位时间减半-->
+		<Row>
+			<DistrictType>DISTRICT_KRUPP</DistrictType>
+			<ModifierId>KRUPP_MILITARY_UNITS_HALF_TIME</ModifierId>
+		</Row>
+		<!--免费单位-->
+		<Row>
+			<DistrictType>DISTRICT_KRUPP</DistrictType>
+			<ModifierId>KRUPP_FREE_MELEE_UNIT</ModifierId>
+		</Row>
+		<!--后续单位buff-->
+		<Row>
+			<DistrictType>DISTRICT_KRUPP</DistrictType>
+			<ModifierId>KRUPP_MELEE_UNIT_BUFF</ModifierId>
+		</Row>
+		<Row>
+			<DistrictType>DISTRICT_KRUPP</DistrictType>
+			<ModifierId>KRUPP_HEAVY_CAVALRY_UNIT_BUFF</ModifierId>
+		</Row>
+		<Row>
+			<DistrictType>DISTRICT_KRUPP</DistrictType>
+			<ModifierId>KRUPP_RANGED_UNIT_BUFF</ModifierId>
+		</Row>
+		<Row>
+			<DistrictType>DISTRICT_KRUPP</DistrictType>
+			<ModifierId>KRUPP_SIEGE_UNIT_BUFF</ModifierId>
+		</Row>
+		<!--合唱圣歌-->
+		<Row>
+			<DistrictType>DISTRICT_RUHR</DistrictType>
+			<ModifierId>RUHR_COPY</ModifierId>
+		</Row>
+		<!--小鲁尔-->
+		<Row>
+			<DistrictType>DISTRICT_RUHR</DistrictType>
+			<ModifierId>RUHR_ADD_CITY_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<DistrictType>DISTRICT_RUHR</DistrictType>
+			<ModifierId>RUHR_ADD_PROUCTION</ModifierId>
+		</Row>
+		<!--<Row>
+			<DistrictType>DISTRICT_RUHR</DistrictType>
+			<ModifierId>RUHR_ADD_CITY_CULTURE</ModifierId>
+		</Row>-->
+		<Row>
+			<DistrictType>DISTRICT_RUHR</DistrictType>
+			<ModifierId>RUHR_ADD_CULTURE</ModifierId>
+		</Row>
+		<!--旅游业绩-->
+		<Row>
+			<DistrictType>DISTRICT_RUHR</DistrictType>
+			<ModifierId>RUHR_TOURISM_CULTURE</ModifierId>
+		</Row>
+	</DistrictModifiers>
+	<Modifiers>
+		<!--宾根-->
+		<Row>
+			<ModifierId>KRUPP_COPY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS</ModifierType>
+		</Row>
+		<!--生产非平民单位获得科技值-->
+		<Row>
+			<ModifierId>KRUPP_GRANT_SCIENCE_PER_UNIT_COST</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_YIELD_PER_UNIT_COST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!--生产军事单位时间减半-->
+		<Row>
+			<ModifierId>KRUPP_MILITARY_UNITS_HALF_TIME</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_MILITARY_UNITS_PRODUCTION</ModifierType>
+		</Row>
+		<!--免费单位-->
+		<Row>
+			<ModifierId>KRUPP_FREE_MELEE_UNIT</ModifierId>
+			<ModifierType>MODIFIER_IRON_BLOOD_PLAYER_DISTRICT_ADJUST_PLAYER_DISTRICT_AND_BUILDINGS_CREATE_UNIT_WITH_ABILITY_BY_CLASS</ModifierType>
+		</Row>
+		<!--后续单位buff-->
+		<Row>
+			<ModifierId>KRUPP_MELEE_UNIT_BUFF</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_ABILITY_FOR_TRAINED_UNITS</ModifierType>
+			<Permanent>True</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>KRUPP_HEAVY_CAVALRY_UNIT_BUFF</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_ABILITY_FOR_TRAINED_UNITS</ModifierType>
+			<Permanent>True</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>KRUPP_RANGED_UNIT_BUFF</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_ABILITY_FOR_TRAINED_UNITS</ModifierType>
+			<Permanent>True</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>KRUPP_SIEGE_UNIT_BUFF</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_ABILITY_FOR_TRAINED_UNITS</ModifierType>
+			<Permanent>True</Permanent>
+		</Row>
+		<!--合唱圣歌-->
+		<Row>
+			<ModifierId>RUHR_COPY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS</ModifierType>
+		</Row>
+		<!--小鲁尔-->
+		<Row>
+			<ModifierId>RUHR_ADD_CITY_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>RUHR_ADD_PROUCTION</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>IRON_BLOOD_RUHR_CITY_PLOT_NEED</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>RUHR_ADD_CITY_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>RUHR_ADD_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>IRON_BLOOD_RUHR_CITY_PLOT_NEED</SubjectRequirementSetId>
+		</Row>
+		<!--旅游业绩-->
+		<Row>
+			<ModifierId>RUHR_TOURISM_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_IRON_BLOOD_PLAYER_DISTRICT_ADJUST_TOURISM_ADJACENCY_YIELD_MOFIFIER</ModifierType>
+			<SubjectRequirementSetId>IRON_BLOOD_PLAYER_HAS_FLIGHT</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!--宾根-->
+		<Row>
+			<ModifierId>KRUPP_COPY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_KRUPP</Value>
+		</Row>
+		<Row>
+			<ModifierId>KRUPP_COPY</ModifierId>
+			<Name>YieldTypeToGrant</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>KRUPP_COPY</ModifierId>
+			<Name>YieldTypeToMirror</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<!--生产非平民单位获得科技值-->
+		<Row>
+			<ModifierId>KRUPP_GRANT_SCIENCE_PER_UNIT_COST</ModifierId>
+			<Name>UnitProductionPercent</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>KRUPP_GRANT_SCIENCE_PER_UNIT_COST</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<!--生产军事单位时间减半-->
+		<Row>
+			<ModifierId>KRUPP_MILITARY_UNITS_HALF_TIME</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<!--免费单位-->
+		<Row>
+			<ModifierId>KRUPP_FREE_MELEE_UNIT</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_KRUPP</Value>
+		</Row>
+		<Row>
+			<ModifierId>KRUPP_FREE_MELEE_UNIT</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_MELEE</Value>
+		</Row>
+		<Row>
+			<ModifierId>KRUPP_FREE_MELEE_UNIT</ModifierId>
+			<Name>UnitAbilityType</Name>
+			<Value>ABILITY_KRUPP_FREE_MELEE_UNITS</Value>
+		</Row>
+		<!--后续单位buff-->
+		<Row>
+			<ModifierId>KRUPP_MELEE_UNIT_BUFF</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_KRUPP_MELEE_UNITS</Value>
+		</Row>
+		<Row>
+			<ModifierId>KRUPP_HEAVY_CAVALRY_UNIT_BUFF</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_KRUPP_HEAVY_CAVALRY_UNITS</Value>
+		</Row>
+		<Row>
+			<ModifierId>KRUPP_RANGED_UNIT_BUFF</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_KRUPP_RANGED_UNITS</Value>
+		</Row>
+		<Row>
+			<ModifierId>KRUPP_SIEGE_UNIT_BUFF</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_KRUPP_SIEGE_UNITS</Value>
+		</Row>
+		<!--合唱圣歌-->
+		<Row>
+			<ModifierId>RUHR_COPY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_RUHR</Value>
+		</Row>
+		<Row>
+			<ModifierId>RUHR_COPY</ModifierId>
+			<Name>YieldTypeToGrant</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>RUHR_COPY</ModifierId>
+			<Name>YieldTypeToMirror</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<!--小鲁尔-->
+		<Row>
+			<ModifierId>RUHR_ADD_CITY_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>RUHR_ADD_CITY_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>RUHR_ADD_PROUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>RUHR_ADD_PROUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>RUHR_ADD_CITY_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>RUHR_ADD_CITY_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>RUHR_ADD_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>RUHR_ADD_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<!--旅游业绩-->
+		<Row>
+			<ModifierId>RUHR_TOURISM_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>RUHR_TOURISM_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>IRON_BLOOD_RUHR_CITY_PLOT_NEED</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>IRON_BLOOD_RUHR_CITY_PLOT_NEED</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_MINE</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_RUHR" Texture="Moment_Infrastructure_Germany.dds"/>
+	</MomentIllustrations>
+</GameData>

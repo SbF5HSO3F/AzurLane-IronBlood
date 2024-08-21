@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IronBlood_U96_Agenda -->
+<!-- Author: jjj -->
+<!-- DateCreated: 2023/10/13 22:32:23 -->
+<GameData>
+	<Types>
+		<Row Type="TRAIT_AGENDA_DIE_EICHENLAUBFAHRT" Kind="KIND_TRAIT"/>
+	</Types>
+	<AiListTypes>
+		<!--通用-->
+		<Row ListType="DieEichenlaubfahrtTechs"/>
+		<Row ListType="DieEichenlaubfahrtDistricts"/>
+		<!--橡树叶的巡逻队-->
+		<Row ListType="DieEichenlaubfahrtHateSurpriseWar"/>
+		<Row ListType="DieEichenlaubfahrtHateDeclareWarMinorCiv"/>
+		<Row ListType="DieEichenlaubfahrtLoveFormalWar"/>
+		<Row ListType="DieEichenlaubfahrtLoveVIIC"/>
+	</AiListTypes>
+	<AiLists>
+		<!--通用-->
+		<Row ListType="DieEichenlaubfahrtTechs"						LeaderType="LEADER_U_96_VIIC"					System="Technologies"/>
+		<Row ListType="DieEichenlaubfahrtDistricts"					AgendaType="TRAIT_AGENDA_DIE_EICHENLAUBFAHRT"	System="Districts"/>
+		<!--橡树叶的巡逻队-->
+		<Row ListType="DieEichenlaubfahrtHateSurpriseWar"			AgendaType="TRAIT_AGENDA_DIE_EICHENLAUBFAHRT"	System="DiplomaticActions"/>
+		<Row ListType="DieEichenlaubfahrtHateDeclareWarMinorCiv"	AgendaType="TRAIT_AGENDA_DIE_EICHENLAUBFAHRT"	System="DiplomaticActions"/>
+		<Row ListType="DieEichenlaubfahrtLoveFormalWar"				AgendaType="TRAIT_AGENDA_DIE_EICHENLAUBFAHRT"	System="DiplomaticActions"/>
+		<Row ListType="DieEichenlaubfahrtLoveVIIC"					LeaderType="LEADER_U_96_VIIC"					System="Units"/>
+	</AiLists>
+	<AiFavoredItems>
+		<!--通用-->
+		<Row ListType="DieEichenlaubfahrtTechs"						Item="TECH_IRON_WORKING"					Favored="true"/>
+		<Row ListType="DieEichenlaubfahrtTechs"						Item="TECH_BRONZE_WORKING"					Favored="true"/>
+		<Row ListType="DieEichenlaubfahrtDistricts"					Item="DISTRICT_RUHR"						Favored="true"/>
+		<Row ListType="DieEichenlaubfahrtDistricts"					Item="DISTRICT_KRUPP"						Favored="true"/>
+		<Row ListType="DieEichenlaubfahrtDistricts"					Item="DISTRICT_COMMERCIAL_HUB"				Favored="true"/>
+		<!--橡树叶的巡逻队-->
+		<Row ListType="DieEichenlaubfahrtHateSurpriseWar"			Item="DIPLOACTION_DECLARE_SURPRISE_WAR"		Favored="false"/>
+		<Row ListType="DieEichenlaubfahrtHateDeclareWarMinorCiv"	Item="DIPLOACTION_DECLARE_WAR_MINOR_CIV"	Favored="false"/>
+		<Row ListType="DieEichenlaubfahrtLoveFormalWar"				Item="DIPLOACTION_DECLARE_FORMAL_WAR"		Favored="true"/>
+		<Row ListType="DieEichenlaubfahrtLoveVIIC"					Item="UNIT_VIIC_UBOAT"										Value="1"/>
+	</AiFavoredItems>
+	<Traits>
+		<!--橡树叶的巡逻队-->
+		<Row TraitType="TRAIT_AGENDA_DIE_EICHENLAUBFAHRT"/>
+	</Traits>
+	<AgendaTraits>
+		<!--橡树叶的巡逻队-->
+		<Row AgendaType="AGENDA_DIE_EICHENLAUBFAHRT" TraitType="TRAIT_AGENDA_DIE_EICHENLAUBFAHRT"/>
+	</AgendaTraits>
+	<TraitModifiers>
+		<!--橡树叶的巡逻队-->
+		<Row>
+			<TraitType>TRAIT_AGENDA_DIE_EICHENLAUBFAHRT</TraitType>
+			<ModifierId>AGENDA_DIE_EICHENLAUBFAHRT_IN_WAR</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AGENDA_DIE_EICHENLAUBFAHRT</TraitType>
+			<ModifierId>AGENDA_DIE_EICHENLAUBFAHRT_SURPRISE_WAR</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<!--橡树叶的巡逻队-->
+		<Row>
+			<ModifierId>AGENDA_DIE_EICHENLAUBFAHRT_IN_WAR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>IRON_BLOOD_PLAYER_AT_WAR</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_DIE_EICHENLAUBFAHRT_SURPRISE_WAR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_DECLARES_SURPRISE_WAR</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!--橡树叶的巡逻队-->
+		<Row>
+			<ModifierId>AGENDA_DIE_EICHENLAUBFAHRT_IN_WAR</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_DIE_EICHENLAUBFAHRT_IN_WAR</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_AGENDA_DIE_EICHENLAUBFAHRT_IN_WAR_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_DIE_EICHENLAUBFAHRT_IN_WAR</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_AGENDA_DIE_EICHENLAUBFAHRT_IN_WAR_FRIEND</Value>
+		</Row>
+		<!--讨厌突袭战争-->
+		<Row>
+			<ModifierId>AGENDA_DIE_EICHENLAUBFAHRT_SURPRISE_WAR</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-20</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_DIE_EICHENLAUBFAHRT_SURPRISE_WAR</ModifierId>
+			<Name>ReductionTurns</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_DIE_EICHENLAUBFAHRT_SURPRISE_WAR</ModifierId>
+			<Name>ReductionValue</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_DIE_EICHENLAUBFAHRT_SURPRISE_WAR</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_AGENDA_DIE_EICHENLAUBFAHRT_SURPRISE_WAR_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_DIE_EICHENLAUBFAHRT_SURPRISE_WAR</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_AGENDA_DIE_EICHENLAUBFAHRT_SURPRISE_WAR</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>IRON_BLOOD_PLAYER_AT_WAR</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>IRON_BLOOD_PLAYER_AT_WAR</RequirementSetId>
+			<RequirementId>REQ_IRON_BLOOD_PLAYER_AT_WAR</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQ_IRON_BLOOD_PLAYER_AT_WAR</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_IS_AT_WAR</RequirementType>
+		</Row>
+	</Requirements>
+	<ModifierStrings>
+		<Row ModifierId="AGENDA_DIE_EICHENLAUBFAHRT_IN_WAR"			Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_DIE_EICHENLAUBFAHRT_SURPRISE_WAR"	Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+	</ModifierStrings>
+</GameData>

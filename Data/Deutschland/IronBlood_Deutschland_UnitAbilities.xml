@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IronBlood_Deutschland_UnitAbilities -->
+<!-- Author: jjj -->
+<!-- DateCreated: 2023/11/14 20:13:25 -->
+<GameData>
+	<Types>
+		<Row Type="ABILITY_DEUTSCHLAND"		Kind="KIND_ABILITY"/>
+	</Types>
+	<TypeTags>
+		<Row Type="ABILITY_DEUTSCHLAND"		Tag="CLASS_ALL_COMBAT_UNITS"/>
+		<Row Type="ABILITY_DEUTSCHLAND"		Tag="CLASS_NAVAL_CARRIER"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_DEUTSCHLAND"	Inactive="true"/>
+	</UnitAbilities>
+	<ModifierStrings>
+		<Row ModifierId="DEUTSCHLAND_UNIT_COMBAT_FROM_CITIES"	Context="Preview" Text="LOC_PREVIEW_DEUTSCHLAND_UNIT_COMBAT_FROM_CITIES"/>
+	</ModifierStrings>
+	<UnitAbilityModifiers>
+		<!--+3力-->
+		<Row>
+			<UnitAbilityType>ABILITY_DEUTSCHLAND</UnitAbilityType>
+			<ModifierId>DEUTSCHLAND_UNIT_COMBAT_FROM_CITIES</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<!--+3力-->
+		<Row>
+			<ModifierId>DEUTSCHLAND_UNIT_COMBAT_FROM_CITIES</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!--+3力-->
+		<Row>
+			<ModifierId>DEUTSCHLAND_UNIT_COMBAT_FROM_CITIES</ModifierId>
+			<Name>Key</Name>
+			<Value>DEUTSCHLAND_UNITS_COMBAT_PROERTY</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="LeaderFallback"/>
+	<m_PackageName text="leaderfallbacks"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="IMG_Iron_Blood_LEADER_U_96_VIIC_Diplomacy_FOREGROUND"/>
+			<m_ObjectName text="IMG_Iron_Blood_LEADER_U_96_VIIC_Diplomacy_FOREGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_IRON_BLOOD_LEADER_Z46_1936C_DIPLOMACY_FOREGROUND"/>
+			<m_ObjectName text="IMG_IRON_BLOOD_LEADER_Z46_1936C_DIPLOMACY_FOREGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_IRON_BLOOD_LEADER_DEUTSCHLAND_A_DIPLOMACY_FOREGROUND"/>
+			<m_ObjectName text="IMG_IRON_BLOOD_LEADER_DEUTSCHLAND_A_DIPLOMACY_FOREGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_LEADER_Z23_1936A_DIPLOMACY_FOREGROUND"/>
+			<m_ObjectName text="IMG_LEADER_Z23_1936A_DIPLOMACY_FOREGROUND"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

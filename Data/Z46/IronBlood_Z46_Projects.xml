@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IronBlood_Z46_Projects -->
+<!-- Author: jjj -->
+<!-- DateCreated: 2023/10/15 17:30:12 -->
+<GameData>
+	<Types>
+		<Row Type="PROJECT_Z46" Kind="KIND_PROJECT"/>
+	</Types>
+	<Projects>
+		<Row ProjectType="PROJECT_Z46" Name="LOC_PROJECT_Z46_NAME" ShortName="LOC_PROJECT_Z46_SHORT_NAME" Description="LOC_PROJECT_Z46_DESCRIPTION" PrereqDistrict="DISTRICT_CAMPUS" Cost="50" AdvisorType="ADVISOR_TECHNOLOGY" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="1500" UnlocksFromEffect="true" RequiredBuilding="BUILDING_ANNETTE"/>
+	</Projects>
+	<Project_GreatPersonPoints>
+		<Row ProjectType="PROJECT_Z46" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" Points="10" PointProgressionModel="COST_PROGRESSION_GAME_PROGRESS" PointProgressionParam1="800"/>
+		<Row ProjectType="PROJECT_Z46" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" Points="10" PointProgressionModel="COST_PROGRESSION_GAME_PROGRESS" PointProgressionParam1="800"/>
+		<Row ProjectType="PROJECT_Z46" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" Points="10" PointProgressionModel="COST_PROGRESSION_GAME_PROGRESS" PointProgressionParam1="800"/>
+	</Project_GreatPersonPoints>
+	<Project_YieldConversions>
+		<Row ProjectType="PROJECT_Z46" YieldType="YIELD_SCIENCE" PercentOfProductionRate="20"/>
+		<Row ProjectType="PROJECT_Z46" YieldType="YIELD_CULTURE" PercentOfProductionRate="20"/>
+	</Project_YieldConversions>
+	<ProjectCompletionModifiers>
+		<Row ProjectType="PROJECT_Z46" ModifierId="Z46_PROJECT_COMPLETION_MODIFIER"/>
+	</ProjectCompletionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>Z46_PROJECT_COMPLETION_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_GREAT_PERSON_CLASS_IN_CITY</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>Z46_PROJECT_COMPLETION_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>Z46_PROJECT_COMPLETION_MODIFIER</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

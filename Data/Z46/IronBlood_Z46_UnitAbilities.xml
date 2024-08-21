@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IronBlood_Z46_UnitAbilities -->
+<!-- Author: jjj -->
+<!-- DateCreated: 2023/10/15 14:08:59 -->
+<GameData>
+	<Types>
+		<Row Type="ABILITY_Z46_AP_BUFF"		Kind="KIND_ABILITY"/>
+	</Types>
+	<TypeTags>
+		<Row Type="ABILITY_Z46_AP_BUFF"		Tag="CLASS_ALL_COMBAT_UNITS"/>
+		<Row Type="ABILITY_Z46_AP_BUFF"		Tag="CLASS_NAVAL_CARRIER"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_Z46_AP_BUFF"		Name="LOC_ABILITY_Z46_AP_BUFF_NAME"		Description="LOC_ABILITY_Z46_AP_BUFF_DESCRIPTION"		Inactive="true"/>
+	</UnitAbilities>
+	<ModifierStrings>
+		<Row ModifierId="Z46_UNIT_AP_BUFF"					Context="Preview" Text="LOC_PREVIEW_Z46_UNIT_AP_BUFF"/>
+		<Row ModifierId="Z46_UNIT_AGAINST_HEAVY_AP_BUFF"	Context="Preview" Text="LOC_PREVIEW_Z46_UNIT_AGAINST_HEAVY_AP_BUFF"/>
+	</ModifierStrings>
+	<UnitAbilityModifiers>
+		<!--+3力-->
+		<!--<Row>
+			<UnitAbilityType>ABILITY_Z46_AP_BUFF</UnitAbilityType>
+			<ModifierId>Z46_UNIT_AP_BUFF</ModifierId>
+		</Row>-->
+		<!--+7力-->
+		<Row>
+			<UnitAbilityType>ABILITY_Z46_AP_BUFF</UnitAbilityType>
+			<ModifierId>Z46_UNIT_AGAINST_HEAVY_AP_BUFF</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<!--+3力-->
+		<Row>
+			<ModifierId>Z46_UNIT_AP_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<!--+7力-->
+		<Row>
+			<ModifierId>Z46_UNIT_AGAINST_HEAVY_AP_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>IRON_BLOOD_OPPONENT_UNIT_IS_HEAVY_CAVALRY</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!--+3力-->
+		<Row>
+			<ModifierId>Z46_UNIT_AP_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<!--+7力-->
+		<Row>
+			<ModifierId>Z46_UNIT_AGAINST_HEAVY_AP_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

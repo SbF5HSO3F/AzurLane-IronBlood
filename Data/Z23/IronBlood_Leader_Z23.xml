@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IronBlood_Leader_Z23 -->
+<!-- Author: jjj -->
+<!-- DateCreated: 2023/12/27 22:13:27 -->
+<GameData>
+	<Types>
+		<Row Type="LEADER_Z23_1936A"					Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_IRON_BLOOD_VANGUARD"	Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_UNIT_1936A"				Kind="KIND_TRAIT"/>
+	</Types>
+	<Leaders>
+		<Row LeaderType="LEADER_Z23_1936A" Name="LOC_LEADER_Z23_1936A_NAME" InheritFrom="LEADER_DEFAULT" Sex="Female" SceneLayers="4"/>
+	</Leaders>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_Z23_1936A" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_Z23_1936A_QUOTE"/>
+	</LeaderQuotes>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_Z23_1936A" AgendaType="AGENDA_HONOR_STUDENT"/>
+	</HistoricalAgendas>
+	<Agendas>
+		<Row AgendaType="AGENDA_HONOR_STUDENT" Name="LOC_AGENDA_HONOR_STUDENT_NAME" Description="LOC_AGENDA_HONOR_STUDENT_DESCRIPTION"/>
+	</Agendas>
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_HONOR_STUDENT"	AgendaTwo="AGENDA_TECHNOPHILE"/>
+	</ExclusiveAgendas>
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_IRON_BLOOD_VANGUARD"	Name="LOC_TRAIT_LEADER_IRON_BLOOD_VANGUARD_NAME"	Description="LOC_TRAIT_LEADER_IRON_BLOOD_VANGUARD_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_UNIT_1936A"			Name="LOC_UNIT_1936A_NAME"							Description="LOC_UNIT_1936A_DESCRIPTION"/>
+	</Traits>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_Z23_1936A" TraitType="TRAIT_LEADER_IRON_BLOOD_VANGUARD"/>
+		<Row LeaderType="LEADER_Z23_1936A" TraitType="TRAIT_LEADER_UNIT_1936A"/>
+	</LeaderTraits>
+	<LoadingInfo>
+		<Row LeaderType="LEADER_Z23_1936A" ForegroundImage="IMG_IRON_BLOOD_LEADER_Z23_1936A_LOADING_FOREGROUND" BackgroundImage="IMG_IRON_BLOOD_LOADING_BACKGROUND"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_Z23_1936A" BackgroundImage="IMG_IRON_BLOOD_DIPLOMACY_BACKGROUND.dds"/>
+	</DiplomacyInfo>
+	<TraitModifiers>
+		<!--KANSEN-->
+		<Row>
+			<TraitType>TRAIT_LEADER_IRON_BLOOD_VANGUARD</TraitType>
+			<ModifierId>IRON_BLOOD_KANSEN_UNLOCKED_TECH_SAILING</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_IRON_BLOOD_VANGUARD</TraitType>
+			<ModifierId>IRON_BLOOD_KANSEN_UNLOCKED_TECH_SHIPBUILDING</ModifierId>
+		</Row>
+		<!--获得能力-->
+		<Row>
+			<TraitType>TRAIT_LEADER_IRON_BLOOD_VANGUARD</TraitType>
+			<ModifierId>Z23_COMBAT_UNIT_GRANT_ABILITY</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<!--获得能力-->
+		<Row>
+			<ModifierId>Z23_COMBAT_UNIT_GRANT_ABILITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!--获得能力-->
+		<Row>
+			<ModifierId>Z23_COMBAT_UNIT_GRANT_ABILITY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_Z23_COMBAT_UNIT_BUFF</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

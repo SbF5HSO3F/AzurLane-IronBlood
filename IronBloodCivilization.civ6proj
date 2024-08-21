@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>IronBloodCivilization</Name>
+    <Guid>5e55884c-f1f8-46cd-b365-ca40716dbcc4</Guid>
+    <ProjectGuid>35ae10b0-950f-4386-b1d0-28e78899eef2</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>LOC_IRON_BLOOD_TEASER</Teaser>
+    <Description>LOC_IRON_BLOOD_DESCRIPTION</Description>
+    <Authors>SbF5HSO3F</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssemblyName>IronBloodCivilization</AssemblyName>
+    <RootNamespace>IronBloodCivilization</RootNamespace>
+    <LocalizedTextData><![CDATA[
+      <LocalizedText>
+        <Text id="LOC_IRON_BLOOD_NAME">
+            <en_US>Azur Lane-Iron Blood Civilization</en_US>
+            <zh_Hans_CN>碧蓝航线·铁血公国</zh_Hans_CN>
+        </Text>
+        <Text id="LOC_IRON_BLOOD_TEASER">
+            <en_US>Added a powerful civilization from the game "Azur Lane" - Iron Blood Civilization, with a total of 4 leaders.</en_US>
+            <zh_Hans_CN>为游戏添加了一个来自游戏作品《碧蓝航线》的强大文明——铁血公国，共有4名所属领袖。</zh_Hans_CN>
+        </Text>
+        <Text id="LOC_IRON_BLOOD_DESCRIPTION">
+            <en_US>Added a civilization based on the Iron Blood in the game work "Azur Lane" - the Iron Blood civilization, which has a strong army and productivity. There are currently four leaders of the civilization: U-96, Z46, Deutschland and Z23.</en_US>
+            <zh_Hans_CN>为游戏添加了一个以游戏作品《碧蓝航线》中的铁血公国为原型的文明——铁血公国，拥有强大的军队和生产力。当前该文明共有3名领袖：U-96、Z46、德意志和Z23。</zh_Hans_CN>
+        </Text>
+    </LocalizedText>
+    ]]></LocalizedTextData>
+    <FrontEndActionData><![CDATA[
+      <FrontEndActions>
+        <UpdateDatabase id="Config">
+          <File>IronBlood_Config.xml</File>
+        </UpdateDatabase>
+        <UpdateIcons id="Icons">
+          <File>IronBlood_Icons.xml</File>
+        </UpdateIcons>
+        <UpdateArt id="Art">
+          <File>(Mod Art Dependency File)</File>
+        </UpdateArt>
+        <UpdateColors id="color">
+          <File>IronBlood_color.xml</File>
+        </UpdateColors>
+        <UpdateText id="CivIronBlood">
+          <File priority="100">Text/en_US/IronBlood_TextEn.xml</File>
+          <File priority="90">Text/zh_Hans_CN/IronBlood_TextCN.xml</File>
+        </UpdateText>
+        <UpdateText id="U96">
+          <File priority="100">Text/en_US/IronBlood_U96_TextEn.xml</File>
+          <File priority="90">Text/zh_Hans_CN/IronBlood_U96_TextCN.xml</File>
+        </UpdateText>
+        <UpdateText id="Z46">
+          <File priority="100">Text/en_US/IronBlood_Z46_TextEn.xml</File>
+          <File priority="90">Text/zh_Hans_CN/IronBlood_Z46_TextCN.xml</File>
+        </UpdateText>
+        <UpdateText id="Deutschland">
+          <File priority="100">Text/en_US/IronBlood_Deutschland_TextEn.xml</File>
+          <File priority="90">Text/zh_Hans_CN/IronBlood_Deutschland_TextCN.xml</File>
+        </UpdateText>
+        <UpdateText id="Z23">
+          <File priority="100">Text/en_US/IronBlood_Z23_TextEn.xml</File>
+          <File priority="90">Text/zh_Hans_CN/IronBlood_Z23_TextCN.xml</File>
+        </UpdateText>
+        <UpdateText id="OphidyText">
+          <Criteria>OPHIDY_IRONBLOOD</Criteria>
+          <File>ModSupport/Ophidy’s Iron Blood/Text/Ophidy_IronBlood_Text.sql</File>
+        </UpdateText>
+        <UpdateDatabase id="OphidyConfigUpdate">
+          <Criteria>OPHIDY_IRONBLOOD</Criteria>
+          <Properties>
+            <LoadOrder>2000</LoadOrder>
+          </Properties>
+          <File>ModSupport/Ophidy’s Iron Blood/Ophidy_IronBlood_ConfigUpdate.sql</File>
+        </UpdateDatabase>
+      </FrontEndActions>
+    ]]></FrontEndActionData>
+    <InGameActionData><![CDATA[
+      <InGameActions>
+        <UpdateIcons id="Icon">
+          <File>IronBlood_Icons.xml</File>
+        </UpdateIcons>
+        <UpdateArt id="art">
+          <File>(Mod Art Dependency File)</File>
+        </UpdateArt>
+        <UpdateColors id="color">
+          <File>IronBlood_color.xml</File>
+        </UpdateColors>
+        <ImportFiles id="Import">
+          <File>Lua/IronBlood_Core.lua</File>
+        </ImportFiles>
+        <AddUserInterfaces id="UI">
+          <Properties>
+            <Context>InGame</Context>
+          </Properties>
+          <File>UI/IronBlood_Z23UI.xml</File>
+        </AddUserInterfaces>
+        <AddGameplayScripts id="Lua">
+          <File>Lua/IronBlood_U96.lua</File>
+          <File>Lua/IronBlood_Z46.lua</File>
+          <File>Lua/IronBlood_Deutschland.lua</File>
+          <File>Lua/IronBlood_Z23.lua</File>
+        </AddGameplayScripts>
+        <UpdateDatabase id="IronBlood">
+          <File priority="100">Data/IronBlood_Core.sql</File>
+          <File priority="90">Data/IronBlood_Civilization.xml</File>
+          <File priority="80">Data/IronBlood_Buildings.xml</File>
+          <File priority="70">Data/IronBlood_Districts.xml</File>
+          <File priority="60">Data/IronBlood_UnitAbilities.xml</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="IronBlood_MODE">
+          <Criteria>IronBlood_MODE</Criteria>
+          <File>Data/IronBlood_SecretSocieties.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="IronBlood_XP2">
+          <Properties>
+            <RuleSet>RULESET_EXPANSION_2</RuleSet>
+          </Properties>
+          <File>Data/IronBlood_NamedPlaces.xml</File>
+          <File>Data/IronBlood_XP2.sql</File>
+        </UpdateDatabase>
+        <UpdateText id="IronBlood_Text">
+          <File priority="100">Text/en_US/IronBlood_TextEn.xml</File>
+          <File priority="90">Text/zh_Hans_CN/IronBlood_TextCN.xml</File>
+        </UpdateText>
+        <UpdateDatabase id="IronBlood_Trait">
+          <Properties>
+            <LoadOrder>99996</LoadOrder>
+          </Properties>
+          <File>Data/IronBlood_Districts.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="U96">
+          <File priority="100">Data/U-96/IronBlood_Leader_U96.xml</File>
+          <File priority="90">Data/U-96/IronBlood_U96_UnitAbilities.xml</File>
+          <File priority="80">Data/U-96/IronBlood_U96_Units.xml</File>
+          <File priority="70">Data/U-96/IronBlood_U96_Agenda.xml</File>
+        </UpdateDatabase>
+        <UpdateText id="U96_Text">
+          <File priority="100">Text/en_US/IronBlood_U96_TextEn.xml</File>
+          <File priority="90">Text/zh_Hans_CN/IronBlood_U96_TextCN.xml</File>
+        </UpdateText>
+        <UpdateDatabase id="Z46">
+          <File priority="100">Data/Z46/IronBlood_Leader_Z46.xml</File>
+          <File priority="90">Data/Z46/IronBlood_Z46_UnitAbilities.xml</File>
+          <File priority="80">Data/Z46/IronBlood_Z46_Units.xml</File>
+          <File priority="70">Data/Z46/IronBlood_Z46_Projects.xml</File>
+          <File priority="60">Data/Z46/IronBlood_Z46_Agenda.xml</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="Z46_Trait">
+          <Properties>
+            <LoadOrder>99999</LoadOrder>
+          </Properties>
+          <File>Data/Z46/IronBlood_Leader_Z46.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="Z46_XP2">
+          <Properties>
+            <RuleSet>RULESET_EXPANSION_2</RuleSet>
+          </Properties>
+          <File>Data/Z46/IronBlood_Z46_XP2.sql</File>
+        </UpdateDatabase>
+        <UpdateText id="Z46_Text">
+          <File priority="100">Text/en_US/IronBlood_Z46_TextEn.xml</File>
+          <File priority="90">Text/zh_Hans_CN/IronBlood_Z46_TextCN.xml</File>
+        </UpdateText>
+        <UpdateDatabase id="Deutschland">
+          <File priority="100">Data/Deutschland/IronBlood_Leader_Deutschland.xml</File>
+          <File priority="90">Data/Deutschland/IronBlood_Deutschland_UnitAbilities.xml</File>
+          <File priority="80">Data/Deutschland/IronBlood_Deutschland_Agenda.xml</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="Deutschland_XP2">
+          <Properties>
+            <RuleSet>RULESET_EXPANSION_2</RuleSet>
+          </Properties>
+          <File>Data/Deutschland/IronBlood_Deutschland_XP2.sql</File>
+        </UpdateDatabase>
+        <UpdateText id="Deutschland_Text">
+          <File priority="100">Text/en_US/IronBlood_Deutschland_TextEn.xml</File>
+          <File priority="90">Text/zh_Hans_CN/IronBlood_Deutschland_TextCN.xml</File>
+        </UpdateText><UpdateDatabase id="Z23">
+          <File priority="100">Data/Z23/IronBlood_Leader_Z23.xml</File>
+          <File priority="90">Data/Z23/IronBlood_Z23_UnitAbilities.xml</File>
+          <File priority="80">Data/Z23/IronBlood_Z23_Units.xml</File>
+          <File priority="70">Data/Z23/IronBlood_Z23_Agenda.xml</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="Z23_XP2">
+          <Properties>
+            <RuleSet>RULESET_EXPANSION_2</RuleSet>
+          </Properties>
+          <File>Data/Z23/IronBlood_Z23_XP2.sql</File>
+        </UpdateDatabase>
+        <UpdateText id="Z23_Text">
+          <File priority="100">Text/en_US/IronBlood_Z23_TextEn.xml</File>
+          <File priority="90">Text/zh_Hans_CN/IronBlood_Z23_TextCN.xml</File>
+        </UpdateText>
+        <UpdateText id="OphidyText">
+          <Criteria>OPHIDY_IRONBLOOD</Criteria>
+          <File>ModSupport/Ophidy’s Iron Blood/Text/Ophidy_IronBlood_Text.sql</File>
+        </UpdateText>
+        <UpdateDatabase id="OphidyGamePlayUpdate">
+          <Criteria>OPHIDY_IRONBLOOD</Criteria>
+          <Properties>
+            <LoadOrder>12000</LoadOrder>
+          </Properties>
+          <File>ModSupport/Ophidy’s Iron Blood/Data/Ophidy_IronBlood_GamePlayUpdate.sql</File>
+        </UpdateDatabase>
+        <AddGameplayScripts id="OphidyLua">
+          <Criteria>OPHIDY_IRONBLOOD</Criteria>
+          <File>ModSupport/Ophidy’s Iron Blood/Lua/Ophidy_IronBlood_Hutten.lua</File>
+        </AddGameplayScripts>
+      </InGameActions>
+    ]]></InGameActionData>
+    <ActionCriteriaData><![CDATA[
+      <ActionCriteria>
+        <Criteria id="IronBlood_MODE">
+          <ConfigurationValueMatches>
+            <ConfigurationId>GAMEMODE_SECRETSOCIETIES</ConfigurationId>
+            <Group>Game</Group>
+            <Value>1</Value>
+          </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="OPHIDY_IRONBLOOD">
+          <ModInUse>661a3458-36c3-48c3-9e60-a096d502a6b1</ModInUse>
+        </Criteria>
+      </ActionCriteria>
+    ]]></ActionCriteriaData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="IronBloodCivilization.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\Deutschland\IronBlood_Deutschland_Agenda.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Deutschland\IronBlood_Deutschland_UnitAbilities.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Deutschland\IronBlood_Leader_Deutschland.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Deutschland\IronBlood_Deutschland_XP2.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\IronBlood_Districts.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\IronBlood_Buildings.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\IronBlood_Civilization.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\IronBlood_Core.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\IronBlood_Districts.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\IronBlood_NamedPlaces.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\IronBlood_SecretSocieties.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\IronBlood_UnitAbilities.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\IronBlood_XP2.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\U-96\IronBlood_Leader_U96.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\U-96\IronBlood_U96_Agenda.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\U-96\IronBlood_U96_UnitAbilities.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\U-96\IronBlood_U96_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Z23\IronBlood_Leader_Z23.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Z23\IronBlood_Z23_Agenda.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Z23\IronBlood_Z23_UnitAbilities.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Z23\IronBlood_Z23_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Z23\IronBlood_Z23_XP2.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Z46\IronBlood_Leader_Z46.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Z46\IronBlood_Leader_Z46.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Z46\IronBlood_Z46_Agenda.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Z46\IronBlood_Z46_Projects.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Z46\IronBlood_Z46_UnitAbilities.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Z46\IronBlood_Z46_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Z46\IronBlood_Z46_XP2.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="IronBlood_color.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="IronBlood_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="IronBlood_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Lua\IronBlood_Core.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Lua\IronBlood_Deutschland.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Lua\IronBlood_U96.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Lua\IronBlood_Z23.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Lua\IronBlood_Z46.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModSupport\Ophidy’s Iron Blood\Data\Ophidy_IronBlood_GamePlayUpdate.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModSupport\Ophidy’s Iron Blood\Lua\Ophidy_IronBlood_Hutten.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModSupport\Ophidy’s Iron Blood\Ophidy_IronBlood_ConfigUpdate.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModSupport\Ophidy’s Iron Blood\Text\Ophidy_IronBlood_Text.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\en_US\IronBlood_Deutschland_TextEn.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\en_US\IronBlood_TextEn.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\en_US\IronBlood_U96_TextEn.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\en_US\IronBlood_Z23_TextEn.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\en_US\IronBlood_Z46_TextEn.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\zh_Hans_CN\IronBlood_Deutschland_TextCN.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\zh_Hans_CN\IronBlood_TextCN.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\zh_Hans_CN\IronBlood_U96_TextCN.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\zh_Hans_CN\IronBlood_Z23_TextCN.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\zh_Hans_CN\IronBlood_Z46_TextCN.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\IronBlood_Z23UI.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\IronBlood_Z23UI.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data" />
+    <Folder Include="Data\Deutschland" />
+    <Folder Include="Data\Z23" />
+    <Folder Include="Data\Z46" />
+    <Folder Include="Data\U-96" />
+    <Folder Include="Lua" />
+    <Folder Include="ModSupport" />
+    <Folder Include="ModSupport\Ophidy’s Iron Blood" />
+    <Folder Include="ModSupport\Ophidy’s Iron Blood\Lua" />
+    <Folder Include="ModSupport\Ophidy’s Iron Blood\Data" />
+    <Folder Include="ModSupport\Ophidy’s Iron Blood\Text" />
+    <Folder Include="UI" />
+    <Folder Include="Text" />
+    <Folder Include="Text\en_US" />
+    <Folder Include="Text\zh_Hans_CN" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

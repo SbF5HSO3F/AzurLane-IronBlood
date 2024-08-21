@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Iron_Blood_TextEn -->
+<!-- Author: jjj -->
+<!-- DateCreated: 4/23/2023 9:12:34 PM -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_IronBloodCivilization_NAME" Language="en_US">
+			<Text>AuzrLane-Iron Blood Civilization</Text>
+		</Replace>
+		<Replace Tag="LOC_IronBloodCivilization_TEASER" Language="en_US">
+			<Text>Added a powerful civilization from the game "Azur Lane" - Iron Blood, with a total of 3 leader.</Text>
+		</Replace>
+		<Replace Tag="LOC_IronBloodCivilization_DESCRIPTION" Language="en_US">
+			<Text>Added a civilization based on the iron blood in the game work "Azur Lane" - the iron blood civilization, with strong industrial and military strength. There is currently three leader of the civilization, U-96, Z46 and Deutschland.</Text>
+		</Replace>
+		<!--文明相关-->
+		<Replace Tag="LOC_CIVILIZATION_IRON_BLOOD_NAME" Language="en_US">
+			<Text>Iron Blood</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_IRON_BLOOD_DESCRIPTION" Language="en_US">
+			<Text>Iron Blood</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_IRON_BLOOD_ADJECTIVE" Language="en_US">
+			<Text>Iron Blood's</Text>
+		</Replace>
+		<!--文明能力-->
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_NAME" Language="en_US">
+			<Text>Will of the Iron Blood</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_DESCRIPTION" Language="en_US">
+			<Text>All cities can build an additional district, and after researching the "Construction", an additional district can be built. Additional Military policy slot, and +2 [ICON_STRENGTH] Combat Strength for every Military Policy slotted. The amount of [icon_GOLD] Gold and resources required to upgrade is reduced by 40%, and the combat experience gained is increased by 100%. +15% [ICON_Science] Science and [ICON_Culture] Culture for all cities when not at war, and +3 [ICON_Amenities] Amenity for all cities when at war.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_IRON_BLOOD_POLICY_SLOT_COMBAT_BONUS_DESCRIPTION" Language="en_US">
+			<Text>For every military policy in the current regime, +2 [ICON_Strength] Combat Strength</Text>
+		</Replace>
+		<!--特殊区域-->
+		<Replace Tag="LOC_DISTRICT_RUHR_NAME" Language="en_US">
+			<Text>Ruhr</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_RUHR_DESCRIPTION" Language="en_US">
+			<Text>Iron Blood unique district. Replaces the Industrial Zone district, unlock earlier and cost less. [icon_PRODUCTION] Production Adjacent Bonus also provides [ICON_Culture] Culture. After Flight is researched receive [ICON_Tourism] Tourism equal to the [icon_PRODUCTION] Production output.[NEWLINE][NEWLINE]+20% [icon_PRODUCTION] Production in this city, and +1 [icon_PRODUCTION] Production, +1 [ICON_Culture] for each Mine in this city.[NEWLINE]+2 [icon_PRODUCTION] Production bonus for each adjacent Commercial Hub and river. +1 [icon_PRODUCTION] Production bonus for each adjacent resource. Provides a +2 [icon_GOLD] gold bonus to each adjacent Commercial Hub.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KRUPP_NAME" Language="en_US">
+			<Text>Krupp</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KRUPP_DESCRIPTION" Language="en_US">
+			<Text>Iron Blood unique district. Replaces the Encampment district, cost less and have no population demand (Therefore, it is not a specialty district). Buildings in the Krupp receive +4 [ICON_GOLD] Gold and +2 [ICON_SCIENCE] Science. When the Krupp and buildings in this district are constructed, receive a Melee unit. Units granted from this district +5 [ICON_Strength] Combat Strength.[NEWLINE][NEWLINE]The time it takes for the city to produce military units is reduced by 50%, and gains [ICON_Science] Science equal to 25% of the unit's cost when a non-civilian unit is trained. All Melee units trained by this city +1 [ICON_MOVEMENT] Movement, Heavy Cavalry units +5 [ICON_Strength] Combat Strength, Ranged and Siege units +1 [ICON_Range] Range.[NEWLINE]Provides a +2 [icon_PRODUCTION] Production to each adjacent Ruhr and a +2 [ICON_Science] Science bonus to each adjacent Campus.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KRUPP_DESCRIPTION_XP2" Language="en_US">
+			<Text>Iron Blood unique district. Replaces the Encampment district, cost less and have no population demand (Therefore, it is not a specialty district). Buildings in the Krupp receive +4 [ICON_GOLD] Gold and +2 [ICON_SCIENCE] Science. When the Krupp and buildings in this district are constructed, receive a Melee unit. Units granted from this district do not have a resource maintenance cost, and +3 [ICON_Strength] Combat Strength per unused [ICON_MOVEMENT] Movement. [NEWLINE][NEWLINE]The time it takes for the city to produce military units is reduced by 50%, and gains [ICON_Science] Science equal to 25% of the unit's cost when a non-civilian unit is trained. All Melee units trained by this city +1 [ICON_MOVEMENT] Movement, Heavy Cavalry units +5 [ICON_Strength] Combat Strength, Ranged and Siege units +1 [ICON_Range] Range.[NEWLINE]Provides a +2 [icon_PRODUCTION] Production to each adjacent Ruhr and a +2 [ICON_Science] Science bonus to each adjacent Campus.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KRUPP_FREE_MELEE_UNITS_XP2_DESCRIPTION" Language="en_US">
+			<Text>No need to maintain resources and +3 [ICON_Strength] Combat Strength per unused [ICON_MOVEMENT] Movement</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KRUPP_MELEE_UNITS_DESCRIPTION" Language="en_US">
+			<Text>Krupp provides +1 [ICON_MOVEMENT] Movement</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KRUPP_HEAVY_CAVALRY_UNITS_DESCRIPTION" Language="en_US">
+			<Text>Krupp provides +5 [ICON_Strength] Combat Strength</Text>
+		</Replace>
+		<Replace Tag="LOC_KRUPP_HEAVY_CAVALRY_BUFF_DESCRIPTION" Language="en_US">
+			<Text>Krupp provides +{1_num} [ICON_Strength] Combat Strength</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KRUPP_RANGED_AND_SIEGE_UNITS_DESCRIPTION" Language="en_US">
+			<Text>Krupp provides +1 [ICON_Range] Range</Text>
+		</Replace>
+		<!--特殊加成-->
+		<Replace Tag="LOC_River_Ruhr" Language="en_US">
+			<Text>+{1_num} [icon_PRODUCTION] Production from each adjacent river tile.</Text>
+		</Replace>
+		<Replace Tag="LOC_Ruhr_Krupp" Language="en_US">
+			<Text>+{1_num} [icon_PRODUCTION] Production from each adjacent Krupp tile.</Text>
+		</Replace>
+		<Replace Tag="LOC_Ruhr_Commercial_Hub" Language="en_US">
+			<Text>+{1_num} [icon_GOLD] Gold from each adjacent Ruhr tile.</Text>
+		</Replace>
+		<Replace Tag="LOC_Krupp_Campus" Language="en_US">
+			<Text>+{1_num} [ICON_Science] Science from each adjacent Krupp tile.</Text>
+		</Replace>
+		<!--特殊建筑-->
+		<Replace Tag="LOC_BUILDING_ANNETTE_NAME" Language="en_US">
+			<Text>Wiblingen Monastery Library</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ANNETTE_DESCRIPTION" Language="en_US">
+			<Text>A building unique to Iron Blood, replacing the Library and can hold [ICON_GreatWork_WRITING] Great Works of Writing. +1 [ICON_Science] Science per turn for each [ICON_CITIZEN] Citizen in the city. If you use Z46, unlock the "Name pursuit" Project, which provides [ICON_Culture] Culture and [ICON_Science] Science for 20% of the current city's [icon_PRODUCTION] Production each turn, awards [ICON_GreatWriter] Great Writers, [ICON_GreatArtist] Great Artists and [ICON_GreatMusician] Great Musicians points once finished, and grants a free [ICON_GreatWriter] Great Writers.</Text>
+		</Replace>
+		<!--城市名-->
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_1" Language="en_US">
+			<Text>Berlin</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_2" Language="en_US">
+			<Text>Kiel</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_3" Language="en_US">
+			<Text>Hamburg</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_4" Language="en_US">
+			<Text>Wilhelmshaven</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_5" Language="en_US">
+			<Text>Munich</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_6" Language="en_US">
+			<Text>Frankfurt am Main</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_7" Language="en_US">
+			<Text>Cologne</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_8" Language="en_US">
+			<Text>Hanover</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_9" Language="en_US">
+			<Text>Prague</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_10" Language="en_US">
+			<Text>Nuremberg</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_11" Language="en_US">
+			<Text>Ingolstadt</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_12" Language="en_US">
+			<Text>Stuttgart</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_13" Language="en_US">
+			<Text>Erlangen</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_14" Language="en_US">
+			<Text>Aachen</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_15" Language="en_US">
+			<Text>Lübeck</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_16" Language="en_US">
+			<Text>Bremen</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_17" Language="en_US">
+			<Text>Erfurt</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_18" Language="en_US">
+			<Text>Potsdam</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_19" Language="en_US">
+			<Text>Augsburg</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_20" Language="en_US">
+			<Text>Wiesbaden</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_21" Language="en_US">
+			<Text>Vienna</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_22" Language="en_US">
+			<Text>Salzburg</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_23" Language="en_US">
+			<Text>Hallstatt</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_24" Language="en_US">
+			<Text>Innsbruck</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_25" Language="en_US">
+			<Text>Gmunden</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_26" Language="en_US">
+			<Text>Melk</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_27" Language="en_US">
+			<Text>Graz</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_28" Language="en_US">
+			<Text>Memel</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_29" Language="en_US">
+			<Text>Königsberg</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_30" Language="en_US">
+			<Text>Breslau</Text>
+		</Replace>
+		<!--市民名-->
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_1" Language="en_US">
+			<Text>Prinz Eugen</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_2" Language="en_US">
+			<Text>U-410</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_3" Language="en_US">
+			<Text>August von Parseval</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_4" Language="en_US">
+			<Text>Peter Strasser</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_5" Language="en_US">
+			<Text>Odin</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_6" Language="en_US">
+			<Text>Prinz Rupprecht</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_7" Language="en_US">
+			<Text>Seydlitz</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_8" Language="en_US">
+			<Text>Prinz Heinrich</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_9" Language="en_US">
+			<Text>Prinz Adalbert</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_10" Language="en_US">
+			<Text>Blücher</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_11" Language="en_US">
+			<Text>Emden</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_12" Language="en_US">
+			<Text>Lützow</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_13" Language="en_US">
+			<Text>Admiral Hipper</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_14" Language="en_US">
+			<Text>Brünhilde</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_15" Language="en_US">
+			<Text>Mainz</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_16" Language="en_US">
+			<Text>U-81</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_17" Language="en_US">
+			<Text>Roon</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_18" Language="en_US">
+			<Text>Scharnhorst</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_19" Language="en_US">
+			<Text>Gneisenau</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_20" Language="en_US">
+			<Text>Z1</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_21" Language="en_US">
+			<Text>Bismarck</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_22" Language="en_US">
+			<Text>Friedrich Carl</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_23" Language="en_US">
+			<Text>Elbe</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_24" Language="en_US">
+			<Text>Jade</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_25" Language="en_US">
+			<Text>Thüringen</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_26" Language="en_US">
+			<Text>Leipzig</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_27" Language="en_US">
+			<Text>Karlsruhe</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_28" Language="en_US">
+			<Text>Admiral Graf.Spee</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_29" Language="en_US">
+			<Text>Hindenburg</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_30" Language="en_US">
+			<Text>Z2</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

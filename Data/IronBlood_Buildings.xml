@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IronBlood_Buildings -->
+<!-- Author: jjj -->
+<!-- DateCreated: 2023/10/16 16:14:47 -->
+<GameData>
+	<Types>
+		<Row Type="BUILDING_ANNETTE" Kind="KIND_BUILDING"/>
+	</Types>
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_ANNETTE" ReplacesBuildingType="BUILDING_LIBRARY"/>
+	</BuildingReplaces>
+	<Buildings>
+		<Row BuildingType="BUILDING_ANNETTE" Name="LOC_BUILDING_ANNETTE_NAME" Description="LOC_BUILDING_ANNETTE_DESCRIPTION" PrereqTech="TECH_WRITING" PrereqDistrict="DISTRICT_CAMPUS" PurchaseYield="YIELD_GOLD" Cost="90" AdvisorType="ADVISOR_TECHNOLOGY" Maintenance="1" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_ANNETTE"/>
+	</Buildings>
+	<BuildingPrereqs>
+		<Row Building="BUILDING_UNIVERSITY"		PrereqBuilding="BUILDING_ANNETTE"/>
+		<Row Building="BUILDING_GREAT_LIBRARY"	PrereqBuilding="BUILDING_ANNETTE"/>
+	</BuildingPrereqs>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_ANNETTE" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_ANNETTE" YieldType="YIELD_CULTURE" YieldChange="1"/>
+	</Building_YieldChanges>
+	<Building_CitizenYieldChanges>
+		<Row BuildingType="BUILDING_ANNETTE"	YieldType="YIELD_SCIENCE"	YieldChange="2"/>
+		<Row BuildingType="BUILDING_ANNETTE"	YieldType="YIELD_CULTURE"	YieldChange="2"/>
+	</Building_CitizenYieldChanges>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_ANNETTE" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_ANNETTE" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER"	 PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_ANNETTE" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER"	 PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_ANNETTE" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST"	 PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_ANNETTE" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN"  PointsPerTurn="1"/>
+	</Building_GreatPersonPoints>
+	<Building_GreatWorks>
+		<Row BuildingType="BUILDING_ANNETTE" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="2"/>
+	</Building_GreatWorks>
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_ANNETTE</BuildingType>
+			<ModifierId>ANNETTE_ADD_SCIENCE_PER_POP</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>ANNETTE_ADD_SCIENCE_PER_POP</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_PER_POPULATION</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>ANNETTE_ADD_SCIENCE_PER_POP</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>ANNETTE_ADD_SCIENCE_PER_POP</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

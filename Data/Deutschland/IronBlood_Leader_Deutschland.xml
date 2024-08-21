@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IronBlood_Leader_Deutschland -->
+<!-- Author: jjj -->
+<!-- DateCreated: 2023/11/14 18:50:23 -->
+<GameData>
+	<Types>
+		<Row Type="LEADER_DEUTSCHLAND_A"					Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_DEUTSCHLAND_ABOVE_ALL"	Kind="KIND_TRAIT"/>
+	</Types>
+	<Leaders>
+		<Row LeaderType="LEADER_DEUTSCHLAND_A" Name="LOC_LEADER_DEUTSCHLAND_A_NAME" InheritFrom="LEADER_DEFAULT" Sex="Female" SceneLayers="4"/>
+	</Leaders>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_DEUTSCHLAND_A" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_DEUTSCHLAND_A_QUOTE"/>
+	</LeaderQuotes>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_DEUTSCHLAND_A" AgendaType="AGENDA_PRINCESS_OF_IRON_BLOOD"/>
+	</HistoricalAgendas>
+	<Agendas>
+		<Row AgendaType="AGENDA_PRINCESS_OF_IRON_BLOOD" Name="LOC_AGENDA_PRINCESS_OF_IRON_BLOOD_NAME" Description="LOC_AGENDA_PRINCESS_OF_IRON_BLOOD_DESCRIPTION"/>
+	</Agendas>
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_DEUTSCHLAND_ABOVE_ALL"	Name="LOC_TRAIT_LEADER_DEUTSCHLAND_ABOVE_ALL_NAME"	Description="LOC_TRAIT_LEADER_DEUTSCHLAND_ABOVE_ALL_DESCRIPTION"/>
+	</Traits>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_DEUTSCHLAND_A" TraitType="TRAIT_LEADER_DEUTSCHLAND_ABOVE_ALL"/>
+	</LeaderTraits>
+	<LoadingInfo>
+		<Row LeaderType="LEADER_DEUTSCHLAND_A" ForegroundImage="IMG_IRON_BLOOD_LEADER_DEUTSCHLAND_A_LOADING_FOREGROUND" BackgroundImage="IMG_IRON_BLOOD_LOADING_BACKGROUND"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_DEUTSCHLAND_A" BackgroundImage="IMG_IRON_BLOOD_DIPLOMACY_BACKGROUND.dds"/>
+	</DiplomacyInfo>
+	<TraitModifiers>
+		<!--KANSEN-->
+		<Row>
+			<TraitType>TRAIT_LEADER_DEUTSCHLAND_ABOVE_ALL</TraitType>
+			<ModifierId>IRON_BLOOD_KANSEN_UNLOCKED_TECH_SAILING</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_DEUTSCHLAND_ABOVE_ALL</TraitType>
+			<ModifierId>IRON_BLOOD_KANSEN_UNLOCKED_TECH_SHIPBUILDING</ModifierId>
+		</Row>
+		<!--城市加3力-->
+		<Row>
+			<TraitType>TRAIT_LEADER_DEUTSCHLAND_ABOVE_ALL</TraitType>
+			<ModifierId>DEUTSCHLAND_CITIES_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_DEUTSCHLAND_ABOVE_ALL</TraitType>
+			<ModifierId>DEUTSCHLAND_CITIES_ABILITY</ModifierId>
+		</Row>
+		<!--<Row>
+			<TraitType>TRAIT_LEADER_DEUTSCHLAND_ABOVE_ALL</TraitType>
+			<ModifierId>DEUTSCHLAND_UNITS_ABILITY</ModifierId>
+		</Row>-->
+		<!--军事转通配-->
+		<Row>
+			<TraitType>TRAIT_LEADER_DEUTSCHLAND_ABOVE_ALL</TraitType>
+			<ModifierId>DEUTSCHLAND_CHANGE_MILITARY_SLOT</ModifierId>
+		</Row>
+		<!--经济转通配-->
+		<Row>
+			<TraitType>TRAIT_LEADER_DEUTSCHLAND_ABOVE_ALL</TraitType>
+			<ModifierId>DEUTSCHLAND_CHANGE_ECONOMIC_SLOT</ModifierId>
+		</Row>
+		<!--外交转通配-->
+		<Row>
+			<TraitType>TRAIT_LEADER_DEUTSCHLAND_ABOVE_ALL</TraitType>
+			<ModifierId>DEUTSCHLAND_CHANGE_DIPLOMATIC_SLOT</ModifierId>
+		</Row>
+		<!--征服不损失人口-->
+
+		<!--非己方建立城市+忠诚度-->
+		<Row>
+			<TraitType>TRAIT_LEADER_DEUTSCHLAND_ABOVE_ALL</TraitType>
+			<ModifierId>DEUTSCHLAND_CAPTURED_LOYALTY</ModifierId>
+		</Row>
+		<!--非己方建立城市+外交支持-->
+
+	</TraitModifiers>
+	<Modifiers>
+		<!--城市加3力-->
+		<Row>
+			<ModifierId>DEUTSCHLAND_CITIES_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>DEUTSCHLAND_CITY_ATTACH_UNIT_PROPERTY</ModifierId>
+			<ModifierType>MODIFIER_IRON_BLOOD_PLAYER_UNITS_ADJUST_PROPERTY</ModifierType>
+			<SubjectRequirementSetId>IRON_BLOOD_6_PLOTS_AWAY_MAX_UNIT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>DEUTSCHLAND_CITIES_ABILITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>DEUTSCHLAND_UNITS_ABILITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>IRON_BLOOD_6_PLOTS_AWAY_MAX_UNIT</SubjectRequirementSetId>
+			<SubjectStackLimit>1</SubjectStackLimit>
+		</Row>
+		<!--军事转通配-->
+		<Row>
+			<ModifierId>DEUTSCHLAND_CHANGE_MILITARY_SLOT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_REPLACE_GOVERNMENT_SLOTS</ModifierType>
+		</Row>
+		<!--经济转通配-->
+		<Row>
+			<ModifierId>DEUTSCHLAND_CHANGE_ECONOMIC_SLOT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_REPLACE_GOVERNMENT_SLOTS</ModifierType>
+		</Row>
+		<!--外交转通配-->
+		<Row>
+			<ModifierId>DEUTSCHLAND_CHANGE_DIPLOMATIC_SLOT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_REPLACE_GOVERNMENT_SLOTS</ModifierType>
+		</Row>
+		<!--征服不损失人口-->
+
+		<!--非己方建立城市+忠诚度-->
+		<Row>
+			<ModifierId>DEUTSCHLAND_CAPTURED_LOYALTY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IDENTITY_PER_TURN</ModifierType>
+			<SubjectRequirementSetId>IRON_BLOOD_CITY_NOT_FOUND</SubjectRequirementSetId>
+		</Row>
+		<!--非己方建立城市+外交支持-->
+
+	</Modifiers>
+	<ModifierArguments>
+		<!--城市加3力-->
+		<Row>
+			<ModifierId>DEUTSCHLAND_CITIES_MODIFIER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>DEUTSCHLAND_CITY_ATTACH_UNIT_PROPERTY</Value>
+		</Row>
+		<Row>
+			<ModifierId>DEUTSCHLAND_CITY_ATTACH_UNIT_PROPERTY</ModifierId>
+			<Name>Key</Name>
+			<Value>DEUTSCHLAND_UNITS_COMBAT_PROERTY</Value>
+		</Row>
+		<Row>
+			<ModifierId>DEUTSCHLAND_CITY_ATTACH_UNIT_PROPERTY</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>DEUTSCHLAND_CITIES_ABILITY</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>DEUTSCHLAND_UNITS_ABILITY</Value>
+		</Row>
+		<Row>
+			<ModifierId>DEUTSCHLAND_UNITS_ABILITY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_DEUTSCHLAND</Value>
+		</Row>
+		<!--军事转通配-->
+		<Row>
+			<ModifierId>DEUTSCHLAND_CHANGE_MILITARY_SLOT</ModifierId>
+			<Name>AddedGovernmentSlotType</Name>
+			<Value>SLOT_WILDCARD</Value>
+		</Row>
+		<Row>
+			<ModifierId>DEUTSCHLAND_CHANGE_MILITARY_SLOT</ModifierId>
+			<Name>ReplacedGovernmentSlotType</Name>
+			<Value>SLOT_MILITARY</Value>
+		</Row>
+		<!--经济转通配-->
+		<Row>
+			<ModifierId>DEUTSCHLAND_CHANGE_ECONOMIC_SLOT</ModifierId>
+			<Name>AddedGovernmentSlotType</Name>
+			<Value>SLOT_WILDCARD</Value>
+		</Row>
+		<Row>
+			<ModifierId>DEUTSCHLAND_CHANGE_ECONOMIC_SLOT</ModifierId>
+			<Name>ReplacedGovernmentSlotType</Name>
+			<Value>SLOT_ECONOMIC</Value>
+		</Row>
+		<!--外交转通配-->
+		<Row>
+			<ModifierId>DEUTSCHLAND_CHANGE_DIPLOMATIC_SLOT</ModifierId>
+			<Name>AddedGovernmentSlotType</Name>
+			<Value>SLOT_WILDCARD</Value>
+		</Row>
+		<Row>
+			<ModifierId>DEUTSCHLAND_CHANGE_DIPLOMATIC_SLOT</ModifierId>
+			<Name>ReplacedGovernmentSlotType</Name>
+			<Value>SLOT_DIPLOMATIC</Value>
+		</Row>
+		<!--征服不损失人口-->
+
+		<!--非己方建立城市+忠诚度-->
+		<Row>
+			<ModifierId>DEUTSCHLAND_CAPTURED_LOYALTY</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<!--非己方建立城市+外交支持-->
+
+	</ModifierArguments>
+</GameData>

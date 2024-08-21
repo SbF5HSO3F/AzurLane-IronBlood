@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IronBlood_U96_Text -->
+<!-- Author: jjj -->
+<!-- DateCreated: 8/22/2023 10:42:03 AM -->
+<GameData>
+	<LocalizedText>
+		<!--领袖-->
+		<Replace Tag="LOC_LEADER_U_96_VIIC_NAME" Language="en_US">
+			<Text>U-96</Text>
+		</Replace>
+		<!--加载-->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_U_96_VIIC" Language="en_US">
+			<Text>You are one of the few legends among U-boats, U-96, the "forward wolf pack" that strikes from the bottom of the sea. The wolves lurking in the depths of the sea are terrifying, but you are one of the reasons why they are so terrifying, and many ships have been buried because of you. Go forth again, U-96, and your enemies will forever remember the fear that comes from the smile of the Smiling Sawfish.</Text>
+		</Replace>
+		<!--百科-->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_U_96_VIIC_QUOTE" Language="en_US">
+			<Text>Let's start a new round of hunting!</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_U_96_VIIC_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>The U-96 will put enemy navies on their heels, and she will gain no small amount of profit from the war.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_U_96_VIIC_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>As part of a wolf pack that strikes from the bottom of the sea, U-96 is naturally the master of the ocean, where her units receive a powerful ability bonus. As the leader of the Iron Blood, U-96 is well able to utilize the large and powerful armies that are created as the city grows - waging war. Whether it's killing units or looting areas, the U-96 can reap huge benefits. Don't worry about enemy navies! The VIIC submarines will devour them like wolves. Utilizing the Ruhr and the Krupp to bring powerful units and great production capacity, the U-96 will be invincible in conquering victories.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_U_96_VIIC_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>U-96 was a Type VIIC submarine built by the German Navy during World War II. Construction began on September 16, 1939 at Ditch 601 of the Friedrich Krupp Germania shipyard in Kiel Harbor at the outbreak of the war, and she was launched on August 1, 1940.U-96 was officially commissioned on September 14, 1940, and was assigned to Submarine Squadron 7, which was deployed to St. Nazaire, France, to begin its mission.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_U_96_VIIC_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>The emblem of the U-96 was very famous: like the U-47's emblem "Bull", which became the emblem of the 7th Submarine Squadron, the U-96's emblem "Smiling Saw Rays" became the emblem of the 9th Submarine Squadron, which was formed in March 1942, and the U-96's emblem "Saw Skate" became the emblem of the 9th Submarine Squadron.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_U_96_VIIC_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>She was one of the true legends that stood out among the hundreds of German U-boats of World War II: she flew 11 cruises, participated in 11 wolf packs, cooperated with numerous U-boats, sank 27 ships totaling 181,206 tons, wounded 4 ships totaling 33,043 tons, and additionally hit and wounded the 8,888-ton British ship Kars causing it to be a total loss and return to port as a direct scrap.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_U_96_VIIC_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>It should be noted that the first captain of the U-96 was Heinrich Lehmann-Wilhelmbrock, the 6th largest German U-boat captain in terms of gross tonnage sunk during World War II. Much of Heinrich Lehmann's legend is based on the U-96 - especially the third cruise of the U-96 in February 1941, which was a major success at the end of the "first good times". With U-69, U-73, U-95 and U-107, the U-96 sank nine freighters and one frigate of the OB-288 group, three of which were credited to the U-96. Heinrich Lehmann was awarded the Knight's Cross of the Iron Cross for his efforts and stepped down as captain of U-96 in April.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_U_96_VIIC_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text>From August 1941, the U-96 began its 6th cruise and participated in the "Wolf Pack", but the results began to become difficult - the 7th cruise attempted to break through the Strait of Gibraltar but was detected and failed, and the 10th cruise, which joined the Wolf Pack, codenamed "Forward", was a rare achievement at the end of the U-96's service. The inclusion of the Wolfpack, codenamed "Forward", on the 10th cruise was a rare achievement at the end of the U-96's service. By February 1943, U-96 had completed her 11th cruise and arrived at Koenigsberg, where she became a training ship; she was decommissioned at Wilhelmshaven in February 1945, where she was sunk by a U.S. air attack on March 30 of the same year. Two months after her sinking, the German submarine force carried out the "Rainbow Directive" and the U-boats sank en masse.</Text>
+		</Replace>
+		<!--领袖议程-->
+		<Replace Tag="LOC_AGENDA_DIE_EICHENLAUBFAHRT_NAME" Language="en_US">
+			<Text>Die Eichenlaubrahrt</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_DIE_EICHENLAUBFAHRT_DESCRIPTION" Language="en_US">
+			<Text>Be happy to wage a formal war and appreciate a civilization at war. Disdain to wage Surprise wars and hate civilizations that declare Surprise wars.</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_DIE_EICHENLAUBFAHRT_IN_WAR_FRIEND" Language="en_US">
+			<Text>U-96 Appreciating a Civilization at War</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_U_96_VIIC_REASON_ANY" Language="en_US">
+			<Text>(You're at war.)</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_DIE_EICHENLAUBFAHRT_SURPRISE_WAR" Language="en_US">
+			<Text>U-96 Hates Civilization Declares Surprise War</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_U_96_VIIC_REASON_ANY" Language="en_US">
+			<Text>(You declared Surprise War)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_DIE_EICHENLAUBFAHRT" Language="en_US">
+			<Text>(You declared Surprise War)</Text>
+		</Replace>
+		<!--领袖能力-->
+		<Replace Tag="LOC_TRAIT_LEADER_FROM_THE_SEA_NAME" Language="en_US">
+			<Text>From the Sea</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_FROM_THE_SEA_DESCRIPTION" Language="en_US">
+			<Text>All units can enter the ocean tiles from the beginning, gain [ICON_Science] Science and [ICON_Culture] Culture equal to the killed unit's Combat Strength when killed. Military units cost no [ICON_MOVEMENT] Movement to Pillage, and +3 [ICON_STRENGTH] Combat Strength for the turn after each Pillaging. Naval units +10 [ICON_STRENGTH] Combat Strength, +1 [ICON_MOVEMENT] Movement and +1 [ICON_Range] Range when located in Ocean tiles. Yields gained from pillaging, coastal raids and plundering [ICON_TradeRoute] Trade Routes are +100%. Gain the VIIC U-Boat unique unit when the Electricity technology are researched.</Text>
+		</Replace>
+		<!--能力加成-->
+		<Replace Tag="LOC_ABILITY_FROM_THE_SEA_DESCRIPTION" Language="en_US">
+			<Text>Can enter the ocean tiles from the beginning</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_FROM_THE_SEA_COMBATS_DESCRIPTION" Language="en_US">
+			<Text>Pillaging cost no [ICON_MOVEMENT] Movement, +3 [ICON_STRENGTH] Combat Strength for the turn after each Pillaging.</Text>
+		</Replace>
+		<Replace Tag="LOC_PREVIEW_FROM_THE_SEA_PILLAGING_COMBAT_DESCRIPTION" Language="en_US">
+			<Text>+{Property} from each Pillaging this turn</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_FROM_THE_SEA_NAVAL_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_STRENGTH] Combat Strength, +1 [ICON_MOVEMENT] Movement and +1 [ICON_RANGE] Range when located in Ocean tiles.</Text>
+		</Replace>
+		<Replace Tag="LOC_PREVIEW_FROM_THE_SEA_BUFF_STRENFTH_DESCRIPTION" Language="en_US">
+			<Text>+{1_num} [ICON_STRENGTH] Combat Strength when located in Ocean tiles</Text>
+		</Replace>
+		<!--特殊单位-->
+		<Replace Tag="LOC_UNIT_VIIC_UBOAT_NAME" Language="en_US">
+			<Text>VIIC U-Boat</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_VIIC_UBOAT_DESCRIPTION" Language="en_US">
+			<Text>U-96's unique Modern era naval unit that replaces the Submarine, lower cost and maintenance. +5 [ICON_STRENGTH] Combat Strength for each VIIC U-Boat adjacent to it. Can only be seen by other Naval Raiders unless adjacent to it. Reveals Naval Raiders within sight range.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_VIIC_UBOAT_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_STRENGTH] Combat Strength for each adjacent VIIC U-Boat</Text>
+		</Replace>
+		<Replace Tag="LOC_VIIC_UBOAT_COMBAT_MODIFIER_DESCRIPTION" Language="en_US">
+			<Text>Wolf Pack Tactics: adjacent VIIC U-Boat provide +{CalculatedAmount} [ICON_STRENGTH] Combat Strength</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VIIC_UBOAT_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The VIIC was the mainstay of the German U-boat force, with a total of 568 submarines in service from 1940 to 1945. The first VIIC submarine was U-69, commissioned in 1940, which had a range of only 8,500 nautical miles, less than the 11,000 nautical mile range of the Type IX, which severely limited its cruising time in the farther Western and South Atlantic. The VIIC entered service near the end of the German submarine war "Belle Époque" or "First Good Time", and remained the most numerous type of submarine in service during the overwhelming Allied anti-submarine victories of late 1943 and 1944.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VIIC_UBOAT_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>The Type VIIC differed from the Type VIIB only by the addition of active sonar and some minor mechanical improvements that increased its length by 2 feet and its weight by 8 tons, while its speed and cruising range were essentially the same. They had the same torpedo tube arrangement as their Type VIIB predecessors except for U-72, U-78, U-80, U-554, and U-555 (which had only two forward torpedo tubes), and U-203, U-331, U-351, U-401, U-431, and U-651 (which had no rearward torpedo tubes).</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VIIC_UBOAT_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>The most famous VIIC submarine would be the U-96, which was the basis for Buchheim's 1973 best-selling novel "From the Bottom of the Sea", based on the author's personal experience as a war correspondent on one of the U-96's cruises. The novel was remade by German director Wolfgang Petersen in 1981 as the movie of the same name, From the Bottom of the Sea, which won many awards and accolades, and made the U-96 known to the world.</Text>
+		</Replace>
+		<!--外交对话-->
+		<![CDATA[<!--同意宣布友谊-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_U_96_VIIC_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--拒绝宣布友谊-->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_U_96_VIIC_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--请求宣布友谊-->
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_U_96_VIIC_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--宣布友谊被接受-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_U_96_VIIC_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--宣布友谊被拒绝-->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_U_96_VIIC_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--被宣战-->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_U_96_VIIC_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--宣战-->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_U_96_VIIC_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--接受代表团-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_U_96_VIIC_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--拒绝代表团-->
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_U_96_VIIC_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--派出代表团-->
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_U_96_VIIC_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--被谴责-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_U_96_VIIC_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--谴责-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_U_96_VIIC_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--初次见面-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_U_96_VIIC_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--初次见面，邀请参观附近城市-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_U_96_VIIC_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--初次见面，感谢玩家提供最近城市位置-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_U_96_VIIC_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--初次见面，请求交换城市位置-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_U_96_VIIC_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--欢迎语？-->
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_U_96_VIIC_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--示好-->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_U_96_VIIC_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--敌视-->
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_U_96_VIIC_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--请求结盟-->
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_U_96_VIIC_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--同意和平-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_U_96_VIIC_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--拒绝和平-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_U_96_VIIC_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--请求和平-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_U_96_VIIC_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--接受开放边界请求-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_U_96_VIIC_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--拒绝开放边界请求-->
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_U_96_VIIC_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--请求开放边界-->
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_U_96_VIIC_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--要求移开边境部队-->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_U_96_VIIC_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--同意移开边境部队-->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_U_96_VIIC_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--拒绝移开边境部队-->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_U_96_VIIC_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--经受不住时间考验-->
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_U_96_VIIC_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--同意交易-->
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_U_96_VIIC_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--拒绝交易-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_U_96_VIIC_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>]]>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IronBlood_Leader_Z46 -->
+<!-- Author: jjj -->
+<!-- DateCreated: 2023/10/14 15:47:24 -->
+<GameData>
+	<Types>
+		<Row Type="LEADER_Z46_1936C"					Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_THE_GIRL_PURSUING_NAME"	Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_UNIT_1936C"				Kind="KIND_TRAIT"/>
+	</Types>
+	<Leaders>
+		<Row LeaderType="LEADER_Z46_1936C" Name="LOC_LEADER_Z46_1936C_NAME" InheritFrom="LEADER_DEFAULT" Sex="Female" SceneLayers="4"/>
+	</Leaders>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_Z46_1936C" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_Z46_1936C_QUOTE"/>
+	</LeaderQuotes>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_Z46_1936C" AgendaType="AGENDA_WHAT_ONCE_WAS_HER_WORLD"/>
+	</HistoricalAgendas>
+	<Agendas>
+		<Row AgendaType="AGENDA_WHAT_ONCE_WAS_HER_WORLD" Name="LOC_AGENDA_WHAT_ONCE_WAS_HER_WORLD_NAME" Description="LOC_AGENDA_WHAT_ONCE_WAS_HER_WORLD_DESCRIPTION"/>
+	</Agendas>
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_WHAT_ONCE_WAS_HER_WORLD"	AgendaTwo="AGENDA_CULTURED"/>
+	</ExclusiveAgendas>
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_THE_GIRL_PURSUING_NAME"	Name="LOC_TRAIT_LEADER_THE_GIRL_PURSUING_NAME_NAME"	Description="LOC_TRAIT_LEADER_THE_GIRL_PURSUING_NAME_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_UNIT_1936C"				Name="LOC_UNIT_1936C_NAME"							Description="LOC_UNIT_1936C_DESCRIPTION"/>
+	</Traits>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_Z46_1936C" TraitType="TRAIT_LEADER_THE_GIRL_PURSUING_NAME"/>
+		<Row LeaderType="LEADER_Z46_1936C" TraitType="TRAIT_LEADER_UNIT_1936C"/>
+	</LeaderTraits>
+	<LoadingInfo>
+		<Row LeaderType="LEADER_Z46_1936C" ForegroundImage="IMG_IRON_BLOOD_LEADER_Z46_1936C_LOADING_FOREGROUND" BackgroundImage="IMG_IRON_BLOOD_LOADING_BACKGROUND"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_Z46_1936C" BackgroundImage="IMG_IRON_BLOOD_DIPLOMACY_BACKGROUND.dds"/>
+	</DiplomacyInfo>
+	<TraitModifiers>
+		<!--KANSEN-->
+		<Row>
+			<TraitType>TRAIT_LEADER_THE_GIRL_PURSUING_NAME</TraitType>
+			<ModifierId>IRON_BLOOD_KANSEN_UNLOCKED_TECH_SAILING</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_THE_GIRL_PURSUING_NAME</TraitType>
+			<ModifierId>IRON_BLOOD_KANSEN_UNLOCKED_TECH_SHIPBUILDING</ModifierId>
+		</Row>
+		<!--著作+科-->
+		<Row>
+			<TraitType>TRAIT_LEADER_THE_GIRL_PURSUING_NAME</TraitType>
+			<ModifierId>Z46_GREATWRITING_ADD_SCIENCE</ModifierId>
+		</Row>
+		<!--著作+3倍旅游业绩-->
+		<Row>
+			<TraitType>TRAIT_LEADER_THE_GIRL_PURSUING_NAME</TraitType>
+			<ModifierId>Z46_GREATWRITING_TOURISM_BUFF</ModifierId>
+		</Row>
+		<![CDATA[<!--自动主题-->
+		<Row>
+			<TraitType>TRAIT_LEADER_THE_GIRL_PURSUING_NAME</TraitType>
+			<ModifierId>Z46_AUTO_THEME</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_THE_GIRL_PURSUING_NAME</TraitType>
+			<ModifierId>Z46_WONDER_AUTO_THEME</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_THE_GIRL_PURSUING_NAME</TraitType>
+			<ModifierId>Z46_THEMED_YIELD_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_THE_GIRL_PURSUING_NAME</TraitType>
+			<ModifierId>Z46_THEMED_TOURISM_MODIFIER</ModifierId>
+		</Row>]]>
+		<!--加防空-->
+		<Row>
+			<TraitType>TRAIT_LEADER_THE_GIRL_PURSUING_NAME</TraitType>
+			<ModifierId>Z46_ALLOW_PROJECT</ModifierId>
+		</Row>
+		<!--破甲-->
+		<Row>
+			<TraitType>TRAIT_LEADER_THE_GIRL_PURSUING_NAME</TraitType>
+			<ModifierId>Z46_AP_BUFF</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>Z46_DISTICTS_CULTURE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_CITY_DISTRICTS_ADJUST_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<!--著作+科-->
+		<Row>
+			<ModifierId>Z46_GREATWRITING_ADD_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>
+		<!--著作+文-->
+		<Row>
+			<ModifierId>Z46_GREATWRITING_TOURISM_BUFF</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TOURISM</ModifierType>
+		</Row>
+		<![CDATA[<!--自动主题-->
+		<Row>
+			<ModifierId>Z46_AUTO_THEME</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_AUTO_THEME_BUILDINGS_WITH_X_SLOTS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>Z46_WONDER_AUTO_THEME</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_AUTO_THEME_BUILDINGS_WITH_X_SLOTS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>Z46_THEMED_YIELD_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_THEMED_ALL_YIELDS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>Z46_THEMED_TOURISM_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_THEMED_TOURISM</ModifierType>
+		</Row>]]>
+		<!--加防空-->
+		<Row>
+			<ModifierId>Z46_ALLOW_PROJECT</ModifierId>
+			<ModifierType>MODIFIER_IRON_BLOOD_PLAYER_ALLOW_PROJECT</ModifierType>
+		</Row>
+		<!--破甲-->
+		<Row>
+			<ModifierId>Z46_AP_BUFF</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>Z46_DISTICTS_CULTURE_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>Z46_DISTICTS_CULTURE_BONUS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<!--著作+科-->
+		<Row>
+			<ModifierId>Z46_GREATWRITING_ADD_SCIENCE</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_WRITING</Value>
+		</Row>
+		<Row>
+			<ModifierId>Z46_GREATWRITING_ADD_SCIENCE</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>Z46_GREATWRITING_ADD_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<!--著作+文-->
+		<Row>
+			<ModifierId>Z46_GREATWRITING_TOURISM_BUFF</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_WRITING</Value>
+		</Row>
+		<Row>
+			<ModifierId>Z46_GREATWRITING_TOURISM_BUFF</ModifierId>
+			<Name>ScalingFactor</Name>
+			<Value>300</Value>
+		</Row>
+		<![CDATA[<!--自动主题-->
+		<Row>
+			<ModifierId>Z46_AUTO_THEME</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>Z46_AUTO_THEME</ModifierId>
+			<Name>IsWonder</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<ModifierId>Z46_WONDER_AUTO_THEME</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>Z46_WONDER_AUTO_THEME</ModifierId>
+			<Name>IsWonder</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>Z46_THEMED_YIELD_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>Z46_THEMED_TOURISM_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>]]>
+		<!--加防空-->
+		<Row>
+			<ModifierId>Z46_ALLOW_PROJECT</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_Z46</Value>
+		</Row>
+		<!--破甲-->
+		<Row>
+			<ModifierId>Z46_AP_BUFF</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_Z46_AP_BUFF</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

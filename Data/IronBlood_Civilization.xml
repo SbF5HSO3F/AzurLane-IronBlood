@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IronBlood_Civilization -->
+<!-- Author: jjj -->
+<!-- 优先级：999-->
+<!-- DateCreated: 4/15/2023 3:02:35 PM -->
+<GameData>
+	<Types>
+		<Row Type="CIVILIZATION_IRON_BLOOD"						Kind="KIND_CIVILIZATION"/>
+		<Row Type="TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD"	Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_RUHR"			Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_KRUPP"			Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_ANNETTE"			Kind="KIND_TRAIT"/>
+	</Types>
+	<Civilizations>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD"
+			 Name="LOC_CIVILIZATION_IRON_BLOOD_NAME"
+			 Description="LOC_CIVILIZATION_IRON_BLOOD_DESCRIPTION" 
+			 Adjective="LOC_CIVILIZATION_IRON_BLOOD_ADJECTIVE"
+			 RandomCityNameDepth="10"
+			 StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV"
+			 Ethnicity="ETHNICITY_EURO"/>
+	</Civilizations>
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderType="LEADER_U_96_VIIC"		CapitalName="LOC_CITY_NAME_IRON_BLOOD_2"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderType="LEADER_Z46_1936C"		CapitalName="LOC_CITY_NAME_IRON_BLOOD_16"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderType="LEADER_DEUTSCHLAND_A"	CapitalName="LOC_CITY_NAME_IRON_BLOOD_1"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderType="LEADER_Z23_1936A"		CapitalName="LOC_CITY_NAME_IRON_BLOOD_1"/>
+	</CivilizationLeaders>
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD"	Name="LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_NAME"	Description="LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_RUHR"			Name="LOC_DISTRICT_RUHR_NAME"								Description="LOC_DISTRICT_RUHR_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_KRUPP"			Name="LOC_DISTRICT_KRUPP_NAME"								Description="LOC_DISTRICT_KRUPP_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_ANNETTE"		Name="LOC_BUILDING_ANNETTE_NAME"							Description="LOC_BUILDING_ANNETTE_DESCRIPTION"/>
+	</Traits>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" TraitType="TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" TraitType="TRAIT_CIVILIZATION_DISTRICT_RUHR"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" TraitType="TRAIT_CIVILIZATION_DISTRICT_KRUPP"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" TraitType="TRAIT_CIVILIZATION_BUILDING_ANNETTE"/>
+	</CivilizationTraits>
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_1"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_2"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_3"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_4"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_5"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_6"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_7"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_8"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_9"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_10"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_11"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_12"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_13"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_14"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_15"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_16"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_17"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_18"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_19"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_20"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_21"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_22"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_23"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_24"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_25"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_26"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_27"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_28"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_29"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_30"/>
+	</CityNames>
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CitizenName="LOC_CITIZEN_NAME_IRON_BLOOD_1" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CitizenName="LOC_CITIZEN_NAME_IRON_BLOOD_2" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CitizenName="LOC_CITIZEN_NAME_IRON_BLOOD_3" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CitizenName="LOC_CITIZEN_NAME_IRON_BLOOD_4" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CitizenName="LOC_CITIZEN_NAME_IRON_BLOOD_5" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CitizenName="LOC_CITIZEN_NAME_IRON_BLOOD_6" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CitizenName="LOC_CITIZEN_NAME_IRON_BLOOD_7" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CitizenName="LOC_CITIZEN_NAME_IRON_BLOOD_8" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CitizenName="LOC_CITIZEN_NAME_IRON_BLOOD_9" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CitizenName="LOC_CITIZEN_NAME_IRON_BLOOD_10" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CitizenName="LOC_CITIZEN_NAME_IRON_BLOOD_11" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CitizenName="LOC_CITIZEN_NAME_IRON_BLOOD_12" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CitizenName="LOC_CITIZEN_NAME_IRON_BLOOD_13" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CitizenName="LOC_CITIZEN_NAME_IRON_BLOOD_14" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CitizenName="LOC_CITIZEN_NAME_IRON_BLOOD_15" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CitizenName="LOC_CITIZEN_NAME_IRON_BLOOD_16" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CitizenName="LOC_CITIZEN_NAME_IRON_BLOOD_17" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CitizenName="LOC_CITIZEN_NAME_IRON_BLOOD_18" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CitizenName="LOC_CITIZEN_NAME_IRON_BLOOD_19" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CitizenName="LOC_CITIZEN_NAME_IRON_BLOOD_20" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CitizenName="LOC_CITIZEN_NAME_IRON_BLOOD_21" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CitizenName="LOC_CITIZEN_NAME_IRON_BLOOD_22" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CitizenName="LOC_CITIZEN_NAME_IRON_BLOOD_23" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CitizenName="LOC_CITIZEN_NAME_IRON_BLOOD_24" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CitizenName="LOC_CITIZEN_NAME_IRON_BLOOD_25" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CitizenName="LOC_CITIZEN_NAME_IRON_BLOOD_26" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CitizenName="LOC_CITIZEN_NAME_IRON_BLOOD_27" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CitizenName="LOC_CITIZEN_NAME_IRON_BLOOD_28" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CitizenName="LOC_CITIZEN_NAME_IRON_BLOOD_29" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CitizenName="LOC_CITIZEN_NAME_IRON_BLOOD_30" Female="1"/>
+	</CivilizationCitizenNames>
+	<StartBiasRivers>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" Tier="1"/>
+	</StartBiasRivers>
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" TerrainType="TERRAIN_COAST" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" TerrainType="TERRAIN_PLAINS_HILLS" Tier="1"/>
+	</StartBiasTerrains>
+	<StartBiasFeatures>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" FeatureType="FEATURE_FOREST" Tier="1"/>
+	</StartBiasFeatures>
+	<StartBiasResources>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" ResourceType="RESOURCE_IRON" Tier="2"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" ResourceType="RESOURCE_COAL" Tier="1"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" ResourceType="RESOURCE_OIL" Tier="1"/>
+	</StartBiasResources>
+	<TraitModifiers>
+		<!--额外区域-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD</TraitType>
+			<ModifierId>IRON_BLODD_CITY_EXTRA_DISTRICTS</ModifierId>
+		</Row>
+		<!--额额外区域-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD</TraitType>
+			<ModifierId>IRON_BLODD_CITY_EXTRA_EXTRA_DISTRICTS</ModifierId>
+		</Row>
+		<!--军事政策加力-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD</TraitType>
+			<ModifierId>IRON_BLOOD_COMBAT_BONUS</ModifierId>
+		</Row>
+		<!--额外军事槽-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD</TraitType>
+			<ModifierId>IRON_BLOOD_EXTRA_SLOT_MILITARY</ModifierId>
+		</Row>
+		<!--资源减少-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD</TraitType>
+			<ModifierId>IRON_BLOOD_UPGRADE_RESOURCE_DISCOUNT</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD</TraitType>
+			<ModifierId>IRON_BLOOD_UPGRADE_DISCOUNT</ModifierId>
+		</Row>
+		<!--经验增加-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD</TraitType>
+			<ModifierId>IRON_BLOOD_UNIT_XP_BONUS</ModifierId>
+		</Row>
+		<!--战争状态+3宜居-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD</TraitType>
+			<ModifierId>IRON_BLOOD_PLAYER_AT_WAR_CITIES_AMENITIES</ModifierId>
+		</Row>
+		<!--非战争状态加科文-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD</TraitType>
+			<ModifierId>IRON_BLOOD_PLAYER_NOT_AT_WAR_CITIES_SCIENCE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD</TraitType>
+			<ModifierId>IRON_BLOOD_PLAYER_NOT_AT_WAR_CITIES_CULTURE</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<!--额外区域-->
+		<Row>
+			<ModifierId>IRON_BLODD_CITY_EXTRA_DISTRICTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_EXTRA_DISTRICT</ModifierType>
+		</Row>
+		<!--额额外区域-->
+		<Row>
+			<ModifierId>IRON_BLODD_CITY_EXTRA_EXTRA_DISTRICTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_EXTRA_DISTRICT</ModifierType>
+			<SubjectRequirementSetId>IRON_BLOOD_PLAYER_HAS_CONSTRUCTION</SubjectRequirementSetId>
+		</Row>
+		<!--军事政策加力-->
+		<Row>
+			<ModifierId>IRON_BLOOD_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<!--额外军事槽-->
+		<Row>
+			<ModifierId>IRON_BLOOD_EXTRA_SLOT_MILITARY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
+		</Row>
+		<!--资源减少-->
+		<Row>
+			<ModifierId>IRON_BLOOD_UPGRADE_RESOURCE_DISCOUNT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_UPGRADE_RESOURCE_COST_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>IRON_BLOOD_UPGRADE_DISCOUNT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_UPGRADE_DISCOUNT_PERCENT</ModifierType>
+		</Row>
+		<!--经验增加-->
+		<Row>
+			<ModifierId>IRON_BLOOD_UNIT_XP_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_MODIFIER</ModifierType>
+		</Row>
+		<!--战争状态+3宜居-->
+		<Row>
+			<ModifierId>IRON_BLOOD_PLAYER_AT_WAR_CITIES_AMENITIES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRAIT_AMENITY</ModifierType>
+			<SubjectRequirementSetId>IRON_BLOOD_PLAYER_IS_AT_WAR</SubjectRequirementSetId>
+		</Row>
+		<!--非战争状态加科文-->
+		<Row>
+			<ModifierId>IRON_BLOOD_PLAYER_NOT_AT_WAR_CITIES_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>IRON_BLOOD_PLAYER_IS_NOT_AT_WAR</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>IRON_BLOOD_PLAYER_NOT_AT_WAR_CITIES_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>IRON_BLOOD_PLAYER_IS_NOT_AT_WAR</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!--额外区域-->
+		<Row>
+			<ModifierId>IRON_BLODD_CITY_EXTRA_DISTRICTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!--额额外区域-->
+		<Row>
+			<ModifierId>IRON_BLODD_CITY_EXTRA_EXTRA_DISTRICTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!--军事政策加力-->
+		<Row>
+			<ModifierId>IRON_BLOOD_COMBAT_BONUS</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_IRON_BLOOD_POLICY_SLOT_COMBAT_BONUS</Value>
+		</Row>
+		<!--额外军事槽-->
+		<Row>
+			<ModifierId>IRON_BLOOD_EXTRA_SLOT_MILITARY</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Value>SLOT_MILITARY</Value>
+		</Row>
+		<!--资源减少-->
+		<Row>
+			<ModifierId>IRON_BLOOD_UPGRADE_RESOURCE_DISCOUNT</ModifierId>
+			<Name>Amount</Name>
+			<Value>40</Value>
+		</Row>
+		<Row>
+			<ModifierId>IRON_BLOOD_UPGRADE_DISCOUNT</ModifierId>
+			<Name>Amount</Name>
+			<Value>40</Value>
+		</Row>
+		<!--经验增加-->
+		<Row>
+			<ModifierId>IRON_BLOOD_UNIT_XP_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<!--战争状态+3宜居-->
+		<Row>
+			<ModifierId>IRON_BLOOD_PLAYER_AT_WAR_CITIES_AMENITIES</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<!--非战争状态加科文-->
+		<Row>
+			<ModifierId>IRON_BLOOD_PLAYER_NOT_AT_WAR_CITIES_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>IRON_BLOOD_PLAYER_NOT_AT_WAR_CITIES_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>IRON_BLOOD_PLAYER_NOT_AT_WAR_CITIES_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>IRON_BLOOD_PLAYER_NOT_AT_WAR_CITIES_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

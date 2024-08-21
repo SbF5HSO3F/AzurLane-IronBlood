@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IronBlood_U96_UnitAbilities -->
+<!-- Author: jjj -->
+<!-- 优先级：899-->
+<!-- DateCreated: 8/22/2023 10:53:31 AM -->
+<GameData>
+	<Types>
+		<Row Type="ABILITY_FROM_THE_SEA"			Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_FROM_THE_SEA_COMBATS"	Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_FROM_THE_SEA_NAVAL"		Kind="KIND_ABILITY"/>
+	</Types>
+	<TypeTags>
+		<Row Type="ABILITY_FROM_THE_SEA"			Tag="CLASS_ALL_UNITS"/>
+		<Row Type="ABILITY_FROM_THE_SEA_COMBATS"	Tag="CLASS_ALL_COMBAT_UNITS"/>
+		<Row Type="ABILITY_FROM_THE_SEA_COMBATS"	Tag="CLASS_NAVAL_CARRIER"/>
+		<Row Type="ABILITY_FROM_THE_SEA_NAVAL"		Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="ABILITY_FROM_THE_SEA_NAVAL"		Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="ABILITY_FROM_THE_SEA_NAVAL"		Tag="CLASS_NAVAL_CARRIER"/>
+		<Row Type="ABILITY_FROM_THE_SEA_NAVAL"		Tag="CLASS_NAVAL_RAIDER"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_FROM_THE_SEA"			Name="LOC_ABILITY_FROM_THE_SEA_NAME"			Description="LOC_ABILITY_FROM_THE_SEA_DESCRIPTION"			Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_FROM_THE_SEA_COMBATS"	Name="LOC_ABILITY_FROM_THE_SEA_COMBATS_NAME"	Description="LOC_ABILITY_FROM_THE_SEA_COMBATS_DESCRIPTION"	Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_FROM_THE_SEA_NAVAL"	Name="LOC_ABILITY_FROM_THE_SEA_NAVAL_NAME"		Description="LOC_ABILITY_FROM_THE_SEA_NAVAL_DESCRIPTION"	Inactive="true"/>
+	</UnitAbilities>
+	<ModifierStrings>
+		<Row ModifierId="FROM_THE_SEA_PILLAGING_COMBAT"	Context="Preview" Text="LOC_PREVIEW_FROM_THE_SEA_PILLAGING_COMBAT_DESCRIPTION"/>
+		<Row ModifierId="FROM_THE_SEA_BUFF_STRENFTH"	Context="Preview" Text="LOC_PREVIEW_FROM_THE_SEA_BUFF_STRENFTH_DESCRIPTION"/>
+	</ModifierStrings>
+	<UnitAbilityModifiers>
+		<!--初始进入海洋-->
+		<Row>
+			<UnitAbilityType>ABILITY_FROM_THE_SEA</UnitAbilityType>
+			<ModifierId>FROM_THE_SEA_CAN_ENTER_COAST</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_FROM_THE_SEA</UnitAbilityType>
+			<ModifierId>FROM_THE_SEA_CAN_ENTER_OCEAN</ModifierId>
+		</Row>
+		<!--掠夺不消耗移动力-->
+		<Row>
+			<UnitAbilityType>ABILITY_FROM_THE_SEA_COMBATS</UnitAbilityType>
+			<ModifierId>FROM_THE_SEA_REDUCE_BUFF</ModifierId>
+		</Row>
+		<!--发动掠夺战斗力-->
+		<Row>
+			<UnitAbilityType>ABILITY_FROM_THE_SEA_COMBATS</UnitAbilityType>
+			<ModifierId>FROM_THE_SEA_PILLAGING_COMBAT</ModifierId>
+		</Row>
+		<!--海军buff-->
+		<Row>
+			<UnitAbilityType>ABILITY_FROM_THE_SEA_NAVAL</UnitAbilityType>
+			<ModifierId>FROM_THE_SEA_BUFF_STRENFTH</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_FROM_THE_SEA_NAVAL</UnitAbilityType>
+			<ModifierId>FROM_THE_SEA_BUFF_MOVEMENT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_FROM_THE_SEA_NAVAL</UnitAbilityType>
+			<ModifierId>FROM_THE_SEA_BUFF_RANGE</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<!--初始进入海洋-->
+		<Row>
+			<ModifierId>FROM_THE_SEA_CAN_ENTER_COAST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_VALID_TERRAIN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>FROM_THE_SEA_CAN_ENTER_OCEAN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_VALID_TERRAIN</ModifierType>
+		</Row>
+		<!--掠夺不消耗移动力-->
+		<Row>
+			<ModifierId>FROM_THE_SEA_REDUCE_BUFF</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_ADVANCED_PILLAGING</ModifierType>
+		</Row>
+		<!--发动掠夺战斗力-->
+		<Row>
+			<ModifierId>FROM_THE_SEA_PILLAGING_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<!--海军buff-->
+		<Row>
+			<ModifierId>FROM_THE_SEA_BUFF_STRENFTH</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<OwnerRequirementSetId>REQ_U96_UNIT_IN_THE_SEA</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>FROM_THE_SEA_BUFF_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+			<OwnerRequirementSetId>REQ_U96_UNIT_IN_THE_SEA</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>FROM_THE_SEA_BUFF_RANGE</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_ATTACK_RANGE</ModifierType>
+			<OwnerRequirementSetId>REQ_U96_UNIT_IN_THE_SEA</OwnerRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!--初始进入海洋-->
+		<Row>
+			<ModifierId>FROM_THE_SEA_CAN_ENTER_COAST</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_COAST</Value>
+		</Row>
+		<Row>
+			<ModifierId>FROM_THE_SEA_CAN_ENTER_COAST</ModifierId>
+			<Name>Valid</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>FROM_THE_SEA_CAN_ENTER_OCEAN</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_OCEAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>FROM_THE_SEA_CAN_ENTER_OCEAN</ModifierId>
+			<Name>Valid</Name>
+			<Value>true</Value>
+		</Row>
+		<!--掠夺不消耗移动力-->
+		<Row>
+			<ModifierId>FROM_THE_SEA_REDUCE_BUFF</ModifierId>
+			<Name>UseAdvancedPillaging</Name>
+			<Value>true</Value>
+		</Row>
+		<!--发动掠夺战斗力-->
+		<Row>
+			<ModifierId>FROM_THE_SEA_PILLAGING_COMBAT</ModifierId>
+			<Name>Key</Name>
+			<Value>U96Pillaged</Value>
+		</Row>
+		<!--海军buff-->
+		<Row>
+			<ModifierId>FROM_THE_SEA_BUFF_STRENFTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>FROM_THE_SEA_BUFF_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>FROM_THE_SEA_BUFF_RANGE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>REQ_U96_UNIT_IN_THE_SEA</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>REQ_U96_UNIT_IN_THE_SEA</RequirementSetId>
+			<RequirementId>REQUIRES_TERRAIN_OCEAN</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+</GameData>

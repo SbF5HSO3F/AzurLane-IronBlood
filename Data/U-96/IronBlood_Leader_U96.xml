@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IronBlood_Leader_U96 -->
+<!-- Author: jjj -->
+<!-- 优先级：900-->
+<!-- DateCreated: 8/22/2023 10:31:12 AM -->
+<GameData>
+	<Types>
+		<Row Type="LEADER_U_96_VIIC"				Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_FROM_THE_SEA"		Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_UNIT_VIIC_UBOAT"	Kind="KIND_TRAIT"/>
+	</Types>
+	<Leaders>
+		<Row LeaderType="LEADER_U_96_VIIC" Name="LOC_LEADER_U_96_VIIC_NAME" InheritFrom="LEADER_DEFAULT" Sex="Female" SceneLayers="4"/>
+	</Leaders>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_U_96_VIIC" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_U_96_VIIC_QUOTE"/>
+	</LeaderQuotes>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_U_96_VIIC" AgendaType="AGENDA_DIE_EICHENLAUBFAHRT"/>
+	</HistoricalAgendas>
+	<Agendas>
+		<Row AgendaType="AGENDA_DIE_EICHENLAUBFAHRT" Name="LOC_AGENDA_DIE_EICHENLAUBFAHRT_NAME" Description="LOC_AGENDA_DIE_EICHENLAUBFAHRT_DESCRIPTION"/>
+	</Agendas>
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_FROM_THE_SEA"		Name="LOC_TRAIT_LEADER_FROM_THE_SEA_NAME"	Description="LOC_TRAIT_LEADER_FROM_THE_SEA_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_UNIT_VIIC_UBOAT"	Name="LOC_UNIT_VIIC_UBOAT_NAME"				Description="LOC_UNIT_VIIC_UBOAT_DESCRIPTION"/>
+	</Traits>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_U_96_VIIC" TraitType="TRAIT_LEADER_FROM_THE_SEA"/>
+		<Row LeaderType="LEADER_U_96_VIIC" TraitType="TRAIT_LEADER_UNIT_VIIC_UBOAT"/>
+	</LeaderTraits>
+	<LoadingInfo>
+		<Row LeaderType="LEADER_U_96_VIIC" ForegroundImage="IMG_IRON_BLOOD_LEADER_U96_VIIC_LOADING_FOREGROUND" BackgroundImage="IMG_IRON_BLOOD_LOADING_BACKGROUND"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_U_96_VIIC" BackgroundImage="IMG_IRON_BLOOD_DIPLOMACY_BACKGROUND.dds"/>
+	</DiplomacyInfo>
+	<TraitModifiers>
+		<!--KANSEN-->
+		<Row>
+			<TraitType>TRAIT_LEADER_FROM_THE_SEA</TraitType>
+			<ModifierId>IRON_BLOOD_KANSEN_UNLOCKED_TECH_SAILING</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_FROM_THE_SEA</TraitType>
+			<ModifierId>IRON_BLOOD_KANSEN_UNLOCKED_TECH_SHIPBUILDING</ModifierId>
+		</Row>
+		<!--击杀单位得文化-->
+		<Row>
+			<TraitType>TRAIT_LEADER_FROM_THE_SEA</TraitType>
+			<ModifierId>U96_KILLS_CULTURE</ModifierId>
+		</Row>
+		<!--击杀单位得科技-->
+		<Row>
+			<TraitType>TRAIT_LEADER_FROM_THE_SEA</TraitType>
+			<ModifierId>U96_KILLS_SCIENCE</ModifierId>
+		</Row>
+		<!--全体buff-->
+		<Row>
+			<TraitType>TRAIT_LEADER_FROM_THE_SEA</TraitType>
+			<ModifierId>FROM_THE_SEA_ALL_UNIT_GRANT_ABILITY</ModifierId>
+		</Row>
+		<!--军事单位buff-->
+		<Row>
+			<TraitType>TRAIT_LEADER_FROM_THE_SEA</TraitType>
+			<ModifierId>FROM_THE_SEA_COMBAT_UNIT_GRANT_ABILITY</ModifierId>
+		</Row>
+		<!--海军buff-->
+		<Row>
+			<TraitType>TRAIT_LEADER_FROM_THE_SEA</TraitType>
+			<ModifierId>FROM_THE_SEA_NAVAL_UNIT_GRANT_ABILITY</ModifierId>
+		</Row>
+		<!--劫掠加成-->
+		<Row>
+			<TraitType>TRAIT_LEADER_FROM_THE_SEA</TraitType>
+			<ModifierId>U96_PLUNDER_BUFF</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<!--击杀单位得文化-->
+		<Row>
+			<ModifierId>U96_KILLS_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_POST_COMBAT_YIELD</ModifierType>
+		</Row>
+		<!--击杀单位得科技-->
+		<Row>
+			<ModifierId>U96_KILLS_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_POST_COMBAT_YIELD</ModifierType>
+		</Row>
+		<!--全体buff-->
+		<Row>
+			<ModifierId>FROM_THE_SEA_ALL_UNIT_GRANT_ABILITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<!--军事单位buff-->
+		<Row>
+			<ModifierId>FROM_THE_SEA_COMBAT_UNIT_GRANT_ABILITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<!--海军buff-->
+		<Row>
+			<ModifierId>FROM_THE_SEA_NAVAL_UNIT_GRANT_ABILITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<!--海军袭击者+7-->
+		<Row>
+			<ModifierId>U96_RAIDER_ATTACK_NAVAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<!--劫掠加成-->
+		<Row>
+			<ModifierId>U96_PLUNDER_BUFF</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_PLUNDER_YIELDS</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!--击杀单位得文化-->
+		<Row>
+			<ModifierId>U96_KILLS_CULTURE</ModifierId>
+			<Name>PercentDefeatedStrength</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>U96_KILLS_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<!--击杀单位得科技-->
+		<Row>
+			<ModifierId>U96_KILLS_SCIENCE</ModifierId>
+			<Name>PercentDefeatedStrength</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>U96_KILLS_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<!--全体buff-->
+		<Row>
+			<ModifierId>FROM_THE_SEA_ALL_UNIT_GRANT_ABILITY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_FROM_THE_SEA</Value>
+		</Row>
+		<!--军事单位buff-->
+		<Row>
+			<ModifierId>FROM_THE_SEA_COMBAT_UNIT_GRANT_ABILITY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_FROM_THE_SEA_COMBATS</Value>
+		</Row>
+		<!--海军buff-->
+		<Row>
+			<ModifierId>FROM_THE_SEA_NAVAL_UNIT_GRANT_ABILITY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_FROM_THE_SEA_NAVAL</Value>
+		</Row>
+		<!--劫掠加成-->
+		<Row>
+			<ModifierId>U96_PLUNDER_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

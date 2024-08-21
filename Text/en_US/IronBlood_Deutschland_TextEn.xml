@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IronBlood_Deutschland -->
+<!-- Author: jjj -->
+<!-- DateCreated: 2023/11/14 17:00:21 -->
+<GameData>
+	<LocalizedText>
+		<!--领袖介绍-->
+		<Replace Tag="LOC_LEADER_DEUTSCHLAND_A_NAME" Language="en_US">
+			<Text>Deutschland</Text>
+		</Replace>
+		<!--加载-->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_DEUTSCHLAND_A" Language="en_US">
+			<Text>The name "Deutschland" is given to the Deutschland Class Armored Ship A. Honorable Deutschland, you are the princess of Iron Blood. The people of Iron Blood love you and are proud of your name: you are the bearer of the glory of the Iron Blood. So build up a prosperous and great empire, and you will open a new chapter in the splendor of the Iron Blood Principality.</Text>
+		</Replace>
+		<!--百科-->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DEUTSCHLAND_A_QUOTE" Language="en_US">
+			<Text>It's going to be a pleasurable sweep.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DEUTSCHLAND_A_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>Deutschland would quickly conquer the neighboring areas and reap the benefits.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DEUTSCHLAND_A_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>Deutschland should rapidly build up many cities and extend the boundaries of her civilization. When Deutschland's vast territory extends to the borders of other civilizations, it will be the beginning of Deutschland's unification of the surrounding areas. With the excellent army trained in Krupp, Deutschland could conquer any city in a short time. The "Deutschland Above All" will ensure that these cities will provide Deutschland with a great deal of profit: the captured cities will be functional from the start and will provide Deutschland with a large amount of [ICON_SCIENCE] Science, [ICON_CULTURE] Culture, and [ICON_GOLD] Gold at once, as well as maintaining the [ICON_Strength] Combat Strength for Deutschland's military units. By utilizing Deutschland's powerful polity and bringing the surrounding areas under your rule, the Iron Blood will become the greatest empire of all time.[NEWLINE][NEWLINE]Formula for calculating the conquest reward (Take [ICON_SCIENCE] Science for example):[NEWLINE][ICON_SCIENCE] Science reward = City [ICON_CITIZEN] Citizen x (2 x Current City [ICON_SCIENCE] Science Output + [ICON_SCIENCE] Science Reward Base) x Game Speed Modifier[NEWLINE]Reward Base: [ICON_SCIENCE] Science and [ICON_Culture] Culture is 5, [ICON_GOLD] Gold is 30</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DEUTSCHLAND_A_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Deutschland was a Deutschland-class armored ship A of the Nazi German Navy and the first German armored ship to bear the name of the country - Deutschland.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DEUTSCHLAND_A_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>In February 1929, the keel was laid down at the Deutschland shipyard in Kiel, and in May 1931, she was launched in a ceremony attended by the President at Hindenburg, and in the second half of the same year, she completed her refit, and in May 1932, she made her maiden voyage. During the Spanish Civil War, Deutschland was dispatched to the Spanish coast to support Franco's Spanish National Army in a total of seven operations between 1936 and 1939. Among them, on May 29, 1937, she was wounded by Republican bombers.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DEUTSCHLAND_A_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>After the outbreak of World War II, the ship's name was changed to Lützow.In February 1940, she was reclassified as a heavy cruiser with her sister ship Admiral Scheer.On April 9, 1940, she took part in Exercise Weser for the invasion of Norway.In 1942, she took part in the Battle of the Barents Sea, the turning point of the German Surface Warfare.In September 1944, she provided fire support for the German Army's Great Retreat to the East, which lasted until 1945.The ship's name was changed to Lützow after the outbreak of World War II, but the name was not changed to Lützow.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DEUTSCHLAND_A_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>In April 1945, it was severely damaged by a huge 6-ton bomb dropped by the RAF, a stiletto bomb, and was towed to Hivino Uihiche for repairs, where it continued to help the Army spread the retreat with fire support until the Germans chiseled and sank it on 4 May.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DEUTSCHLAND_A_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text>After the war, the USSR salvaged her in the spring of 1946 and commissioned her as a heavy cruiser in the reserve fleet under the name of Lutzow. Originally, the USSR hoped to restore her for their own use, but after a detailed inspection, it was concluded that she could not be repaired, and she was finally used as a target ship for gunnery practice and sank in the Baltic Sea on 22 July 1947, after being used as a target ship for land gunnery practice.</Text>
+		</Replace>
+		<!--领袖议程-->
+		<Replace Tag="LOC_AGENDA_PRINCESS_OF_IRON_BLOOD_NAME" Language="en_US">
+			<Text>Princess of Iron Blood</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_PRINCESS_OF_IRON_BLOOD_DESCRIPTION" Language="en_US">
+			<Text>Hates civilizations that don't declare friendship with her, loves civilizations that do.</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_PRINCESS_OF_IRON_BLOOD_NOT_FRIEND" Language="en_US">
+			<Text>Deutschland hates civilizations that don't declare friendship with her.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_DEUTSCHLAND_A_REASON_ANY" Language="en_US">
+			<Text>(You have not declared friendship with her)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_PRINCESS_OF_IRON_BLOOD" Language="en_US">
+			<Text>(You have not declared friendship with her)</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_PRINCESS_OF_IRON_BLOOD_FRIEND" Language="en_US">
+			<Text>Deutschland loved the civilization that declared friendship with her</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_DEUTSCHLAND_A_REASON_ANY" Language="en_US">
+			<Text>(You declared your friendship with her)</Text>
+		</Replace>
+		<!--领袖能力-->
+		<Replace Tag="LOC_TRAIT_LEADER_DEUTSCHLAND_ABOVE_ALL_NAME" Language="en_US">
+			<Text>Deutschland Above All</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_DEUTSCHLAND_ABOVE_ALL_DESCRIPTION" Language="en_US">
+			<Text>Each of the slots in the current polity other than the wildcard slot is converted to a wildcard slot. When conquering a city, the city gains full Loyalty and you are rewarded with [ICON_SCIENCE] Science, [ICON_CULTURE] Culture and [ICON_GOLD] Gold. Your city provides +4 [ICON_Strength] Combat Strength to military units within 6-tiles, +4 Loyalty per turn for cities not founded by you..</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_DEUTSCHLAND_ABOVE_ALL_DESCRIPTION_XP2" Language="en_US">
+			<Text>Each of the slots in the current polity other than the wildcard slot is converted to a wildcard slot. When conquering a city, the city will not lose [ICON_CITIZEN] Population and will gain full Loyalty, you are rewarded with [ICON_SCIENCE] Science, [ICON_CULTURE] Culture and [ICON_GOLD] Gold. Your city provides +4 [ICON_Strength] Combat Strength to military units within 6-tiles, +4 Loyalty per turn and provide +4 [ICON_Favor] Diplomatic Favor for cities not founded by you.</Text>
+		</Replace>
+		<!--Lua浮动文字显示-->
+		<Replace Tag="LOC_DEUTSCHLAND_ABOVE_ALL_CONQUER_SCIENCE_TEXT" Language="en_US">
+			<Text>[COLOR_FLOAT_SCIENCE]+{1_num}[ENDCOLOR] [ICON_SCIENCE]</Text>
+		</Replace>
+		<Replace Tag="LOC_DEUTSCHLAND_ABOVE_ALL_CONQUER_CULTURE_TEXT" Language="en_US">
+			<Text>[COLOR_FLOAT_CULTURE]+{1_num}[ENDCOLOR] [ICON_Culture]</Text>
+		</Replace>
+		<Replace Tag="LOC_DEUTSCHLAND_ABOVE_ALL_CONQUER_GOLD_TEXT" Language="en_US">
+			<Text>[COLOR_FLOAT_GOLD]+{1_num}[ENDCOLOR] [ICON_GOLD]</Text>
+		</Replace>
+		<!--特殊加成-->
+
+		<!--领袖项目-->
+
+		<!--领袖单位-->
+		<!--Pallada-class Protected Cruiser-->
+
+		<!--特殊晋升-->
+
+		<!--特殊能力-->
+		<!--<Replace Tag="LOC_ABILITY_DEUTSCHLAND_DESCRIPTION" Language="en_US">
+			<Text>从6个单元格范围内的己方城市获得 [ICON_Strength] 战斗力加成</Text>
+		</Replace>-->
+		<Replace Tag="LOC_PREVIEW_DEUTSCHLAND_UNIT_COMBAT_FROM_CITIES" Language="en_US">
+			<Text>+{Property} [ICON_Strength] Combat Strength comes from your own city within a 6-tiles</Text>
+		</Replace>
+		<!--特殊晋升-->
+
+		<!--外交对话-->
+		<![CDATA[<!--同意宣布友谊-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_DEUTSCHLAND_A_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--拒绝宣布友谊-->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_DEUTSCHLAND_A_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--请求宣布友谊-->
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_DEUTSCHLAND_A_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--宣布友谊被接受-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_DEUTSCHLAND_A_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--宣布友谊被拒绝-->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_DEUTSCHLAND_A_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--被宣战-->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_DEUTSCHLAND_A_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--宣战-->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_DEUTSCHLAND_A_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--接受代表团-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_DEUTSCHLAND_A_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--拒绝代表团-->
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_DEUTSCHLAND_A_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--派出代表团-->
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_DEUTSCHLAND_A_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--被谴责-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_DEUTSCHLAND_A_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--谴责-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_DEUTSCHLAND_A_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--初次见面-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_DEUTSCHLAND_A_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--初次见面，邀请参观附近城市-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_DEUTSCHLAND_A_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--初次见面，感谢玩家提供最近城市位置-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_DEUTSCHLAND_A_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--初次见面，请求交换城市位置-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_DEUTSCHLAND_A_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--欢迎语？-->
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_DEUTSCHLAND_A_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--示好-->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_DEUTSCHLAND_A_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--敌视-->
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_DEUTSCHLAND_A_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--请求结盟-->
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_DEUTSCHLAND_A_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--同意和平-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_DEUTSCHLAND_A_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--拒绝和平-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_DEUTSCHLAND_A_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--请求和平-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_DEUTSCHLAND_A_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--接受开放边界请求-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_DEUTSCHLAND_A_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--拒绝开放边界请求-->
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_DEUTSCHLAND_A_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--请求开放边界-->
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_DEUTSCHLAND_A_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--要求移开边境部队-->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_DEUTSCHLAND_A_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--同意移开边境部队-->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_DEUTSCHLAND_A_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--拒绝移开边境部队-->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_DEUTSCHLAND_A_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--经受不住时间考验-->
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_DEUTSCHLAND_A_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--同意交易-->
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_DEUTSCHLAND_A_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--拒绝交易-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_DEUTSCHLAND_A_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>]]>
+	</LocalizedText>
+</GameData>

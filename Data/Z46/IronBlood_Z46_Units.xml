@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IronBlood_Z46_Units -->
+<!-- Author: jjj -->
+<!-- DateCreated: 2023/10/15 14:09:14 -->
+<GameData>
+	<Types>
+		<Row Type="UNIT_1936C"		Kind="KIND_UNIT"/>
+		<Row Type="ABILITY_1936C"	Kind="KIND_ABILITY"/>
+	</Types>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_1936C" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_1936C" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_1936C" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_1936C" AiType="UNITTYPE_NAVAL"/>
+		<Row UnitType="UNIT_1936C" AiType="UNITTYPE_RANGED"/>
+	</UnitAiInfos>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_1936C" ReplacesUnitType="UNIT_DESTROYER"/>
+	</UnitReplaces>
+	<Tags>
+		<Row Tag="CLASS_1936C" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<Row Type="UNIT_1936C"		Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="UNIT_1936C"		Tag="CLASS_REVEAL_STEALTH"/>
+		<Row Type="UNIT_1936C"		Tag="CLASS_ANTI_AIR"/>
+		<Row Type="UNIT_1936C"		Tag="CLASS_1936C"/>
+		<Row Type="ABILITY_1936C"	Tag="CLASS_1936C"/>
+	</TypeTags>
+	<Units>
+		<!--1936C型驱逐舰-->
+		<Row UnitType="UNIT_1936C" Cost="540" Maintenance="7" BaseMoves="5" BaseSightRange="3" StrategicResource="RESOURCE_OIL" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="85" RangedCombat="80" Range="1" AntiAirCombat="115" FormationClass="FORMATION_CLASS_NAVAL" PrereqTech="TECH_COMBINED_ARMS" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" Name="LOC_UNIT_1936C_NAME" Description="LOC_UNIT_1936C_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" TraitType="TRAIT_LEADER_UNIT_1936C"/>
+	</Units>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_1936C"	Name="LOC_ABILITY_1936C_NAME"	Description="LOC_ABILITY_1936C_DESCRIPTION"/>
+	</UnitAbilities>
+	<ModifierStrings>
+		<Row ModifierId="1936C_ADD_PROPERTY_COMBAT"	 Context="Preview"	Text="LOC_1936C_ADD_PROPERTY_COMBAT_DESCRIPTION"/>
+	</ModifierStrings>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_1936C</UnitAbilityType>
+			<ModifierId>1936C_ADD_PROPERTY_COMBAT</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>1936C_ADD_PROPERTY_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>1936C_ADD_PROPERTY_COMBAT</ModifierId>
+			<Name>Key</Name>
+			<Value>1936C_UNIT_COMBAT</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IronBlood_Z23_Units -->
+<!-- Author: jjj -->
+<!-- DateCreated: 2023/12/29 18:35:48 -->
+<GameData>
+	<Types>
+		<Row Type="UNIT_1936A"		Kind="KIND_UNIT"/>
+	</Types>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_1936A" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_1936A" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_1936A" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_1936A" AiType="UNITTYPE_NAVAL"/>
+		<Row UnitType="UNIT_1936A" AiType="UNITTYPE_RANGED"/>
+	</UnitAiInfos>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_1936A" ReplacesUnitType="UNIT_DESTROYER"/>
+	</UnitReplaces>
+	<Tags>
+		<Row Tag="CLASS_1936A" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<Row Type="UNIT_1936A"		Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="UNIT_1936A"		Tag="CLASS_REVEAL_STEALTH"/>
+		<Row Type="UNIT_1936A"		Tag="CLASS_ANTI_AIR"/>
+		<Row Type="UNIT_1936A"		Tag="CLASS_1936A"/>
+	</TypeTags>
+	<Units>
+		<!--1936C型驱逐舰-->
+		<Row UnitType="UNIT_1936A" Cost="540" Maintenance="7" BaseMoves="5" BaseSightRange="3" StrategicResource="RESOURCE_OIL" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="90" RangedCombat="85" Range="2" AntiAirCombat="90" FormationClass="FORMATION_CLASS_NAVAL" PrereqTech="TECH_COMBINED_ARMS" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" Name="LOC_UNIT_1936A_NAME" Description="LOC_UNIT_1936A_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" TraitType="TRAIT_LEADER_UNIT_1936A"/>
+	</Units>
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_1936A" Texture="Moment_1936A.dds"/>
+	</MomentIllustrations>
+</GameData>

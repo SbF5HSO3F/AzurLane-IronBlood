@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IronBlood_U96_Units -->
+<!-- Author: jjj -->
+<!-- 优先级：898-->
+<!-- DateCreated: 8/22/2023 10:52:38 AM -->
+<GameData>
+	<Types>
+		<Row Type="UNIT_VIIC_UBOAT"		Kind="KIND_UNIT"/>
+		<Row Type="ABILITY_VIIC_UBOAT"	Kind="KIND_ABILITY"/>
+	</Types>
+	<Tags>
+		<Row Tag="CLASS_VIIC_UBOAT" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_VIIC_UBOAT" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_VIIC_UBOAT" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_VIIC_UBOAT" AiType="UNITTYPE_NAVAL"/>
+	</UnitAiInfos>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_VIIC_UBOAT" ReplacesUnitType="UNIT_SUBMARINE"/>
+	</UnitReplaces>
+	<TypeTags>
+		<Row Type="UNIT_VIIC_UBOAT"		Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="UNIT_VIIC_UBOAT"		Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="UNIT_VIIC_UBOAT"		Tag="CLASS_VIIC_UBOAT"/>
+		<Row Type="UNIT_VIIC_UBOAT"		Tag="CLASS_STEALTH"/>
+		<Row Type="UNIT_VIIC_UBOAT"		Tag="CLASS_REVEAL_STEALTH"/>
+		<Row Type="ABILITY_VIIC_UBOAT"	Tag="CLASS_VIIC_UBOAT"/>
+	</TypeTags>
+	<Units>
+		<Row UnitType="UNIT_VIIC_UBOAT"
+			 Cost="380"
+			 Maintenance="4"
+			 BaseMoves="3"
+			 BaseSightRange="3"
+			 ZoneOfControl="false"
+			 Domain="DOMAIN_SEA"
+			 Combat="65"
+			 RangedCombat="75"
+			 Range="2"
+			 FormationClass="FORMATION_CLASS_NAVAL"
+			 PromotionClass="PROMOTION_CLASS_NAVAL_RAIDER"
+			 AdvisorType="ADVISOR_CONQUEST"
+			 Name="LOC_UNIT_VIIC_UBOAT_NAME"
+			 Description="LOC_UNIT_VIIC_UBOAT_DESCRIPTION"
+			 PurchaseYield="YIELD_GOLD"
+			 PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT"
+			 TraitType="TRAIT_LEADER_UNIT_VIIC_UBOAT"
+			 PrereqTech="TECH_ELECTRICITY"/>
+	</Units>
+	<UnitUpgrades>
+		<Row Unit="UNIT_VIIC_UBOAT" UpgradeUnit="UNIT_NUCLEAR_SUBMARINE"/>
+	</UnitUpgrades>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_VIIC_UBOAT" Name="LOC_ABILITY_VIIC_UBOAT_NAME" Description="LOC_ABILITY_VIIC_UBOAT_DESCRIPTION"/>
+	</UnitAbilities>
+	<ModifierStrings>
+		<Row ModifierId="VIIC_UBOAT_COMBAT" Context="Preview" Text="LOC_VIIC_UBOAT_COMBAT_MODIFIER_DESCRIPTION"/>
+	</ModifierStrings>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_VIIC_UBOAT</UnitAbilityType>
+			<ModifierId>VIIC_UBOAT_COMBAT</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>VIIC_UBOAT_COMBAT</ModifierId>
+			<ModifierType>GRANT_STRENGTH_PER_ADJACENT_UNIT_TYPE</ModifierType>
+			<OwnerRequirementSetId>VIIC_NEXT_IS_VIIC</OwnerRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>VIIC_UBOAT_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>VIIC_UBOAT_COMBAT</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_VIIC_UBOAT</Value>
+		</Row>
+	</ModifierArguments>
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_VIIC_UBOAT" Texture="Moment_UniqueUnit_Germany_UBoat.dds"/>
+	</MomentIllustrations>
+</GameData>

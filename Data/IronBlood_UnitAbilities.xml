@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IronBlood_Units -->
+<!-- Author: jjj -->
+<!-- 优先级：996-->
+<!-- DateCreated: 4/15/2023 3:18:11 PM -->
+<GameData>
+	<Types>
+		<Row Type="ABILITY_KRUPP_FREE_MELEE_UNITS"				Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_KRUPP_MELEE_UNITS"					Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_KRUPP_HEAVY_CAVALRY_UNITS"			Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_KRUPP_RANGED_UNITS"					Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_KRUPP_SIEGE_UNITS"					Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_IRON_BLOOD_POLICY_SLOT_COMBAT_BONUS" Kind="KIND_ABILITY"/>
+	</Types>
+	<TypeTags>
+		<Row Type="ABILITY_KRUPP_FREE_MELEE_UNITS"				Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_KRUPP_MELEE_UNITS"					Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_KRUPP_HEAVY_CAVALRY_UNITS"			Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_KRUPP_RANGED_UNITS"					Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_KRUPP_SIEGE_UNITS"					Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_IRON_BLOOD_POLICY_SLOT_COMBAT_BONUS" Tag="CLASS_ALL_COMBAT_UNITS"/>
+		<Row Type="ABILITY_IRON_BLOOD_POLICY_SLOT_COMBAT_BONUS" Tag="CLASS_NAVAL_CARRIER"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_KRUPP_FREE_MELEE_UNITS"				Name="LOC_ABILITY_KRUPP_FREE_MELEE_UNITS_NAME"				Description="LOC_ABILITY_KRUPP_HEAVY_CAVALRY_UNITS_DESCRIPTION"				Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_KRUPP_MELEE_UNITS"					Name="LOC_ABILITY_KRUPP_MELEE_UNITS_NAME"					Description="LOC_ABILITY_KRUPP_MELEE_UNITS_DESCRIPTION"						Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_KRUPP_HEAVY_CAVALRY_UNITS"			Name="LOC_ABILITY_KRUPP_HEAVY_CAVALRY_UNITS_NAME"			Description="LOC_ABILITY_KRUPP_HEAVY_CAVALRY_UNITS_DESCRIPTION"				Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_KRUPP_RANGED_UNITS"					Name="LOC_ABILITY_KRUPP_RANGED_UNITS_NAME"					Description="LOC_ABILITY_KRUPP_RANGED_AND_SIEGE_UNITS_DESCRIPTION"			Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_KRUPP_SIEGE_UNITS"					Name="LOC_ABILITY_KRUPP_SIEGE_UNITS_NAME"					Description="LOC_ABILITY_KRUPP_RANGED_AND_SIEGE_UNITS_DESCRIPTION"			Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_IRON_BLOOD_POLICY_SLOT_COMBAT_BONUS"	Name="LOC_ABILITY_IRON_BLOOD_POLICY_SLOT_COMBAT_BONUS_NAME" Description="LOC_ABILITY_IRON_BLOOD_POLICY_SLOT_COMBAT_BONUS_DESCRIPTION"	Inactive="true"/>
+	</UnitAbilities>
+	<ModifierStrings>
+		<Row ModifierId="KRUPP_HEAVY_CAVALRY_BUFF" Context="Preview" Text="LOC_KRUPP_HEAVY_CAVALRY_BUFF_DESCRIPTION"/>
+		<Row ModifierId="KRUPP_FREE_MELEE_BUFF"	   Context="Preview" Text="LOC_KRUPP_HEAVY_CAVALRY_BUFF_DESCRIPTION"/>
+	</ModifierStrings>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_KRUPP_FREE_MELEE_UNITS</UnitAbilityType>
+			<ModifierId>KRUPP_FREE_MELEE_BUFF</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_KRUPP_MELEE_UNITS</UnitAbilityType>
+			<ModifierId>KRUPP_MELEE_BUFF</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_KRUPP_HEAVY_CAVALRY_UNITS</UnitAbilityType>
+			<ModifierId>KRUPP_HEAVY_CAVALRY_BUFF</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_KRUPP_RANGED_UNITS</UnitAbilityType>
+			<ModifierId>KRUPP_RANGED_BUFF</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_KRUPP_SIEGE_UNITS</UnitAbilityType>
+			<ModifierId>KRUPP_SIEGE_BUFF</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_IRON_BLOOD_POLICY_SLOT_COMBAT_BONUS</UnitAbilityType>
+			<ModifierId>IRON_BLOOD_POLICY_SLOT_COMBAT_BONUS</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>KRUPP_FREE_MELEE_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>KRUPP_MELEE_BUFF</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>KRUPP_HEAVY_CAVALRY_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>KRUPP_RANGED_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_ATTACK_RANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>KRUPP_SIEGE_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_ATTACK_RANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>IRON_BLOOD_POLICY_SLOT_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_PER_MILITARY_POLICIES_COMBAT_MODIFIER</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>KRUPP_FREE_MELEE_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>KRUPP_MELEE_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>KRUPP_HEAVY_CAVALRY_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>KRUPP_RANGED_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>KRUPP_SIEGE_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>IRON_BLOOD_POLICY_SLOT_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

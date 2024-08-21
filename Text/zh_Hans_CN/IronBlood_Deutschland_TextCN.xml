@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IronBlood_Deutschland -->
+<!-- Author: jjj -->
+<!-- DateCreated: 2023/11/14 17:00:21 -->
+<GameData>
+	<LocalizedText>
+		<!--领袖介绍-->
+		<Replace Tag="LOC_LEADER_DEUTSCHLAND_A_NAME" Language="zh_Hans_CN">
+			<Text>德意志</Text>
+		</Replace>
+		<!--加载-->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_DEUTSCHLAND_A" Language="zh_Hans_CN">
+			<Text>被冠以“德意志”之名的德意志级装甲舰A号舰，尊贵的德意志，您是铁血中公主一样的存在。铁血的大家都宠爱着你，她们无不以你的名字为荣：您的名字是铁血公国荣光的承载。所以，建立起一个繁荣而伟大的帝国吧，你将翻开铁血公国辉煌的新篇章。</Text>
+		</Replace>
+		<!--百科-->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DEUTSCHLAND_A_QUOTE" Language="zh_Hans_CN">
+			<Text>这会是一次愉悦的扫荡。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DEUTSCHLAND_A_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>德意志将会迅速地征服周边地区，并从中获得收益。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DEUTSCHLAND_A_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>德意志应当迅速建立众多城市，扩展她文明的疆界。当德意志广袤的国土延拓至其他文明的边界时，便是德意志一统周边地区的开始。利用克虏伯军工基地训练出的优秀军队，德意志可以短时间内征服任何城市。而“德意志至高无上”将会确保这些城市为德意志提供丰厚的收益：攻占下来的城市一开始便能正常运转，并且会一次性为德意志提供大量 [ICON_SCIENCE] 科技值、[ICON_Culture] 文化值和 [ICON_GOLD] 金币，同时还能维持德意志军事单位的 [ICON_Strength] 战斗力加成。利用好德意志强力的政体，将周边地区纳入统治，铁血公国将成为最伟大的帝国。[NEWLINE][NEWLINE]征服奖励计算公式（以 [ICON_SCIENCE] 科技值为例）：[NEWLINE][ICON_SCIENCE] 科技值奖励=城市 [ICON_CITIZEN] 人口数x(2x当前城市 [ICON_SCIENCE] 科技值产出+ [ICON_SCIENCE] 科技值奖励基数)x游戏速度修正[NEWLINE]奖励基数：[ICON_SCIENCE] 科技值和 [ICON_Culture]文化值为5，[ICON_GOLD] 金币为30</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DEUTSCHLAND_A_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>德意志号是纳粹德国海军的德意志级装甲舰A号舰，也是德国第一艘装甲舰，是以国名——德意志为名字的军舰。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DEUTSCHLAND_A_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>1929年2月，在基尔的德意志造船厂铺设龙骨，1931年5月，在兴登堡有总统出席的典礼中下水，同年后半完成了装修。1932年5月，进行了处女航。在西班牙内战期间，德意志号被派遣到西班牙沿海支援佛朗哥的西班牙国民军1936年至1939年间共7个的作战行动。其中1937年5月29日，被共和军的轰炸机所击伤。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DEUTSCHLAND_A_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>二战爆发后，舰名改为吕佐夫号。1940年2月，与姊妹船舍尔海军上将号被重新归类为重巡洋舰。1940年4月9日，参加了入侵挪威的威瑟演习。1942年，参与德国水面战役的转折点战役一巴伦支海海战。1944年9月，为德国陆军的东线大撤退提供火力支援，直到1945年。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DEUTSCHLAND_A_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>1945年4月，被皇家空军投下的6吨巨型炸弹一高脚柜炸弹严重损毁，被拖到希维诺乌伊希切进行维修，继续以火力支援帮助陆军撒退，直到5月4日德军将其凿沉。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DEUTSCHLAND_A_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>战后，苏联于1946年春天将她打捞了上来，并使用吕佐夫号的名字作为重巡洋舰服役编入后备舰队，原先苏联希望将其修复作为己用，不过在经过详细检视后得到无法修复的结论，最后被当作陆炮射击练习的靶船，于1947年7月22日沉于波罗的海。</Text>
+		</Replace>
+		<!--领袖议程-->
+		<Replace Tag="LOC_AGENDA_PRINCESS_OF_IRON_BLOOD_NAME" Language="zh_Hans_CN">
+			<Text>铁血的公主</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_PRINCESS_OF_IRON_BLOOD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>讨厌不与她宣布友谊的文明，喜欢与她宣布友谊的文明。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_PRINCESS_OF_IRON_BLOOD_NOT_FRIEND" Language="zh_Hans_CN">
+			<Text>德意志讨厌不与她宣布友谊的文明</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_DEUTSCHLAND_A_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（您未与她宣布友谊）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_PRINCESS_OF_IRON_BLOOD" Language="zh_Hans_CN">
+			<Text>（您未与她宣布友谊）</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_PRINCESS_OF_IRON_BLOOD_FRIEND" Language="zh_Hans_CN">
+			<Text>德意志喜欢与她宣布友谊的文明</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_DEUTSCHLAND_A_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（您与她宣布友谊）</Text>
+		</Replace>
+		<!--领袖能力-->
+		<Replace Tag="LOC_TRAIT_LEADER_DEUTSCHLAND_ABOVE_ALL_NAME" Language="zh_Hans_CN">
+			<Text>德意志至高无上</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_DEUTSCHLAND_ABOVE_ALL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>当前政体除通配符槽位以外的其他槽位各转换一个为通配符槽位。征服城市时城市将获得全部忠诚度，且你将获得 [ICON_SCIENCE] 科技值、[ICON_Culture] 文化值和 [ICON_GOLD] 金币奖励。您的城市可为6个单元格范围内的军事单位+4 [ICON_Strength] 战斗力，非你所建立的城市每回合+4忠诚度。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_DEUTSCHLAND_ABOVE_ALL_DESCRIPTION_XP2" Language="zh_Hans_CN">
+			<Text>当前政体除通配符槽位以外的其他槽位各转换一个为通配符槽位。征服城市时城市不会损失 [ICON_CITIZEN] 人口并将获得全部忠诚度，且你将获得 [ICON_SCIENCE] 科技值、[ICON_Culture] 文化值和 [ICON_GOLD] 金币奖励。您的城市可为6个单元格范围内的军事单位+4 [ICON_Strength] 战斗力，非你所建立的城市每回合+4忠诚度并提供+4 [ICON_Favor] 外交支持。</Text>
+		</Replace>
+		<!--Lua浮动文字显示-->
+		<Replace Tag="LOC_DEUTSCHLAND_ABOVE_ALL_CONQUER_SCIENCE_TEXT" Language="zh_Hans_CN">
+			<Text>[COLOR_FLOAT_SCIENCE]+{1_num}[ENDCOLOR] [ICON_SCIENCE]</Text>
+		</Replace>
+		<Replace Tag="LOC_DEUTSCHLAND_ABOVE_ALL_CONQUER_CULTURE_TEXT" Language="zh_Hans_CN">
+			<Text>[COLOR_FLOAT_CULTURE]+{1_num}[ENDCOLOR] [ICON_Culture]</Text>
+		</Replace>
+		<Replace Tag="LOC_DEUTSCHLAND_ABOVE_ALL_CONQUER_GOLD_TEXT" Language="zh_Hans_CN">
+			<Text>[COLOR_FLOAT_GOLD]+{1_num}[ENDCOLOR] [ICON_GOLD]</Text>
+		</Replace>
+		<!--特殊加成-->
+
+		<!--领袖项目-->
+
+		<!--领袖单位-->
+		<!--Pallada-class Protected Cruiser-->
+
+		<!--特殊晋升-->
+
+		<!--特殊能力-->
+		<!--<Replace Tag="LOC_ABILITY_DEUTSCHLAND_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>从6个单元格范围内的己方城市获得 [ICON_Strength] 战斗力加成</Text>
+		</Replace>-->
+		<Replace Tag="LOC_PREVIEW_DEUTSCHLAND_UNIT_COMBAT_FROM_CITIES" Language="zh_Hans_CN">
+			<Text>+{Property} [ICON_Strength] 战斗力来自6个单元格范围内的己方城市</Text>
+		</Replace>
+		<!--特殊晋升-->
+
+		<!--外交对话-->
+		<![CDATA[<!--同意宣布友谊-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_DEUTSCHLAND_A_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!--拒绝宣布友谊-->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_DEUTSCHLAND_A_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!--请求宣布友谊-->
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_DEUTSCHLAND_A_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!--宣布友谊被接受-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_DEUTSCHLAND_A_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!--宣布友谊被拒绝-->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_DEUTSCHLAND_A_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!--被宣战-->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_DEUTSCHLAND_A_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!--宣战-->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_DEUTSCHLAND_A_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!--接受代表团-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_DEUTSCHLAND_A_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!--拒绝代表团-->
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_DEUTSCHLAND_A_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!--派出代表团-->
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_DEUTSCHLAND_A_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!--被谴责-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_DEUTSCHLAND_A_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!--谴责-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_DEUTSCHLAND_A_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!--初次见面-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_DEUTSCHLAND_A_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!--初次见面，邀请参观附近城市-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_DEUTSCHLAND_A_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!--初次见面，感谢玩家提供最近城市位置-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_DEUTSCHLAND_A_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!--初次见面，请求交换城市位置-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_DEUTSCHLAND_A_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!--欢迎语？-->
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_DEUTSCHLAND_A_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!--示好-->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_DEUTSCHLAND_A_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!--敌视-->
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_DEUTSCHLAND_A_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!--请求结盟-->
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_DEUTSCHLAND_A_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!--同意和平-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_DEUTSCHLAND_A_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!--拒绝和平-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_DEUTSCHLAND_A_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!--请求和平-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_DEUTSCHLAND_A_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!--接受开放边界请求-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_DEUTSCHLAND_A_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!--拒绝开放边界请求-->
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_DEUTSCHLAND_A_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!--请求开放边界-->
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_DEUTSCHLAND_A_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!--要求移开边境部队-->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_DEUTSCHLAND_A_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!--拒绝移开边境部队-->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_DEUTSCHLAND_A_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!--同意移开边境部队-->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_DEUTSCHLAND_A_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!--经受不住时间考验-->
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_DEUTSCHLAND_A_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!--拒绝交易-->
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_DEUTSCHLAND_A_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!--同意交易-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_DEUTSCHLAND_A_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>]]>
+	</LocalizedText>
+</GameData>

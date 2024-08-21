@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IronBlood_Z23_UnitAbilities -->
+<!-- Author: jjj -->
+<!-- DateCreated: 2023/12/28 21:46:06 -->
+<GameData>
+	<Types>
+		<Row Type="ABILITY_Z23_COMBAT_UNIT_BUFF"			Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_Z23_COMBAT_UNIT_EXTRA_BUFF"		Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_Z23_COMBAT_UNIT_PILLAGE_COMBAT"	Kind="KIND_ABILITY"/>
+	</Types>
+	<TypeTags>
+		<Row Type="ABILITY_Z23_COMBAT_UNIT_BUFF"			Tag="CLASS_ALL_COMBAT_UNITS"/>
+		<Row Type="ABILITY_Z23_COMBAT_UNIT_BUFF"			Tag="CLASS_NAVAL_CARRIER"/>
+		<Row Type="ABILITY_Z23_COMBAT_UNIT_EXTRA_BUFF"		Tag="CLASS_ALL_COMBAT_UNITS"/>
+		<Row Type="ABILITY_Z23_COMBAT_UNIT_EXTRA_BUFF"		Tag="CLASS_NAVAL_CARRIER"/>
+		<Row Type="ABILITY_Z23_COMBAT_UNIT_PILLAGE_COMBAT"	Tag="CLASS_ALL_COMBAT_UNITS"/>
+		<Row Type="ABILITY_Z23_COMBAT_UNIT_PILLAGE_COMBAT"	Tag="CLASS_NAVAL_CARRIER"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_Z23_COMBAT_UNIT_BUFF"				Name="LOC_ABILITY_Z23_COMBAT_UNIT_BUFF_NAME"		Description="LOC_ABILITY_Z23_COMBAT_UNIT_BUFF_DESCRIPTION"			Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_Z23_COMBAT_UNIT_EXTRA_BUFF"		Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_Z23_COMBAT_UNIT_PILLAGE_COMBAT"	Inactive="true"/>
+	</UnitAbilities>
+	<ModifierStrings>
+		<Row ModifierId="Z23_COMBAT_UNIT_ENEMY_STRENGTH" Context="Preview" Text="LOC_Z23_COMBAT_UNIT_ENEMY_STRENGTH_DESCRIPTION"/>
+		<Row ModifierId="Z23_COMBAT_UNIT_EXTRA_STRENGTH" Context="Preview" Text="LOC_Z23_COMBAT_UNIT_EXTRA_STRENGTH_DESCRIPTION"/>
+		<Row ModifierId="Z23_COMBAT_UNIT_PILLAGE_COMBAT" Context="Preview" Text="LOC_Z23_COMBAT_UNIT_PILLAGE_COMBAT_DESCRIPTION"/>
+	</ModifierStrings>
+	<UnitAbilityModifiers>
+		<!--+1移动力-->
+		<Row>
+			<UnitAbilityType>ABILITY_Z23_COMBAT_UNIT_BUFF</UnitAbilityType>
+			<ModifierId>Z23_COMBAT_UNIT_MOVEMENT</ModifierId>
+		</Row>
+		<!--敌方领土+7战斗力-->
+		<Row>
+			<UnitAbilityType>ABILITY_Z23_COMBAT_UNIT_BUFF</UnitAbilityType>
+			<ModifierId>Z23_COMBAT_UNIT_ENEMY_STRENGTH</ModifierId>
+		</Row>
+		<!--+2移动力-->
+		<Row>
+			<UnitAbilityType>ABILITY_Z23_COMBAT_UNIT_EXTRA_BUFF</UnitAbilityType>
+			<ModifierId>Z23_COMBAT_UNIT_MORE_MOVEMENT</ModifierId>
+		</Row>
+		<!--+10战斗力-->
+		<Row>
+			<UnitAbilityType>ABILITY_Z23_COMBAT_UNIT_EXTRA_BUFF</UnitAbilityType>
+			<ModifierId>Z23_COMBAT_UNIT_EXTRA_STRENGTH</ModifierId>
+		</Row>
+		<!--掠夺战斗力-->
+		<Row>
+			<UnitAbilityType>ABILITY_Z23_COMBAT_UNIT_PILLAGE_COMBAT</UnitAbilityType>
+			<ModifierId>Z23_COMBAT_UNIT_PILLAGE_COMBAT</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<!--+1移动力-->
+		<Row>
+			<ModifierId>Z23_COMBAT_UNIT_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+		</Row>
+		<!--敌方领土+7战斗力-->
+		<Row>
+			<ModifierId>Z23_COMBAT_UNIT_ENEMY_STRENGTH</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>IRON_BLOOD_UNIT_IN_ENEMY_TERRITORY</SubjectRequirementSetId>
+		</Row>
+		<!--+2移动力-->
+		<Row>
+			<ModifierId>Z23_COMBAT_UNIT_MORE_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+		</Row>
+		<!--+10战斗力-->
+		<Row>
+			<ModifierId>Z23_COMBAT_UNIT_EXTRA_STRENGTH</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<!--掠夺战斗力-->
+		<Row>
+			<ModifierId>Z23_COMBAT_UNIT_PILLAGE_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!--+1移动力-->
+		<Row>
+			<ModifierId>Z23_COMBAT_UNIT_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!--敌方领土+7战斗力-->
+		<Row>
+			<ModifierId>Z23_COMBAT_UNIT_ENEMY_STRENGTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+		<!--+2移动力-->
+		<Row>
+			<ModifierId>Z23_COMBAT_UNIT_MORE_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!--+10战斗力-->
+		<Row>
+			<ModifierId>Z23_COMBAT_UNIT_EXTRA_STRENGTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<!--掠夺战斗力-->
+		<Row>
+			<ModifierId>Z23_COMBAT_UNIT_PILLAGE_COMBAT</ModifierId>
+			<Name>Key</Name>
+			<Value>Z23_PILLAGE_COMBAT</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

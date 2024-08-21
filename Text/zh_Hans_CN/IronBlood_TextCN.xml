@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IronBlood_TextCN -->
+<!-- Author: jjj -->
+<!-- DateCreated: 4/15/2023 3:17:49 PM -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_IronBloodCivilization_NAME" Language="zh_Hans_CN">
+			<Text>碧蓝航线·铁血公国</Text>
+		</Replace>
+		<Replace Tag="LOC_IronBloodCivilization_TEASER" Language="zh_Hans_CN">
+			<Text>为游戏添加了一个来自游戏作品《碧蓝航线》的强大文明——铁血公国，共有3名所属领袖。</Text>
+		</Replace>
+		<Replace Tag="LOC_IronBloodCivilization_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为游戏添加了一个以游戏作品《碧蓝航线》中的铁血为原型的文明——铁血文明，拥有强大的工业与军事实力。当前该文明共有3名领袖，U-96、Z46和德意志。</Text>
+		</Replace>
+		<!--文明相关-->
+		<Replace Tag="LOC_CIVILIZATION_IRON_BLOOD_NAME" Language="zh_Hans_CN">
+			<Text>铁血公国</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_IRON_BLOOD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>铁血公国</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_IRON_BLOOD_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>铁血公国的</Text>
+		</Replace>
+		<!--文明能力-->
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_NAME" Language="zh_Hans_CN">
+			<Text>铁血的意志</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有城市可额外建造一个区域，研究完“建造”科技后，可再额外建造一个区域。拥有额外的军事槽位，槽位中每有一项军事政策，则+2 [ICON_STRENGTH] 战斗力。所有单位升级所需 [icon_GOLD] 金币与资源减少40%，获得的战斗经验值提升100%。不处于战争状态时，所有城市+15% [ICON_Science] 科技值和 [ICON_Culture] 文化值；处于战争状态时，所有城市+3 [ICON_Amenities] 宜居度。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_IRON_BLOOD_POLICY_SLOT_COMBAT_BONUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>当前政体中每有一个军事政策，则+2 [ICON_Strength] 战斗力</Text>
+		</Replace>
+		<!--特殊区域-->
+		<Replace Tag="LOC_DISTRICT_RUHR_NAME" Language="zh_Hans_CN">
+			<Text>鲁尔工业区</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_RUHR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>铁血公国特色区域，取代工业区，解锁更早，造价更低。[icon_PRODUCTION] 生产力相邻加成也提供 [ICON_Culture] 文化值。研究完“飞行”科技后，将获得等同于 [icon_PRODUCTION] 生产力产量的 [ICON_Tourism] 旅游业绩。[NEWLINE][NEWLINE]建成后此城+20% [icon_PRODUCTION] 生产力，所有矿山+1 [icon_PRODUCTION] 生产力，+1 [ICON_Culture] 文化值。[NEWLINE]从每个相邻的河流、商业中心获得+2 [icon_PRODUCTION] 生产力加成。从每个相邻的资源获得+1 [icon_PRODUCTION] 生产力加成。为每个相邻的商业中心提供+2 [icon_GOLD] 金币加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_RUHR_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN" >
+			<Text>鲁尔工业区是德国，也是曾经世界重要的工业区。位于德国西部、莱茵河下游支流鲁尔河与利珀河之间的地区。通常将鲁尔煤管区规划协会所管辖的地区，作为鲁尔区的地域界限，其面积4593平方公里，占全国面积的1.3%。区内人口和城市密集，人口达570万，占全国人口的9%，核心地区人口密度超过每平方公里2700人；区内5万人口以上的城市24个，其中埃森、多特蒙德和杜伊斯堡人口均超过50万。鲁尔区南部的鲁尔河与埃姆舍河之间的地区，工厂、住宅和稠密的交通网交织在一起，形成连片的城市带。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_RUHR_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN" >
+			<Text>鲁尔区的地理位置十分优越。自古就为东西欧往来的“圣路”地带，也是北欧通向中欧、南欧的捷径，地处欧洲的交通路口。在近代资本主义发展中，又位于欧洲经济最发达的“金三角”内，西距共同体成员国法、荷、比、卢的工业区很近，北距共同体成员国丹麦以及瑞典南部工业区不远，东北、南面又邻近本国下萨克森的经济重心区汉诺威—沃尔夫斯堡—扎耳茨吉待三角工业区和北莱茵—威斯特法伦州的莱茵河下游以科隆—杜塞尔多夫为中心的工业区。便于工业区间以及与欧洲共同体成员国间的贸易往来。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_RUHR_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN" >
+			<Text>鲁尔区的工业是德国发动两次世界大战的物质基础。战后又在西德经济恢复和经济起飞中发挥过重大作用，工业产值曾占全国的40%。仍在德国经济中具有举足轻重的地位。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KRUPP_NAME" Language="zh_Hans_CN">
+			<Text>克虏伯军工基地</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KRUPP_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>铁血公国特色区域，取代军营，造价更低，且无人口需求（因此并非专业化区域）。克虏伯军工基地中的建筑+4 [ICON_GOLD] 金币、+2 [ICON_SCIENCE] 科技值。在此区域建成克虏伯军工基地及建筑后，免费获得1个无需资源的近战单位，并+5 [ICON_Strength] 战斗力。[NEWLINE][NEWLINE]建成后该城市生产军事单位的时间减少50%，生产出一个非平民单位后获得等同于该单位造价25%的 [ICON_Science] 科技值。此城生产的所有近战陆地单位+1 [ICON_MOVEMENT] 移动力，重骑兵单位+5 [ICON_Strength] 战斗力，远程与攻城单位+1 [ICON_Range] 射程。[NEWLINE]为每个相邻的鲁尔工业区提供+2 [icon_PRODUCTION] 生产力加成，为每个相邻的学院提供+2 [ICON_Science] 科技值加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KRUPP_DESCRIPTION_XP2" Language="zh_Hans_CN">
+			<Text>铁血公国特色区域，取代军营，造价更低，且无人口需求（因此并非专业化区域）。克虏伯军工基地中的建筑+4 [ICON_GOLD] 金币、+2 [ICON_SCIENCE] 科技值。在此区域建成克虏伯军工基地及建筑后，免费获得1个无需资源与维护资源的近战单位，并且每点未使用的 [ICON_MOVEMENT] 移动力提供+3 [ICON_Strength] 战斗力。[NEWLINE][NEWLINE]建成后该城市生产军事单位的时间减少50%，生产出一个非平民单位后获得等同于该单位造价25%的 [ICON_Science] 科技值。此城生产的所有近战陆地单位+1 [ICON_MOVEMENT] 移动力，重骑兵单位+5 [ICON_Strength] 战斗力，远程与攻城单位+1 [ICON_Range] 射程。[NEWLINE]为每个相邻的鲁尔工业区提供+2 [icon_PRODUCTION] 生产力加成，为每个相邻的学院提供+2 [ICON_Science] 科技值加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_KRUPP_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN" >
+			<Text>克虏伯曾经是曾经是欧洲最响亮的姓氏，这个曾经的德国工业巨头也是最知名的军火生产商，有着“大炮之王”的名号。它曾是德意志军事力量的基石。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KRUPP_FREE_MELEE_UNITS_XP2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>无需资源与维护资源的近战单位，并且每点未使用的 [ICON_MOVEMENT] 移动力提供+3 [ICON_Strength] 战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KRUPP_MELEE_UNITS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>克虏伯军工基地提供+1 [ICON_MOVEMENT] 移动力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KRUPP_HEAVY_CAVALRY_UNITS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>克虏伯军工基地提供+5 [ICON_Strength] 战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_KRUPP_HEAVY_CAVALRY_BUFF_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>克虏伯军工基地提供+{1_num} [ICON_Strength] 战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KRUPP_RANGED_AND_SIEGE_UNITS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>克虏伯军工基地提供+1 [ICON_Range] 射程</Text>
+		</Replace>
+		<!--特殊加成-->
+		<Replace Tag="LOC_River_Ruhr" Language="zh_Hans_CN">
+			<Text>+{1_num} [icon_PRODUCTION] 生产力来自相邻的河流</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_District_Production_Krupp" Language="zh_Hans_CN">
+			<Text>+{1_num} [icon_PRODUCTION] 生产力来自相邻的区域</Text>
+		</Replace>
+		<Replace Tag="LOC_Ruhr_Krupp" Language="zh_Hans_CN">
+			<Text>+{1_num} [icon_PRODUCTION] 生产力来自相邻的克虏伯军工基地</Text>
+		</Replace>
+		<Replace Tag="LOC_Krupp_Ruhr" Language="zh_Hans_CN">
+			<Text>+{1_num} [icon_PRODUCTION] 生产力来自相邻的鲁尔工业区</Text>
+		</Replace>
+		<Replace Tag="LOC_Ruhr_Commercial_Hub" Language="zh_Hans_CN">
+			<Text>+{1_num} [icon_GOLD] 金币来自相邻的鲁尔工业区</Text>
+		</Replace>
+		<Replace Tag="LOC_Krupp_COMMERCIAL_HUB" Language="zh_Hans_CN">
+			<Text>+{1_num} [icon_GOLD] 金币来自相邻的克虏伯军工基地</Text>
+		</Replace>
+		<Replace Tag="LOC_Krupp_Campus" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Science] 科技值来自相邻的克虏伯军工基地</Text>
+		</Replace>
+		<!--特殊建筑-->
+		<Replace Tag="LOC_BUILDING_ANNETTE_NAME" Language="zh_Hans_CN">
+			<Text>维布林根修道院图书馆</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ANNETTE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>铁血公国特色建筑，取代图书馆，可存放 [ICON_GreatWork_WRITING] 著作巨作。建成后此城每点 [ICON_CITIZEN] 人口提供+1 [ICON_Science] 科技值。如使用Z46，则可解锁“名字追寻”项目，每回合提供当前城市20% [icon_PRODUCTION] 生产力的 [ICON_Culture] 文化值和 [ICON_Science] 科技值，项目完成后提供 [ICON_GreatWriter] 大作家、[ICON_GreatArtist] 大艺术家和 [ICON_GreatMusician] 大音乐家点数，并可获得一位 [ICON_GreatWriter] 大作家。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_ANNETTE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN" >
+			<Text>维布林根修道院图书馆建于1744年，位于乌尔姆南郊的维布林根镇。华丽的装饰使之成为巴洛克风格建筑艺术的典范，曾被路透社评价为“十大被忽视的建筑瑰宝”。</Text>
+		</Replace>
+		<!--城市名-->
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_1" Language="zh_Hans_CN">
+			<Text>柏林</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_2" Language="zh_Hans_CN">
+			<Text>基尔</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_3" Language="zh_Hans_CN">
+			<Text>汉堡</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_4" Language="zh_Hans_CN">
+			<Text>威廉港</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_5" Language="zh_Hans_CN">
+			<Text>慕尼黑</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_6" Language="zh_Hans_CN">
+			<Text>美因河畔法兰克福</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_7" Language="zh_Hans_CN">
+			<Text>科隆</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_8" Language="zh_Hans_CN">
+			<Text>汉诺威</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_9" Language="zh_Hans_CN">
+			<Text>布拉格</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_10" Language="zh_Hans_CN">
+			<Text>纽伦堡</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_11" Language="zh_Hans_CN">
+			<Text>因戈尔施塔特</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_12" Language="zh_Hans_CN">
+			<Text>斯图加特</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_13" Language="zh_Hans_CN">
+			<Text>埃尔朗根</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_14" Language="zh_Hans_CN">
+			<Text>亚琛</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_15" Language="zh_Hans_CN">
+			<Text>吕贝克</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_16" Language="zh_Hans_CN">
+			<Text>不莱梅</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_17" Language="zh_Hans_CN">
+			<Text>埃尔富特</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_18" Language="zh_Hans_CN">
+			<Text>波茨坦</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_19" Language="zh_Hans_CN">
+			<Text>奥格斯堡</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_20" Language="zh_Hans_CN">
+			<Text>威斯巴登</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_21" Language="zh_Hans_CN">
+			<Text>维也纳</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_22" Language="zh_Hans_CN">
+			<Text>萨尔茨堡</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_23" Language="zh_Hans_CN">
+			<Text>哈尔施塔特</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_24" Language="zh_Hans_CN">
+			<Text>因斯布鲁克</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_25" Language="zh_Hans_CN">
+			<Text>格蒙登</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_26" Language="zh_Hans_CN">
+			<Text>梅尔克</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_27" Language="zh_Hans_CN">
+			<Text>格拉茨</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_28" Language="zh_Hans_CN">
+			<Text>梅梅尔</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_29" Language="zh_Hans_CN">
+			<Text>柯尼斯堡</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_30" Language="zh_Hans_CN">
+			<Text>布雷斯劳</Text>
+		</Replace>
+		<!--市民名-->
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_1" Language="zh_Hans_CN">
+			<Text>欧根亲王</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_2" Language="zh_Hans_CN">
+			<Text>U-410</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_3" Language="zh_Hans_CN">
+			<Text>奥古斯特·冯·帕塞瓦尔</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_4" Language="zh_Hans_CN">
+			<Text>彼得·史特拉塞</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_5" Language="zh_Hans_CN">
+			<Text>奥丁</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_6" Language="zh_Hans_CN">
+			<Text>鲁普雷希特亲王</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_7" Language="zh_Hans_CN">
+			<Text>塞德利茨</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_8" Language="zh_Hans_CN">
+			<Text>海因里希亲王</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_9" Language="zh_Hans_CN">
+			<Text>阿达尔伯特亲王</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_10" Language="zh_Hans_CN">
+			<Text>布吕歇尔</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_11" Language="zh_Hans_CN">
+			<Text>埃姆登</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_12" Language="zh_Hans_CN">
+			<Text>吕佐夫</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_13" Language="zh_Hans_CN">
+			<Text>希佩尔海军上将</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_14" Language="zh_Hans_CN">
+			<Text>布伦希尔德</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_15" Language="zh_Hans_CN">
+			<Text>美因茨</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_16" Language="zh_Hans_CN">
+			<Text>U-81</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_17" Language="zh_Hans_CN">
+			<Text>罗恩</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_18" Language="zh_Hans_CN">
+			<Text>沙恩霍斯特</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_19" Language="zh_Hans_CN">
+			<Text>格奈森瑙</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_20" Language="zh_Hans_CN">
+			<Text>Z1</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_21" Language="zh_Hans_CN">
+			<Text>俾斯麦</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_22" Language="zh_Hans_CN">
+			<Text>腓特烈·卡尔</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_23" Language="zh_Hans_CN">
+			<Text>易北</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_24" Language="zh_Hans_CN">
+			<Text>亚德</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_25" Language="zh_Hans_CN">
+			<Text>图林根</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_26" Language="zh_Hans_CN">
+			<Text>莱比锡</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_27" Language="zh_Hans_CN">
+			<Text>卡尔斯鲁厄</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_28" Language="zh_Hans_CN">
+			<Text>斯佩伯爵海军上将</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_29" Language="zh_Hans_CN">
+			<Text>兴登堡</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_30" Language="zh_Hans_CN">
+			<Text>Z2</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

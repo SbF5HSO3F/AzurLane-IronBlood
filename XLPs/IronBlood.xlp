@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="IronBlood"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_IRON_BLOOD_128"/>
+			<m_ObjectName text="ICON_CIVILIZATION_IRON_BLOOD_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_IRON_BLOOD_200"/>
+			<m_ObjectName text="ICON_CIVILIZATION_IRON_BLOOD_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_IRON_BLOOD_22"/>
+			<m_ObjectName text="ICON_CIVILIZATION_IRON_BLOOD_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_IRON_BLOOD_256"/>
+			<m_ObjectName text="ICON_CIVILIZATION_IRON_BLOOD_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_IRON_BLOOD_30"/>
+			<m_ObjectName text="ICON_CIVILIZATION_IRON_BLOOD_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_IRON_BLOOD_32"/>
+			<m_ObjectName text="ICON_CIVILIZATION_IRON_BLOOD_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_IRON_BLOOD_36"/>
+			<m_ObjectName text="ICON_CIVILIZATION_IRON_BLOOD_36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_IRON_BLOOD_44"/>
+			<m_ObjectName text="ICON_CIVILIZATION_IRON_BLOOD_44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_IRON_BLOOD_45"/>
+			<m_ObjectName text="ICON_CIVILIZATION_IRON_BLOOD_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_IRON_BLOOD_48"/>
+			<m_ObjectName text="ICON_CIVILIZATION_IRON_BLOOD_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_IRON_BLOOD_50"/>
+			<m_ObjectName text="ICON_CIVILIZATION_IRON_BLOOD_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_IRON_BLOOD_64"/>
+			<m_ObjectName text="ICON_CIVILIZATION_IRON_BLOOD_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_IRON_BLOOD_80"/>
+			<m_ObjectName text="ICON_CIVILIZATION_IRON_BLOOD_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_LEADER_Z46_1936C_FOREGROUND"/>
+			<m_ObjectName text="IMG_LEADER_Z46_1936C_FOREGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_IRON_BLOOD_LEADER_Z46_1936C_LOADING_FOREGROUND"/>
+			<m_ObjectName text="IMG_IRON_BLOOD_LEADER_Z46_1936C_LOADING_FOREGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_LEADER_DEUTSCHLAND_A_FOREGROUND"/>
+			<m_ObjectName text="IMG_LEADER_DEUTSCHLAND_A_FOREGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_IRON_BLOOD_LEADER_DEUTSCHLAND_A_LOADING_FOREGROUND"/>
+			<m_ObjectName text="IMG_IRON_BLOOD_LEADER_DEUTSCHLAND_A_LOADING_FOREGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_LEADER_Z23_1936A_FOREGROUND"/>
+			<m_ObjectName text="IMG_LEADER_Z23_1936A_FOREGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_IRON_BLOOD_LEADER_Z23_1936A_LOADING_FOREGROUND"/>
+			<m_ObjectName text="IMG_IRON_BLOOD_LEADER_Z23_1936A_LOADING_FOREGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Moment_1936A"/>
+			<m_ObjectName text="Moment_1936A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IRON_BLOOD_LEADERS_256"/>
+			<m_ObjectName text="IRON_BLOOD_LEADERS_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IRON_BLOOD_LEADERS_32"/>
+			<m_ObjectName text="IRON_BLOOD_LEADERS_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IRON_BLOOD_LEADERS_45"/>
+			<m_ObjectName text="IRON_BLOOD_LEADERS_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IRON_BLOOD_LEADERS_48"/>
+			<m_ObjectName text="IRON_BLOOD_LEADERS_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IRON_BLOOD_LEADERS_50"/>
+			<m_ObjectName text="IRON_BLOOD_LEADERS_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IRON_BLOOD_LEADERS_55"/>
+			<m_ObjectName text="IRON_BLOOD_LEADERS_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IRON_BLOOD_LEADERS_64"/>
+			<m_ObjectName text="IRON_BLOOD_LEADERS_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IRON_BLOOD_LEADERS_80"/>
+			<m_ObjectName text="IRON_BLOOD_LEADERS_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_IRON_BLOOD_BACKGROUND"/>
+			<m_ObjectName text="IMG_IRON_BLOOD_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_IRON_BLOOD_LOADING_BACKGROUND"/>
+			<m_ObjectName text="IMG_IRON_BLOOD_LOADING_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_IRON_BLOOD_DIPLOMACY_BACKGROUND"/>
+			<m_ObjectName text="IMG_IRON_BLOOD_DIPLOMACY_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_IRON_BLOOD_LEADER_U96_VIIC_LOADING_FOREGROUND"/>
+			<m_ObjectName text="IMG_IRON_BLOOD_LEADER_U96_VIIC_LOADING_FOREGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_LEADER_U96_VIIC_FOREGROUND"/>
+			<m_ObjectName text="IMG_LEADER_U96_VIIC_FOREGROUND"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

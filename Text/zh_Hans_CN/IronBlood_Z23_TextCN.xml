@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IronBlood_Z23_TextCN -->
+<!-- Author: jjj -->
+<!-- DateCreated: 2023/12/27 22:13:02 -->
+<GameData>
+	<LocalizedText>
+		<!--领袖介绍-->
+		<Replace Tag="LOC_LEADER_Z23_1936A_NAME" Language="zh_Hans_CN">
+			<Text>Z23</Text>
+		</Replace>
+		<!--加载-->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_Z23_1936A" Language="zh_Hans_CN">
+			<Text>Z23，您的勤奋与认真是你最大的财富。在比斯开湾海战中，你的英勇表现足以彰显你的无畏勇气。作为铁血优等生，你的卓越之处无人可及。努力学习，向您心目中的顶点前进吧！您将书写属于你的传奇，而铁血公国将会被后世传颂。</Text>
+		</Replace>
+		<!--百科-->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_Z23_1936A_QUOTE" Language="zh_Hans_CN">
+			<Text>让我们共同学习，一起向顶点前进吧。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_Z23_1936A_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>Z23将会灵活运用她的 [ICON_TECHBOOSTED] 尤里卡和 [ICON_CIVICBOOSTED] 鼓舞与军队击败她的敌人。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_Z23_1936A_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>与其他领袖不同，Z23在触发 [ICON_TECHBOOSTED] 尤里卡和 [ICON_CIVICBOOSTED] 鼓舞时将根据科技和市政的花费获得额外 [ICON_SCIENCE] 科技值和 [ICON_Culture] 文化值。这意味着Z23可以通过灵活调配科技和市政的研究顺序来取得科技和市政方面的优势，她可以通过触发靠后的 [ICON_TECHBOOSTED] 尤里卡或 [ICON_CIVICBOOSTED] 鼓舞来推进她当下的科技或市政。当然，Z23还拥有优秀的军队：他们拥有更高的 [ICON_MOVEMENT] 移动力，位于敌方领土时还将获得 [ICON_Strength] 战斗力加成。即使敌军重重也不必担心，在敌方区域上开启军事单位的“毁灭模式”将会恢复单位的生命值并短暂地提升单位的 [ICON_Strength] 战斗力，这些提升足以一举击溃任何敌人。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_Z23_1936A_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>Z23是纳粹德国海军Z驱1936A型首舰，该级舰包括1936A型共15艘，也被称为纳尔维克级。该型最大的改良点是主炮的大口径化，由127mm改进为150mm，除此之外相比1936型为止的Z驱井无太大变动。并且从Z23开始，往后的Z驱不再以一战时战死的德国海军军人名称命名，而单纯以型号作为名称。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_Z23_1936A_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>1938年1月15日开工，1939年9月20日下水，1940年9月14日服役。1944年8月12日因空袭遭受巨大损害，同年8月21日退役。</Text>
+		</Replace>
+		<!--领袖议程-->
+		<Replace Tag="LOC_AGENDA_HONOR_STUDENT_NAME" Language="zh_Hans_CN">
+			<Text>优等生</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_HONOR_STUDENT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>尽可能的专注于 [ICON_SCIENCE] 科技值。喜欢同样专注于 [ICON_SCIENCE] 科技值的文明，不喜欢 [ICON_SCIENCE] 科技值落后的文明。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HONOR_STUDENT_HIGH_SCIENCE" Language="zh_Hans_CN">
+			<Text>Z23喜欢专注于 [ICON_SCIENCE] 科技值的文明</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_HONOR_STUDENT_HIGH_SCIENCE" Language="zh_Hans_CN">
+			<Text>（您拥有较高科技值）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HONOR_STUDENT_LOW_SCIENCE" Language="zh_Hans_CN">
+			<Text>您 [ICON_SCIENCE] 科技值落后，Z23很失望</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_HONOR_STUDENT_LOW_SCIENCE" Language="zh_Hans_CN">
+			<Text>（您科技值落后）</Text>
+		</Replace>
+		<!--领袖能力-->
+		<Replace Tag="LOC_TRAIT_LEADER_IRON_BLOOD_VANGUARD_NAME" Language="zh_Hans_CN">
+			<Text>铁血先锋</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_IRON_BLOOD_VANGUARD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>触发科技的 [ICON_TECHBOOSTED] 尤里卡或市政的 [ICON_CIVICBOOSTED] 鼓舞时，您将获得等同于该科技或市政15%所需花费的 [ICON_SCIENCE] 科技值或 [ICON_Culture] 文化值。所有军事单位+1 [ICON_MOVEMENT] 移动力，位于敌方领土时+7 [ICON_Strength] 战斗力。允许军事单位开启“毁灭模式”。研究完“联合作战”后获得特色单位“1936A型驱逐舰”。</Text>
+		</Replace>
+		<!--特殊加成-->
+
+		<!--领袖项目-->
+
+		<!--领袖单位-->
+		<Replace Tag="LOC_UNIT_1936A_NAME" Language="zh_Hans_CN">
+			<Text>1936A型驱逐舰</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_1936A_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>取代驱逐舰的Z23特色原子能海军单位，可进行射程为2的远程攻击。显示视线范围内的海军袭击者。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_1936A_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>1936A型驱逐舰，又称Z-23级，和战时的1936A(Mob)型一起被盟军称为纳尔维克型驱逐舰。总计15艘。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_1936A_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>自1936型驱逐舰设计完成并开工建造后，德国人下一阶段的设计工作分两个方向进行：1、面向波罗的海和北海的小型驱逐舰，标准排水量1500吨，航速40节，与英国的驱逐舰类似；2、面向大西洋的大型远洋驱逐舰，这就是1937型驱逐舰，其标准排水量超过3700吨，满载排水量接近5000吨，算是一种mini巡洋舰了。然而1937型的开发遭遇了困难，其与大吨位不相称的防护、火力、航速和续航饱受诟病，最终在1938年4月，1937型驱逐舰开发停止，同时考虑到不能浪费宝贵的造船厂资源，设计师被要求在此前较成功的1936型驱逐舰基础上按类似思路开发通用舰队驱逐舰，这就是后来的1936A型驱逐舰。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_1936A_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>该级驱逐舰的最大特点是——使用轻巡洋舰级别的150mm口径主炮，型号为Tbts KC/36或Tbts KC/36T，为48倍径。主要原因是希望在同装备138.6mm口径火炮的法国超级驱逐舰的对抗中取得优势。5门150mm舰炮按1座双联炮塔+3座单装炮座的形式布置，不过此时双联炮塔的开发工作还未完成，加上生产进度延误，它们在完工时，双联装炮塔的位置上也只能安装单装炮座。到1942年后，除了Z26和Z30外，其余各舰逐次安装双联装炮塔。其中Z-28作为司令驱逐舰设计的，其后部有参谋们使用的甲板室，4门150mm炮分别安装在4座单装炮塔上，前2后2配置。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_1936A_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>1938年11月-1940年4月，8艘1936年A型驱逐舰（Z23-Z30）相继开工。1940年9月开始，1936A(Mob)型相继开工，其中Mob意为“Mobilmachung”（动员），即战时动员驱逐舰，Mob型进行了一些小改动，主要是内部空间布局的变更，动力装置做了一些改进，舰艏炮塔座圈被抬高，以及一个更大的烟囱帽。Mob型原计划建造12艘，为Z31-Z42，实际完工7艘（Z31-Z34，Z37-Z39）。Z35、Z36被挪到1936B(Mob)型，Z40-Z42被挪到1938A型。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_1936A_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>150mm主炮使本级舰的火力大幅加强，也使舰只尺寸与排水量进一步增长，满载排水量超过3500吨，但依然存在适航性与稳定性的问题，舰艏上浪严重，舰只在风浪中产生严重纵摇。于是后来的设计又恢复前型舰的128mm主炮，即1936B(Mob)型。还开始研制搭载新型128mm高平两用炮的驱逐舰，即1936C型。</Text>
+		</Replace>
+		<!--特殊晋升-->
+
+		<!--特殊能力-->
+		<Replace Tag="LOC_ABILITY_Z23_COMBAT_UNIT_BUFF_NAME" Language="zh_Hans_CN">
+			<Text>铁血先锋</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_Z23_COMBAT_UNIT_BUFF_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1 [ICON_MOVEMENT] 移动力，位于敌方领土时+7 [ICON_Strength] 战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_Z23_COMBAT_UNIT_ENEMY_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>位于敌方领土时+{1_Amount} [ICON_Strength] 战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_Z23_COMBAT_UNIT_EXTRA_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>毁灭模式+{1_Amount} [ICON_Strength] 战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_Z23_COMBAT_UNIT_PILLAGE_COMBAT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>因掠夺的区域和建筑+{Property} [ICON_Strength] 战斗力</Text>
+		</Replace>
+		<!--特殊命令-->
+		<Replace Tag="LOC_UNITCOMMAND_Z23" Language="zh_Hans_CN">
+			<Text>开启“毁灭模式”</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_Z23_NAME" Language="zh_Hans_CN">
+			<Text>毁灭模式</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_Z23_DESC" Language="zh_Hans_CN">
+			<Text>该单位恢复{1_num}点生命值，本回合内+2 [ICON_Strength] 移动力，+10 [ICON_Strength] 战斗力并恢复全部 [ICON_Movement] 移动力和攻击次数。如单位处于敌方区域上，还将掠夺此区域和其中全部建筑并获得额外的 [ICON_Strength] 战斗力加成。需要{2_num}回合冷却。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_Z23_LAST" Language="zh_Hans_CN">
+			<Text>[ICON_Bullet]剩余{1_num}回合冷却</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_Z23_DISABLE" Language="zh_Hans_CN">
+			<Text>[COLOR_RED]因下列原因，该命令不可用：[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_Z23_NO_UNIT" Language="zh_Hans_CN">
+			<Text>[ICON_Bullet][COLOR_RED]该单位不存在[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_Z23_NO_PLAYER" Language="zh_Hans_CN">
+			<Text>[ICON_Bullet][COLOR_RED]该单位没有所属玩家[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_Z23_DISABLE_LAST" Language="zh_Hans_CN">
+			<Text>[ICON_Bullet][COLOR_RED]“毁灭模式”还在冷却中[ENDCOLOR]</Text>
+		</Replace>
+		<!--特殊晋升-->
+
+		<!--外交对话-->
+		<!--同意宣布友谊-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_Z23_1936A_ANY" Language="zh_Hans_CN">
+			<Text>嗯嗯，让我们一起努力吧！</Text>
+		</Replace>
+		<!--拒绝宣布友谊-->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_Z23_1936A_ANY" Language="zh_Hans_CN">
+			<Text>我要学习了，能不要打扰我吗？</Text>
+		</Replace>
+		<!--请求宣布友谊-->
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_Z23_1936A_ANY" Language="zh_Hans_CN">
+			<Text>通往顶点的道路往往艰辛而又漫长，再坚强的人也难免孤独。所以，我想与你结为朋友呢……</Text>
+		</Replace>
+		<!--宣布友谊被接受-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_Z23_1936A_ANY" Language="zh_Hans_CN">
+			<Text>好，让我们共同学习，一起向顶点前进吧！</Text>
+		</Replace>
+		<!--宣布友谊被拒绝-->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_Z23_1936A_ANY" Language="zh_Hans_CN">
+			<Text>看样子刚才有许多值得检讨的地方呢……</Text>
+		</Replace>
+		<!--被宣战-->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_Z23_1936A_ANY" Language="zh_Hans_CN">
+			<Text>战争？嗯，Z23，到了检验努力成果的时候了！</Text>
+		</Replace>
+		<!--宣战-->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_Z23_1936A_ANY" Language="zh_Hans_CN">
+			<Text>你为人处世的态度实在是太过敷衍，人生绝不能这么荒废。有必要好好督促你了！</Text>
+		</Replace>
+		<!--接受代表团-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_Z23_1936A_ANY" Language="zh_Hans_CN">
+			<Text>您的代表团已经安全抵达。放心，招待他们的宴席上没有过多的辣椒。</Text>
+		</Replace>
+		<!--拒绝代表团-->
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_Z23_1936A_ANY" Language="zh_Hans_CN">
+			<Text>很遗憾，我今天还有好多事情要做。</Text>
+		</Replace>
+		<!--派出代表团-->
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_Z23_1936A_ANY" Language="zh_Hans_CN">
+			<Text>请接受我的代表团！他们带着上好的马铃薯和香肠，还有我的好意。</Text>
+		</Replace>
+		<!--被谴责-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_Z23_1936A_ANY" Language="zh_Hans_CN">
+			<Text>在通往顶峰的道路上，这种诋毁无法避免。</Text>
+		</Replace>
+		<!--谴责-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_Z23_1936A_ANY" Language="zh_Hans_CN">
+			<Text>世界上怎么会有对自己如此不认真的人？（谴责你）</Text>
+		</Replace>
+		<!--初次见面-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_Z23_1936A_ANY" Language="zh_Hans_CN">
+			<Text>我是1936A型驱逐舰的首舰，Z23，从我开始的妹妹们都只有代号，不像姐姐们有继承前人的名字。虽然有些不近人情不过确实比较方便，所以请不要客气直接叫我Z23就好。</Text>
+		</Replace>
+		<!--初次见面，邀请参观附近城市-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_Z23_1936A_ANY" Language="zh_Hans_CN">
+			<Text>希望造访我们附近的城市么？我会带你欣赏属于铁血的独特文化，同时也会带你品尝各种制法的马铃薯。</Text>
+		</Replace>
+		<!--初次见面，感谢玩家提供最近城市位置-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_Z23_1936A_ANY" Language="zh_Hans_CN">
+			<Text>谢谢，这会促进我们之间的交流。</Text>
+		</Replace>
+		<!--初次见面，请求交换城市位置-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_Z23_1936A_ANY" Language="zh_Hans_CN">
+			<Text>我很想了解你的国家，我也会为你讲述我的国家。让我们先从首都开始吧！</Text>
+		</Replace>
+		<!--欢迎语？-->
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_Z23_1936A_ANY" Language="zh_Hans_CN">
+			<Text>今天还有好多事情要做呢。</Text>
+		</Replace>
+		<!--示好-->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_Z23_1936A_ANY" Language="zh_Hans_CN">
+			<Text>您努力的背影和取得的成就让我憧憬。我希望能跟你一起进步。</Text>
+		</Replace>
+		<!--敌视-->
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_Z23_1936A_ANY" Language="zh_Hans_CN">
+			<Text>比起其他的事，你不如多看看书。</Text>
+		</Replace>
+		<!--请求结盟-->
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_Z23_1936A_ANY" Language="zh_Hans_CN">
+			<Text>让我们结盟，共同登上高峰吧！</Text>
+		</Replace>
+		<!--同意和平-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_Z23_1936A_ANY" Language="zh_Hans_CN">
+			<Text>和平是一个好选择。让我们休战吧！</Text>
+		</Replace>
+		<!--拒绝和平-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_Z23_1936A_ANY" Language="zh_Hans_CN">
+			<Text>不，这场考验还没有结束！</Text>
+		</Replace>
+		<!--请求和平-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_Z23_1936A_ANY" Language="zh_Hans_CN">
+			<Text>这场战争已经背离了它的初衷。我们握手言和吧。</Text>
+		</Replace>
+		<!--接受开放边界请求-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_Z23_1936A_ANY" Language="zh_Hans_CN">
+			<Text>我很高兴能为你开放边境。铁血公国不应是一个封闭的国家。</Text>
+		</Replace>
+		<!--拒绝开放边界请求-->
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_Z23_1936A_ANY" Language="zh_Hans_CN">
+			<Text>对不起，今天的铁血公国有要事处理。</Text>
+		</Replace>
+		<!--请求开放边界-->
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_Z23_1936A_ANY" Language="zh_Hans_CN">
+			<Text>愿意为我们开放你的边境吗？</Text>
+		</Replace>
+		<!--要求移开边境部队-->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_Z23_1936A_ANY" Language="zh_Hans_CN">
+			<Text>你的军队在铁血公国周边鬼鬼祟祟的想干什么？我可不是那种随随便便就可以蒙混过去的女孩子哦，请尽快撤军。</Text>
+		</Replace>
+		<!--拒绝移开边境部队-->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_Z23_1936A_ANY" Language="zh_Hans_CN">
+			<Text>很抱歉让你产生了担忧，但你无法命令我。</Text>
+		</Replace>
+		<!--同意移开边境部队-->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_Z23_1936A_ANY" Language="zh_Hans_CN">
+			<Text>我会尽快地移走你领土周边的部队，不必担心。</Text>
+		</Replace>
+		<!--经受不住时间考验-->
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_Z23_1936A_ANY" Language="zh_Hans_CN">
+			<Text>唉，看来准备还不够充分……你赢了。</Text>
+		</Replace>
+		<!--拒绝交易-->
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_Z23_1936A_ANY" Language="zh_Hans_CN">
+			<Text>我可不认为这是一笔合适的交易哦。</Text>
+		</Replace>
+		<!--同意交易-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_Z23_1936A_ANY" Language="zh_Hans_CN">
+			<Text>嗯嗯，我同意。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

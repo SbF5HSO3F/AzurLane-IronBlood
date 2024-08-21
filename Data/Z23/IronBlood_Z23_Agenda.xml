@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IronBlood_Z23_Agenda -->
+<!-- Author: jjj -->
+<!-- DateCreated: 2023/12/30 9:39:19 -->
+<GameData>
+	<Types>
+		<Row Type="TRAIT_AGENDA_HONOR_STUDENT" Kind="KIND_TRAIT"/>
+	</Types>
+	<AiListTypes>
+		<!--通用-->
+		<Row ListType="HonorStudentTechs"/>
+		<Row ListType="HonorStudentDistricts"/>
+		<!--铁血的优等生-->
+		<Row ListType="HonorStudentSciencePreference"/>
+		<Row ListType="HonorStudentDipPreference"/>
+	</AiListTypes>
+	<AiLists>
+		<!--通用-->
+		<Row ListType="HonorStudentTechs"				LeaderType="LEADER_Z23_1936A"			System="Technologies"/>
+		<Row ListType="HonorStudentDistricts"			AgendaType="TRAIT_AGENDA_HONOR_STUDENT"	System="Districts"/>
+		<!--铁血的优等生-->
+		<Row ListType="HonorStudentSciencePreference"	AgendaType="TRAIT_AGENDA_HONOR_STUDENT"	System="Yields"/>
+		<Row ListType="HonorStudentDipPreference"		AgendaType="TRAIT_AGENDA_HONOR_STUDENT"	System="DiplomaticActions"/>
+	</AiLists>
+	<AiFavoredItems>
+		<!--通用-->
+		<Row ListType="HonorStudentTechs"				Item="TECH_IRON_WORKING"				Favored="true"/>
+		<Row ListType="HonorStudentTechs"				Item="TECH_BRONZE_WORKING"				Favored="true"/>
+		<Row ListType="HonorStudentDistricts"			Item="DISTRICT_RUHR"					Favored="true"/>
+		<Row ListType="HonorStudentDistricts"			Item="DISTRICT_KRUPP"					Favored="true"/>
+		<Row ListType="HonorStudentDistricts"			Item="DISTRICT_COMMERCIAL_HUB"			Favored="true"/>
+		<!--铁血的优等生-->
+		<Row ListType="HonorStudentSciencePreference"	Item="YIELD_SCIENCE"									Value="20"/>
+		<Row ListType="HonorStudentDipPreference"		Item="DIPLOACTION_DECLARE_FRIENDSHIP"	Favored="true"/>
+		<Row ListType="HonorStudentDipPreference"		Item="DIPLOACTION_ALLIANCE_RESEARCH"	Favored="true"/>
+	</AiFavoredItems>
+	<Traits>
+		<!--铁血的优等生-->
+		<Row TraitType="TRAIT_AGENDA_HONOR_STUDENT"/>
+	</Traits>
+	<AgendaTraits>
+		<!--铁血的优等生-->
+		<Row AgendaType="AGENDA_HONOR_STUDENT" TraitType="TRAIT_AGENDA_HONOR_STUDENT"/>
+	</AgendaTraits>
+	<TraitModifiers>
+		<!--高科技值-->
+		<Row>
+			<TraitType>TRAIT_AGENDA_HONOR_STUDENT</TraitType>
+			<ModifierId>HONOR_STUDENT_HIGH_SCIENCE</ModifierId>
+		</Row>
+		<!--低科技值-->
+		<Row>
+			<TraitType>TRAIT_AGENDA_HONOR_STUDENT</TraitType>
+			<ModifierId>HONOR_STUDENT_LOW_SCIENCE</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<!--高科技值-->
+		<Row>
+			<ModifierId>HONOR_STUDENT_HIGH_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_HIGH_SCIENCE</SubjectRequirementSetId>
+		</Row>
+		<!--低科技值-->
+		<Row>
+			<ModifierId>HONOR_STUDENT_LOW_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_LOW_SCIENCE</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!--高科技值-->
+		<Row>
+			<ModifierId>HONOR_STUDENT_HIGH_SCIENCE</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>HONOR_STUDENT_HIGH_SCIENCE</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_HONOR_STUDENT_HIGH_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>HONOR_STUDENT_HIGH_SCIENCE</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_HONOR_STUDENT_HIGH_SCIENCE</Value>
+		</Row>
+		<!--低科技值-->
+		<Row>
+			<ModifierId>HONOR_STUDENT_LOW_SCIENCE</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-8</Value>
+		</Row>
+		<Row>
+			<ModifierId>HONOR_STUDENT_LOW_SCIENCE</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_HONOR_STUDENT_LOW_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>HONOR_STUDENT_LOW_SCIENCE</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_HONOR_STUDENT_LOW_SCIENCE</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="HONOR_STUDENT_HIGH_SCIENCE"	Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="HONOR_STUDENT_LOW_SCIENCE"		Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+	</ModifierStrings>
+</GameData>

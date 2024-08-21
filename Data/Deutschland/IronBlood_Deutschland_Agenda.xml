@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IronBlood_Deutschland_Agenda -->
+<!-- Author: jjj -->
+<!-- DateCreated: 2023/11/16 17:20:20 -->
+<GameData>
+	<!--Princess of Iron Blood-->
+	<Types>
+		<Row Type="TRAIT_AGENDA_PRINCESS_OF_IRON_BLOOD" Kind="KIND_TRAIT"/>
+	</Types>
+	<AiListTypes>
+		<!--通用-->
+		<Row ListType="PrincessofIronBloodTechs"/>
+		<Row ListType="PrincessofIronBloodDistricts"/>
+		<!--铁血的公主-->
+		<Row ListType="PrincessofIronBloodLoveDeclareFriendship"/>
+		<Row ListType="PrincessofIronBloodLoveWars"/>
+	</AiListTypes>
+	<AiLists>
+		<!--通用-->
+		<Row ListType="PrincessofIronBloodTechs"					LeaderType="LEADER_DEUTSCHLAND_A"					System="Technologies"/>
+		<Row ListType="PrincessofIronBloodDistricts"				AgendaType="TRAIT_AGENDA_PRINCESS_OF_IRON_BLOOD"	System="Districts"/>
+		<!--铁血的公主-->
+		<Row ListType="PrincessofIronBloodLoveDeclareFriendship"	AgendaType="TRAIT_AGENDA_PRINCESS_OF_IRON_BLOOD"	System="DiplomaticActions"/>
+		<Row ListType="PrincessofIronBloodLoveWars"					AgendaType="TRAIT_AGENDA_PRINCESS_OF_IRON_BLOOD"	System="DiplomaticActions"/>
+	</AiLists>
+	<AiFavoredItems>
+		<!--通用-->
+		<Row ListType="PrincessofIronBloodTechs"					Item="TECH_IRON_WORKING"					Favored="true"/>
+		<Row ListType="PrincessofIronBloodTechs"					Item="TECH_BRONZE_WORKING"					Favored="true"/>
+		<Row ListType="PrincessofIronBloodDistricts"				Item="DISTRICT_RUHR"						Favored="true"/>
+		<Row ListType="PrincessofIronBloodDistricts"				Item="DISTRICT_KRUPP"						Favored="true"/>
+		<Row ListType="PrincessofIronBloodDistricts"				Item="DISTRICT_COMMERCIAL_HUB"				Favored="true"/>
+		<!--铁血的公主-->
+		<Row ListType="PrincessofIronBloodLoveDeclareFriendship"	Item="DIPLOACTION_DECLARE_FRIENDSHIP"		Favored="true"/>
+		<Row ListType="PrincessofIronBloodLoveWars"					Item="DIPLOACTION_DECLARE_TERRITORIAL_WAR"	Favored="true"/>
+	</AiFavoredItems>
+	<Traits>
+		<!--铁血的公主-->
+		<Row TraitType="TRAIT_AGENDA_PRINCESS_OF_IRON_BLOOD"/>
+	</Traits>
+	<AgendaTraits>
+		<!--铁血的公主-->
+		<Row AgendaType="AGENDA_PRINCESS_OF_IRON_BLOOD" TraitType="TRAIT_AGENDA_PRINCESS_OF_IRON_BLOOD"/>
+	</AgendaTraits>
+	<TraitModifiers>
+		<!--讨厌不宣友谊的-->
+		<Row>
+			<TraitType>TRAIT_AGENDA_PRINCESS_OF_IRON_BLOOD</TraitType>
+			<ModifierId>AGENDA_PRINCESS_OF_IRON_BLOOD_NOT_FRIEND</ModifierId>
+		</Row>
+		<!--喜欢宣布友谊的-->
+		<Row>
+			<TraitType>TRAIT_AGENDA_PRINCESS_OF_IRON_BLOOD</TraitType>
+			<ModifierId>AGENDA_PRINCESS_OF_IRON_BLOOD_FRIEND</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<!--讨厌不宣友谊的-->
+		<Row>
+			<ModifierId>AGENDA_PRINCESS_OF_IRON_BLOOD_NOT_FRIEND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>IRON_BLOOD_PLAYER_IS_NOT_FRIEND</SubjectRequirementSetId>
+		</Row>
+		<!--喜欢宣布友谊的-->
+		<Row>
+			<ModifierId>AGENDA_PRINCESS_OF_IRON_BLOOD_FRIEND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_DECLARED_FRIEND</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!--讨厌不宣友谊的-->
+		<Row>
+			<ModifierId>AGENDA_PRINCESS_OF_IRON_BLOOD_NOT_FRIEND</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_PRINCESS_OF_IRON_BLOOD_NOT_FRIEND</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_AGENDA_PRINCESS_OF_IRON_BLOOD_NOT_FRIEND</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_PRINCESS_OF_IRON_BLOOD_NOT_FRIEND</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>AGENDA_PRINCESS_OF_IRON_BLOOD_WARNING</Value>
+		</Row>
+		<!--喜欢宣布友谊的-->
+		<Row>
+			<ModifierId>AGENDA_PRINCESS_OF_IRON_BLOOD_FRIEND</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>12</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_PRINCESS_OF_IRON_BLOOD_FRIEND</ModifierId>
+			<Name>ReductionTurns</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_PRINCESS_OF_IRON_BLOOD_FRIEND</ModifierId>
+			<Name>ReductionValue</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_PRINCESS_OF_IRON_BLOOD_FRIEND</ModifierId>
+			<Name>MessageThrottle</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_PRINCESS_OF_IRON_BLOOD_FRIEND</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>AGENDA_PRINCESS_OF_IRON_BLOOD_KUDO</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_PRINCESS_OF_IRON_BLOOD_FRIEND</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_AGENDA_PRINCESS_OF_IRON_BLOOD_FRIEND</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="AGENDA_PRINCESS_OF_IRON_BLOOD_NOT_FRIEND"	Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_PRINCESS_OF_IRON_BLOOD_FRIEND"		Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+	</ModifierStrings>
+</GameData>
