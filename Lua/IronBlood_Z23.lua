@@ -208,7 +208,7 @@ function Initialize()
     GameEvents.PlayerTurnStarted.Add(Z23OnPlayerTurnStarted)
     GameEvents.Z23ChangeNewMode.Add(Z23ChangeMode)
     ----------------------------------------
-    print('IronBlood_Z23 Initial success!')
+    print('Initial success!')
     print('Error: Z404 Not Found')
 end
 

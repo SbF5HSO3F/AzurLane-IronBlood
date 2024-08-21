@@ -45,28 +45,33 @@
         <UpdateArt id="Art">
           <File>(Mod Art Dependency File)</File>
         </UpdateArt>
-        <UpdateColors id="color">
-          <File>IronBlood_color.xml</File>
+        <UpdateColors id="Colors">
+          <File>IronBlood_Colors.xml</File>
         </UpdateColors>
         <UpdateText id="CivIronBlood">
           <File priority="100">Text/en_US/IronBlood_TextEn.xml</File>
           <File priority="90">Text/zh_Hans_CN/IronBlood_TextCN.xml</File>
+          <File priority="80">Text/zh_Hant_HK/IronBlood_TextHK.xml</File>
         </UpdateText>
         <UpdateText id="U96">
           <File priority="100">Text/en_US/IronBlood_U96_TextEn.xml</File>
           <File priority="90">Text/zh_Hans_CN/IronBlood_U96_TextCN.xml</File>
+          <File priority="80">Text/zh_Hant_HK/IronBlood_U96_TextHK.xml</File>
         </UpdateText>
         <UpdateText id="Z46">
           <File priority="100">Text/en_US/IronBlood_Z46_TextEn.xml</File>
           <File priority="90">Text/zh_Hans_CN/IronBlood_Z46_TextCN.xml</File>
+          <File priority="80">Text/zh_Hant_HK/IronBlood_Z46_TextHK.xml</File>
         </UpdateText>
         <UpdateText id="Deutschland">
           <File priority="100">Text/en_US/IronBlood_Deutschland_TextEn.xml</File>
           <File priority="90">Text/zh_Hans_CN/IronBlood_Deutschland_TextCN.xml</File>
+          <File priority="80">Text/zh_Hant_HK/IronBlood_Deutschland_TextHK.xml</File>
         </UpdateText>
         <UpdateText id="Z23">
           <File priority="100">Text/en_US/IronBlood_Z23_TextEn.xml</File>
           <File priority="90">Text/zh_Hans_CN/IronBlood_Z23_TextCN.xml</File>
+          <File priority="80">Text/zh_Hant_HK/IronBlood_Z23_TextHK.xml</File>
         </UpdateText>
         <UpdateText id="OphidyText">
           <Criteria>OPHIDY_IRONBLOOD</Criteria>
@@ -89,8 +94,8 @@
         <UpdateArt id="art">
           <File>(Mod Art Dependency File)</File>
         </UpdateArt>
-        <UpdateColors id="color">
-          <File>IronBlood_color.xml</File>
+        <UpdateColors id="Colors">
+          <File>IronBlood_Colors.xml</File>
         </UpdateColors>
         <ImportFiles id="Import">
           <File>Lua/IronBlood_Core.lua</File>
@@ -99,7 +104,7 @@
           <Properties>
             <Context>InGame</Context>
           </Properties>
-          <File>UI/IronBlood_Z23UI.xml</File>
+          <File>UI/Additions/IronBlood_Z23UI.xml</File>
         </AddUserInterfaces>
         <AddGameplayScripts id="Lua">
           <File>Lua/IronBlood_U96.lua</File>
@@ -128,6 +133,7 @@
         <UpdateText id="IronBlood_Text">
           <File priority="100">Text/en_US/IronBlood_TextEn.xml</File>
           <File priority="90">Text/zh_Hans_CN/IronBlood_TextCN.xml</File>
+          <File priority="80">Text/zh_Hant_HK/IronBlood_TextHK.xml</File>
         </UpdateText>
         <UpdateDatabase id="IronBlood_Trait">
           <Properties>
@@ -144,6 +150,7 @@
         <UpdateText id="U96_Text">
           <File priority="100">Text/en_US/IronBlood_U96_TextEn.xml</File>
           <File priority="90">Text/zh_Hans_CN/IronBlood_U96_TextCN.xml</File>
+          <File priority="80">Text/zh_Hant_HK/IronBlood_U96_TextHK.xml</File>
         </UpdateText>
         <UpdateDatabase id="Z46">
           <File priority="100">Data/Z46/IronBlood_Leader_Z46.xml</File>
@@ -167,6 +174,7 @@
         <UpdateText id="Z46_Text">
           <File priority="100">Text/en_US/IronBlood_Z46_TextEn.xml</File>
           <File priority="90">Text/zh_Hans_CN/IronBlood_Z46_TextCN.xml</File>
+          <File priority="80">Text/zh_Hant_HK/IronBlood_Z46_TextHK.xml</File>
         </UpdateText>
         <UpdateDatabase id="Deutschland">
           <File priority="100">Data/Deutschland/IronBlood_Leader_Deutschland.xml</File>
@@ -182,6 +190,7 @@
         <UpdateText id="Deutschland_Text">
           <File priority="100">Text/en_US/IronBlood_Deutschland_TextEn.xml</File>
           <File priority="90">Text/zh_Hans_CN/IronBlood_Deutschland_TextCN.xml</File>
+          <File priority="80">Text/zh_Hant_HK/IronBlood_Deutschland_TextHK.xml</File>
         </UpdateText><UpdateDatabase id="Z23">
           <File priority="100">Data/Z23/IronBlood_Leader_Z23.xml</File>
           <File priority="90">Data/Z23/IronBlood_Z23_UnitAbilities.xml</File>
@@ -197,6 +206,7 @@
         <UpdateText id="Z23_Text">
           <File priority="100">Text/en_US/IronBlood_Z23_TextEn.xml</File>
           <File priority="90">Text/zh_Hans_CN/IronBlood_Z23_TextCN.xml</File>
+          <File priority="80">Text/zh_Hant_HK/IronBlood_Z23_TextHK.xml</File>
         </UpdateText>
         <UpdateText id="OphidyText">
           <Criteria>OPHIDY_IRONBLOOD</Criteria>
@@ -324,7 +334,7 @@
     <Content Include="Data\Z46\IronBlood_Z46_XP2.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="IronBlood_color.xml">
+    <Content Include="IronBlood_Colors.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="IronBlood_Config.xml">
@@ -390,10 +400,25 @@
     <Content Include="Text\zh_Hans_CN\IronBlood_Z46_TextCN.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="UI\IronBlood_Z23UI.lua">
+    <Content Include="Text\zh_Hant_HK\IronBlood_Deutschland_TextHK.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="UI\IronBlood_Z23UI.xml">
+    <Content Include="Text\zh_Hant_HK\IronBlood_TextHK.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\zh_Hant_HK\IronBlood_U96_TextHK.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\zh_Hant_HK\IronBlood_Z23_TextHK.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\zh_Hant_HK\IronBlood_Z46_TextHK.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\Additions\IronBlood_Z23UI.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\Additions\IronBlood_Z23UI.xml">
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>
@@ -409,10 +434,12 @@
     <Folder Include="ModSupport\Ophidy’s Iron Blood\Lua" />
     <Folder Include="ModSupport\Ophidy’s Iron Blood\Data" />
     <Folder Include="ModSupport\Ophidy’s Iron Blood\Text" />
+    <Folder Include="Text\zh_Hant_HK" />
     <Folder Include="UI" />
     <Folder Include="Text" />
     <Folder Include="Text\en_US" />
     <Folder Include="Text\zh_Hans_CN" />
+    <Folder Include="UI\Additions" />
   </ItemGroup>
   <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
 </Project>

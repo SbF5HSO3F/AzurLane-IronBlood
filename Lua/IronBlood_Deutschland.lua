@@ -83,7 +83,7 @@ function Initialize()
     ---------------GameEvents---------------
     GameEvents.CityConquered.Add(DeutschlandConquerCity)
     ----------------------------------------
-    print('IronBlood_Deutschland Initial success!')
+    print('Initial success!')
 end
 
 Initialize()

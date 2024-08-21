@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IronBlood_U96_TextHK -->
+<!-- Author: jjj -->
+<!-- DateCreated: 2024/8/21 10:12:32 -->
+<GameData>
+	<LocalizedText>
+		<!--領袖-->
+		<Replace Tag="LOC_LEADER_U_96_VIIC_NAME" Language="zh_Hant_HK">
+			<Text>U-96</Text>
+		</Replace>
+		<!--加載-->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_U_96_VIIC" Language="zh_Hant_HK">
+			<Text>從海底出擊的「前進狼群」，U-96，您著實是U艇中為數不多的傳奇。潛伏於深海之下的狼群固然可怕，但您是讓其能如此可怕的原因之一，不知有多少的艦船因你而葬身海底。再次前進吧，U-96，您的敵人將永遠記住來自「笑臉鋸鰩」微笑的恐懼。</Text>
+		</Replace>
+		<!--百科-->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_U_96_VIIC_QUOTE" Language="zh_Hant_HK">
+			<Text>讓我們開始新的一輪狩獵吧！</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_U_96_VIIC_CHAPTER_CAPSULE_BODY" Language="zh_Hant_HK">
+			<Text>U-96將會讓敵人的海軍聞風喪膽，她將從戰爭中獲取不小的利益。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_U_96_VIIC_CHAPTER_DETAILED_BODY" Language="zh_Hant_HK">
+			<Text>作為從海底出擊的狼群中的一員，U-96自然而然地是海洋的主宰，她的單位在海洋能獲得強大的能力加成。作為鐵血的領袖，U-96能很好的運用隨著城市的發展而產生的龐大強力的軍隊——發動戰爭。不管是擊殺單位，還是掠奪區域，U-96均能從中獲取巨大的收益。不必擔心敵人的海軍！VIIC型潛艇會像狼群一般將它們吞噬殆盡。利用好魯爾工業區和克虜伯軍工基地帶來的強力單位與強大的產能，U-96將在征服勝利上戰無不勝。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_U_96_VIIC_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>U-96號潛艇是二戰期間德國海軍建造的VIIC型潛艇。該艦於戰爭爆發當月1939年9月16日在基爾港的弗雷德裏希·克虜伯·日耳曼尼亞造船廠的601號渠位開工建設，1940年8月1日入水。1940年9月14日U-96正式服役，分配至第7潛艇中隊，部署在法國聖納澤爾開始執行任務。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_U_96_VIIC_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>U-96的艦徽十分出名：與U-47的艦徽「公牛」成為了第7潛艇中隊的隊徽一樣，U-96的艦徽「笑臉鋸鰩」也成為了後來1942年3月組建的第9潛艇中隊的隊徽。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_U_96_VIIC_CHAPTER_HISTORY_PARA_3" Language="zh_Hant_HK">
+			<Text>她是二戰德國成百上千的U艇中，脫穎而出的真正的傳奇之一：該艦執行11次巡航，參與11次狼群，與眾多U艇合作，擊沈27艘船只總噸位181,206噸，擊傷4艘船只總噸位33,043噸，另外命中擊傷了8,888噸英國船只卡爾斯號使之全損，回港直接報廢。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_U_96_VIIC_CHAPTER_HISTORY_PARA_4" Language="zh_Hant_HK">
+			<Text>需要一提的是，U-96的首任艦長正是二戰期間德國U艇艦長中，擊沈總噸位第6名的海因裏希·萊曼-威廉布洛克。而史實中海因裏希·萊曼的傳奇也大多來自U-96——尤其是U-96在1941年2月的第3次巡航，也是「第一次美好時光」末期的重大戰果。與U-69，U-73，U-95與U-107圍獵合力擊沈OB-288船團9艘貨輪與1艘護衛艦，其中3艘擊沈記在了U-96頭上。海因裏希·萊曼也因此獲得了鐵十字騎士勛章，並於4月卸任U-96艦長。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_U_96_VIIC_CHAPTER_HISTORY_PARA_5" Language="zh_Hant_HK">
+			<Text>自1941年8月起，U-96開始第6次巡航，並參與「狼群」，但戰績取得卻開始變得困難——第7次巡航試圖強闖直布羅陀海峽但被發現，重創失敗；第10次巡航中加入代號為「前進」的狼群則是U-96服役末期鮮有的成績。至1943年2月，U-96結束第11次巡航抵達柯尼斯堡，並成為了一艘訓練艦。1945年2月，U-96在威廉港退役，同年3月30日在威廉港被美軍空襲擊沈。而在她沈沒的兩月後，德國潛艇部隊執行「彩虹指令」，U艇集體自沈。</Text>
+		</Replace>
+		<!--領袖議程-->
+		<Replace Tag="LOC_AGENDA_DIE_EICHENLAUBFAHRT_NAME" Language="zh_Hant_HK">
+			<Text>橡樹葉的巡邏隊</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_DIE_EICHENLAUBFAHRT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>樂於發動正式戰爭，欣賞處於戰爭的文明。不屑於發動突襲戰爭，討厭宣布突襲戰爭的文明。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_DIE_EICHENLAUBFAHRT_IN_WAR_FRIEND" Language="zh_Hant_HK">
+			<Text>U-96欣賞處於戰爭的文明</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_U_96_VIIC_REASON_ANY" Language="zh_Hant_HK">
+			<Text>（您處於戰爭狀態）</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_DIE_EICHENLAUBFAHRT_SURPRISE_WAR" Language="zh_Hant_HK">
+			<Text>U-96討厭宣布突襲戰爭的文明</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_U_96_VIIC_REASON_ANY" Language="zh_Hant_HK">
+			<Text>（您宣布了突襲戰爭）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_DIE_EICHENLAUBFAHRT" Language="zh_Hant_HK">
+			<Text>（您宣布了突襲戰爭）</Text>
+		</Replace>
+		<!--領袖能力-->
+		<Replace Tag="LOC_TRAIT_LEADER_FROM_THE_SEA_NAME" Language="zh_Hant_HK">
+			<Text>從海底出擊</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_FROM_THE_SEA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>所有單位初始便可進入海洋單元格，擊殺單位後獲得等同於被擊殺單位戰鬥力的 [ICON_Science] 科技值與 [ICON_Culture] 文化值。軍事單位掠奪不消耗 [ICON_MOVEMENT] 移動力，發動掠奪後本回合內+3 [ICON_STRENGTH] 戰鬥力。海軍單位位於海洋單元格時+10 [ICON_STRENGTH] 戰鬥力、+1 [ICON_MOVEMENT] 移動力並+1 [ICON_Range] 射程。掠奪、海岸掃蕩和掠奪 [ICON_TradeRoute] 貿易路線的收益+100%。研究完「電力」後獲得特色單位「VIIC型潛艇」。</Text>
+		</Replace>
+		<!--能力加成-->
+		<Replace Tag="LOC_ABILITY_FROM_THE_SEA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>初始便可進入海洋單元格</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_FROM_THE_SEA_COMBATS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>掠奪不消耗 [ICON_MOVEMENT] 移動力，發動掠奪後本回合內+3 [ICON_STRENGTH] 戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_PREVIEW_FROM_THE_SEA_PILLAGING_COMBAT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+{Property}來自本回合發動的掠奪</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_FROM_THE_SEA_NAVAL_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>位於海洋單元格時+10 [ICON_STRENGTH] 戰鬥力、+1 [ICON_MOVEMENT] 移動力並+1 [ICON_Range] 射程</Text>
+		</Replace>
+		<Replace Tag="LOC_PREVIEW_FROM_THE_SEA_BUFF_STRENFTH_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>位於海洋單元格時+{1_num} [ICON_STRENGTH] 戰鬥力</Text>
+		</Replace>
+		<!--特殊單位-->
+		<Replace Tag="LOC_UNIT_VIIC_UBOAT_NAME" Language="zh_Hant_HK">
+			<Text>VIIC型潛艇</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_VIIC_UBOAT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>取代潛艇的U-96特色現代海軍單位，造價與維護費用更低。每與一個VIIC型潛艇相鄰，則+5 [ICON_STRENGTH] 戰鬥力。除非與單位相鄰，否則只能被其他海軍襲擊者發現。能使視線範圍中的海軍襲擊者暴露位置。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_VIIC_UBOAT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>每個相鄰的VIIC型潛艇+5 [ICON_STRENGTH] 戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_VIIC_UBOAT_COMBAT_MODIFIER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>狼群戰術：相鄰的VIIC型潛艇提供+{CalculatedAmount} [ICON_STRENGTH] 戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VIIC_UBOAT_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>VIIC型是德國U型潛艇部隊的主力，從1940年到1945年，總共服役了568艘。第一艘VIIC潛艇是在1940年服役的U-69。這一型潛艇只有8,500海裏航程，不及IX型的1.1萬海裏航程，這嚴重限製了它在較遠的西大西洋和南大西洋巡航的時間。VIIC在德國潛艇戰「美好時光」或稱「第一次美好時光」接近尾聲時開始服役，在1943年末和1944年盟軍反潛作戰取得壓倒性勝利時，VIIC型仍然是潛艇中服役數量最多的類型。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VIIC_UBOAT_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>VIIC型和VIIB型的不同之處，只是增加了主動聲吶和一些小型機械改進，使其長度增加了2英尺，重量增加了8噸，而速度和巡航範圍基本相同。除了U-72、U-78、U-80、U-554和U-555（只有兩根前向魚雷發射管）以及U-203、U-331、U-351、U-401、U-431和U-651（沒有後向魚雷發射管）之外，她們的魚雷發射管布置與他們的VIIB型前輩一樣。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VIIC_UBOAT_CHAPTER_HISTORY_PARA_3" Language="zh_Hant_HK">
+			<Text>最著名的VIIC型潛艇應該是U-96，她是布克海姆在1973年的暢銷小說《從海底出擊》的原型，源自該作者當年作為戰地記者參與U-96某次巡航的親身經歷。該小說在1981年被德國導演沃爾夫岡·彼德森翻拍為同名電影《從海底出擊》，該電影獲得了諸多獎項和聲譽，也使U-96為世人熟知。</Text>
+		</Replace>
+		<!--外交對話-->
+		<![CDATA[<!--同意宣布友誼-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_U_96_VIIC_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--拒絕宣布友誼-->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_U_96_VIIC_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--請求宣布友誼-->
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_U_96_VIIC_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--宣布友誼被接受-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_U_96_VIIC_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--宣布友誼被拒絕-->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_U_96_VIIC_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--被宣戰-->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_U_96_VIIC_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--宣戰-->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_U_96_VIIC_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--接受代表團-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_U_96_VIIC_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--拒絕代表團-->
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_U_96_VIIC_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--派出代表團-->
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_U_96_VIIC_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--被譴責-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_U_96_VIIC_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--譴責-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_U_96_VIIC_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--初次見面-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_U_96_VIIC_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--初次見面，邀請參觀附近城市-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_U_96_VIIC_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--初次見面，感謝玩家提供最近城市位置-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_U_96_VIIC_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--初次見面，請求交換城市位置-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_U_96_VIIC_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--歡迎語？-->
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_U_96_VIIC_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--示好-->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_U_96_VIIC_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--敵視-->
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_U_96_VIIC_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--請求結盟-->
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_U_96_VIIC_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--同意和平-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_U_96_VIIC_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--拒絕和平-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_U_96_VIIC_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--請求和平-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_U_96_VIIC_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--接受開放邊界請求-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_U_96_VIIC_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--拒絕開放邊界請求-->
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_U_96_VIIC_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--請求開放邊界-->
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_U_96_VIIC_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--要求移開邊境部隊-->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_U_96_VIIC_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--拒絕移開邊境部隊-->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_U_96_VIIC_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--同意移開邊境部隊-->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_U_96_VIIC_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--經受不住時間考驗-->
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_U_96_VIIC_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--拒絕交易-->
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_U_96_VIIC_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--同意交易-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_U_96_VIIC_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>]]>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IronBlood_Z23_TextHK -->
+<!-- Author: jjj -->
+<!-- DateCreated: 2024/8/21 10:12:44 -->
+<GameData>
+    <LocalizedText>
+		<!--領袖介紹-->
+		<Replace Tag="LOC_LEADER_Z23_1936A_NAME" Language="zh_Hant_HK">
+			<Text>Z23</Text>
+		</Replace>
+		<!--加載-->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_Z23_1936A" Language="zh_Hant_HK">
+			<Text>Z23，您的勤奮與認真是你最大的財富。在比斯開灣海戰中，你的英勇表現足以彰顯你的無畏勇氣。作為鐵血優等生，你的卓越之處無人可及。努力學習，向您心目中的頂點前進吧！您將書寫屬於你的傳奇，而鐵血公國將會被後世傳頌。</Text>
+		</Replace>
+		<!--百科-->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_Z23_1936A_QUOTE" Language="zh_Hant_HK">
+			<Text>讓我們共同學習，一起向頂點前進吧。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_Z23_1936A_CHAPTER_CAPSULE_BODY" Language="zh_Hant_HK">
+			<Text>Z23將會靈活運用她的 [ICON_TECHBOOSTED] 尤裏卡和 [ICON_CIVICBOOSTED] 鼓舞與軍隊擊敗她的敵人。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_Z23_1936A_CHAPTER_DETAILED_BODY" Language="zh_Hant_HK">
+			<Text>與其他領袖不同，Z23在觸發 [ICON_TECHBOOSTED] 尤裏卡和 [ICON_CIVICBOOSTED] 鼓舞時將根據科技和市政的花費獲得額外 [ICON_SCIENCE] 科技值和 [ICON_Culture] 文化值。這意味著Z23可以通過靈活調配科技和市政的研究順序來取得科技和市政方面的優勢，她可以通過觸發靠後的 [ICON_TECHBOOSTED] 尤裏卡或 [ICON_CIVICBOOSTED] 鼓舞來推進她當下的科技或市政。當然，Z23還擁有優秀的軍隊：他們擁有更高的 [ICON_MOVEMENT] 移動力，位於敵方領土時還將獲得 [ICON_Strength] 戰鬥力加成。即使敵軍重重也不必擔心，在敵方區域上開啟軍事單位的「毀滅模式」將會恢復單位的生命值並短暫地提升單位的 [ICON_Strength] 戰鬥力，這些提升足以一舉擊潰任何敵人。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_Z23_1936A_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>Z23是納粹德國海軍Z驅1936A型首艦，該級艦包括1936A型共15艘，也被稱為納爾維克級。該型最大的改良點是主炮的大口徑化，由127mm改進為150mm，除此之外相比1936型為止的Z驅井無太大變動。並且從Z23開始，往後的Z驅不再以一戰時戰死的德國海軍軍人名稱命名，而單純以型號作為名稱。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_Z23_1936A_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>1938年1月15日開工，1939年9月20日下水，1940年9月14日服役。1944年8月12日因空襲遭受巨大損害，同年8月21日退役。</Text>
+		</Replace>
+		<!--領袖議程-->
+		<Replace Tag="LOC_AGENDA_HONOR_STUDENT_NAME" Language="zh_Hant_HK">
+			<Text>優等生</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_HONOR_STUDENT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>盡可能的專註於 [ICON_SCIENCE] 科技值。喜歡同樣專註於 [ICON_SCIENCE] 科技值的文明，不喜歡 [ICON_SCIENCE] 科技值落後的文明。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HONOR_STUDENT_HIGH_SCIENCE" Language="zh_Hant_HK">
+			<Text>Z23喜歡專註於 [ICON_SCIENCE] 科技值的文明</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_HONOR_STUDENT_HIGH_SCIENCE" Language="zh_Hant_HK">
+			<Text>（您擁有較高科技值）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HONOR_STUDENT_LOW_SCIENCE" Language="zh_Hant_HK">
+			<Text>您 [ICON_SCIENCE] 科技值落後，Z23很失望</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_HONOR_STUDENT_LOW_SCIENCE" Language="zh_Hant_HK">
+			<Text>（您科技值落後）</Text>
+		</Replace>
+		<!--領袖能力-->
+		<Replace Tag="LOC_TRAIT_LEADER_IRON_BLOOD_VANGUARD_NAME" Language="zh_Hant_HK">
+			<Text>鐵血先鋒</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_IRON_BLOOD_VANGUARD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>觸發科技的 [ICON_TECHBOOSTED] 尤裏卡或市政的 [ICON_CIVICBOOSTED] 鼓舞時，您將獲得等同於該科技或市政15%所需花費的 [ICON_SCIENCE] 科技值或 [ICON_Culture] 文化值。所有軍事單位+1 [ICON_MOVEMENT] 移動力，位於敵方領土時+7 [ICON_Strength] 戰鬥力。允許軍事單位開啟「毀滅模式」。研究完「聯合作戰」後獲得特色單位「1936A型驅逐艦」。</Text>
+		</Replace>
+		<!--特殊加成-->
+
+		<!--領袖項目-->
+
+		<!--領袖單位-->
+		<Replace Tag="LOC_UNIT_1936A_NAME" Language="zh_Hant_HK">
+			<Text>1936A型驅逐艦</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_1936A_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>取代驅逐艦的Z23特色原子能海軍單位，可進行射程為2的遠程攻擊。顯示視線範圍內的海軍襲擊者。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_1936A_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>1936A型驅逐艦，又稱Z-23級，和戰時的1936A(Mob)型一起被盟軍稱為納爾維克型驅逐艦。總計15艘。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_1936A_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>自1936型驅逐艦設計完成並開工建造後，德國人下一階段的設計工作分兩個方向進行：1、面向波羅的海和北海的小型驅逐艦，標準排水量1500噸，航速40節，與英國的驅逐艦類似；2、面向大西洋的大型遠洋驅逐艦，這就是1937型驅逐艦，其標準排水量超過3700噸，滿載排水量接近5000噸，算是一種mini巡洋艦了。然而1937型的開發遭遇了困難，其與大噸位不相稱的防護、火力、航速和續航飽受詬病，最終在1938年4月，1937型驅逐艦開發停止，同時考慮到不能浪費寶貴的造船廠資源，設計師被要求在此前較成功的1936型驅逐艦基礎上按類似思路開發通用艦隊驅逐艦，這就是後來的1936A型驅逐艦。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_1936A_CHAPTER_HISTORY_PARA_3" Language="zh_Hant_HK">
+			<Text>該級驅逐艦的最大特點是——使用輕巡洋艦級別的150mm口徑主炮，型號為Tbts KC/36或Tbts KC/36T，為48倍徑。主要原因是希望在同裝備138.6mm口徑火炮的法國超級驅逐艦的對抗中取得優勢。5門150mm艦炮按1座雙聯炮塔+3座單裝炮座的形式布置，不過此時雙聯炮塔的開發工作還未完成，加上生產進度延誤，它們在完工時，雙聯裝炮塔的位置上也只能安裝單裝炮座。到1942年後，除了Z26和Z30外，其余各艦逐次安裝雙聯裝炮塔。其中Z-28作為司令驅逐艦設計的，其後部有參謀們使用的甲板室，4門150mm炮分別安裝在4座單裝炮塔上，前2後2配置。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_1936A_CHAPTER_HISTORY_PARA_4" Language="zh_Hant_HK">
+			<Text>1938年11月-1940年4月，8艘1936年A型驅逐艦（Z23-Z30）相繼開工。1940年9月開始，1936A(Mob)型相繼開工，其中Mob意為「Mobilmachung」（動員），即戰時動員驅逐艦，Mob型進行了一些小改動，主要是內部空間布局的變更，動力裝置做了一些改進，艦艏炮塔座圈被擡高，以及一個更大的煙囪帽。Mob型原計劃建造12艘，為Z31-Z42，實際完工7艘（Z31-Z34，Z37-Z39）。Z35、Z36被挪到1936B(Mob)型，Z40-Z42被挪到1938A型。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_1936A_CHAPTER_HISTORY_PARA_5" Language="zh_Hant_HK">
+			<Text>150mm主炮使本級艦的火力大幅加強，也使艦只尺寸與排水量進一步增長，滿載排水量超過3500噸，但依然存在適航性與穩定性的問題，艦艏上浪嚴重，艦只在風浪中產生嚴重縱搖。於是後來的設計又恢復前型艦的128mm主炮，即1936B(Mob)型。還開始研製搭載新型128mm高平兩用炮的驅逐艦，即1936C型。</Text>
+		</Replace>
+		<!--特殊晉升-->
+
+		<!--特殊能力-->
+		<Replace Tag="LOC_ABILITY_Z23_COMBAT_UNIT_BUFF_NAME" Language="zh_Hant_HK">
+			<Text>鐵血先鋒</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_Z23_COMBAT_UNIT_BUFF_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+1 [ICON_MOVEMENT] 移動力，位於敵方領土時+7 [ICON_Strength] 戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_Z23_COMBAT_UNIT_ENEMY_STRENGTH_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>位於敵方領土時+{1_Amount} [ICON_Strength] 戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_Z23_COMBAT_UNIT_EXTRA_STRENGTH_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>毀滅模式+{1_Amount} [ICON_Strength] 戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_Z23_COMBAT_UNIT_PILLAGE_COMBAT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>因掠奪的區域和建築+{Property} [ICON_Strength] 戰鬥力</Text>
+		</Replace>
+		<!--特殊命令-->
+		<Replace Tag="LOC_UNITCOMMAND_Z23" Language="zh_Hant_HK">
+			<Text>開啟「毀滅模式」</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_Z23_NAME" Language="zh_Hant_HK">
+			<Text>毀滅模式</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_Z23_DESC" Language="zh_Hant_HK">
+			<Text>該單位恢復{1_num}點生命值，本回合內+2 [ICON_Strength] 移動力，+10 [ICON_Strength] 戰鬥力並恢復全部 [ICON_Movement] 移動力和攻擊次數。如單位處於敵方區域上，還將掠奪此區域和其中全部建築並獲得額外的 [ICON_Strength] 戰鬥力加成。需要{2_num}回合冷卻。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_Z23_LAST" Language="zh_Hant_HK">
+			<Text>[ICON_Bullet]剩余{1_num}回合冷卻</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_Z23_DISABLE" Language="zh_Hant_HK">
+			<Text>[COLOR_RED]因下列原因，該命令不可用：[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_Z23_NO_UNIT" Language="zh_Hant_HK">
+			<Text>[ICON_Bullet][COLOR_RED]該單位不存在[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_Z23_NO_PLAYER" Language="zh_Hant_HK">
+			<Text>[ICON_Bullet][COLOR_RED]該單位沒有所屬玩家[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_Z23_DISABLE_LAST" Language="zh_Hant_HK">
+			<Text>[ICON_Bullet][COLOR_RED]「毀滅模式」還在冷卻中[ENDCOLOR]</Text>
+		</Replace>
+		<!--特殊晉升-->
+
+		<!--外交對話-->
+		<!--同意宣布友誼-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_Z23_1936A_ANY" Language="zh_Hant_HK">
+			<Text>嗯嗯，讓我們一起努力吧！</Text>
+		</Replace>
+		<!--拒絕宣布友誼-->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_Z23_1936A_ANY" Language="zh_Hant_HK">
+			<Text>我要學習了，能不要打擾我嗎？</Text>
+		</Replace>
+		<!--請求宣布友誼-->
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_Z23_1936A_ANY" Language="zh_Hant_HK">
+			<Text>通往頂點的道路往往艱辛而又漫長，再堅強的人也難免孤獨。所以，我想與你結為朋友呢……</Text>
+		</Replace>
+		<!--宣布友誼被接受-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_Z23_1936A_ANY" Language="zh_Hant_HK">
+			<Text>好，讓我們共同學習，一起向頂點前進吧！</Text>
+		</Replace>
+		<!--宣布友誼被拒絕-->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_Z23_1936A_ANY" Language="zh_Hant_HK">
+			<Text>看樣子剛才有許多值得檢討的地方呢……</Text>
+		</Replace>
+		<!--被宣戰-->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_Z23_1936A_ANY" Language="zh_Hant_HK">
+			<Text>戰爭？嗯，Z23，到了檢驗努力成果的時候了！</Text>
+		</Replace>
+		<!--宣戰-->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_Z23_1936A_ANY" Language="zh_Hant_HK">
+			<Text>你為人處世的態度實在是太過敷衍，人生絕不能這麽荒廢。有必要好好督促你了！</Text>
+		</Replace>
+		<!--接受代表團-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_Z23_1936A_ANY" Language="zh_Hant_HK">
+			<Text>您的代表團已經安全抵達。放心，招待他們的宴席上沒有過多的辣椒。</Text>
+		</Replace>
+		<!--拒絕代表團-->
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_Z23_1936A_ANY" Language="zh_Hant_HK">
+			<Text>很遺憾，我今天還有好多事情要做。</Text>
+		</Replace>
+		<!--派出代表團-->
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_Z23_1936A_ANY" Language="zh_Hant_HK">
+			<Text>請接受我的代表團！他們帶著上好的馬鈴薯和香腸，還有我的好意。</Text>
+		</Replace>
+		<!--被譴責-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_Z23_1936A_ANY" Language="zh_Hant_HK">
+			<Text>在通往頂峰的道路上，這種詆毀無法避免。</Text>
+		</Replace>
+		<!--譴責-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_Z23_1936A_ANY" Language="zh_Hant_HK">
+			<Text>世界上怎麽會有對自己如此不認真的人？（譴責你）</Text>
+		</Replace>
+		<!--初次見面-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_Z23_1936A_ANY" Language="zh_Hant_HK">
+			<Text>我是1936A型驅逐艦的首艦，Z23，從我開始的妹妹們都只有代號，不像姐姐們有繼承前人的名字。雖然有些不近人情不過確實比較方便，所以請不要客氣直接叫我Z23就好。</Text>
+		</Replace>
+		<!--初次見面，邀請參觀附近城市-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_Z23_1936A_ANY" Language="zh_Hant_HK">
+			<Text>希望造訪我們附近的城市麽？我會帶你欣賞屬於鐵血的獨特文化，同時也會帶你品嘗各種製法的馬鈴薯。</Text>
+		</Replace>
+		<!--初次見面，感謝玩家提供最近城市位置-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_Z23_1936A_ANY" Language="zh_Hant_HK">
+			<Text>謝謝，這會促進我們之間的交流。</Text>
+		</Replace>
+		<!--初次見面，請求交換城市位置-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_Z23_1936A_ANY" Language="zh_Hant_HK">
+			<Text>我很想了解你的國家，我也會為你講述我的國家。讓我們先從首都開始吧！</Text>
+		</Replace>
+		<!--歡迎語？-->
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_Z23_1936A_ANY" Language="zh_Hant_HK">
+			<Text>今天還有好多事情要做呢。</Text>
+		</Replace>
+		<!--示好-->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_Z23_1936A_ANY" Language="zh_Hant_HK">
+			<Text>您努力的背影和取得的成就讓我憧憬。我希望能跟你一起進步。</Text>
+		</Replace>
+		<!--敵視-->
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_Z23_1936A_ANY" Language="zh_Hant_HK">
+			<Text>比起其他的事，你不如多看看書。</Text>
+		</Replace>
+		<!--請求結盟-->
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_Z23_1936A_ANY" Language="zh_Hant_HK">
+			<Text>讓我們結盟，共同登上高峰吧！</Text>
+		</Replace>
+		<!--同意和平-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_Z23_1936A_ANY" Language="zh_Hant_HK">
+			<Text>和平是一個好選擇。讓我們休戰吧！</Text>
+		</Replace>
+		<!--拒絕和平-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_Z23_1936A_ANY" Language="zh_Hant_HK">
+			<Text>不，這場考驗還沒有結束！</Text>
+		</Replace>
+		<!--請求和平-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_Z23_1936A_ANY" Language="zh_Hant_HK">
+			<Text>這場戰爭已經背離了它的初衷。我們握手言和吧。</Text>
+		</Replace>
+		<!--接受開放邊界請求-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_Z23_1936A_ANY" Language="zh_Hant_HK">
+			<Text>我很高興能為你開放邊境。鐵血公國不應是一個封閉的國家。</Text>
+		</Replace>
+		<!--拒絕開放邊界請求-->
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_Z23_1936A_ANY" Language="zh_Hant_HK">
+			<Text>對不起，今天的鐵血公國有要事處理。</Text>
+		</Replace>
+		<!--請求開放邊界-->
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_Z23_1936A_ANY" Language="zh_Hant_HK">
+			<Text>願意為我們開放你的邊境嗎？</Text>
+		</Replace>
+		<!--要求移開邊境部隊-->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_Z23_1936A_ANY" Language="zh_Hant_HK">
+			<Text>你的軍隊在鐵血公國周邊鬼鬼祟祟的想幹什麽？我可不是那種隨隨便便就可以蒙混過去的女孩子哦，請盡快撤軍。</Text>
+		</Replace>
+		<!--拒絕移開邊境部隊-->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_Z23_1936A_ANY" Language="zh_Hant_HK">
+			<Text>很抱歉讓你產生了擔憂，但你無法命令我。</Text>
+		</Replace>
+		<!--同意移開邊境部隊-->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_Z23_1936A_ANY" Language="zh_Hant_HK">
+			<Text>我會盡快地移走你領土周邊的部隊，不必擔心。</Text>
+		</Replace>
+		<!--經受不住時間考驗-->
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_Z23_1936A_ANY" Language="zh_Hant_HK">
+			<Text>唉，看來準備還不夠充分……你贏了。</Text>
+		</Replace>
+		<!--拒絕交易-->
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_Z23_1936A_ANY" Language="zh_Hant_HK">
+			<Text>我可不認為這是一筆合適的交易哦。</Text>
+		</Replace>
+		<!--同意交易-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_Z23_1936A_ANY" Language="zh_Hant_HK">
+			<Text>嗯嗯，我同意。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

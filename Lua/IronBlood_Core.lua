@@ -23,3 +23,10 @@ function IronBloodSpeedModifier(num)
     end
     return num
 end
+
+--||=========================UI=========================||--
+
+--mouse enter the button
+function IronBloodEnter()
+    UI.PlaySound("Main_Menu_Mouse_Over")
+end

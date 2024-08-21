@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IronBlood_Z46_TextHK -->
+<!-- Author: jjj -->
+<!-- DateCreated: 2024/8/21 10:15:41 -->
+<GameData>
+	<LocalizedText>
+		<!--領袖介紹-->
+		<Replace Tag="LOC_LEADER_Z46_1936C_NAME" Language="zh_Hant_HK">
+			<Text>Z46</Text>
+		</Replace>
+		<!--加載-->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_Z46_1936C" Language="zh_Hant_HK">
+			<Text>Z46，作為尚未完工便遭到廢棄的1936C型驅逐艦，您期待著大家不再稱呼您為Z46的那天來臨。在追尋名字的旅途中，這個世界與您料想的大不相同，那些不親身體驗就無法真正認識的事物如那令人敬畏的漫天繁星般不可勝數。前去邂逅未知與相遇吧！Z46，我們期待著您找到名字的那一天到來。</Text>
+		</Replace>
+		<!--百科-->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_Z46_1936C_QUOTE" Language="zh_Hant_HK">
+			<Text>能被碰觸到是確實存在著的證明。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_Z46_1936C_CHAPTER_CAPSULE_BODY" Language="zh_Hant_HK">
+			<Text>Z46熱愛文學，她是鐵血公國文化實力的象征。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_Z46_1936C_CHAPTER_DETAILED_BODY" Language="zh_Hant_HK">
+			<Text>使用Z46作為鐵血公國的領袖，當務之急便是盡快建造維布林根修道院圖書館。維布林根修道院圖書館擁有 [ICON_GreatWork_WRITING] 著作槽位，可供偉人們創作巨作。隨維布林根修道院圖書館解鎖的「名字追尋」項目，將保證Z46能獲得足夠多的 [ICON_GreatWriter] 大作家。擁有大量 [ICON_GreatWork_WRITING] 著作巨作後，Z46將從這些巨作中獲得豐厚的回報。緊湊地建設區域，招募偉人創作巨作，Z46將輕松取得文化勝利。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_Z46_1936C_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>Z46是德國納粹海軍的1936C級首艦，實際上這級驅逐艦只有Z46和Z47有開始建造。並且都在建造途中被盟軍的飛機轟炸，最終被廢棄。</Text>
+		</Replace>
+		<!--領袖議程-->
+		<Replace Tag="LOC_AGENDA_WHAT_ONCE_WAS_HER_WORLD_NAME" Language="zh_Hant_HK">
+			<Text>追隨名字的少女</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_WHAT_ONCE_WAS_HER_WORLD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>喜歡擁有較高 [ICON_Culture] 文化值的文明，討厭 [ICON_Culture] 文化值低下的文明。</Text>
+		</Replace>
+		<Replace Tag="LOC_WHAT_ONCE_WAS_HER_WORLD_HIGH_CULTURE" Language="zh_Hant_HK">
+			<Text>Z46喜歡擁有較高文化值的文明</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_Z46_1936C_REASON_ANY" Language="zh_Hant_HK">
+			<Text>（您擁有較高文化值）</Text>
+		</Replace>
+		<Replace Tag="LOC_WHAT_ONCE_WAS_HER_WORLD_LOW_CULTURE" Language="zh_Hant_HK">
+			<Text>Z46討厭文化值低下的文明</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_Z46_1936C_REASON_ANY" Language="zh_Hant_HK">
+			<Text>（您文化值低下）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_WHAT_ONCE_WAS_HER_WORLD" Language="zh_Hant_HK">
+			<Text>（您文化值低下）</Text>
+		</Replace>
+		<!--領袖能力-->
+		<Replace Tag="LOC_TRAIT_LEADER_THE_GIRL_PURSUING_NAME_NAME" Language="zh_Hant_HK">
+			<Text>往昔的書中世界</Text>
+			<!--What Once Was Her World-->
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_THE_GIRL_PURSUING_NAME_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>[ICON_GreatWork_WRITING] 著作巨作+4 [ICON_Science] 科技值並可產出3倍的 [ICON_Tourism] 旅遊業績。所有區域每與一個區域相鄰便+1 [ICON_Culture] 文化值。您的文明創作巨作時，所在城市所有區域將+20% [ICON_Culture] 文化值相鄰加成。所有軍事單位與重騎兵作戰時+10 [ICON_Strength] 戰鬥力。研究完「聯合作戰」後獲得特色單位「1936C型驅逐艦」。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_THE_GIRL_PURSUING_NAME_DESCRIPTION_XP2" Language="zh_Hant_HK">
+			<Text>[ICON_GreatWork_WRITING] 著作巨作+4 [ICON_Science] 科技值、+2 [ICON_Culture] 文化值。全部槽位填滿時，建築和奇觀自動獲得主題。所有區域每與一個區域相鄰便+1 [ICON_Culture] 文化值。您的文明創作巨作時，所在城市所有區域將+20% [ICON_Culture] 文化值相鄰加成。所有軍事單位與重騎兵作戰時+10 [ICON_Strength] 戰鬥力。研究完「聯合作戰」後獲得特色單位「1936C型驅逐艦」。</Text>
+		</Replace>
+		<!--特殊加成-->
+		<Replace Tag="LOC_Z46_Culture_Adjacency_From_District" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Culture] 文化值來自相鄰的每個區域</Text>
+		</Replace>
+		<!--領袖項目-->
+		<Replace Tag="LOC_PROJECT_Z46_NAME" Language="zh_Hant_HK">
+			<Text>名字追尋</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_Z46_SHORT_NAME" Language="zh_Hant_HK">
+			<Text>名字追尋</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_Z46_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>每回合提供當前城市20% [icon_PRODUCTION] 生產力的 [ICON_Culture] 文化值和 [ICON_Science] 科技值，項目完成後提供 [ICON_GreatWriter] 大作家、[ICON_GreatArtist] 大藝術家和 [ICON_GreatMusician] 大音樂家點數，並可獲得一位 [ICON_GreatWriter] 大作家。</Text>
+		</Replace>
+		<!--領袖單位-->
+		<!--Pallada-class Protected Cruiser-->
+		<Replace Tag="LOC_UNIT_1936C_NAME" Language="zh_Hant_HK">
+			<Text>1936C型驅逐艦</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_1936C_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>取代驅逐艦的Z46特色原子能海軍單位，擁有強大的防空能力，可進行射程為1的遠程攻擊。每擊殺一個空中單位便+5 [ICON_Strength] 戰鬥力。顯示視線範圍內的海軍襲擊者。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_1936C_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>1936C型雖然是在1936A、B型的基礎上改進的，但和它的前輩們差別甚大。通過戰爭所積累的經驗表明驅逐艦的防空火力十分重要，而且小口徑的防空武器在對付有裝甲保護的大型飛機時非常吃力。另一方面1936A型安裝的150mm火炮過於沈重，不適合在驅逐艦上使用，因此1936C型準備使用3座新的雙聯裝128mm/45 SKC41型高平兩用炮作為主要武器，可以兼顧對海和對空，並在後部安裝德國驅逐艦最初的雷達射擊指揮儀。由於雙聯炮塔的重量較大，為了避免1936A型首部過重在風浪中埋首的問題，炮塔布置采用前1後2。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_1936C_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>1936年C型驅逐艦原計劃建造5艘，編號Z46-Z50，其中Z46和Z47於1941年10月在不萊梅希德馬克船廠開工，但是建造工作在1942年陷於停頓，1943年再次開工，因為材料短缺和遭到盟軍飛機的轟炸，進展緩慢，1944年11月終於被放棄。Z48-Z50的建造命令在1942年6月下達，但實際的工程從來沒有開始過。</Text>
+		</Replace>
+		<!--特殊晉升-->
+		
+		<!--特殊能力-->
+		<!--<Replace Tag="LOC_ABILITY_Z46_AP_BUFF_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>穿甲彈精通提供+3 [ICON_Strength] 戰鬥力和與重騎兵作戰時+7 [ICON_Strength] 戰鬥力</Text>
+		</Replace>-->
+		<Replace Tag="LOC_ABILITY_Z46_AP_BUFF_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>穿甲彈精通提供與重騎兵作戰時+10 [ICON_Strength] 戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_PREVIEW_Z46_UNIT_AP_BUFF" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Strength] 戰鬥力，穿甲彈精通</Text>
+		</Replace>
+		<!--<Replace Tag="LOC_PREVIEW_Z46_UNIT_AGAINST_HEAVY_AP_BUFF" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Strength] 戰鬥力，穿甲彈精通：護甲穿透</Text>
+		</Replace>-->
+		<Replace Tag="LOC_PREVIEW_Z46_UNIT_AGAINST_HEAVY_AP_BUFF" Language="zh_Hant_HK">
+			<Text>與重騎兵作戰時+{1_num} [ICON_Strength] 戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_1936C_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>每擊殺一個空中單位便+5 [ICON_Strength] 戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_1936C_ADD_PROPERTY_COMBAT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+{Property} [ICON_Strength] 戰鬥力來自擊殺的空中單位</Text>
+		</Replace>
+		<!--特殊晉升-->
+		<Replace Tag="LOC_PROMOTION_1936C_NAME" Language="zh_Hant_HK">
+			<Text>1936C型</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_IRON_WING_ANNIHILATION_NAME" Language="zh_Hant_HK">
+			<Text>鐵翼隕滅</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_IRON_WING_ANNIHILATION_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>擊殺空中單位提供+5 [ICON_Strength] 戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_PREVIEW_1936C_KILL_BUFF" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Strength] 戰鬥力來自擊殺的空中單位</Text>
+		</Replace>
+		<!--外交對話-->
+		<![CDATA[<!--同意宣布友誼-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_Z46_1936C_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--拒絕宣布友誼-->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_Z46_1936C_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--請求宣布友誼-->
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_Z46_1936C_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--宣布友誼被接受-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_Z46_1936C_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--宣布友誼被拒絕-->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_Z46_1936C_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--被宣戰-->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_Z46_1936C_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--宣戰-->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_Z46_1936C_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--接受代表團-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_Z46_1936C_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--拒絕代表團-->
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_Z46_1936C_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--派出代表團-->
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_Z46_1936C_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--被譴責-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_Z46_1936C_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--譴責-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_Z46_1936C_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--初次見面-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_Z46_1936C_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--初次見面，邀請參觀附近城市-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_Z46_1936C_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--初次見面，感謝玩家提供最近城市位置-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_Z46_1936C_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--初次見面，請求交換城市位置-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_Z46_1936C_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--歡迎語？-->
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_Z46_1936C_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--示好-->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_Z46_1936C_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--敵視-->
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_Z46_1936C_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--請求結盟-->
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_Z46_1936C_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--同意和平-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_Z46_1936C_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--拒絕和平-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_Z46_1936C_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--請求和平-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_Z46_1936C_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--接受開放邊界請求-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_Z46_1936C_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--拒絕開放邊界請求-->
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_Z46_1936C_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--請求開放邊界-->
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_Z46_1936C_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--要求移開邊境部隊-->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_Z46_1936C_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--拒絕移開邊境部隊-->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_Z46_1936C_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--同意移開邊境部隊-->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_Z46_1936C_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--經受不住時間考驗-->
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_Z46_1936C_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--拒絕交易-->
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_Z46_1936C_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--同意交易-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_Z46_1936C_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>]]>
+	</LocalizedText>
+</GameData>

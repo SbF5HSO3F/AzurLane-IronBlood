@@ -45,7 +45,7 @@ function Initialize()
     Events.GreatWorkCreated.Add(Z46CreateGreatWorkCityBuff)
     Events.UnitKilledInCombat.Add(AirKilledBy1936C)
     ----------------------------------------
-    print('IronBlood_Z46 Initial success!')
+    print('Initial success!')
 end
 
 Initialize()
