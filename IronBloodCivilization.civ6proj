@@ -25,12 +25,12 @@
             <zh_Hans_CN>碧蓝航线·铁血公国</zh_Hans_CN>
         </Text>
         <Text id="LOC_IRON_BLOOD_TEASER">
-            <en_US>Added a powerful civilization from the game "Azur Lane" - Iron Blood Civilization, with a total of 4 leaders.</en_US>
-            <zh_Hans_CN>为游戏添加了一个来自游戏作品《碧蓝航线》的强大文明——铁血公国，共有4名所属领袖。</zh_Hans_CN>
+            <en_US>Added a powerful civilization from the game "Azur Lane" - Iron Blood Civilization, with a total of 5 leaders.</en_US>
+            <zh_Hans_CN>为游戏添加了一个来自游戏作品《碧蓝航线》的强大文明——铁血公国，共有5名所属领袖。</zh_Hans_CN>
         </Text>
         <Text id="LOC_IRON_BLOOD_DESCRIPTION">
-            <en_US>Added a civilization based on the Iron Blood in the game work "Azur Lane" - the Iron Blood civilization, which has a strong army and productivity. There are currently four leaders of the civilization: U-96, Z46, Deutschland and Z23.</en_US>
-            <zh_Hans_CN>为游戏添加了一个以游戏作品《碧蓝航线》中的铁血公国为原型的文明——铁血公国，拥有强大的军队和生产力。当前该文明共有3名领袖：U-96、Z46、德意志和Z23。</zh_Hans_CN>
+            <en_US>Added a civilization based on the Iron Blood in the game work "Azur Lane" - the Iron Blood civilization, which has a strong army and productivity. There are currently five leaders of the civilization: U-96, Z46, Deutschland, Z23 and Seydlitz.</en_US>
+            <zh_Hans_CN>为游戏添加了一个以游戏作品《碧蓝航线》中的铁血公国为原型的文明——铁血公国，拥有强大的军队和生产力。当前该文明共有5名领袖：U-96、Z46、德意志、Z23和塞德利茨。</zh_Hans_CN>
         </Text>
     </LocalizedText>
     ]]></LocalizedTextData>
@@ -73,6 +73,9 @@
           <File priority="90">Text/zh_Hans_CN/IronBlood_Z23_TextCN.xml</File>
           <File priority="80">Text/zh_Hant_HK/IronBlood_Z23_TextHK.xml</File>
         </UpdateText>
+        <UpdateText id="Seydlitz">
+          <File priority="90">Text/zh_Hans_CN/IronBlood_Seydlitz_TextCN.xml</File>
+        </UpdateText>
         <UpdateText id="OphidyText">
           <Criteria>OPHIDY_IRONBLOOD</Criteria>
           <File>ModSupport/Ophidy’s Iron Blood/Text/Ophidy_IronBlood_Text.sql</File>
@@ -111,6 +114,7 @@
           <File>Lua/IronBlood_Z46.lua</File>
           <File>Lua/IronBlood_Deutschland.lua</File>
           <File>Lua/IronBlood_Z23.lua</File>
+          <File>Lua/IronBlood_Seydlitz.lua</File>
         </AddGameplayScripts>
         <UpdateDatabase id="IronBlood">
           <File priority="100">Data/IronBlood_Core.sql</File>
@@ -208,6 +212,13 @@
           <File priority="90">Text/zh_Hans_CN/IronBlood_Z23_TextCN.xml</File>
           <File priority="80">Text/zh_Hant_HK/IronBlood_Z23_TextHK.xml</File>
         </UpdateText>
+        <UpdateDatabase id="Seydlitz">
+          <File priority="100">Data/Seydlitz/IronBlood_Seydlitz_Leader.xml</File>
+          <File priority="90">Data/Seydlitz/IronBlood_Seydlitz_UnitAbilities.xml</File>
+        </UpdateDatabase>
+        <UpdateText id="Seydlitz_Text">
+          <File priority="90">Text/zh_Hans_CN/IronBlood_Seydlitz_TextCN.xml</File>
+        </UpdateText>
         <UpdateText id="OphidyText">
           <Criteria>OPHIDY_IRONBLOOD</Criteria>
           <File>ModSupport/Ophidy’s Iron Blood/Text/Ophidy_IronBlood_Text.sql</File>
@@ -286,6 +297,12 @@
     <Content Include="Data\IronBlood_XP2.sql">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Data\Seydlitz\IronBlood_Seydlitz_Leader.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Seydlitz\IronBlood_Seydlitz_UnitAbilities.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Data\U-96\IronBlood_Leader_U96.xml">
       <SubType>Content</SubType>
     </Content>
@@ -349,6 +366,9 @@
     <Content Include="Lua\IronBlood_Deutschland.lua">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Lua\IronBlood_Seydlitz.lua">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Lua\IronBlood_U96.lua">
       <SubType>Content</SubType>
     </Content>
@@ -388,6 +408,9 @@
     <Content Include="Text\zh_Hans_CN\IronBlood_Deutschland_TextCN.xml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Text\zh_Hans_CN\IronBlood_Seydlitz_TextCN.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Text\zh_Hans_CN\IronBlood_TextCN.xml">
       <SubType>Content</SubType>
     </Content>
@@ -425,6 +448,7 @@
   <ItemGroup>
     <Folder Include="Data" />
     <Folder Include="Data\Deutschland" />
+    <Folder Include="Data\Seydlitz" />
     <Folder Include="Data\Z23" />
     <Folder Include="Data\Z46" />
     <Folder Include="Data\U-96" />

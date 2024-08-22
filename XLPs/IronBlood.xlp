@@ -141,6 +141,14 @@
 			<m_EntryID text="IMG_LEADER_U96_VIIC_FOREGROUND"/>
 			<m_ObjectName text="IMG_LEADER_U96_VIIC_FOREGROUND"/>
 		</Element>
+		<Element>
+			<m_EntryID text="IMG_LEADER_SEYDLITZ_FOREGROUND"/>
+			<m_ObjectName text="IMG_LEADER_SEYDLITZ_FOREGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_IRON_BLOOD_LEADER_SEYDLITZ_LOADING_FOREGROUND"/>
+			<m_ObjectName text="IMG_IRON_BLOOD_LEADER_SEYDLITZ_LOADING_FOREGROUND"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

@@ -195,7 +195,7 @@
 			<Text>Prinz Rupprecht</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_7" Language="en_US">
-			<Text>Seydlitz</Text>
+			<Text>Regensburg</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_8" Language="en_US">
 			<Text>Prinz Heinrich</Text>

@@ -69,6 +69,19 @@
 			<Type>Z23_1936A_DRAK_RED</Type>
 			<Color>182,59,67,255</Color>
 		</Row>
+		<!--Seydlitz-->
+		<Row>
+			<Type>SEYDLITZ_PINK</Type>
+			<Color>228,145,152,255</Color>
+		</Row>
+		<Row>
+			<Type>SEYDLITZ_PRUSSIAN_BLUE</Type>
+			<Color>34,58,142,255</Color>
+		</Row>
+		<Row>
+			<Type>SEYDLITZ_BLUE</Type>
+			<Color>25,33,114,255</Color>
+		</Row>
 	</Colors>
 	<PlayerColors>
 		<!--U-96-->
@@ -106,6 +119,15 @@
 			<SecondaryColor>Z23_1936A_BLUE_PURPLE</SecondaryColor>
 			<Alt1PrimaryColor>Z_CLASS_DARK_BULE</Alt1PrimaryColor>
 			<Alt1SecondaryColor>Z23_1936A_DRAK_RED</Alt1SecondaryColor>
+		</Row>
+		<!--Seydlitz-->
+		<Row>
+			<Type>LEADER_SEYDLITZ</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>SEYDLITZ_BLUE</PrimaryColor>
+			<SecondaryColor>SEYDLITZ_PINK</SecondaryColor>
+			<Alt1PrimaryColor>SEYDLITZ_PINK</Alt1PrimaryColor>
+			<Alt1SecondaryColor>SEYDLITZ_PRUSSIAN_BLUE</Alt1SecondaryColor>
 		</Row>
 	</PlayerColors>
 </GameData>

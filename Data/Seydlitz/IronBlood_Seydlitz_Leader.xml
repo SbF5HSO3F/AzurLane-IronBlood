@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IronBlood_Seydlitz_Leader -->
+<!-- Author: jjj -->
+<!-- DateCreated: 2024/8/22 11:51:25 -->
+<GameData>
+	<Types>
+		<Row Type="LEADER_SEYDLITZ"				    Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_UNSINKABLE_LEGEND"	Kind="KIND_TRAIT"/>
+	</Types>
+	<Leaders>
+		<Row LeaderType="LEADER_SEYDLITZ" Name="LOC_LEADER_SEYDLITZ_NAME" InheritFrom="LEADER_DEFAULT" Sex="Female" SceneLayers="4"/>
+	</Leaders>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_SEYDLITZ" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_QUOTE"/>
+	</LeaderQuotes>
+	<HistoricalAgendas>
+		
+	</HistoricalAgendas>
+	<Agendas>
+		
+	</Agendas>
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_UNSINKABLE_LEGEND"		Name="LOC_TRAIT_LEADER_UNSINKABLE_LEGEND_NAME"	Description="LOC_TRAIT_LEADER_UNSINKABLE_LEGEND_DESCRIPTION"/>
+	</Traits>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_SEYDLITZ" TraitType="TRAIT_LEADER_UNSINKABLE_LEGEND"/>
+	</LeaderTraits>
+	<LoadingInfo>
+		<Row LeaderType="LEADER_SEYDLITZ" ForegroundImage="IMG_IRON_BLOOD_LEADER_SEYDLITZ_LOADING_FOREGROUND" BackgroundImage="IMG_IRON_BLOOD_LOADING_BACKGROUND"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_SEYDLITZ" BackgroundImage="IMG_IRON_BLOOD_DIPLOMACY_BACKGROUND.dds"/>
+	</DiplomacyInfo>
+	<TraitModifiers>
+		<!--KANSEN-->
+		<Row>
+			<TraitType>TRAIT_LEADER_UNSINKABLE_LEGEND</TraitType>
+			<ModifierId>IRON_BLOOD_KANSEN_UNLOCKED_TECH_SAILING</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_UNSINKABLE_LEGEND</TraitType>
+			<ModifierId>IRON_BLOOD_KANSEN_UNLOCKED_TECH_SHIPBUILDING</ModifierId>
+		</Row>
+		<!--单位能力-->
+		<Row>
+			<TraitType>TRAIT_LEADER_UNSINKABLE_LEGEND</TraitType>
+			<ModifierId>UNSINKABLE_LEGEND_GRANT_ABILITIES</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<!--单位能力-->
+		<Row>
+			<ModifierId>UNSINKABLE_LEGEND_GRANT_ABILITIES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!--单位能力-->
+		<Row>
+			<ModifierId>UNSINKABLE_LEGEND_GRANT_ABILITIES</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_UNSINKABLE_LEGEND</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

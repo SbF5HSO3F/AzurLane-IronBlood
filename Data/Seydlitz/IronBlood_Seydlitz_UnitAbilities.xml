@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IronBlood_Seydlitz_UnitAbilities -->
+<!-- Author: jjj -->
+<!-- DateCreated: 2024/8/22 19:35:50 -->
+<GameData>
+	<Types>
+		<Row Type="ABILITY_UNSINKABLE_LEGEND"	Kind="KIND_ABILITY"/>
+	</Types>
+	<TypeTags>
+		<Row Type="ABILITY_UNSINKABLE_LEGEND"	Tag="CLASS_ALL_COMBAT_UNITS"/>
+		<Row Type="ABILITY_UNSINKABLE_LEGEND"	Tag="CLASS_NAVAL_CARRIER"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_UNSINKABLE_LEGEND"			Name="LOC_ABILITY_UNSINKABLE_LEGEND_NAME"			Description="LOC_ABILITY_UNSINKABLE_LEGEND_DESCRIPTION"			Inactive="true"/>
+	</UnitAbilities>
+	<ModifierStrings>
+		<Row ModifierId="UNSINKABLE_LEGEND_ATTACK_COMBAT"	Context="Preview" Text="LOC_PREVIEW_UNSINKABLE_LEGEND_ATTACK_COMBAT_DESCRIPTION"/>
+		<Row ModifierId="UNSINKABLE_LEGEND_DEFEND_COMBAT"	Context="Preview" Text="LOC_PREVIEW_UNSINKABLE_LEGEND_DEFEND_COMBAT_DESCRIPTION"/>
+	</ModifierStrings>
+	<UnitAbilityModifiers>
+		<!--不会蒙受受伤减益-->
+		<Row>
+			<UnitAbilityType>ABILITY_UNSINKABLE_LEGEND</UnitAbilityType>
+			<ModifierId>UNSINKABLE_LEGEND_NO_REDUCTION</ModifierId>
+		</Row>
+		<!--进攻时加力-->
+		<Row>
+			<UnitAbilityType>ABILITY_UNSINKABLE_LEGEND</UnitAbilityType>
+			<ModifierId>UNSINKABLE_LEGEND_ATTACK_COMBAT</ModifierId>
+		</Row>
+		<!--防御时加力-->
+		<Row>
+			<UnitAbilityType>ABILITY_UNSINKABLE_LEGEND</UnitAbilityType>
+			<ModifierId>UNSINKABLE_LEGEND_DEFEND_COMBAT</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<!--不会蒙受受伤减益-->
+		<Row>
+			<ModifierId>UNSINKABLE_LEGEND_NO_REDUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_NO_REDUCTION_DAMAGE</ModifierType>
+		</Row>
+		<!--进攻时加力-->
+		<Row>
+			<ModifierId>UNSINKABLE_LEGEND_ATTACK_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>IRON_BLOOD_PLAYER_IS_ATTACKER</SubjectRequirementSetId>
+		</Row>
+		<!--防御时加力-->
+		<Row>
+			<ModifierId>UNSINKABLE_LEGEND_DEFEND_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>IRON_BLOOD_PLAYER_IS_DEFENDER</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!--不会蒙受受伤减益-->
+		<Row>
+			<ModifierId>UNSINKABLE_LEGEND_NO_REDUCTION</ModifierId>
+			<Name>NoReduction</Name>
+			<Value>true</Value>
+		</Row>
+		<!--进攻时加力-->
+		<Row>
+			<ModifierId>UNSINKABLE_LEGEND_ATTACK_COMBAT</ModifierId>
+			<Name>Key</Name>
+			<Value>UnSinkableLegendAttack</Value>
+		</Row>
+		<!--防御时加力-->
+		<Row>
+			<ModifierId>UNSINKABLE_LEGEND_DEFEND_COMBAT</ModifierId>
+			<Name>Key</Name>
+			<Value>UnSinkableLegendDefend</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

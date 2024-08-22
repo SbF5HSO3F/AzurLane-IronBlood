@@ -45,6 +45,8 @@
 		<Row Name="ICON_LEADER_DEUTSCHLAND_A"						Atlas="ATLAS_IRON_BLOOD_LEADERS"					Index="2"/>
 		<!--Z23-->
 		<Row Name="ICON_LEADER_Z23_1936A"							Atlas="ATLAS_IRON_BLOOD_LEADERS"					Index="3"/>
+		<!--塞德利茨-->
+		<Row Name="ICON_LEADER_SEYDLITZ"							Atlas="ATLAS_IRON_BLOOD_LEADERS"					Index="4"/>
 		<!--VIIC潜艇-->
 		<Row Name="ICON_UNIT_VIIC_UBOAT"							Atlas="ICON_ATLAS_UNITS"							Index="76"/>
 		<Row Name="ICON_UNIT_VIIC_UBOAT_FOW"						Atlas="ICON_ATLAS_UNITS_FOW"						Index="76"/>

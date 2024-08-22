@@ -219,7 +219,7 @@
 			<Text>鲁普雷希特亲王</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_7" Language="zh_Hans_CN">
-			<Text>塞德利茨</Text>
+			<Text>雷根斯堡</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_8" Language="zh_Hans_CN">
 			<Text>海因里希亲王</Text>

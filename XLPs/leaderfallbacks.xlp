@@ -25,6 +25,10 @@
 			<m_EntryID text="IMG_LEADER_Z23_1936A_DIPLOMACY_FOREGROUND"/>
 			<m_ObjectName text="IMG_LEADER_Z23_1936A_DIPLOMACY_FOREGROUND"/>
 		</Element>
+		<Element>
+			<m_EntryID text="SEYDLITZ_DEFAULT"/>
+			<m_ObjectName text="SEYDLITZ_DEFAULT"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
