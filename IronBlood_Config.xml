@@ -5,450 +5,68 @@
 <GameData>
 	<Players>
 		<!--U-96-->
-		<Row>
-			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_U_96_VIIC</LeaderType>
-			<CivilizationName>LOC_CIVILIZATION_IRON_BLOOD_NAME</CivilizationName>
-			<CivilizationIcon>ICON_CIVILIZATION_IRON_BLOOD</CivilizationIcon>
-			<LeaderName>LOC_LEADER_U_96_VIIC_NAME</LeaderName>
-			<LeaderIcon>ICON_LEADER_U_96_VIIC</LeaderIcon>
-			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_NAME</CivilizationAbilityName>
-			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_DESCRIPTION</CivilizationAbilityDescription>
-			<CivilizationAbilityIcon>ICON_CIVILIZATION_IRON_BLOOD</CivilizationAbilityIcon>
-			<LeaderAbilityName>LOC_TRAIT_LEADER_FROM_THE_SEA_NAME</LeaderAbilityName>
-			<LeaderAbilityDescription>LOC_TRAIT_LEADER_FROM_THE_SEA_DESCRIPTION</LeaderAbilityDescription>
-			<LeaderAbilityIcon>ICON_LEADER_U_96_VIIC</LeaderAbilityIcon>
-			<Portrait>IMG_LEADER_U96_VIIC_FOREGROUND</Portrait>
-			<PortraitBackground>IMG_IRON_BLOOD_BACKGROUND</PortraitBackground>
-		</Row>
-		<Row>
-			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_U_96_VIIC</LeaderType>
-			<CivilizationName>LOC_CIVILIZATION_IRON_BLOOD_NAME</CivilizationName>
-			<CivilizationIcon>ICON_CIVILIZATION_IRON_BLOOD</CivilizationIcon>
-			<LeaderName>LOC_LEADER_U_96_VIIC_NAME</LeaderName>
-			<LeaderIcon>ICON_LEADER_U_96_VIIC</LeaderIcon>
-			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_NAME</CivilizationAbilityName>
-			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_DESCRIPTION</CivilizationAbilityDescription>
-			<CivilizationAbilityIcon>ICON_CIVILIZATION_IRON_BLOOD</CivilizationAbilityIcon>
-			<LeaderAbilityName>LOC_TRAIT_LEADER_FROM_THE_SEA_NAME</LeaderAbilityName>
-			<LeaderAbilityDescription>LOC_TRAIT_LEADER_FROM_THE_SEA_DESCRIPTION</LeaderAbilityDescription>
-			<LeaderAbilityIcon>ICON_LEADER_U_96_VIIC</LeaderAbilityIcon>
-			<Portrait>IMG_LEADER_U96_VIIC_FOREGROUND</Portrait>
-			<PortraitBackground>IMG_IRON_BLOOD_BACKGROUND</PortraitBackground>
-		</Row>
+		<!-- Expansion 1 Support -->
+		<Row CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_DESCRIPTION" CivilizationAbilityIcon="ICON_CIVILIZATION_IRON_BLOOD" CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_NAME" CivilizationIcon="ICON_CIVILIZATION_IRON_BLOOD" CivilizationName="LOC_CIVILIZATION_IRON_BLOOD_NAME" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderAbilityDescription="LOC_TRAIT_LEADER_FROM_THE_SEA_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_U_96_VIIC" LeaderAbilityName="LOC_TRAIT_LEADER_FROM_THE_SEA_NAME" LeaderIcon="ICON_LEADER_U_96_VIIC" LeaderName="LOC_LEADER_U_96_VIIC_NAME" LeaderType="LEADER_U_96_VIIC" Portrait="IMG_LEADER_U96_VIIC_FOREGROUND" PortraitBackground="IMG_IRON_BLOOD_BACKGROUND" Domain="Players:Expansion1_Players"/>
+		<!-- Expansion 2 Support -->
+		<Row CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_DESCRIPTION" CivilizationAbilityIcon="ICON_CIVILIZATION_IRON_BLOOD" CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_NAME" CivilizationIcon="ICON_CIVILIZATION_IRON_BLOOD" CivilizationName="LOC_CIVILIZATION_IRON_BLOOD_NAME" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderAbilityDescription="LOC_TRAIT_LEADER_FROM_THE_SEA_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_U_96_VIIC" LeaderAbilityName="LOC_TRAIT_LEADER_FROM_THE_SEA_NAME" LeaderIcon="ICON_LEADER_U_96_VIIC" LeaderName="LOC_LEADER_U_96_VIIC_NAME" LeaderType="LEADER_U_96_VIIC" Portrait="IMG_LEADER_U96_VIIC_FOREGROUND" PortraitBackground="IMG_IRON_BLOOD_BACKGROUND" Domain="Players:Expansion2_Players"/>
 		<!--Z46-->
-		<Row>
-			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_Z46_1936C</LeaderType>
-			<CivilizationName>LOC_CIVILIZATION_IRON_BLOOD_NAME</CivilizationName>
-			<CivilizationIcon>ICON_CIVILIZATION_IRON_BLOOD</CivilizationIcon>
-			<LeaderName>LOC_LEADER_Z46_1936C_NAME</LeaderName>
-			<LeaderIcon>ICON_LEADER_Z46_1936C</LeaderIcon>
-			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_NAME</CivilizationAbilityName>
-			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_DESCRIPTION</CivilizationAbilityDescription>
-			<CivilizationAbilityIcon>ICON_CIVILIZATION_IRON_BLOOD</CivilizationAbilityIcon>
-			<LeaderAbilityName>LOC_TRAIT_LEADER_THE_GIRL_PURSUING_NAME_NAME</LeaderAbilityName>
-			<LeaderAbilityDescription>LOC_TRAIT_LEADER_THE_GIRL_PURSUING_NAME_DESCRIPTION_XP2</LeaderAbilityDescription>
-			<LeaderAbilityIcon>ICON_LEADER_Z46_1936C</LeaderAbilityIcon>
-			<Portrait>IMG_LEADER_Z46_1936C_FOREGROUND</Portrait>
-			<PortraitBackground>IMG_IRON_BLOOD_BACKGROUND</PortraitBackground>
-		</Row>
-		<Row>
-			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_Z46_1936C</LeaderType>
-			<CivilizationName>LOC_CIVILIZATION_IRON_BLOOD_NAME</CivilizationName>
-			<CivilizationIcon>ICON_CIVILIZATION_IRON_BLOOD</CivilizationIcon>
-			<LeaderName>LOC_LEADER_Z46_1936C_NAME</LeaderName>
-			<LeaderIcon>ICON_LEADER_Z46_1936C</LeaderIcon>
-			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_NAME</CivilizationAbilityName>
-			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_DESCRIPTION</CivilizationAbilityDescription>
-			<CivilizationAbilityIcon>ICON_CIVILIZATION_IRON_BLOOD</CivilizationAbilityIcon>
-			<LeaderAbilityName>LOC_TRAIT_LEADER_THE_GIRL_PURSUING_NAME_NAME</LeaderAbilityName>
-			<LeaderAbilityDescription>LOC_TRAIT_LEADER_THE_GIRL_PURSUING_NAME_DESCRIPTION</LeaderAbilityDescription>
-			<LeaderAbilityIcon>ICON_LEADER_Z46_1936C</LeaderAbilityIcon>
-			<Portrait>IMG_LEADER_Z46_1936C_FOREGROUND</Portrait>
-			<PortraitBackground>IMG_IRON_BLOOD_BACKGROUND</PortraitBackground>
-		</Row>
+		<!-- Expansion 1 Support -->
+		<Row CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_DESCRIPTION" CivilizationAbilityIcon="ICON_CIVILIZATION_IRON_BLOOD" CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_NAME" CivilizationIcon="ICON_CIVILIZATION_IRON_BLOOD" CivilizationName="LOC_CIVILIZATION_IRON_BLOOD_NAME" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderAbilityDescription="LOC_TRAIT_LEADER_THE_GIRL_PURSUING_NAME_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_Z46_1936C" LeaderAbilityName="LOC_TRAIT_LEADER_THE_GIRL_PURSUING_NAME_NAME" LeaderIcon="ICON_LEADER_Z46_1936C" LeaderName="LOC_LEADER_Z46_1936C_NAME" LeaderType="LEADER_Z46_1936C" Portrait="IMG_LEADER_Z46_1936C_FOREGROUND" PortraitBackground="IMG_IRON_BLOOD_BACKGROUND" Domain="Players:Expansion1_Players"/>
+		<!-- Expansion 2 Support -->
+		<Row CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_DESCRIPTION" CivilizationAbilityIcon="ICON_CIVILIZATION_IRON_BLOOD" CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_NAME" CivilizationIcon="ICON_CIVILIZATION_IRON_BLOOD" CivilizationName="LOC_CIVILIZATION_IRON_BLOOD_NAME" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderAbilityDescription="LOC_TRAIT_LEADER_THE_GIRL_PURSUING_NAME_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_Z46_1936C" LeaderAbilityName="LOC_TRAIT_LEADER_THE_GIRL_PURSUING_NAME_NAME" LeaderIcon="ICON_LEADER_Z46_1936C" LeaderName="LOC_LEADER_Z46_1936C_NAME" LeaderType="LEADER_Z46_1936C" Portrait="IMG_LEADER_Z46_1936C_FOREGROUND" PortraitBackground="IMG_IRON_BLOOD_BACKGROUND" Domain="Players:Expansion2_Players"/>
 		<!--Deutschland-->
-		<Row>
-			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_DEUTSCHLAND_A</LeaderType>
-			<CivilizationName>LOC_CIVILIZATION_IRON_BLOOD_NAME</CivilizationName>
-			<CivilizationIcon>ICON_CIVILIZATION_IRON_BLOOD</CivilizationIcon>
-			<LeaderName>LOC_LEADER_DEUTSCHLAND_A_NAME</LeaderName>
-			<LeaderIcon>ICON_LEADER_DEUTSCHLAND_A</LeaderIcon>
-			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_NAME</CivilizationAbilityName>
-			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_DESCRIPTION</CivilizationAbilityDescription>
-			<CivilizationAbilityIcon>ICON_CIVILIZATION_IRON_BLOOD</CivilizationAbilityIcon>
-			<LeaderAbilityName>LOC_TRAIT_LEADER_DEUTSCHLAND_ABOVE_ALL_NAME</LeaderAbilityName>
-			<LeaderAbilityDescription>LOC_TRAIT_LEADER_DEUTSCHLAND_ABOVE_ALL_DESCRIPTION_XP2</LeaderAbilityDescription>
-			<LeaderAbilityIcon>ICON_LEADER_DEUTSCHLAND_A</LeaderAbilityIcon>
-			<Portrait>IMG_LEADER_DEUTSCHLAND_A_FOREGROUND</Portrait>
-			<PortraitBackground>IMG_IRON_BLOOD_BACKGROUND</PortraitBackground>
-		</Row>
-		<Row>
-			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_DEUTSCHLAND_A</LeaderType>
-			<CivilizationName>LOC_CIVILIZATION_IRON_BLOOD_NAME</CivilizationName>
-			<CivilizationIcon>ICON_CIVILIZATION_IRON_BLOOD</CivilizationIcon>
-			<LeaderName>LOC_LEADER_DEUTSCHLAND_A_NAME</LeaderName>
-			<LeaderIcon>ICON_LEADER_DEUTSCHLAND_A</LeaderIcon>
-			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_NAME</CivilizationAbilityName>
-			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_DESCRIPTION</CivilizationAbilityDescription>
-			<CivilizationAbilityIcon>ICON_CIVILIZATION_IRON_BLOOD</CivilizationAbilityIcon>
-			<LeaderAbilityName>LOC_TRAIT_LEADER_DEUTSCHLAND_ABOVE_ALL_NAME</LeaderAbilityName>
-			<LeaderAbilityDescription>LOC_TRAIT_LEADER_DEUTSCHLAND_ABOVE_ALL_DESCRIPTION</LeaderAbilityDescription>
-			<LeaderAbilityIcon>ICON_LEADER_DEUTSCHLAND_A</LeaderAbilityIcon>
-			<Portrait>IMG_LEADER_DEUTSCHLAND_A_FOREGROUND</Portrait>
-			<PortraitBackground>IMG_IRON_BLOOD_BACKGROUND</PortraitBackground>
-		</Row>
+		<!-- Expansion 1 Support -->
+		<Row CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_DESCRIPTION" CivilizationAbilityIcon="ICON_CIVILIZATION_IRON_BLOOD" CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_NAME" CivilizationIcon="ICON_CIVILIZATION_IRON_BLOOD" CivilizationName="LOC_CIVILIZATION_IRON_BLOOD_NAME" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderAbilityDescription="LOC_TRAIT_LEADER_DEUTSCHLAND_ABOVE_ALL_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_DEUTSCHLAND_A" LeaderAbilityName="LOC_TRAIT_LEADER_DEUTSCHLAND_ABOVE_ALL_NAME" LeaderIcon="ICON_LEADER_DEUTSCHLAND_A" LeaderName="LOC_LEADER_DEUTSCHLAND_A_NAME" LeaderType="LEADER_DEUTSCHLAND_A" Portrait="IMG_LEADER_DEUTSCHLAND_A_FOREGROUND" PortraitBackground="IMG_IRON_BLOOD_BACKGROUND" Domain="Players:Expansion1_Players"/>
+		<!-- Expansion 2 Support -->
+		<Row CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_DESCRIPTION" CivilizationAbilityIcon="ICON_CIVILIZATION_IRON_BLOOD" CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_NAME" CivilizationIcon="ICON_CIVILIZATION_IRON_BLOOD" CivilizationName="LOC_CIVILIZATION_IRON_BLOOD_NAME" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderAbilityDescription="LOC_TRAIT_LEADER_DEUTSCHLAND_ABOVE_ALL_DESCRIPTION_XP2" LeaderAbilityIcon="ICON_LEADER_DEUTSCHLAND_A" LeaderAbilityName="LOC_TRAIT_LEADER_DEUTSCHLAND_ABOVE_ALL_NAME" LeaderIcon="ICON_LEADER_DEUTSCHLAND_A" LeaderName="LOC_LEADER_DEUTSCHLAND_A_NAME" LeaderType="LEADER_DEUTSCHLAND_A" Portrait="IMG_LEADER_DEUTSCHLAND_A_FOREGROUND" PortraitBackground="IMG_IRON_BLOOD_BACKGROUND" Domain="Players:Expansion2_Players"/>
 		<!--Z23-->
-		<Row>
-			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_Z23_1936A</LeaderType>
-			<CivilizationName>LOC_CIVILIZATION_IRON_BLOOD_NAME</CivilizationName>
-			<CivilizationIcon>ICON_CIVILIZATION_IRON_BLOOD</CivilizationIcon>
-			<LeaderName>LOC_LEADER_Z23_1936A_NAME</LeaderName>
-			<LeaderIcon>ICON_LEADER_Z23_1936A</LeaderIcon>
-			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_NAME</CivilizationAbilityName>
-			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_DESCRIPTION</CivilizationAbilityDescription>
-			<CivilizationAbilityIcon>ICON_CIVILIZATION_IRON_BLOOD</CivilizationAbilityIcon>
-			<LeaderAbilityName>LOC_TRAIT_LEADER_IRON_BLOOD_VANGUARD_NAME</LeaderAbilityName>
-			<LeaderAbilityDescription>LOC_TRAIT_LEADER_IRON_BLOOD_VANGUARD_DESCRIPTION</LeaderAbilityDescription>
-			<LeaderAbilityIcon>ICON_LEADER_Z23_1936A</LeaderAbilityIcon>
-			<Portrait>IMG_LEADER_Z23_1936A_FOREGROUND</Portrait>
-			<PortraitBackground>IMG_IRON_BLOOD_BACKGROUND</PortraitBackground>
-		</Row>
-		<Row>
-			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_Z23_1936A</LeaderType>
-			<CivilizationName>LOC_CIVILIZATION_IRON_BLOOD_NAME</CivilizationName>
-			<CivilizationIcon>ICON_CIVILIZATION_IRON_BLOOD</CivilizationIcon>
-			<LeaderName>LOC_LEADER_Z23_1936A_NAME</LeaderName>
-			<LeaderIcon>ICON_LEADER_Z23_1936A</LeaderIcon>
-			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_NAME</CivilizationAbilityName>
-			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_DESCRIPTION</CivilizationAbilityDescription>
-			<CivilizationAbilityIcon>ICON_CIVILIZATION_IRON_BLOOD</CivilizationAbilityIcon>
-			<LeaderAbilityName>LOC_TRAIT_LEADER_IRON_BLOOD_VANGUARD_NAME</LeaderAbilityName>
-			<LeaderAbilityDescription>LOC_TRAIT_LEADER_Z23_1936ABOVE_ALL_DESCRIPTION</LeaderAbilityDescription>
-			<LeaderAbilityIcon>ICON_LEADER_Z23_1936A</LeaderAbilityIcon>
-			<Portrait>IMG_LEADER_Z23_1936A_FOREGROUND</Portrait>
-			<PortraitBackground>IMG_IRON_BLOOD_BACKGROUND</PortraitBackground>
-		</Row>
+		<!-- Expansion 1 Support -->
+		<Row CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_DESCRIPTION" CivilizationAbilityIcon="ICON_CIVILIZATION_IRON_BLOOD" CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_NAME" CivilizationIcon="ICON_CIVILIZATION_IRON_BLOOD" CivilizationName="LOC_CIVILIZATION_IRON_BLOOD_NAME" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderAbilityDescription="LOC_TRAIT_LEADER_IRON_BLOOD_VANGUARD_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_Z23_1936A" LeaderAbilityName="LOC_TRAIT_LEADER_IRON_BLOOD_VANGUARD_NAME" LeaderIcon="ICON_LEADER_Z23_1936A" LeaderName="LOC_LEADER_Z23_1936A_NAME" LeaderType="LEADER_Z23_1936A" Portrait="IMG_LEADER_Z23_1936A_FOREGROUND" PortraitBackground="IMG_IRON_BLOOD_BACKGROUND" Domain="Players:Expansion1_Players"/>
+		<!-- Expansion 2 Support -->
+		<Row CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_DESCRIPTION" CivilizationAbilityIcon="ICON_CIVILIZATION_IRON_BLOOD" CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_NAME" CivilizationIcon="ICON_CIVILIZATION_IRON_BLOOD" CivilizationName="LOC_CIVILIZATION_IRON_BLOOD_NAME" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderAbilityDescription="LOC_TRAIT_LEADER_IRON_BLOOD_VANGUARD_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_Z23_1936A" LeaderAbilityName="LOC_TRAIT_LEADER_IRON_BLOOD_VANGUARD_NAME" LeaderIcon="ICON_LEADER_Z23_1936A" LeaderName="LOC_LEADER_Z23_1936A_NAME" LeaderType="LEADER_Z23_1936A" Portrait="IMG_LEADER_Z23_1936A_FOREGROUND" PortraitBackground="IMG_IRON_BLOOD_BACKGROUND" Domain="Players:Expansion2_Players"/>
 	</Players>
 	<PlayerItems>
 		<!--U-96-->
-		<Row>
-			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_U_96_VIIC</LeaderType>
-			<Type>DISTRICT_RUHR</Type>
-			<Name>LOC_DISTRICT_RUHR_NAME</Name>
-			<Description>LOC_DISTRICT_RUHR_DESCRIPTION</Description>
-			<Icon>ICON_DISTRICT_RUHR</Icon>
-			<SortIndex>1</SortIndex>
-		</Row>
-		<Row>
-			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_U_96_VIIC</LeaderType>
-			<Type>DISTRICT_KRUPP</Type>
-			<Name>LOC_DISTRICT_KRUPP_NAME</Name>
-			<Description>LOC_DISTRICT_KRUPP_DESCRIPTION</Description>
-			<Icon>ICON_DISTRICT_KRUPP</Icon>
-			<SortIndex>2</SortIndex>
-		</Row>
-		<Row>
-			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_U_96_VIIC</LeaderType>
-			<Type>BUILDING_ANNETTE</Type>
-			<Name>LOC_BUILDING_ANNETTE_NAME</Name>
-			<Description>LOC_BUILDING_ANNETTE_DESCRIPTION</Description>
-			<Icon>ICON_BUILDING_ANNETTE</Icon>
-			<SortIndex>3</SortIndex>
-		</Row>
-		<Row>
-			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_U_96_VIIC</LeaderType>
-			<Type>UNIT_VIIC_UBOAT</Type>
-			<Name>LOC_UNIT_VIIC_UBOAT_NAME</Name>
-			<Description>LOC_UNIT_VIIC_UBOAT_DESCRIPTION</Description>
-			<Icon>ICON_UNIT_VIIC_UBOAT</Icon>
-			<SortIndex>4</SortIndex>
-		</Row>
-		<Row>
-			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_U_96_VIIC</LeaderType>
-			<Type>DISTRICT_RUHR</Type>
-			<Name>LOC_DISTRICT_RUHR_NAME</Name>
-			<Description>LOC_DISTRICT_RUHR_DESCRIPTION</Description>
-			<Icon>ICON_DISTRICT_RUHR</Icon>
-			<SortIndex>1</SortIndex>
-		</Row>
-		<Row>
-			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_U_96_VIIC</LeaderType>
-			<Type>DISTRICT_KRUPP</Type>
-			<Name>LOC_DISTRICT_KRUPP_NAME</Name>
-			<Description>LOC_DISTRICT_KRUPP_DESCRIPTION_XP2</Description>
-			<Icon>ICON_DISTRICT_KRUPP</Icon>
-			<SortIndex>2</SortIndex>
-		</Row>
-		<Row>
-			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_U_96_VIIC</LeaderType>
-			<Type>BUILDING_ANNETTE</Type>
-			<Name>LOC_BUILDING_ANNETTE_NAME</Name>
-			<Description>LOC_BUILDING_ANNETTE_DESCRIPTION</Description>
-			<Icon>ICON_BUILDING_ANNETTE</Icon>
-			<SortIndex>3</SortIndex>
-		</Row>
-		<Row>
-			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_U_96_VIIC</LeaderType>
-			<Type>UNIT_VIIC_UBOAT</Type>
-			<Name>LOC_UNIT_VIIC_UBOAT_NAME</Name>
-			<Description>LOC_UNIT_VIIC_UBOAT_DESCRIPTION</Description>
-			<Icon>ICON_UNIT_VIIC_UBOAT</Icon>
-			<SortIndex>4</SortIndex>
-		</Row>
+		<!-- Expansion 1 Support -->
+		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderType="LEADER_U_96_VIIC" Type="DISTRICT_RUHR" 		Name="LOC_DISTRICT_RUHR_NAME" 		Description="LOC_DISTRICT_RUHR_DESCRIPTION" 	Icon="ICON_DISTRICT_RUHR" 		SortIndex="10"/>
+		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderType="LEADER_U_96_VIIC" Type="DISTRICT_KRUPP" 	Name="LOC_DISTRICT_KRUPP_NAME" 		Description="LOC_DISTRICT_KRUPP_DESCRIPTION" 	Icon="ICON_DISTRICT_KRUPP" 		SortIndex="20"/>
+		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderType="LEADER_U_96_VIIC" Type="BUILDING_ANNETTE" 	Name="LOC_BUILDING_ANNETTE_NAME" 	Description="LOC_BUILDING_ANNETTE_DESCRIPTION" 	Icon="ICON_BUILDING_ANNETTE"	SortIndex="30"/>
+		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderType="LEADER_U_96_VIIC" Type="UNIT_VIIC_UBOAT" 	Name="LOC_UNIT_VIIC_UBOAT_NAME"	 	Description="LOC_UNIT_VIIC_UBOAT_DESCRIPTION" 	Icon="ICON_UNIT_VIIC_UBOAT" 	SortIndex="40"/>
+		<!-- Expansion 2 Support -->
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderType="LEADER_U_96_VIIC" Type="DISTRICT_RUHR" 		Name="LOC_DISTRICT_RUHR_NAME" 		Description="LOC_DISTRICT_RUHR_DESCRIPTION" 	Icon="ICON_DISTRICT_RUHR" 		SortIndex="10"/>
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderType="LEADER_U_96_VIIC" Type="DISTRICT_KRUPP" 	Name="LOC_DISTRICT_KRUPP_NAME" 		Description="LOC_DISTRICT_KRUPP_DESCRIPTION" 	Icon="ICON_DISTRICT_KRUPP" 		SortIndex="20"/>
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderType="LEADER_U_96_VIIC" Type="BUILDING_ANNETTE" 	Name="LOC_BUILDING_ANNETTE_NAME" 	Description="LOC_BUILDING_ANNETTE_DESCRIPTION" 	Icon="ICON_BUILDING_ANNETTE" 	SortIndex="30"/>
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderType="LEADER_U_96_VIIC" Type="UNIT_VIIC_UBOAT" 	Name="LOC_UNIT_VIIC_UBOAT_NAME" 	Description="LOC_UNIT_VIIC_UBOAT_DESCRIPTION" 	Icon="ICON_UNIT_VIIC_UBOAT" 	SortIndex="40"/>
 		<!--Z46-->
-		<Row>
-			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_Z46_1936C</LeaderType>
-			<Type>DISTRICT_RUHR</Type>
-			<Name>LOC_DISTRICT_RUHR_NAME</Name>
-			<Description>LOC_DISTRICT_RUHR_DESCRIPTION</Description>
-			<Icon>ICON_DISTRICT_RUHR</Icon>
-			<SortIndex>1</SortIndex>
-		</Row>
-		<Row>
-			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_Z46_1936C</LeaderType>
-			<Type>DISTRICT_KRUPP</Type>
-			<Name>LOC_DISTRICT_KRUPP_NAME</Name>
-			<Description>LOC_DISTRICT_KRUPP_DESCRIPTION</Description>
-			<Icon>ICON_DISTRICT_KRUPP</Icon>
-			<SortIndex>2</SortIndex>
-		</Row>
-		<Row>
-			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_Z46_1936C</LeaderType>
-			<Type>BUILDING_ANNETTE</Type>
-			<Name>LOC_BUILDING_ANNETTE_NAME</Name>
-			<Description>LOC_BUILDING_ANNETTE_DESCRIPTION</Description>
-			<Icon>ICON_BUILDING_ANNETTE</Icon>
-			<SortIndex>3</SortIndex>
-		</Row>
-		<Row>
-			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_Z46_1936C</LeaderType>
-			<Type>UNIT_1936C</Type>
-			<Name>LOC_UNIT_1936C_NAME</Name>
-			<Description>LOC_UNIT_1936C_DESCRIPTION</Description>
-			<Icon>ICON_UNIT_1936C</Icon>
-			<SortIndex>4</SortIndex>
-		</Row>
-		<Row>
-			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_Z46_1936C</LeaderType>
-			<Type>DISTRICT_RUHR</Type>
-			<Name>LOC_DISTRICT_RUHR_NAME</Name>
-			<Description>LOC_DISTRICT_RUHR_DESCRIPTION</Description>
-			<Icon>ICON_DISTRICT_RUHR</Icon>
-			<SortIndex>1</SortIndex>
-		</Row>
-		<Row>
-			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_Z46_1936C</LeaderType>
-			<Type>DISTRICT_KRUPP</Type>
-			<Name>LOC_DISTRICT_KRUPP_NAME</Name>
-			<Description>LOC_DISTRICT_KRUPP_DESCRIPTION_XP2</Description>
-			<Icon>ICON_DISTRICT_KRUPP</Icon>
-			<SortIndex>2</SortIndex>
-		</Row>
-		<Row>
-			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_Z46_1936C</LeaderType>
-			<Type>BUILDING_ANNETTE</Type>
-			<Name>LOC_BUILDING_ANNETTE_NAME</Name>
-			<Description>LOC_BUILDING_ANNETTE_DESCRIPTION</Description>
-			<Icon>ICON_BUILDING_ANNETTE</Icon>
-			<SortIndex>3</SortIndex>
-		</Row>
-		<Row>
-			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_Z46_1936C</LeaderType>
-			<Type>UNIT_1936C</Type>
-			<Name>LOC_UNIT_1936C_NAME</Name>
-			<Description>LOC_UNIT_1936C_DESCRIPTION</Description>
-			<Icon>ICON_UNIT_1936C</Icon>
-			<SortIndex>4</SortIndex>
-		</Row>
+		<!-- Expansion 1 Support -->
+		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderType="LEADER_Z46_1936C" Type="DISTRICT_RUHR" 		Name="LOC_DISTRICT_RUHR_NAME" 		Description="LOC_DISTRICT_RUHR_DESCRIPTION" 	Icon="ICON_DISTRICT_RUHR" 		SortIndex="10"/>
+		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderType="LEADER_Z46_1936C" Type="DISTRICT_KRUPP" 	Name="LOC_DISTRICT_KRUPP_NAME" 		Description="LOC_DISTRICT_KRUPP_DESCRIPTION" 	Icon="ICON_DISTRICT_KRUPP" 		SortIndex="20"/>
+		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderType="LEADER_Z46_1936C" Type="BUILDING_ANNETTE" 	Name="LOC_BUILDING_ANNETTE_NAME" 	Description="LOC_BUILDING_ANNETTE_DESCRIPTION" 	Icon="ICON_BUILDING_ANNETTE"	SortIndex="30"/>
+		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderType="LEADER_Z46_1936C" Type="UNIT_1936C" 		Name="LOC_UNIT_1936C_NAME"	 		Description="LOC_UNIT_1936C_DESCRIPTION" 		Icon="ICON_UNIT_1936C" 			SortIndex="40"/>
+		<!-- Expansion 2 Support -->
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderType="LEADER_Z46_1936C" Type="DISTRICT_RUHR" 		Name="LOC_DISTRICT_RUHR_NAME" 		Description="LOC_DISTRICT_RUHR_DESCRIPTION" 	Icon="ICON_DISTRICT_RUHR" 		SortIndex="10"/>
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderType="LEADER_Z46_1936C" Type="DISTRICT_KRUPP" 	Name="LOC_DISTRICT_KRUPP_NAME" 		Description="LOC_DISTRICT_KRUPP_DESCRIPTION" 	Icon="ICON_DISTRICT_KRUPP" 		SortIndex="20"/>
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderType="LEADER_Z46_1936C" Type="BUILDING_ANNETTE" 	Name="LOC_BUILDING_ANNETTE_NAME" 	Description="LOC_BUILDING_ANNETTE_DESCRIPTION" 	Icon="ICON_BUILDING_ANNETTE" 	SortIndex="30"/>
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderType="LEADER_Z46_1936C" Type="UNIT_1936C" 		Name="LOC_UNIT_1936C_NAME" 			Description="LOC_UNIT_1936C_DESCRIPTION" 		Icon="ICON_UNIT_1936C" 			SortIndex="40"/>
 		<!--Deutschland-->
-		<Row>
-			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_DEUTSCHLAND_A</LeaderType>
-			<Type>DISTRICT_RUHR</Type>
-			<Name>LOC_DISTRICT_RUHR_NAME</Name>
-			<Description>LOC_DISTRICT_RUHR_DESCRIPTION</Description>
-			<Icon>ICON_DISTRICT_RUHR</Icon>
-			<SortIndex>1</SortIndex>
-		</Row>
-		<Row>
-			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_DEUTSCHLAND_A</LeaderType>
-			<Type>DISTRICT_KRUPP</Type>
-			<Name>LOC_DISTRICT_KRUPP_NAME</Name>
-			<Description>LOC_DISTRICT_KRUPP_DESCRIPTION</Description>
-			<Icon>ICON_DISTRICT_KRUPP</Icon>
-			<SortIndex>2</SortIndex>
-		</Row>
-		<Row>
-			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_DEUTSCHLAND_A</LeaderType>
-			<Type>BUILDING_ANNETTE</Type>
-			<Name>LOC_BUILDING_ANNETTE_NAME</Name>
-			<Description>LOC_BUILDING_ANNETTE_DESCRIPTION</Description>
-			<Icon>ICON_BUILDING_ANNETTE</Icon>
-			<SortIndex>3</SortIndex>
-		</Row>
-		<Row>
-			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_DEUTSCHLAND_A</LeaderType>
-			<Type>DISTRICT_RUHR</Type>
-			<Name>LOC_DISTRICT_RUHR_NAME</Name>
-			<Description>LOC_DISTRICT_RUHR_DESCRIPTION</Description>
-			<Icon>ICON_DISTRICT_RUHR</Icon>
-			<SortIndex>1</SortIndex>
-		</Row>
-		<Row>
-			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_DEUTSCHLAND_A</LeaderType>
-			<Type>DISTRICT_KRUPP</Type>
-			<Name>LOC_DISTRICT_KRUPP_NAME</Name>
-			<Description>LOC_DISTRICT_KRUPP_DESCRIPTION_XP2</Description>
-			<Icon>ICON_DISTRICT_KRUPP</Icon>
-			<SortIndex>2</SortIndex>
-		</Row>
-		<Row>
-			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_DEUTSCHLAND_A</LeaderType>
-			<Type>BUILDING_ANNETTE</Type>
-			<Name>LOC_BUILDING_ANNETTE_NAME</Name>
-			<Description>LOC_BUILDING_ANNETTE_DESCRIPTION</Description>
-			<Icon>ICON_BUILDING_ANNETTE</Icon>
-			<SortIndex>3</SortIndex>
-		</Row>
+		<!-- Expansion 1 Support -->
+		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderType="LEADER_DEUTSCHLAND_A" Type="DISTRICT_RUHR" 		Name="LOC_DISTRICT_RUHR_NAME" 		Description="LOC_DISTRICT_RUHR_DESCRIPTION" 	Icon="ICON_DISTRICT_RUHR" 		SortIndex="10"/>
+		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderType="LEADER_DEUTSCHLAND_A" Type="DISTRICT_KRUPP" 	Name="LOC_DISTRICT_KRUPP_NAME" 		Description="LOC_DISTRICT_KRUPP_DESCRIPTION" 	Icon="ICON_DISTRICT_KRUPP" 		SortIndex="20"/>
+		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderType="LEADER_DEUTSCHLAND_A" Type="BUILDING_ANNETTE" 	Name="LOC_BUILDING_ANNETTE_NAME" 	Description="LOC_BUILDING_ANNETTE_DESCRIPTION" 	Icon="ICON_BUILDING_ANNETTE"	SortIndex="30"/>
+		<!-- Expansion 2 Support -->
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderType="LEADER_DEUTSCHLAND_A" Type="DISTRICT_RUHR" 		Name="LOC_DISTRICT_RUHR_NAME" 		Description="LOC_DISTRICT_RUHR_DESCRIPTION" 	Icon="ICON_DISTRICT_RUHR" 		SortIndex="10"/>
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderType="LEADER_DEUTSCHLAND_A" Type="DISTRICT_KRUPP" 	Name="LOC_DISTRICT_KRUPP_NAME" 		Description="LOC_DISTRICT_KRUPP_DESCRIPTION" 	Icon="ICON_DISTRICT_KRUPP" 		SortIndex="20"/>
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderType="LEADER_DEUTSCHLAND_A" Type="BUILDING_ANNETTE" 	Name="LOC_BUILDING_ANNETTE_NAME" 	Description="LOC_BUILDING_ANNETTE_DESCRIPTION" 	Icon="ICON_BUILDING_ANNETTE" 	SortIndex="30"/>
 		<!--Z23-->
-		<Row>
-			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_Z23_1936A</LeaderType>
-			<Type>DISTRICT_RUHR</Type>
-			<Name>LOC_DISTRICT_RUHR_NAME</Name>
-			<Description>LOC_DISTRICT_RUHR_DESCRIPTION</Description>
-			<Icon>ICON_DISTRICT_RUHR</Icon>
-			<SortIndex>1</SortIndex>
-		</Row>
-		<Row>
-			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_Z23_1936A</LeaderType>
-			<Type>DISTRICT_KRUPP</Type>
-			<Name>LOC_DISTRICT_KRUPP_NAME</Name>
-			<Description>LOC_DISTRICT_KRUPP_DESCRIPTION</Description>
-			<Icon>ICON_DISTRICT_KRUPP</Icon>
-			<SortIndex>2</SortIndex>
-		</Row>
-		<Row>
-			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_Z23_1936A</LeaderType>
-			<Type>BUILDING_ANNETTE</Type>
-			<Name>LOC_BUILDING_ANNETTE_NAME</Name>
-			<Description>LOC_BUILDING_ANNETTE_DESCRIPTION</Description>
-			<Icon>ICON_BUILDING_ANNETTE</Icon>
-			<SortIndex>3</SortIndex>
-		</Row>
-		<Row>
-			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_Z23_1936A</LeaderType>
-			<Type>UNIT_1936A</Type>
-			<Name>LOC_UNIT_1936A_NAME</Name>
-			<Description>LOC_UNIT_1936A_DESCRIPTION</Description>
-			<Icon>ICON_UNIT_1936A</Icon>
-			<SortIndex>4</SortIndex>
-		</Row>
-		<Row>
-			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_Z23_1936A</LeaderType>
-			<Type>DISTRICT_RUHR</Type>
-			<Name>LOC_DISTRICT_RUHR_NAME</Name>
-			<Description>LOC_DISTRICT_RUHR_DESCRIPTION</Description>
-			<Icon>ICON_DISTRICT_RUHR</Icon>
-			<SortIndex>1</SortIndex>
-		</Row>
-		<Row>
-			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_Z23_1936A</LeaderType>
-			<Type>DISTRICT_KRUPP</Type>
-			<Name>LOC_DISTRICT_KRUPP_NAME</Name>
-			<Description>LOC_DISTRICT_KRUPP_DESCRIPTION_XP2</Description>
-			<Icon>ICON_DISTRICT_KRUPP</Icon>
-			<SortIndex>2</SortIndex>
-		</Row>
-		<Row>
-			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_Z23_1936A</LeaderType>
-			<Type>BUILDING_ANNETTE</Type>
-			<Name>LOC_BUILDING_ANNETTE_NAME</Name>
-			<Description>LOC_BUILDING_ANNETTE_DESCRIPTION</Description>
-			<Icon>ICON_BUILDING_ANNETTE</Icon>
-			<SortIndex>3</SortIndex>
-		</Row>
-		<Row>
-			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_IRON_BLOOD</CivilizationType>
-			<LeaderType>LEADER_Z23_1936A</LeaderType>
-			<Type>UNIT_1936A</Type>
-			<Name>LOC_UNIT_1936A_NAME</Name>
-			<Description>LOC_UNIT_1936A_DESCRIPTION</Description>
-			<Icon>ICON_UNIT_1936A</Icon>
-			<SortIndex>4</SortIndex>
-		</Row>
+		<!-- Expansion 1 Support -->
+		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderType="LEADER_Z23_1936A" Type="DISTRICT_RUHR" 		Name="LOC_DISTRICT_RUHR_NAME" 		Description="LOC_DISTRICT_RUHR_DESCRIPTION" 	Icon="ICON_DISTRICT_RUHR" 		SortIndex="10"/>
+		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderType="LEADER_Z23_1936A" Type="DISTRICT_KRUPP" 	Name="LOC_DISTRICT_KRUPP_NAME" 		Description="LOC_DISTRICT_KRUPP_DESCRIPTION" 	Icon="ICON_DISTRICT_KRUPP" 		SortIndex="20"/>
+		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderType="LEADER_Z23_1936A" Type="BUILDING_ANNETTE" 	Name="LOC_BUILDING_ANNETTE_NAME" 	Description="LOC_BUILDING_ANNETTE_DESCRIPTION" 	Icon="ICON_BUILDING_ANNETTE"	SortIndex="30"/>
+		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderType="LEADER_Z23_1936A" Type="UNIT_1936A" 		Name="LOC_UNIT_1936A_NAME"	 		Description="LOC_UNIT_1936A_DESCRIPTION" 		Icon="ICON_UNIT_1936A" 			SortIndex="40"/>
+		<!-- Expansion 2 Support -->
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderType="LEADER_Z23_1936A" Type="DISTRICT_RUHR" 		Name="LOC_DISTRICT_RUHR_NAME" 		Description="LOC_DISTRICT_RUHR_DESCRIPTION" 	Icon="ICON_DISTRICT_RUHR" 		SortIndex="10"/>
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderType="LEADER_Z23_1936A" Type="DISTRICT_KRUPP" 	Name="LOC_DISTRICT_KRUPP_NAME" 		Description="LOC_DISTRICT_KRUPP_DESCRIPTION" 	Icon="ICON_DISTRICT_KRUPP" 		SortIndex="20"/>
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderType="LEADER_Z23_1936A" Type="BUILDING_ANNETTE" 	Name="LOC_BUILDING_ANNETTE_NAME" 	Description="LOC_BUILDING_ANNETTE_DESCRIPTION" 	Icon="ICON_BUILDING_ANNETTE" 	SortIndex="30"/>
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_IRON_BLOOD" LeaderType="LEADER_Z23_1936A" Type="UNIT_1936A" 		Name="LOC_UNIT_1936A_NAME" 			Description="LOC_UNIT_1936A_DESCRIPTION" 		Icon="ICON_UNIT_1936A" 			SortIndex="40"/>
 	</PlayerItems>
 </GameData>
