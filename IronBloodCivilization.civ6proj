@@ -108,6 +108,7 @@
             <Context>InGame</Context>
           </Properties>
           <File>UI/Additions/IronBlood_Z23UI.xml</File>
+          <File>UI/Additions/IronBlood_SeydlitzUI.xml</File>
         </AddUserInterfaces>
         <AddGameplayScripts id="Lua">
           <File>Lua/IronBlood_U96.lua</File>
@@ -436,6 +437,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Text\zh_Hant_HK\IronBlood_Z46_TextHK.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\Additions\IronBlood_SeydlitzUI.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\Additions\IronBlood_SeydlitzUI.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="UI\Additions\IronBlood_Z23UI.lua">

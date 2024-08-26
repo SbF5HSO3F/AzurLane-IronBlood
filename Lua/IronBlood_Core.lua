@@ -30,3 +30,20 @@ end
 function IronBloodEnter()
     UI.PlaySound("Main_Menu_Mouse_Over")
 end
+
+--||========================Test========================||--
+
+--test function
+function IronBloodPrintTable(t, indent)
+    indent = indent or 0
+
+    for k, v in pairs(t) do
+        if type(v) == "table" then
+            print(string.rep(" ", indent) .. k .. ": {")
+            IronBloodPrintTable(v, indent + 4)
+            print(string.rep(" ", indent) .. "}")
+        else
+            print(string.rep(" ", indent) .. k .. ": " .. tostring(v))
+        end
+    end
+end

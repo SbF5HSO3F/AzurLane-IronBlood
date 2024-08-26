@@ -170,7 +170,7 @@ function Initialize()
     ------------------------------------------
     Events.PhaseBegin.Add(Z23ResetButton)
     ------------------------------------------
-    print('IronBlood_Z23UI Initial success!')
+    print('Initial success!')
 end
 
 Initialize()
