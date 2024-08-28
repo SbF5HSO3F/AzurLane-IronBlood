@@ -28,7 +28,9 @@ function Z23GetButtonVisibility(playerID, unitID)
             return false
         end
         local unitFormation = unitInfo.FormationClass
-        return unitFormation == 'FORMATION_CLASS_LAND_COMBAT' or unitFormation == 'FORMATION_CLASS_NAVAL'
+        return unitFormation == 'FORMATION_CLASS_LAND_COMBAT'
+            or unitFormation == 'FORMATION_CLASS_NAVAL'
+            or unitFormation == 'FORMATION_CLASS_AIR'
     end
     return false
 end

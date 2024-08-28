@@ -12,7 +12,7 @@ local key_D = 'UnSinkableLegendDefend'
 local maxHp = GlobalParameters.COMBAT_MAX_HIT_POINTS
 local perHp = 10
 
---||======================initialize======================||--
+--||===================Events functions===================||--
 
 --when damage change
 function SeydlitzSetProperty(playerID, unitID)
@@ -30,13 +30,29 @@ function SeydlitzSetProperty(playerID, unitID)
     end
 end
 
+--||=================GameEvents functions=================||--
+
+--transmission unit
+function SeydlitzPlaceUnit(playerID, param)
+    local pPlayer = Players[playerID]
+    if pPlayer then
+        local pUnit = UnitManager.GetUnit(playerID, param.unitID)
+        if pUnit then
+            UnitManager.PlaceUnit(pUnit, param.x, param.y)
+            pUnit:SetDamage(0)
+        end
+    end
+end
+
+--||======================initialize======================||--
+
 --initialization function
 function Initialize()
     -----------------------Events-----------------------
     Events.UnitDamageChanged.Add(SeydlitzSetProperty)
     Events.UnitAddedToMap.Add(SeydlitzSetProperty)
     ---------------------GameEvents---------------------
-
+    GameEvents.SeydlitzRePlaceUnit.Add(SeydlitzPlaceUnit)
     ----------------------------------------------------
     ----------------------------------------------------
     print('Initial success!')

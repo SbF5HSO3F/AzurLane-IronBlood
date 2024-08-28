@@ -32,7 +32,7 @@
 			<Text>不沉的传奇</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_UNSINKABLE_LEGEND_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>军事单位不会蒙受受伤减益，进攻时，每拥有10点生命值便+1 [ICON_STRENGTH] 战斗力；防御时，每损失10点生命值便+1 [ICON_STRENGTH] 战斗力。</Text>
+			<Text>军事单位不会蒙受受伤减益，进攻时，每拥有10点生命值便+1 [ICON_STRENGTH] 战斗力；防御时，每损失10点生命值便+1 [ICON_STRENGTH] 战斗力。受伤的军事单位可撤退至特定的区域内，并恢复全部生命值。</Text>
 		</Replace>
 		<!--特殊加成-->
 
@@ -54,6 +54,25 @@
 		</Replace>
 		<Replace Tag="LOC_PREVIEW_UNSINKABLE_LEGEND_DEFEND_COMBAT_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>+{Property}来自损失的生命值</Text>
+		</Replace>
+		<!--lua文本-->
+		<Replace Tag="LOC_UNITCOMMAND_UNSINKABLE_LEGEND_TITLE" Language="zh_Hans_CN">
+			<Text>不沉传奇</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_UNSINKABLE_LEGEND_DESC" Language="zh_Hans_CN">
+			<Text>允许受伤单位撤退至特定的区域内，并恢复全部生命值。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_UNSINKABLE_LEGEND_DISABLE" Language="zh_Hans_CN">
+			<Text>[COLOR_RED]因以下原因，该行动不可用：[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_UNSINKABLE_LEGEND_NODAMAGE" Language="zh_Hans_CN">
+			<Text>[ICON_Bullet][COLOR_RED]该单位未受伤[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_UNSINKABLE_LEGEND_NOMOVEMENT" Language="zh_Hans_CN">
+			<Text>[ICON_Bullet][COLOR_RED]该单位没有剩余 [ICON_MOVEMENT] 移动力[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_UNSINKABLE_LEGEND_NOPLOT" Language="zh_Hans_CN">
+			<Text>[ICON_Bullet][COLOR_RED]该单位没有可供撤退的区域[ENDCOLOR]</Text>
 		</Replace>
 		<!--特殊晋升-->
 
