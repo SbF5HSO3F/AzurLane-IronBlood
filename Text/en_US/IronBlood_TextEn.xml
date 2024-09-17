@@ -175,6 +175,36 @@
 		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_30" Language="en_US">
 			<Text>Breslau</Text>
 		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_31" Language="en_US">
+			<Text>梅斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_32" Language="en_US">
+			<Text>埃森</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_33" Language="en_US">
+			<Text>但泽</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_34" Language="en_US">
+			<Text>卢森堡</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_35" Language="en_US">
+			<Text>萨尔布吕肯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_36" Language="en_US">
+			<Text>莱比锡</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_37" Language="en_US">
+			<Text>里加</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_38" Language="en_US">
+			<Text>明斯特</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_39" Language="en_US">
+			<Text>格莱维茨</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_40" Language="en_US">
+			<Text>斯特拉斯堡</Text>
+		</Replace>
 		<!--市民名-->
 		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_1" Language="en_US">
 			<Text>Prinz Eugen</Text>

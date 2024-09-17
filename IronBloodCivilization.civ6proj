@@ -109,6 +109,7 @@
           </Properties>
           <File>UI/Additions/IronBlood_Z23UI.xml</File>
           <File>UI/Additions/IronBlood_SeydlitzUI.xml</File>
+          <File>UI/Additions/IronBlood_SeydlitzGreatPresonUI.xml</File>
         </AddUserInterfaces>
         <AddGameplayScripts id="Lua">
           <File>Lua/IronBlood_U96.lua</File>
@@ -216,6 +217,7 @@
         <UpdateDatabase id="Seydlitz">
           <File priority="100">Data/Seydlitz/IronBlood_Seydlitz_Leader.xml</File>
           <File priority="90">Data/Seydlitz/IronBlood_Seydlitz_UnitAbilities.xml</File>
+          <File priority="80">Data/Seydlitz/IronBlood_Seydlitz_Units.xml</File>
         </UpdateDatabase>
         <UpdateText id="Seydlitz_Text">
           <File priority="90">Text/zh_Hans_CN/IronBlood_Seydlitz_TextCN.xml</File>
@@ -302,6 +304,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Data\Seydlitz\IronBlood_Seydlitz_UnitAbilities.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Seydlitz\IronBlood_Seydlitz_Units.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Data\U-96\IronBlood_Leader_U96.xml">
@@ -437,6 +442,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Text\zh_Hant_HK\IronBlood_Z46_TextHK.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\Additions\IronBlood_SeydlitzGreatPresonUI.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\Additions\IronBlood_SeydlitzGreatPresonUI.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="UI\Additions\IronBlood_SeydlitzUI.lua">

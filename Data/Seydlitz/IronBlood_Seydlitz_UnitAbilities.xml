@@ -5,17 +5,37 @@
 <GameData>
 	<Types>
 		<Row Type="ABILITY_UNSINKABLE_LEGEND"	Kind="KIND_ABILITY"/>
+		<!--大将军-->
+		<Row Type="ABILITY_LEGEND_GENERAL"		Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_LEGEND_GENERAL_BUFF"	Kind="KIND_ABILITY"/>
+		<!--海军统帅-->
+		<Row Type="ABILITY_LEGEND_ADMIRAL"		Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_LEGEND_ADMIRAL_BUFF"	Kind="KIND_ABILITY"/>
 	</Types>
 	<TypeTags>
 		<Row Type="ABILITY_UNSINKABLE_LEGEND"	Tag="CLASS_ALL_COMBAT_UNITS"/>
 		<Row Type="ABILITY_UNSINKABLE_LEGEND"	Tag="CLASS_NAVAL_CARRIER"/>
+		<!--大将军-->
+		<Row Type="ABILITY_LEGEND_GENERAL"		Tag="CLASS_IRON_BLOOD_GENERAL"/>
+		<Row Type="ABILITY_LEGEND_GENERAL_BUFF"	Tag="CLASS_ALL_COMBAT_UNITS"/>
+		<Row Type="ABILITY_LEGEND_GENERAL_BUFF"	Tag="CLASS_NAVAL_CARRIER"/>
+		<!--海军统帅-->
+		<Row Type="ABILITY_LEGEND_ADMIRAL"		Tag="CLASS_IRON_BLOOD_ADMIRAL"/>
+		<Row Type="ABILITY_LEGEND_ADMIRAL_BUFF"	Tag="CLASS_ALL_COMBAT_UNITS"/>
+		<Row Type="ABILITY_LEGEND_ADMIRAL_BUFF"	Tag="CLASS_NAVAL_CARRIER"/>
 	</TypeTags>
 	<UnitAbilities>
-		<Row UnitAbilityType="ABILITY_UNSINKABLE_LEGEND"			Name="LOC_ABILITY_UNSINKABLE_LEGEND_NAME"			Description="LOC_ABILITY_UNSINKABLE_LEGEND_DESCRIPTION"			Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_UNSINKABLE_LEGEND"		Name="LOC_ABILITY_UNSINKABLE_LEGEND_NAME"			Description="LOC_ABILITY_UNSINKABLE_LEGEND_DESCRIPTION"				Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_LEGEND_GENERAL"			Name="LOC_ABILITY_LEGEND_GENERAL_AND_ADMIRAL_NAME"	Description="LOC_ABILITY_LEGEND_GENERAL_AND_ADMIRAL_DESCRIPTION"	Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_LEGEND_GENERAL_BUFF"																																Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_LEGEND_ADMIRAL"			Name="LOC_ABILITY_LEGEND_GENERAL_AND_ADMIRAL_NAME"	Description="LOC_ABILITY_LEGEND_GENERAL_AND_ADMIRAL_DESCRIPTION"	Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_LEGEND_ADMIRAL_BUFF"																																Inactive="true"/>
 	</UnitAbilities>
 	<ModifierStrings>
 		<Row ModifierId="UNSINKABLE_LEGEND_ATTACK_COMBAT"	Context="Preview" Text="LOC_PREVIEW_UNSINKABLE_LEGEND_ATTACK_COMBAT_DESCRIPTION"/>
 		<Row ModifierId="UNSINKABLE_LEGEND_DEFEND_COMBAT"	Context="Preview" Text="LOC_PREVIEW_UNSINKABLE_LEGEND_DEFEND_COMBAT_DESCRIPTION"/>
+		<Row ModifierId="LEGEND_GENERAL_COMBAT_BUFF"		Context="Preview" Text="LOC_PREVIEW_LEGEND_GENERAL_COMBAT_BUFF_DESCRIPTION"/>
+		<Row ModifierId="LEGEND_ADMIRAL_COMBAT_BUFF"		Context="Preview" Text="LOC_PREVIEW_LEGEND_ADMIRAL_COMBAT_BUFF_DESCRIPTION"/>
 	</ModifierStrings>
 	<UnitAbilityModifiers>
 		<!--不会蒙受受伤减益-->
@@ -32,6 +52,32 @@
 		<Row>
 			<UnitAbilityType>ABILITY_UNSINKABLE_LEGEND</UnitAbilityType>
 			<ModifierId>UNSINKABLE_LEGEND_DEFEND_COMBAT</ModifierId>
+		</Row>
+		<!--大将军-->
+		<Row>
+			<UnitAbilityType>ABILITY_LEGEND_GENERAL</UnitAbilityType>
+			<ModifierId>LEGEND_GENERAL_GRANT_ABILITY</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_LEGEND_GENERAL_BUFF</UnitAbilityType>
+			<ModifierId>LEGEND_GENERAL_COMBAT_BUFF</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_LEGEND_GENERAL_BUFF</UnitAbilityType>
+			<ModifierId>LEGEND_GENERAL_MOVEMENT_BUFF</ModifierId>
+		</Row>
+		<!--海军统帅-->
+		<Row>
+			<UnitAbilityType>ABILITY_LEGEND_ADMIRAL</UnitAbilityType>
+			<ModifierId>LEGEND_ADMIRAL_GRANT_ABILITY</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_LEGEND_ADMIRAL_BUFF</UnitAbilityType>
+			<ModifierId>LEGEND_ADMIRAL_COMBAT_BUFF</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_LEGEND_ADMIRAL_BUFF</UnitAbilityType>
+			<ModifierId>LEGEND_ADMIRAL_MOVEMENT_BUFF</ModifierId>
 		</Row>
 	</UnitAbilityModifiers>
 	<Modifiers>
@@ -52,6 +98,34 @@
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 			<SubjectRequirementSetId>IRON_BLOOD_PLAYER_IS_DEFENDER</SubjectRequirementSetId>
 		</Row>
+		<!--大将军-->
+		<Row>
+			<ModifierId>LEGEND_GENERAL_GRANT_ABILITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>IRON_BLOOD_UNITS_IN_TWO_TILES</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>LEGEND_GENERAL_COMBAT_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>LEGEND_GENERAL_MOVEMENT_BUFF</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+		</Row>
+		<!--海军统帅-->
+		<Row>
+			<ModifierId>LEGEND_ADMIRAL_GRANT_ABILITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>IRON_BLOOD_UNITS_IN_TWO_TILES</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>LEGEND_ADMIRAL_COMBAT_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>LEGEND_ADMIRAL_MOVEMENT_BUFF</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<!--不会蒙受受伤减益-->
@@ -71,6 +145,38 @@
 			<ModifierId>UNSINKABLE_LEGEND_DEFEND_COMBAT</ModifierId>
 			<Name>Key</Name>
 			<Value>UnSinkableLegendDefend</Value>
+		</Row>
+		<!--大将军-->
+		<Row>
+			<ModifierId>LEGEND_GENERAL_GRANT_ABILITY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_LEGEND_GENERAL_BUFF</Value>
+		</Row>
+		<Row>
+			<ModifierId>LEGEND_GENERAL_COMBAT_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>LEGEND_GENERAL_MOVEMENT_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!--海军统帅-->
+		<Row>
+			<ModifierId>LEGEND_ADMIRAL_GRANT_ABILITY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_LEGEND_ADMIRAL_BUFF</Value>
+		</Row>
+		<Row>
+			<ModifierId>LEGEND_ADMIRAL_COMBAT_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>LEGEND_ADMIRAL_MOVEMENT_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
 		</Row>
 	</ModifierArguments>
 </GameData>

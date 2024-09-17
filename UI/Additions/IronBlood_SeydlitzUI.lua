@@ -141,23 +141,23 @@ end
 --get the button detail
 function SeydlitzGetButtonDetail(pUnit)
     local detail = { Disable = true, Reason = 'NONE' }
-    if pUnit:GetDamage() == 0 then
-        --damage, disabled
-        detail.Reason = Locale.Lookup('LOC_UNITCOMMAND_UNSINKABLE_LEGEND_NODAMAGE')
+    -- if pUnit:GetDamage() == 0 then
+    --     --damage, disabled
+    --     detail.Reason = Locale.Lookup('LOC_UNITCOMMAND_UNSINKABLE_LEGEND_NODAMAGE')
+    -- else
+    if pUnit:GetMovesRemaining() == 0 then
+        --no movement, disabled
+        detail.Reason = Locale.Lookup('LOC_UNITCOMMAND_UNSINKABLE_LEGEND_NOMOVEMENT')
     else
-        if pUnit:GetMovesRemaining() == 0 then
-            --no movement, disabled
-            detail.Reason = Locale.Lookup('LOC_UNITCOMMAND_UNSINKABLE_LEGEND_NOMOVEMENT')
+        local plots = SeydlitzGetPlots(pUnit)
+        if plots and #plots > 0 then
+            detail.Disable = false
         else
-            local plots = SeydlitzGetPlots(pUnit)
-            if plots then
-                detail.Disable = false
-            else
-                --no plot, disabled
-                detail.Reason = Locale.Lookup('LOC_UNITCOMMAND_UNSINKABLE_LEGEND_NOPLOT')
-            end
+            --no plot, disabled
+            detail.Reason = Locale.Lookup('LOC_UNITCOMMAND_UNSINKABLE_LEGEND_NOPLOT')
         end
     end
+    --end
 
     --return the button detail
     return detail

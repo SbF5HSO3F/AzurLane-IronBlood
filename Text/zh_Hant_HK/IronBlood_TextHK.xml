@@ -199,6 +199,36 @@
 		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_30" Language="zh_Hant_HK">
 			<Text>布雷斯勞</Text>
 		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_31" Language="zh_Hant_HK">
+			<Text>梅斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_32" Language="zh_Hant_HK">
+			<Text>埃森</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_33" Language="zh_Hant_HK">
+			<Text>但澤</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_34" Language="zh_Hant_HK">
+			<Text>盧森堡</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_35" Language="zh_Hant_HK">
+			<Text>薩爾布呂肯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_36" Language="zh_Hant_HK">
+			<Text>萊比錫</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_37" Language="zh_Hant_HK">
+			<Text>裏加</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_38" Language="zh_Hant_HK">
+			<Text>明斯特</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_39" Language="zh_Hant_HK">
+			<Text>格萊維茨</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_40" Language="zh_Hant_HK">
+			<Text>斯特拉斯堡</Text>
+		</Replace>
 		<!--市民名-->
 		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_1" Language="zh_Hant_HK">
 			<Text>歐根親王</Text>

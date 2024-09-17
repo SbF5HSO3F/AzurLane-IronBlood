@@ -23,7 +23,19 @@
 			<Text></Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>塞德利茨号战列巡洋舰是德意志帝国海军于1911年开工建造的一艘战列巡洋舰，没有同型舰。该舰在毛奇级战列巡洋舰（大巡洋舰）基础上改进设计，为了改善适航性能，提高舰艏干舷；加强舰体强度，在装甲和水密防护上做了大的改进，侧舷水线防御装甲厚度接近吨位相近的战列舰，在德国战巡发展中具有承上启下的地位。该舰以18世纪普鲁士王国将军弗里德里希·威廉·冯·塞德利茨男爵命名。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>塞德利茨在第一次世界大战期间参加了许多大型舰队行动，包括多格尔沙洲海战和日德兰海战役。这艘船在两次交战中都遭受了严重损坏。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>在多格尔沙洲海战中，一枚来自英国战列巡洋舰狮号的13.5英寸炮弹击中了塞德利茨最后面的炮塔，几乎差点引起弹药库爆炸。德国海军根据这次作战的教训，改进了弹药储藏室和弹药输送通道的防护措施，防止炮塔及其弹药输送通道一处受损，火势下窜到弹药库，危及全舰安全。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>在日德兰海战中，战斗初期，塞德利茨号和德芙林格号战列巡洋舰的齐射在几秒钟内摧毁了英国玛丽女王号战列巡洋舰。在这场海战中，塞德利茨被大口径炮弹击中21次，其中一枚穿透了船尾超燃炮塔的工作室。虽然由此产生的大火摧毁了炮塔，但相关安全措施阻止了进一步的灾难。这艘船在战斗中还被鱼雷击中，导致她进水超过5，300吨，干舷减少到2.5米，五座主炮炮塔也全部被毁。在与舰队失去联系的情况下，独自蹒跚返回了德国本土基地，堪称传奇，塞德利茨号出色的损管和防护设计为其赢得了“不沉战舰”之名。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>与战争中幸存下来的其他德国战列巡洋舰一样，该船于1918年被拘留在斯卡帕湾。这艘船与公海舰队的其余部分一起于1919年6月自沉，以防止她被英国皇家海军俘虏。她于1928年11月2日重新打捞，1930年在罗塞斯被拆解。</Text>
 		</Replace>
 		<!--领袖议程-->
 
@@ -32,14 +44,19 @@
 			<Text>不沉的传奇</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_UNSINKABLE_LEGEND_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>军事单位不会蒙受受伤减益，进攻时，每拥有10点生命值便+1 [ICON_STRENGTH] 战斗力；防御时，每损失10点生命值便+1 [ICON_STRENGTH] 战斗力。受伤的军事单位可撤退至特定的区域内，并恢复全部生命值。</Text>
+			<Text>军事单位不会蒙受受伤减益，且可撤退至特定的区域内并恢复全部生命值。当军事单位进攻时，每拥有10点生命值便+1 [ICON_STRENGTH] 战斗力；防御时，每损失10点生命值便+1 [ICON_STRENGTH] 战斗力。[ICON_GreatGeneral] 大将军和 [ICON_GreatAdmiral] 海军统帅可为两个单元格内的军事单位+5 [ICON_Strength] 战斗力和+1 [ICON_Movement] 移动力，并获得“铁血大将”单位命令。研究完“钢铁”科技后获得特色单位“塞德利茨号战列巡洋舰”。</Text>
 		</Replace>
 		<!--特殊加成-->
 
 		<!--领袖项目-->
 
 		<!--领袖单位-->
-
+		<Replace Tag="LOC_UNIT_SMS_SEYDLITZ_NAME" Language="zh_Hans_CN">
+			<Text>塞德利茨号战列巡洋舰</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SMS_SEYDLITZ_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>取代战舰的塞德利茨特色现代海军远程单位。可在友军领土之外恢复，每回合自动恢复生命值。</Text>
+		</Replace>
 		<!--特殊晋升-->
 		
 		<!--特殊能力-->
@@ -55,12 +72,57 @@
 		<Replace Tag="LOC_PREVIEW_UNSINKABLE_LEGEND_DEFEND_COMBAT_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>+{Property}来自损失的生命值</Text>
 		</Replace>
+		<Replace Tag="LOC_ABILITY_LEGEND_GENERAL_AND_ADMIRAL_NAME" Language="zh_Hans_CN">
+			<Text>铁血大将</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LEGEND_GENERAL_AND_ADMIRAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为两个单元格内的军事单位+5 [ICON_Strength] 战斗力和+1 [ICON_Movement] 移动力</Text>
+		</Replace>
+		<Replace Tag="LOC_PREVIEW_LEGEND_GENERAL_COMBAT_BUFF_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+{1_num}来自 [ICON_GreatGeneral] 大将军</Text>
+		</Replace>
+		<Replace Tag="LOC_PREVIEW_LEGEND_ADMIRAL_COMBAT_BUFF_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+{1_num}来自 [ICON_GreatAdmiral] 海军统帅</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SMS_SEYDLITZ_NAME" Language="zh_Hans_CN">
+			<Text>不沉战舰</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SMS_SEYDLITZ_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可在友军领土之外恢复，每回合自动恢复生命值</Text>
+		</Replace>
 		<!--lua文本-->
 		<Replace Tag="LOC_UNITCOMMAND_UNSINKABLE_LEGEND_TITLE" Language="zh_Hans_CN">
 			<Text>不沉传奇</Text>
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_UNSINKABLE_LEGEND_DESC" Language="zh_Hans_CN">
-			<Text>允许受伤单位撤退至特定的区域内，并恢复全部生命值。</Text>
+			<Text>可撤退至特定的区域内，并恢复全部生命值。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_TITLE" Language="zh_Hans_CN">
+			<Text>铁血大将</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_GENERAL_DESC" Language="zh_Hans_CN">
+			<Text>可将陆地战斗单位升级至 [ICON_Corps] 军团或 [ICON_Army] 军队，并获得等同于该单位购买费用的 [ICON_Gold] 金币和等同于该单位 [ICON_Strength] 战斗力的 [ICON_GreatGeneral] 大将军点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_ADMIRAL_DESC" Language="zh_Hans_CN">
+			<Text>可将海上战争单位升级至 [ICON_Corps] 舰队或 [ICON_Army] 无敌舰队，并获得等同于该单位购买费用的 [ICON_Gold] 金币和等同于该单位 [ICON_Strength] 战斗力的 [ICON_GreatAdmiral] 海军统帅点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_DETAIL" Language="zh_Hans_CN">
+			<Text>将{1_name}升级至{2_name}</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_REWARD" Language="zh_Hans_CN">
+			<Text>[ICON_Bullet]获得{1_num} [ICON_Gold] 金币</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_GENERAL_PIONTS" Language="zh_Hans_CN">
+			<Text>[ICON_Bullet]获得{1_num}点 [ICON_GreatGeneral] 大将军点数</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_ADMIRAL_PIONTS" Language="zh_Hans_CN">
+			<Text>[ICON_Bullet]获得{1_num}点 [ICON_GreatAdmiral] 海军统帅点数</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_REWARD_FLOAT" Language="zh_Hans_CN">
+			<Text>[COLOR_FLOAT_GOLD]+{1_num}[ENDCOLOR] [ICON_GOLD]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_PIONTS_FLOAT" Language="zh_Hans_CN">
+			<Text>[COLOR:COLOR_FLOAT_FOOD]+{1_num} {2_text}点数[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_UNSINKABLE_LEGEND_DISABLE" Language="zh_Hans_CN">
 			<Text>[COLOR_RED]因以下原因，该行动不可用：[ENDCOLOR]</Text>
@@ -73,6 +135,15 @@
 		</Replace>
 		<Replace Tag="LOC_UNITCOMMAND_UNSINKABLE_LEGEND_NOPLOT" Language="zh_Hans_CN">
 			<Text>[ICON_Bullet][COLOR_RED]该单位没有可供撤退的区域[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_NOUNIT" Language="zh_Hans_CN">
+			<Text>[ICON_Bullet][COLOR_RED]该单位不为 [ICON_GreatGeneral] 大将军或 [ICON_GreatAdmiral] 海军统帅[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_LAST" Language="zh_Hans_CN">
+			<Text>[ICON_Bullet]剩余{1_num}回合冷却</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_NOTARGET" Language="zh_Hans_CN">
+			<Text>[ICON_Bullet][COLOR_RED]无可用目标[ENDCOLOR]</Text>
 		</Replace>
 		<!--特殊晋升-->
 

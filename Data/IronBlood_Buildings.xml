@@ -32,7 +32,7 @@
 		<Row BuildingType="BUILDING_ANNETTE" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN"  PointsPerTurn="1"/>
 	</Building_GreatPersonPoints>
 	<Building_GreatWorks>
-		<Row BuildingType="BUILDING_ANNETTE" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="2"/>
+		<Row BuildingType="BUILDING_ANNETTE" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="4"/>
 	</Building_GreatWorks>
 	<BuildingModifiers>
 		<Row>

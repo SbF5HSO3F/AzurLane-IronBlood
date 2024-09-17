@@ -6,6 +6,7 @@
 	<Types>
 		<Row Type="LEADER_SEYDLITZ"				    Kind="KIND_LEADER"/>
 		<Row Type="TRAIT_LEADER_UNSINKABLE_LEGEND"	Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_UNIT_SMS_SEYDLITZ"	Kind="KIND_TRAIT"/>
 	</Types>
 	<Leaders>
 		<Row LeaderType="LEADER_SEYDLITZ" Name="LOC_LEADER_SEYDLITZ_NAME" InheritFrom="LEADER_DEFAULT" Sex="Female" SceneLayers="4"/>
@@ -21,9 +22,11 @@
 	</Agendas>
 	<Traits>
 		<Row TraitType="TRAIT_LEADER_UNSINKABLE_LEGEND"		Name="LOC_TRAIT_LEADER_UNSINKABLE_LEGEND_NAME"	Description="LOC_TRAIT_LEADER_UNSINKABLE_LEGEND_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_UNIT_SMS_SEYDLITZ"		Name="LOC_UNIT_SMS_SEYDLITZ_NAME"				Description="LOC_UNIT_SMS_SEYDLITZ_DESCRIPTION"/>
 	</Traits>
 	<LeaderTraits>
 		<Row LeaderType="LEADER_SEYDLITZ" TraitType="TRAIT_LEADER_UNSINKABLE_LEGEND"/>
+		<Row LeaderType="LEADER_SEYDLITZ" TraitType="TRAIT_LEADER_UNIT_SMS_SEYDLITZ"/>
 	</LeaderTraits>
 	<LoadingInfo>
 		<Row LeaderType="LEADER_SEYDLITZ" ForegroundImage="IMG_IRON_BLOOD_LEADER_SEYDLITZ_LOADING_FOREGROUND" BackgroundImage="IMG_IRON_BLOOD_LOADING_BACKGROUND"/>
@@ -46,11 +49,27 @@
 			<TraitType>TRAIT_LEADER_UNSINKABLE_LEGEND</TraitType>
 			<ModifierId>UNSINKABLE_LEGEND_GRANT_ABILITIES</ModifierId>
 		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_UNSINKABLE_LEGEND</TraitType>
+			<ModifierId>LEGEND_GENERAL_GRANT_ABILITIES</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_UNSINKABLE_LEGEND</TraitType>
+			<ModifierId>LEGEND_ADMIRAL_GRANT_ABILITIES</ModifierId>
+		</Row>
 	</TraitModifiers>
 	<Modifiers>
 		<!--单位能力-->
 		<Row>
 			<ModifierId>UNSINKABLE_LEGEND_GRANT_ABILITIES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>LEGEND_GENERAL_GRANT_ABILITIES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>LEGEND_ADMIRAL_GRANT_ABILITIES</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
 		</Row>
 	</Modifiers>
@@ -60,6 +79,16 @@
 			<ModifierId>UNSINKABLE_LEGEND_GRANT_ABILITIES</ModifierId>
 			<Name>AbilityType</Name>
 			<Value>ABILITY_UNSINKABLE_LEGEND</Value>
+		</Row>
+		<Row>
+			<ModifierId>LEGEND_GENERAL_GRANT_ABILITIES</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_LEGEND_GENERAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>LEGEND_ADMIRAL_GRANT_ABILITIES</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_LEGEND_ADMIRAL</Value>
 		</Row>
 	</ModifierArguments>
 </GameData>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IronBlood_Seydlitz_Units -->
+<!-- Author: jjj -->
+<!-- DateCreated: 2024/9/17 15:43:54 -->
+<GameData>
+	<Types>
+		<Row Type="UNIT_SMS_SEYDLITZ"		Kind="KIND_UNIT"/>
+		<Row Type="ABILITY_SMS_SEYDLITZ"	Kind="KIND_ABILITY"/>
+	</Types>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_SMS_SEYDLITZ" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_SMS_SEYDLITZ" AiType="UNITTYPE_NAVAL"/>
+		<Row UnitType="UNIT_SMS_SEYDLITZ" AiType="UNITTYPE_RANGED"/>
+	</UnitAiInfos>
+	<UnitUpgrades>
+		<Row Unit="UNIT_SMS_SEYDLITZ" UpgradeUnit="UNIT_MISSILE_CRUISER"/>
+	</UnitUpgrades>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_SMS_SEYDLITZ" ReplacesUnitType="UNIT_BATTLESHIP"/>
+	</UnitReplaces>
+	<Tags>
+		<Row Tag="CLASS_SMS_SEYDLITZ" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<Row Type="UNIT_SMS_SEYDLITZ"		Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="UNIT_SMS_SEYDLITZ"		Tag="CLASS_ANTI_AIR"/>
+		<Row Type="UNIT_SMS_SEYDLITZ"		Tag="CLASS_SMS_SEYDLITZ"/>
+		<Row Type="ABILITY_SMS_SEYDLITZ"	Tag="CLASS_SMS_SEYDLITZ"/>
+	</TypeTags>
+	<Units>
+		<Row UnitType="UNIT_SMS_SEYDLITZ" AntiAirCombat="90" Domain="DOMAIN_SEA" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" AdvisorType="ADVISOR_CONQUEST" Description="LOC_UNIT_SMS_SEYDLITZ_DESCRIPTION" Maintenance="6" Name="LOC_UNIT_SMS_SEYDLITZ_NAME" Combat="65" Range="3" BaseMoves="5" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqTech="TECH_STEEL" Cost="430" TraitType="TRAIT_LEADER_UNIT_SMS_SEYDLITZ" RangedCombat="75" BaseSightRange="3" PurchaseYield="YIELD_GOLD" ZoneOfControl="1" StrategicResource="RESOURCE_OIL" FormationClass="FORMATION_CLASS_NAVAL"/>
+	</Units>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_SMS_SEYDLITZ"	Name="LOC_ABILITY_SMS_SEYDLITZ_NAME" Description="LOC_ABILITY_SMS_SEYDLITZ_DESCRIPTION"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<!--每回合自动恢复生命值-->
+		<Row>
+			<UnitAbilityType>ABILITY_SMS_SEYDLITZ</UnitAbilityType>
+			<ModifierId>SMS_SEYDLITZ_AUTO_RECOVER</ModifierId>
+		</Row>
+		<!--境外恢复-->
+		<Row>
+			<UnitAbilityType>ABILITY_SMS_SEYDLITZ</UnitAbilityType>
+			<ModifierId>SMS_SEYDLITZ_NEUTRAL_TERRITORY_HEAL</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SMS_SEYDLITZ</UnitAbilityType>
+			<ModifierId>SMS_SEYDLITZ_ENEMY_TERRITORY_HEAL</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<!--每回合自动恢复生命值-->
+		<Row>
+			<ModifierId>SMS_SEYDLITZ_AUTO_RECOVER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_HEAL_AFTER_ACTION</ModifierType>
+		</Row>
+		<!--境外恢复-->
+		<Row>
+			<ModifierId>SMS_SEYDLITZ_NEUTRAL_TERRITORY_HEAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_HEAL_PER_TURN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>SMS_SEYDLITZ_ENEMY_TERRITORY_HEAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_HEAL_PER_TURN</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!--境外恢复-->
+		<Row>
+			<ModifierId>SMS_SEYDLITZ_NEUTRAL_TERRITORY_HEAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>SMS_SEYDLITZ_NEUTRAL_TERRITORY_HEAL</ModifierId>
+			<Name>Type</Name>
+			<Value>NEUTRAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>SMS_SEYDLITZ_ENEMY_TERRITORY_HEAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>SMS_SEYDLITZ_ENEMY_TERRITORY_HEAL</ModifierId>
+			<Name>Type</Name>
+			<Value>ENEMY</Value>
+		</Row>
+	</ModifierArguments>
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_SMS_SEYDLITZ" Texture="Moment_SMS_Seydlitz.dds"/>
+	</MomentIllustrations>
+</GameData>

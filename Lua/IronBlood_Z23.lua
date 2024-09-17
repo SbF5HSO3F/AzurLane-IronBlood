@@ -24,7 +24,7 @@ ExposedMembers.Z23.LastTurn = IronBloodSpeedModifier(10)
 local Z23percent            = 0.15
 local ability               = 'ABILITY_Z23_COMBAT_UNIT_EXTRA_BUFF'
 local abilityExtra          = 'ABILITY_Z23_COMBAT_UNIT_PILLAGE_COMBAT'
-local combatPorperty        = 'Z23_PILLAGE_COMBAT'
+local combatProperty        = 'Z23_PILLAGE_COMBAT'
 local TurnLast              = 'Z23TurnLast'
 
 --||====================base functions====================||--
@@ -114,7 +114,7 @@ function Z23OnPlayerTurnStarted(playerID)
         Z23ClearAbilities(unit, ability)
         Z23ClearAbilities(unit, abilityExtra)
         --clear the property
-        unit:SetProperty(combatPorperty, 0)
+        unit:SetProperty(combatProperty, 0)
         --last turn--
         local turns = unit:GetProperty(TurnLast)
         if turns and turns > 0 then
@@ -137,7 +137,7 @@ function Z23ChangeMode(playerID, param)
         --restore the attack and movement
         UnitManager.RestoreUnitAttacks(pUnit)
         UnitManager.RestoreMovementToFormation(pUnit)
-        --Set porperty
+        --Set property
         pUnit:SetProperty(TurnLast, param.turns)
         --get plot
         local pPlot = Map.GetPlot(param.x, param.y)
@@ -150,12 +150,12 @@ function Z23ChangeMode(playerID, param)
                 local pPlotID = pPlot:GetIndex()
                 --Extra Strength
                 pUnit:GetAbility():ChangeAbilityCount(abilityExtra, 1)
-                pUnit:SetProperty(combatPorperty, 0)
+                pUnit:SetProperty(combatProperty, 0)
                 --Destruction of District
                 if not pDistrict:IsPillaged() then
                     pDistrict:SetPillaged(true)
                     --Add Combat Strength
-                    pUnit:SetProperty(combatPorperty, pUnit:GetProperty(combatPorperty) + 3)
+                    pUnit:SetProperty(combatProperty, pUnit:GetProperty(combatProperty) + 3)
                 end
 
                 local pCity = pDistrict:GetCity()
@@ -170,7 +170,7 @@ function Z23ChangeMode(playerID, param)
                         if cityBuildings:HasBuilding(row.Index) and not cityBuildings:IsPillaged(row.Index) and cityBuildings:GetBuildingLocation(row.Index) == pPlotID then
                             pCity:GetBuildings():SetPillaged(row.Index, true)
                             --Add Combat Strength
-                            pUnit:SetProperty(combatPorperty, pUnit:GetProperty(combatPorperty) + 3)
+                            pUnit:SetProperty(combatProperty, pUnit:GetProperty(combatProperty) + 3)
                         end
                         --end
                     end
