@@ -16,7 +16,7 @@
 			 Name="LOC_CIVILIZATION_IRON_BLOOD_NAME"
 			 Description="LOC_CIVILIZATION_IRON_BLOOD_DESCRIPTION" 
 			 Adjective="LOC_CIVILIZATION_IRON_BLOOD_ADJECTIVE"
-			 RandomCityNameDepth="10"
+			 RandomCityNameDepth="20"
 			 StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV"
 			 Ethnicity="ETHNICITY_EURO"/>
 	</Civilizations>

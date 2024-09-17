@@ -46,6 +46,9 @@
 		<Replace Tag="LOC_TRAIT_LEADER_UNSINKABLE_LEGEND_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>军事单位不会蒙受受伤减益，且可撤退至特定的区域内并恢复全部生命值。当军事单位进攻时，每拥有10点生命值便+1 [ICON_STRENGTH] 战斗力；防御时，每损失10点生命值便+1 [ICON_STRENGTH] 战斗力。[ICON_GreatGeneral] 大将军和 [ICON_GreatAdmiral] 海军统帅可为两个单元格内的军事单位+5 [ICON_Strength] 战斗力和+1 [ICON_Movement] 移动力，并获得“铁血大将”单位命令。研究完“钢铁”科技后获得特色单位“塞德利茨号战列巡洋舰”。</Text>
 		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_UNSINKABLE_LEGEND_DESCRIPTION_XP2" Language="zh_Hans_CN">
+			<Text>军事单位不会蒙受受伤减益，且可撤退至特定的区域内并恢复全部生命值。当军事单位进攻时，每拥有10点生命值便+1 [ICON_STRENGTH] 战斗力；防御时，每损失10点生命值便+1 [ICON_STRENGTH] 战斗力。[ICON_GreatGeneral] 大将军和 [ICON_GreatAdmiral] 海军统帅可为两个单元格内的军事单位+5 [ICON_Strength] 战斗力和+1 [ICON_Movement] 移动力，并获得“铁血大将”单位命令。研究完“精炼”科技后获得特色单位“塞德利茨号战列巡洋舰”。</Text>
+		</Replace>
 		<!--特殊加成-->
 
 		<!--领袖项目-->

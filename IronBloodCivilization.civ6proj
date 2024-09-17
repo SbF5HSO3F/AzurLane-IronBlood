@@ -219,6 +219,12 @@
           <File priority="90">Data/Seydlitz/IronBlood_Seydlitz_UnitAbilities.xml</File>
           <File priority="80">Data/Seydlitz/IronBlood_Seydlitz_Units.xml</File>
         </UpdateDatabase>
+        <UpdateDatabase id="Z23_XP2">
+          <Properties>
+            <RuleSet>RULESET_EXPANSION_2</RuleSet>
+          </Properties>
+          <File>Data/Seydlitz/IronBlood_Seydlitz_XP2.sql</File>
+        </UpdateDatabase>
         <UpdateText id="Seydlitz_Text">
           <File priority="90">Text/zh_Hans_CN/IronBlood_Seydlitz_TextCN.xml</File>
         </UpdateText>
@@ -307,6 +313,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Data\Seydlitz\IronBlood_Seydlitz_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Seydlitz\IronBlood_Seydlitz_XP2.sql">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Data\U-96\IronBlood_Leader_U96.xml">
