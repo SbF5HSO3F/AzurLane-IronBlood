@@ -101,7 +101,7 @@
           <File>IronBlood_Colors.xml</File>
         </UpdateColors>
         <ImportFiles id="Import">
-          <File>Lua/IronBlood_Core.lua</File>
+          <File>Scripts/IronBlood_Core.lua</File>
         </ImportFiles>
         <AddUserInterfaces id="UI">
           <Properties>
@@ -111,12 +111,12 @@
           <File>UI/Additions/IronBlood_SeydlitzUI.xml</File>
           <File>UI/Additions/IronBlood_SeydlitzGreatPresonUI.xml</File>
         </AddUserInterfaces>
-        <AddGameplayScripts id="Lua">
-          <File>Lua/IronBlood_U96.lua</File>
-          <File>Lua/IronBlood_Z46.lua</File>
-          <File>Lua/IronBlood_Deutschland.lua</File>
-          <File>Lua/IronBlood_Z23.lua</File>
-          <File>Lua/IronBlood_Seydlitz.lua</File>
+        <AddGameplayScripts id="Scripts">
+          <File>Scripts/IronBlood_U96.lua</File>
+          <File>Scripts/IronBlood_Z46.lua</File>
+          <File>Scripts/IronBlood_Deutschland.lua</File>
+          <File>Scripts/IronBlood_Z23.lua</File>
+          <File>Scripts/IronBlood_Seydlitz.lua</File>
         </AddGameplayScripts>
         <UpdateDatabase id="IronBlood">
           <File priority="100">Data/IronBlood_Core.sql</File>
@@ -241,7 +241,7 @@
         </UpdateDatabase>
         <AddGameplayScripts id="OphidyLua">
           <Criteria>OPHIDY_IRONBLOOD</Criteria>
-          <File>ModSupport/Ophidy’s Iron Blood/Lua/Ophidy_IronBlood_Hutten.lua</File>
+          <File>ModSupport/Ophidy’s Iron Blood/Scripts/Ophidy_IronBlood_Hutten.lua</File>
         </AddGameplayScripts>
       </InGameActions>
     ]]></InGameActionData>
@@ -304,6 +304,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Data\IronBlood_XP2.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Seydlitz\IronBlood_Seydlitz_Agenda.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Data\Seydlitz\IronBlood_Seydlitz_Leader.xml">
@@ -375,28 +378,28 @@
     <Content Include="IronBlood_Icons.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Lua\IronBlood_Core.lua">
+    <Content Include="Scripts\IronBlood_Core.lua">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Lua\IronBlood_Deutschland.lua">
+    <Content Include="Scripts\IronBlood_Deutschland.lua">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Lua\IronBlood_Seydlitz.lua">
+    <Content Include="Scripts\IronBlood_Seydlitz.lua">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Lua\IronBlood_U96.lua">
+    <Content Include="Scripts\IronBlood_U96.lua">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Lua\IronBlood_Z23.lua">
+    <Content Include="Scripts\IronBlood_Z23.lua">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Lua\IronBlood_Z46.lua">
+    <Content Include="Scripts\IronBlood_Z46.lua">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModSupport\Ophidy’s Iron Blood\Data\Ophidy_IronBlood_GamePlayUpdate.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="ModSupport\Ophidy’s Iron Blood\Lua\Ophidy_IronBlood_Hutten.lua">
+    <Content Include="ModSupport\Ophidy’s Iron Blood\Scripts\Ophidy_IronBlood_Hutten.lua">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModSupport\Ophidy’s Iron Blood\Ophidy_IronBlood_ConfigUpdate.sql">
@@ -479,10 +482,10 @@
     <Folder Include="Data\Z23" />
     <Folder Include="Data\Z46" />
     <Folder Include="Data\U-96" />
-    <Folder Include="Lua" />
+    <Folder Include="Scripts" />
     <Folder Include="ModSupport" />
     <Folder Include="ModSupport\Ophidy’s Iron Blood" />
-    <Folder Include="ModSupport\Ophidy’s Iron Blood\Lua" />
+    <Folder Include="ModSupport\Ophidy’s Iron Blood\Scripts" />
     <Folder Include="ModSupport\Ophidy’s Iron Blood\Data" />
     <Folder Include="ModSupport\Ophidy’s Iron Blood\Text" />
     <Folder Include="Text\zh_Hant_HK" />

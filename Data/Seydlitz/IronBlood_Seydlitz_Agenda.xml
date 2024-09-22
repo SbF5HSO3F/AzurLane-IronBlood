@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IronBlood_Seydlitz_Agenda -->
+<!-- Author: jjj -->
+<!-- DateCreated: 2024/9/18 8:04:32 -->
+<GameData>
+	<Types>
+        <!--友谊之舰-->
+		<Row Type="TRAIT_AGENDA_SHIP_OF_FRIENDSHIP" Kind="KIND_TRAIT"/>
+	</Types>
+    <AiListTypes>
+
+    </AiListTypes>
+    <AiLists>
+
+    </AiLists>
+    <AiFavoredItems>
+
+    </AiFavoredItems>
+    <Traits>
+
+    </Traits>
+    <AgendaTraits>
+        <!--友谊之舰-->
+		<Row TraitType="TRAIT_AGENDA_SHIP_OF_FRIENDSHIP"/>
+    </AgendaTraits>
+    <AgendaTraits>
+        <!--友谊之舰-->
+		<Row AgendaType="AGENDA_SHIP_OF_FRIENDSHIP" TraitType="TRAIT_AGENDA_SHIP_OF_FRIENDSHIP"/>
+	</AgendaTraits>
+</GameData>
