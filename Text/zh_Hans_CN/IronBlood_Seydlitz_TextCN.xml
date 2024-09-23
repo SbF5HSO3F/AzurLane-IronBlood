@@ -10,17 +10,17 @@
 		</Replace>
 		<!--加载-->
 		<Replace Tag="LOC_LOADING_INFO_LEADER_SEYDLITZ" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>塞德利茨，你是日德兰海战中不沉的传奇。不屈为你的名誉加冕，战果为你的荣光授勋，你是铁血公国最为锋锐的利刃，可斩断一切敌人的决心。前进吧，永远的友谊之舰！你绝不会于斯卡帕湾止步不前！夕阳下那波光粼粼的海面，便是你辉煌功勋的倒影。</Text>
 		</Replace>
 		<!--百科-->
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_QUOTE" Language="zh_Hans_CN">
 			<Text>是！悉听遵命！</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>塞德利茨军队中的佼佼者会帮助她击败一个又一个对手。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>无论如何，塞德利茨都是个令人头疼的对手。她的军队在状态良好时会拥有强大的进攻能力，在状态不佳时也能拥有不错的防御能力。并且，塞德利茨的军队可以随时撤退至己方城市，这大大提高了她军队的战斗能力。[ICON_GreatGeneral] 大将军和 [ICON_GreatAdmiral] 海军统帅对塞德利茨而言非常重要，他们不仅会为塞德利茨的军队带来额外的 [ICON_Strength] 战斗力和 [ICON_Movement] 移动力加成，还会帮助塞德利茨拥有世界上最早的军团和舰队、军队和无敌舰队。这一切都使得塞德利茨的军队拥有让自大的敌人死无葬身之地的力量。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
 			<Text>塞德利茨号战列巡洋舰是德意志帝国海军于1911年开工建造的一艘战列巡洋舰，没有同型舰。该舰在毛奇级战列巡洋舰（大巡洋舰）基础上改进设计，为了改善适航性能，提高舰艏干舷；加强舰体强度，在装甲和水密防护上做了大的改进，侧舷水线防御装甲厚度接近吨位相近的战列舰，在德国战巡发展中具有承上启下的地位。该舰以18世纪普鲁士王国将军弗里德里希·威廉·冯·塞德利茨男爵命名。</Text>
@@ -38,7 +38,12 @@
 			<Text>与战争中幸存下来的其他德国战列巡洋舰一样，该船于1918年被拘留在斯卡帕湾。这艘船与公海舰队的其余部分一起于1919年6月自沉，以防止她被英国皇家海军俘虏。她于1928年11月2日重新打捞，1930年在罗塞斯被拆解。</Text>
 		</Replace>
 		<!--领袖议程-->
-
+		<Replace Tag="LOC_AGENDA_SHIP_OF_FRIENDSHIP_NAME" Language="zh_Hans_CN">
+			<Text>友谊之舰</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_SHIP_OF_FRIENDSHIP_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>乐于宣布友好。</Text>
+		</Replace>
 		<!--领袖能力-->
 		<Replace Tag="LOC_TRAIT_LEADER_UNSINKABLE_LEGEND_NAME" Language="zh_Hans_CN">
 			<Text>不沉的传奇</Text>
@@ -59,6 +64,21 @@
 		</Replace>
 		<Replace Tag="LOC_UNIT_SMS_SEYDLITZ_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>取代战舰的塞德利茨特色现代海军远程单位。可在友军领土之外恢复，每回合自动恢复生命值。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SMS_SEYDLITZ_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_HISTORY_PARA_1}</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SMS_SEYDLITZ_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_HISTORY_PARA_2}</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SMS_SEYDLITZ_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_HISTORY_PARA_3}</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SMS_SEYDLITZ_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_HISTORY_PARA_4}</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SMS_SEYDLITZ_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_HISTORY_PARA_5}</Text>
 		</Replace>
 		<!--特殊晋升-->
 		

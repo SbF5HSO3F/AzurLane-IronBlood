@@ -176,34 +176,34 @@
 			<Text>Breslau</Text>
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_31" Language="en_US">
-			<Text>梅斯</Text>
+			<Text>Metz</Text>
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_32" Language="en_US">
-			<Text>埃森</Text>
+			<Text>Essen</Text>
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_33" Language="en_US">
-			<Text>但泽</Text>
+			<Text>Danzig</Text>
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_34" Language="en_US">
-			<Text>卢森堡</Text>
+			<Text>Luxemburg</Text>
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_35" Language="en_US">
-			<Text>萨尔布吕肯</Text>
+			<Text>Saarbrücken</Text>
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_36" Language="en_US">
-			<Text>莱比锡</Text>
+			<Text>Leipzig</Text>
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_37" Language="en_US">
-			<Text>里加</Text>
+			<Text>Riga</Text>
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_38" Language="en_US">
-			<Text>明斯特</Text>
+			<Text>Münster</Text>
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_39" Language="en_US">
-			<Text>格莱维茨</Text>
+			<Text>Gleiwitz</Text>
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_40" Language="en_US">
-			<Text>斯特拉斯堡</Text>
+			<Text>Strassburg</Text>
 		</Replace>
 		<!--市民名-->
 		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_1" Language="en_US">

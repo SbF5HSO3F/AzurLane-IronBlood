@@ -8,21 +8,33 @@
 		<Row Type="TRAIT_AGENDA_SHIP_OF_FRIENDSHIP" Kind="KIND_TRAIT"/>
 	</Types>
     <AiListTypes>
-
+		<!--通用-->
+		<Row ListType="ShipofFriendshipTechs"/>
+		<Row ListType="ShipofFriendshipDistricts"/>
+        <!--友谊之舰-->
+        <Row ListType="ShipofFriendshipLoveDeclareFriendship"/>
     </AiListTypes>
     <AiLists>
+		<!--通用-->
+		<Row ListType="ShipofFriendshipTechs"					LeaderType="LEADER_SEYDLITZ"					System="Technologies"/>
+		<Row ListType="ShipofFriendshipDistricts"				AgendaType="TRAIT_AGENDA_SHIP_OF_FRIENDSHIP"	System="Districts"/>
 
+        <Row ListType="ShipofFriendshipLoveDeclareFriendship"	AgendaType="TRAIT_AGENDA_SHIP_OF_FRIENDSHIP"	System="DiplomaticActions"/>
     </AiLists>
     <AiFavoredItems>
-
+		<!--通用-->
+		<Row ListType="ShipofFriendshipTechs"					Item="TECH_IRON_WORKING"					Favored="true"/>
+		<Row ListType="ShipofFriendshipTechs"					Item="TECH_BRONZE_WORKING"					Favored="true"/>
+		<Row ListType="ShipofFriendshipDistricts"				Item="DISTRICT_RUHR"						Favored="true"/>
+		<Row ListType="ShipofFriendshipDistricts"				Item="DISTRICT_KRUPP"						Favored="true"/>
+		<Row ListType="ShipofFriendshipDistricts"				Item="DISTRICT_COMMERCIAL_HUB"				Favored="true"/>
+        <!--友谊之舰-->
+        <Row ListType="ShipofFriendshipLoveDeclareFriendship"	Item="DIPLOACTION_DECLARE_FRIENDSHIP"		Favored="true"/>
     </AiFavoredItems>
     <Traits>
-
-    </Traits>
-    <AgendaTraits>
         <!--友谊之舰-->
 		<Row TraitType="TRAIT_AGENDA_SHIP_OF_FRIENDSHIP"/>
-    </AgendaTraits>
+    </Traits>
     <AgendaTraits>
         <!--友谊之舰-->
 		<Row AgendaType="AGENDA_SHIP_OF_FRIENDSHIP" TraitType="TRAIT_AGENDA_SHIP_OF_FRIENDSHIP"/>

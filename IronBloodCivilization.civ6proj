@@ -23,14 +23,17 @@
         <Text id="LOC_IRON_BLOOD_NAME">
             <en_US>Azur Lane-Iron Blood Civilization</en_US>
             <zh_Hans_CN>碧蓝航线·铁血公国</zh_Hans_CN>
+            <zh_Hant_HK>碧藍航線·鐵血公國</zh_Hant_HK>
         </Text>
         <Text id="LOC_IRON_BLOOD_TEASER">
-            <en_US>Added a powerful civilization from the game "Azur Lane" - Iron Blood Civilization, with a total of 5 leaders.</en_US>
-            <zh_Hans_CN>为游戏添加了一个来自游戏作品《碧蓝航线》的强大文明——铁血公国，共有5名所属领袖。</zh_Hans_CN>
+            <en_US>Added a powerful civilization from the game "Azur Lane" - Iron Blood Civilization.</en_US>
+            <zh_Hans_CN>为游戏添加了一个来自游戏作品《碧蓝航线》的强大文明——铁血公国。</zh_Hans_CN>
+            <zh_Hant_HK>為遊戲添加了一個來自遊戲作品《碧藍航線》的強大文明——鐵血公國。</zh_Hant_HK>
         </Text>
         <Text id="LOC_IRON_BLOOD_DESCRIPTION">
-            <en_US>Added a civilization based on the Iron Blood in the game work "Azur Lane" - the Iron Blood civilization, which has a strong army and productivity. There are currently five leaders of the civilization: U-96, Z46, Deutschland, Z23 and Seydlitz.</en_US>
-            <zh_Hans_CN>为游戏添加了一个以游戏作品《碧蓝航线》中的铁血公国为原型的文明——铁血公国，拥有强大的军队和生产力。当前该文明共有5名领袖：U-96、Z46、德意志、Z23和塞德利茨。</zh_Hans_CN>
+            <en_US>Added a civilization based on the Iron Blood in the game work "Azur Lane" - the Iron Blood civilization, which has a strong army and productivity. This mod has added 5 leaders: U-96, Z46, Deutschland, Z23 and Seydlitz.</en_US>
+            <zh_Hans_CN>为游戏添加了一个以游戏作品《碧蓝航线》中的铁血公国为原型的文明——铁血公国，拥有强大的军队和生产力。本模组为其添加了5名领袖：U-96、Z46、德意志、Z23和塞德利茨。</zh_Hans_CN>
+            <zh_Hant_HK>為遊戲添加了一個以遊戲作品《碧藍航線》中的鐵血公國為原型的文明——鐵血公國，擁有強大的軍隊和生產力。本模組為其添加了5名領袖：U-96、Z46、德意誌、Z23和塞德利茨。</zh_Hant_HK>
         </Text>
     </LocalizedText>
     ]]></LocalizedTextData>
@@ -74,7 +77,9 @@
           <File priority="80">Text/zh_Hant_HK/IronBlood_Z23_TextHK.xml</File>
         </UpdateText>
         <UpdateText id="Seydlitz">
+          <File priority="100">Text/en_US/IronBlood_Seydlitz_TextEn.xml</File>
           <File priority="90">Text/zh_Hans_CN/IronBlood_Seydlitz_TextCN.xml</File>
+          <File priority="80">Text/zh_Hant_HK/IronBlood_Seydlitz_TextHK.xml</File>
         </UpdateText>
         <UpdateText id="OphidyText">
           <Criteria>OPHIDY_IRONBLOOD</Criteria>
@@ -218,15 +223,18 @@
           <File priority="100">Data/Seydlitz/IronBlood_Seydlitz_Leader.xml</File>
           <File priority="90">Data/Seydlitz/IronBlood_Seydlitz_UnitAbilities.xml</File>
           <File priority="80">Data/Seydlitz/IronBlood_Seydlitz_Units.xml</File>
+          <File priority="70">Data/Seydlitz/IronBlood_Seydlitz_Agenda.xml</File>
         </UpdateDatabase>
-        <UpdateDatabase id="Z23_XP2">
+        <UpdateDatabase id="Seydlitz_XP2">
           <Properties>
             <RuleSet>RULESET_EXPANSION_2</RuleSet>
           </Properties>
           <File>Data/Seydlitz/IronBlood_Seydlitz_XP2.sql</File>
         </UpdateDatabase>
         <UpdateText id="Seydlitz_Text">
+          <File priority="100">Text/en_US/IronBlood_Seydlitz_TextEn.xml</File>
           <File priority="90">Text/zh_Hans_CN/IronBlood_Seydlitz_TextCN.xml</File>
+          <File priority="80">Text/zh_Hant_HK/IronBlood_Seydlitz_TextHK.xml</File>
         </UpdateText>
         <UpdateText id="OphidyText">
           <Criteria>OPHIDY_IRONBLOOD</Criteria>
@@ -411,6 +419,9 @@
     <Content Include="Text\en_US\IronBlood_Deutschland_TextEn.xml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Text\en_US\IronBlood_Seydlitz_TextEn.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Text\en_US\IronBlood_TextEn.xml">
       <SubType>Content</SubType>
     </Content>
@@ -442,6 +453,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Text\zh_Hant_HK\IronBlood_Deutschland_TextHK.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\zh_Hant_HK\IronBlood_Seydlitz_TextHK.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Text\zh_Hant_HK\IronBlood_TextHK.xml">

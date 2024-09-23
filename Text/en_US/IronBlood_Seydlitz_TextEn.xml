@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IronBlood_Seydlitz_TextEn -->
+<!-- Author: jjj -->
+<!-- DateCreated: 2024/9/23 9:04:59 -->
+<GameData>
+	<LocalizedText>
+		<!--领袖介绍-->
+		<Replace Tag="LOC_LEADER_SEYDLITZ_NAME" Language="en_US">
+			<Text>Seydlitz</Text>
+		</Replace>
+		<!--加载-->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_SEYDLITZ" Language="en_US">
+			<Text>Seydlitz, you are a legendary figure who never sank in the Battle of Jutland. Unyielding to crown your reputation, achievements to honor your glory, you are the most sharp blade of the Iron Blood, with the determination to cut off all enemies. Let's move forward, the eternal ship of friendship! You will never stop at Scapa Flow! The sparkling sea under the sunset is the reflection of your glorious achievements.</Text>
+		</Replace>
+		<!--百科-->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_QUOTE" Language="en_US">
+			<Text>Salute! Your orders, Commandant!</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>The best of Seydlitz's army will help her defeat opponent after opponent.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>Either way, Seydlitz is a headache to deal with. Her army has a strong offense when it's in good condition and a good defense when it's not. Moreover, Seydlitz's army can retreat to its own city at any time, which greatly improves her army's fighting ability. The [ICON_GreatGeneral] Great Generals and [ICON_GreatAdmiral] Great Admirals are very important to Seydlitz, as they not only give Seydlitz's armies extra [ICON_Strength] Combat Strength and [ICON_Movement] Movement, but they also help Seydlitz have the world's first Corps and Fleets, Army and Armadas. All of this gives Seydlitz's armies the power to bring death to their arrogant enemies.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The battlecruiser Seydlitz was a battlecruiser of the Imperial German Navy begun construction in 1911, with no equivalent. The ship in the Mauch class battlecruiser (big cruiser) based on the improved design, in order to improve the seaworthiness of the performance, increase the bow dry side; strengthen the hull strength, in the armor and watertight protection on the big improvement, the side of the waterline defense armor thickness is close to the tonnage of the battleships of the same size, the development of the German battlecruiser with the status of the beginning and the end. The ship was named after Baron Friedrich Wilhelm von Seydlitz, a Prussian general in the 18th century.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Seydlitz participated in many large fleet operations during World War I, including the Battle of Dogger Sandbank and the Battle of Jutland Sea. This ship suffered serious damage in both battles.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>In the Battle of Dogger Shoal, a 13.5-inch shell from the British battleship cruiser Lion hit the aft turret of Seydlitz, almost causing an explosion in the ammunition depot. Based on the lessons learned from this operation, the German Navy has improved the protective measures for ammunition storage rooms and ammunition transport channels to prevent damage to the turret and its ammunition transport channels, which could cause the fire to spread to the ammunition depot and endanger the safety of the entire ship.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>In the Battle of Jutland, in the early stages of the battle, the salvo of the battlecruisers Seydlitz and Derfflinger destroyed the British battleship Queen Mary within seconds. In this naval battle, Seydlitz was hit 21 times by large caliber shells, one of which penetrated the workshop of the aft super firing turret. Although the resulting fire destroyed the turret, relevant safety measures prevented further disasters. This ship was also torpedoed during the battle, causing it to be flooded with over 5300 tons of water, reducing its freeboard to 2.5 meters, and destroying all five main gun turrets. In the absence of contact with the fleet, the Seydlitz single handedly stumbled back to its home base in Germany, which can be considered legendary. Its excellent damage management and protective design earned it the title of "unsinkable warship".</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text>Like other surviving German battlecruisers in the war, the ship was detained in Scapa Flow in 1918. This ship sank in June 1919 along with the rest of the High Seas Fleet to prevent her from being captured by the British Royal Navy. She was salvaged on November 2, 1928 and dismantled in Rothes in 1930.</Text>
+		</Replace>
+		<!--领袖议程-->
+		<Replace Tag="LOC_AGENDA_SHIP_OF_FRIENDSHIP_NAME" Language="en_US">
+			<Text>Ship of Friendship</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_SHIP_OF_FRIENDSHIP_DESCRIPTION" Language="en_US">
+			<Text>Willing to announce friendship.</Text>
+		</Replace>
+		<!--领袖能力-->
+		<Replace Tag="LOC_TRAIT_LEADER_UNSINKABLE_LEGEND_NAME" Language="en_US">
+			<Text>Unsinkable Legend</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_UNSINKABLE_LEGEND_DESCRIPTION" Language="en_US">
+			<Text>Military units do not suffer combat penalties when damaged and can retreat to designated districts to heal completely. When military units attack, they gain +1 [ICON_STRENGTH] Combat Strength for every 10 Hp they have; when defending, they gain +1 [ICON_STRENGTH] Combat Strength for every 10 Hp lost. [ICON_GreatGeneral] Great Generals and [ICON_GreatAdmiral] Great Admirals can provide +5 [ICON_Strength] Combat Strength and +1 [ICON_Movement] Movement to military units within two tiles, and grant the "Iron-Willed Leader" unit command. Gain the SMS Seydlitz unique unit when the Steel technology is researched.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_UNSINKABLE_LEGEND_DESCRIPTION_XP2" Language="en_US">
+			<Text>Military units do not suffer combat penalties when damaged and can retreat to designated districts to heal completely. When military units attack, they gain +1 [ICON_STRENGTH] Combat Strength for every 10 Hp they have; when defending, they gain +1 [ICON_STRENGTH] Combat Strength for every 10 Hp lost. [ICON_GreatGeneral] Great Generals and [ICON_GreatAdmiral] Great Admirals can provide +5 [ICON_Strength] Combat Strength and +1 [ICON_Movement] Movement to military units within two tiles, and grant the "Iron-Willed Leader" unit command. Gain the SMS Seydlitz unique unit when the Refining technology is researched.</Text>
+		</Replace>
+		<!--特殊加成-->
+
+		<!--领袖项目-->
+
+		<!--领袖单位-->
+		<Replace Tag="LOC_UNIT_SMS_SEYDLITZ_NAME" Language="en_US">
+			<Text>SMS Seydlitz</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SMS_SEYDLITZ_DESCRIPTION" Language="en_US">
+			<Text>Seydlitz's unique Modern era naval unit that replaces the Battleship. Heals outside of friendly territory and at the end of every turn.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SMS_SEYDLITZ_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_HISTORY_PARA_1}</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SMS_SEYDLITZ_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_HISTORY_PARA_2}</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SMS_SEYDLITZ_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_HISTORY_PARA_3}</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SMS_SEYDLITZ_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_HISTORY_PARA_4}</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SMS_SEYDLITZ_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_HISTORY_PARA_5}</Text>
+		</Replace>
+		<!--特殊晋升-->
+		
+		<!--特殊能力-->
+		<Replace Tag="LOC_ABILITY_UNSINKABLE_LEGEND_NAME" Language="en_US">
+			<Text>Unsinkable Legend</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNSINKABLE_LEGEND_DESCRIPTION" Language="en_US">
+			<Text>Does not suffer combat penalties when damaged. When attacking, gains +1 [ICON_STRENGTH] Combat Strength for every 10 Hp; when defending, gains +1 [ICON_STRENGTH] Combat Strength for every 10 lost Hp.</Text>
+		</Replace>
+		<Replace Tag="LOC_PREVIEW_UNSINKABLE_LEGEND_ATTACK_COMBAT_DESCRIPTION" Language="en_US">
+			<Text>+{Property} from current Hp</Text>
+		</Replace>
+		<Replace Tag="LOC_PREVIEW_UNSINKABLE_LEGEND_DEFEND_COMBAT_DESCRIPTION" Language="en_US">
+			<Text>+{Property} from lost Hp</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LEGEND_GENERAL_AND_ADMIRAL_NAME" Language="en_US">
+			<Text>Iron-Willed Leader</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LEGEND_GENERAL_AND_ADMIRAL_DESCRIPTION" Language="en_US">
+			<Text>Provides +5 [ICON_Strength] Combat Strength and +1 [ICON_Movement] Movement for military units within two tiles.</Text>
+		</Replace>
+		<Replace Tag="LOC_PREVIEW_LEGEND_GENERAL_COMBAT_BUFF_DESCRIPTION" Language="en_US">
+			<Text>+{1_num} from [ICON_GreatGeneral] Great General</Text>
+		</Replace>
+		<Replace Tag="LOC_PREVIEW_LEGEND_ADMIRAL_COMBAT_BUFF_DESCRIPTION" Language="en_US">
+			<Text>+{1_num} from [ICON_GreatAdmiral] Great Admiral</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SMS_SEYDLITZ_NAME" Language="en_US">
+			<Text>Unsinkable Ship</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SMS_SEYDLITZ_DESCRIPTION" Language="en_US">
+			<Text>Heals outside of friendly territory and at the end of every turn.</Text>
+		</Replace>
+		<!--lua文本-->
+		<Replace Tag="LOC_UNITCOMMAND_UNSINKABLE_LEGEND_TITLE" Language="en_US">
+			<Text>Unsinkable Legend</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_UNSINKABLE_LEGEND_DESC" Language="en_US">
+			<Text>Can retreat to designated districts to heal completely.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_TITLE" Language="en_US">
+			<Text>Iron-Willed Leader</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_GENERAL_DESC" Language="en_US">
+			<Text>Can upgrade Land Combat units to [ICON_Corps] Corps or [ICON_Army] Army and grant [ICON_Gold] Gold equal to the unit's purchase cost, as well as [ICON_GreatGeneral] Great General points equal to the unit's [ICON_Strength] Combat Strength.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_ADMIRAL_DESC" Language="en_US">
+			<Text>Can upgrade Naval Combat units to [ICON_Corps] Fleets or [ICON_Army] Armadas and grant [ICON_Gold] Gold equal to the unit's purchase cost, as well as [ICON_GreatAdmiral] Great Admiral points equal to the unit's [ICON_Strength] Combat Strength.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_DETAIL" Language="en_US">
+			<Text>Upgrade {1_name} to {2_name}.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_REWARD" Language="en_US">
+			<Text>[ICON_Bullet]Grant {1_num} [ICON_Gold] Gold</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_GENERAL_PIONTS" Language="en_US">
+			<Text>[ICON_Bullet]Grant {1_num} [ICON_GreatGeneral] Great General points.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_ADMIRAL_PIONTS" Language="en_US">
+			<Text>[ICON_Bullet]Grant {1_num} [ICON_GreatAdmiral] Great Admiral points.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_REWARD_FLOAT" Language="en_US">
+			<Text>[COLOR_FLOAT_GOLD]+{1_num}[ENDCOLOR] [ICON_GOLD]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_PIONTS_FLOAT" Language="en_US">
+			<Text>[COLOR:COLOR_FLOAT_FOOD]+{1_num} {2_text} points[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_UNSINKABLE_LEGEND_DISABLE" Language="en_US">
+			<Text>[COLOR_RED]The command is not available for the following reasons:[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_UNSINKABLE_LEGEND_NODAMAGE" Language="en_US">
+			<Text>[ICON_Bullet][COLOR_RED]The unit is not damaged.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_UNSINKABLE_LEGEND_NOMOVEMENT" Language="en_US">
+			<Text>[ICON_Bullet][COLOR_RED]The unit has no remaining [ICON_MOVEMENT] Movement.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_UNSINKABLE_LEGEND_NOPLOT" Language="en_US">
+			<Text>[ICON_Bullet][COLOR_RED]The unit has no available retreat districts.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_NOUNIT" Language="en_US">
+			<Text>[ICON_Bullet][COLOR_RED]The unit is not a [ICON_GreatGeneral] Great General or [ICON_GreatAdmiral] Great Admiral.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_LAST" Language="en_US">
+			<Text>[ICON_Bullet]Remaining {1_num} {1_num : plural 1?turn; other?turns;} on cooldown.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_NOTARGET" Language="en_US">
+			<Text>[ICON_Bullet][COLOR_RED]No available targets.[ENDCOLOR]</Text>
+		</Replace>
+		<!--特殊晋升-->
+
+		<!--外交对话-->
+		<![CDATA[<!--同意宣布友谊-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SEYDLITZ_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--拒绝宣布友谊-->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SEYDLITZ_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--请求宣布友谊-->
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_SEYDLITZ_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--宣布友谊被接受-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SEYDLITZ_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--宣布友谊被拒绝-->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SEYDLITZ_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--被宣战-->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_SEYDLITZ_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--宣战-->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_SEYDLITZ_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--接受代表团-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SEYDLITZ_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--拒绝代表团-->
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_SEYDLITZ_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--派出代表团-->
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_SEYDLITZ_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--被谴责-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_SEYDLITZ_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--谴责-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_SEYDLITZ_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--初次见面-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_SEYDLITZ_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--初次见面，邀请参观附近城市-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_SEYDLITZ_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--初次见面，感谢玩家提供最近城市位置-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_SEYDLITZ_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--初次见面，请求交换城市位置-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SEYDLITZ_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--欢迎语？-->
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_SEYDLITZ_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--示好-->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SEYDLITZ_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--敌视-->
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_SEYDLITZ_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--请求结盟-->
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SEYDLITZ_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--同意和平-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_SEYDLITZ_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--拒绝和平-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_SEYDLITZ_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--请求和平-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_SEYDLITZ_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--接受开放边界请求-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SEYDLITZ_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--拒绝开放边界请求-->
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SEYDLITZ_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--请求开放边界-->
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SEYDLITZ_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--要求移开边境部队-->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SEYDLITZ_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--拒绝移开边境部队-->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_SEYDLITZ_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--同意移开边境部队-->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_SEYDLITZ_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--经受不住时间考验-->
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SEYDLITZ_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--拒绝交易-->
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SEYDLITZ_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!--同意交易-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SEYDLITZ_ANY" Language="en_US">
+			<Text></Text>
+		</Replace>]]>
+	</LocalizedText>
+</GameData>

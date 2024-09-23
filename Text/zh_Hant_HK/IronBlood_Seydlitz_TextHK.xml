@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IronBlood_Seydlitz_TextHK -->
+<!-- Author: jjj -->
+<!-- DateCreated: 2024/9/23 9:03:37 -->
+<GameData>
+    <LocalizedText>
+		<!--領袖介紹-->
+		<Replace Tag="LOC_LEADER_SEYDLITZ_NAME" Language="zh_Hant_HK">
+			<Text>塞德利茨</Text>
+		</Replace>
+		<!--加載-->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_SEYDLITZ" Language="zh_Hant_HK">
+			<Text>塞德利茨，你是日德蘭海戰中不沈的傳奇。不屈為你的名譽加冕，戰果為你的榮光授勛，你是鐵血公國最為鋒銳的利刃，可斬斷一切敵人的決心。前進吧，永遠的友誼之艦！你絕不會於斯卡帕灣止步不前！夕陽下那波光粼粼的海面，便是你輝煌功勛的倒影。</Text>
+		</Replace>
+		<!--百科-->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_QUOTE" Language="zh_Hant_HK">
+			<Text>是！悉聽遵命！</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_CAPSULE_BODY" Language="zh_Hant_HK">
+			<Text>塞德利茨軍隊中的佼佼者會幫助她擊敗一個又一個對手。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_DETAILED_BODY" Language="zh_Hant_HK">
+			<Text>無論如何，塞德利茨都是個令人頭疼的對手。她的軍隊在狀態良好時會擁有強大的進攻能力，在狀態不佳時也能擁有不錯的防禦能力。並且，塞德利茨的軍隊可以隨時撤退至己方城市，這大大提高了她軍隊的戰鬥能力。[ICON_GreatGeneral] 大將軍和 [ICON_GreatAdmiral] 海軍統帥對塞德利茨而言非常重要，他們不僅會為塞德利茨的軍隊帶來額外的 [ICON_Strength] 戰鬥力和 [ICON_Movement] 移動力加成，還會幫助塞德利茨擁有世界上最早的軍團和艦隊、軍隊和無敵艦隊。這一切都使得塞德利茨的軍隊擁有讓自大的敵人死無葬身之地的力量。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>塞德利茨號戰列巡洋艦是德意誌帝國海軍於1911年開工建造的一艘戰列巡洋艦，沒有同型艦。該艦在毛奇級戰列巡洋艦（大巡洋艦）基礎上改進設計，為了改善適航性能，提高艦艏幹舷；加強艦體強度，在裝甲和水密防護上做了大的改進，側舷水線防禦裝甲厚度接近噸位相近的戰列艦，在德國戰巡發展中具有承上啟下的地位。該艦以18世紀普魯士王國將軍弗裏德裏希·威廉·馮·塞德利茨男爵命名。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>塞德利茨在第一次世界大戰期間參加了許多大型艦隊行動，包括多格爾沙洲海戰和日德蘭海戰役。這艘船在兩次交戰中都遭受了嚴重損壞。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_HISTORY_PARA_3" Language="zh_Hant_HK">
+			<Text>在多格爾沙洲海戰中，一枚來自英國戰列巡洋艦獅號的13.5英寸炮彈擊中了塞德利茨最後面的炮塔，幾乎差點引起彈藥庫爆炸。德國海軍根據這次作戰的教訓，改進了彈藥儲藏室和彈藥輸送通道的防護措施，防止炮塔及其彈藥輸送通道一處受損，火勢下竄到彈藥庫，危及全艦安全。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_HISTORY_PARA_4" Language="zh_Hant_HK">
+			<Text>在日德蘭海戰中，戰鬥初期，塞德利茨號和德芙林格號戰列巡洋艦的齊射在幾秒鐘內摧毀了英國瑪麗女王號戰列巡洋艦。在這場海戰中，塞德利茨被大口徑炮彈擊中21次，其中一枚穿透了船尾超燃炮塔的工作室。雖然由此產生的大火摧毀了炮塔，但相關安全措施阻止了進一步的災難。這艘船在戰鬥中還被魚雷擊中，導致她進水超過5，300噸，幹舷減少到2.5米，五座主炮炮塔也全部被毀。在與艦隊失去聯系的情況下，獨自蹣跚返回了德國本土基地，堪稱傳奇，塞德利茨號出色的損管和防護設計為其贏得了「不沈戰艦」之名。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_HISTORY_PARA_5" Language="zh_Hant_HK">
+			<Text>與戰爭中幸存下來的其他德國戰列巡洋艦一樣，該船於1918年被拘留在斯卡帕灣。這艘船與公海艦隊的其余部分一起於1919年6月自沈，以防止她被英國皇家海軍俘虜。她於1928年11月2日重新打撈，1930年在羅塞斯被拆解。</Text>
+		</Replace>
+		<!--領袖議程-->
+		<Replace Tag="LOC_AGENDA_SHIP_OF_FRIENDSHIP_NAME" Language="zh_Hant_HK">
+			<Text>友誼之艦</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_SHIP_OF_FRIENDSHIP_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>樂於宣布友好。</Text>
+		</Replace>
+		<!--領袖能力-->
+		<Replace Tag="LOC_TRAIT_LEADER_UNSINKABLE_LEGEND_NAME" Language="zh_Hant_HK">
+			<Text>不沈的傳奇</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_UNSINKABLE_LEGEND_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>軍事單位不會蒙受受傷減益，且可撤退至特定的區域內並恢復全部生命值。當軍事單位進攻時，每擁有10點生命值便+1 [ICON_STRENGTH] 戰鬥力；防禦時，每損失10點生命值便+1 [ICON_STRENGTH] 戰鬥力。[ICON_GreatGeneral] 大將軍和 [ICON_GreatAdmiral] 海軍統帥可為兩個單元格內的軍事單位+5 [ICON_Strength] 戰鬥力和+1 [ICON_Movement] 移動力，並獲得「鐵血大將」單位命令。研究完「鋼鐵」科技後獲得特色單位「塞德利茨號戰列巡洋艦」。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_UNSINKABLE_LEGEND_DESCRIPTION_XP2" Language="zh_Hant_HK">
+			<Text>軍事單位不會蒙受受傷減益，且可撤退至特定的區域內並恢復全部生命值。當軍事單位進攻時，每擁有10點生命值便+1 [ICON_STRENGTH] 戰鬥力；防禦時，每損失10點生命值便+1 [ICON_STRENGTH] 戰鬥力。[ICON_GreatGeneral] 大將軍和 [ICON_GreatAdmiral] 海軍統帥可為兩個單元格內的軍事單位+5 [ICON_Strength] 戰鬥力和+1 [ICON_Movement] 移動力，並獲得「鐵血大將」單位命令。研究完「精煉」科技後獲得特色單位「塞德利茨號戰列巡洋艦」。</Text>
+		</Replace>
+		<!--特殊加成-->
+
+		<!--領袖項目-->
+
+		<!--領袖單位-->
+		<Replace Tag="LOC_UNIT_SMS_SEYDLITZ_NAME" Language="zh_Hant_HK">
+			<Text>塞德利茨號戰列巡洋艦</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SMS_SEYDLITZ_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>取代戰艦的塞德利茨特色現代海軍遠程單位。可在友軍領土之外恢復，每回合自動恢復生命值。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SMS_SEYDLITZ_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_HISTORY_PARA_1}</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SMS_SEYDLITZ_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_HISTORY_PARA_2}</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SMS_SEYDLITZ_CHAPTER_HISTORY_PARA_3" Language="zh_Hant_HK">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_HISTORY_PARA_3}</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SMS_SEYDLITZ_CHAPTER_HISTORY_PARA_4" Language="zh_Hant_HK">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_HISTORY_PARA_4}</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SMS_SEYDLITZ_CHAPTER_HISTORY_PARA_5" Language="zh_Hant_HK">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_SEYDLITZ_CHAPTER_HISTORY_PARA_5}</Text>
+		</Replace>
+		<!--特殊晉升-->
+		
+		<!--特殊能力-->
+		<Replace Tag="LOC_ABILITY_UNSINKABLE_LEGEND_NAME" Language="zh_Hant_HK">
+			<Text>不沈的傳奇</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNSINKABLE_LEGEND_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>不會蒙受受傷減益。進攻時，每擁有10點生命值便+1 [ICON_STRENGTH] 戰鬥力；防禦時，每損失10點生命值便+1 [ICON_STRENGTH] 戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_PREVIEW_UNSINKABLE_LEGEND_ATTACK_COMBAT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+{Property}來自擁有的生命值</Text>
+		</Replace>
+		<Replace Tag="LOC_PREVIEW_UNSINKABLE_LEGEND_DEFEND_COMBAT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+{Property}來自損失的生命值</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LEGEND_GENERAL_AND_ADMIRAL_NAME" Language="zh_Hant_HK">
+			<Text>鐵血大將</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LEGEND_GENERAL_AND_ADMIRAL_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>為兩個單元格內的軍事單位+5 [ICON_Strength] 戰鬥力和+1 [ICON_Movement] 移動力</Text>
+		</Replace>
+		<Replace Tag="LOC_PREVIEW_LEGEND_GENERAL_COMBAT_BUFF_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+{1_num}來自 [ICON_GreatGeneral] 大將軍</Text>
+		</Replace>
+		<Replace Tag="LOC_PREVIEW_LEGEND_ADMIRAL_COMBAT_BUFF_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+{1_num}來自 [ICON_GreatAdmiral] 海軍統帥</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SMS_SEYDLITZ_NAME" Language="zh_Hant_HK">
+			<Text>不沈戰艦</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SMS_SEYDLITZ_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>可在友軍領土之外恢復，每回合自動恢復生命值</Text>
+		</Replace>
+		<!--lua文本-->
+		<Replace Tag="LOC_UNITCOMMAND_UNSINKABLE_LEGEND_TITLE" Language="zh_Hant_HK">
+			<Text>不沈傳奇</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_UNSINKABLE_LEGEND_DESC" Language="zh_Hant_HK">
+			<Text>可撤退至特定的區域內，並恢復全部生命值。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_TITLE" Language="zh_Hant_HK">
+			<Text>鐵血大將</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_GENERAL_DESC" Language="zh_Hant_HK">
+			<Text>可將陸地戰鬥單位升級至 [ICON_Corps] 軍團或 [ICON_Army] 軍隊，並獲得等同於該單位購買費用的 [ICON_Gold] 金幣和等同於該單位 [ICON_Strength] 戰鬥力的 [ICON_GreatGeneral] 大將軍點數。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_ADMIRAL_DESC" Language="zh_Hant_HK">
+			<Text>可將海上戰爭單位升級至 [ICON_Corps] 艦隊或 [ICON_Army] 無敵艦隊，並獲得等同於該單位購買費用的 [ICON_Gold] 金幣和等同於該單位 [ICON_Strength] 戰鬥力的 [ICON_GreatAdmiral] 海軍統帥點數。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_DETAIL" Language="zh_Hant_HK">
+			<Text>將{1_name}升級至{2_name}</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_REWARD" Language="zh_Hant_HK">
+			<Text>[ICON_Bullet]獲得{1_num} [ICON_Gold] 金幣</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_GENERAL_PIONTS" Language="zh_Hant_HK">
+			<Text>[ICON_Bullet]獲得{1_num}點 [ICON_GreatGeneral] 大將軍點數</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_ADMIRAL_PIONTS" Language="zh_Hant_HK">
+			<Text>[ICON_Bullet]獲得{1_num}點 [ICON_GreatAdmiral] 海軍統帥點數</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_REWARD_FLOAT" Language="zh_Hant_HK">
+			<Text>[COLOR_FLOAT_GOLD]+{1_num}[ENDCOLOR] [ICON_GOLD]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_PIONTS_FLOAT" Language="zh_Hant_HK">
+			<Text>[COLOR:COLOR_FLOAT_FOOD]+{1_num} {2_text}點數[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_UNSINKABLE_LEGEND_DISABLE" Language="zh_Hant_HK">
+			<Text>[COLOR_RED]因以下原因，該行動不可用：[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_UNSINKABLE_LEGEND_NODAMAGE" Language="zh_Hant_HK">
+			<Text>[ICON_Bullet][COLOR_RED]該單位未受傷[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_UNSINKABLE_LEGEND_NOMOVEMENT" Language="zh_Hant_HK">
+			<Text>[ICON_Bullet][COLOR_RED]該單位沒有剩余 [ICON_MOVEMENT] 移動力[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_UNSINKABLE_LEGEND_NOPLOT" Language="zh_Hant_HK">
+			<Text>[ICON_Bullet][COLOR_RED]該單位沒有可供撤退的區域[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_NOUNIT" Language="zh_Hant_HK">
+			<Text>[ICON_Bullet][COLOR_RED]該單位不為 [ICON_GreatGeneral] 大將軍或 [ICON_GreatAdmiral] 海軍統帥[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_LAST" Language="zh_Hant_HK">
+			<Text>[ICON_Bullet]剩余{1_num}回合冷卻</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_NOTARGET" Language="zh_Hant_HK">
+			<Text>[ICON_Bullet][COLOR_RED]無可用目標[ENDCOLOR]</Text>
+		</Replace>
+		<!--特殊晉升-->
+
+		<!--外交對話-->
+		<![CDATA[<!--同意宣布友誼-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SEYDLITZ_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--拒絕宣布友誼-->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SEYDLITZ_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--請求宣布友誼-->
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_SEYDLITZ_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--宣布友誼被接受-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SEYDLITZ_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--宣布友誼被拒絕-->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SEYDLITZ_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--被宣戰-->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_SEYDLITZ_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--宣戰-->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_SEYDLITZ_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--接受代表團-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SEYDLITZ_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--拒絕代表團-->
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_SEYDLITZ_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--派出代表團-->
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_SEYDLITZ_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--被譴責-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_SEYDLITZ_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--譴責-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_SEYDLITZ_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--初次見面-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_SEYDLITZ_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--初次見面，邀請參觀附近城市-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_SEYDLITZ_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--初次見面，感謝玩家提供最近城市位置-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_SEYDLITZ_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--初次見面，請求交換城市位置-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SEYDLITZ_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--歡迎語？-->
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_SEYDLITZ_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--示好-->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SEYDLITZ_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--敵視-->
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_SEYDLITZ_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--請求結盟-->
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SEYDLITZ_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--同意和平-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_SEYDLITZ_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--拒絕和平-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_SEYDLITZ_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--請求和平-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_SEYDLITZ_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--接受開放邊界請求-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SEYDLITZ_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--拒絕開放邊界請求-->
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SEYDLITZ_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--請求開放邊界-->
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SEYDLITZ_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--要求移開邊境部隊-->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SEYDLITZ_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--拒絕移開邊境部隊-->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_SEYDLITZ_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--同意移開邊境部隊-->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_SEYDLITZ_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--經受不住時間考驗-->
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SEYDLITZ_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--拒絕交易-->
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SEYDLITZ_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>
+		<!--同意交易-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SEYDLITZ_ANY" Language="zh_Hant_HK">
+			<Text></Text>
+		</Replace>]]>
+	</LocalizedText>
+</GameData>
