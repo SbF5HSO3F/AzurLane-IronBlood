@@ -64,7 +64,7 @@
 			<Text>从海底出击</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_FROM_THE_SEA_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>所有单位初始便可进入海洋单元格，击杀单位后获得等同于被击杀单位战斗力的 [ICON_Science] 科技值与 [ICON_Culture] 文化值。军事单位掠夺不消耗 [ICON_MOVEMENT] 移动力，发动掠夺后本回合内+3 [ICON_STRENGTH] 战斗力。海军单位位于海洋单元格时+10 [ICON_STRENGTH] 战斗力、+1 [ICON_MOVEMENT] 移动力并+1 [ICON_Range] 射程。掠夺、海岸扫荡和掠夺 [ICON_TradeRoute] 贸易路线的收益+100%。研究完“电力”后获得特色单位“VIIC型潜艇”。</Text>
+			<Text>所有单位初始便可进入海洋单元格，击杀单位后获得等同于被击杀单位战斗力的 [ICON_SCIENCE] 科技值与 [ICON_Culture] 文化值。军事单位掠夺不消耗 [ICON_MOVEMENT] 移动力，发动掠夺后本回合内+3 [ICON_STRENGTH] 战斗力。海军单位位于海洋单元格时+10 [ICON_STRENGTH] 战斗力、+1 [ICON_MOVEMENT] 移动力并+1 [ICON_Range] 射程。掠夺、海岸扫荡和掠夺 [ICON_TradeRoute] 贸易路线的收益+100%。研究完“电力”后获得特色单位“VIIC型潜艇”。</Text>
 		</Replace>
 		<!--能力加成-->
 		<Replace Tag="LOC_ABILITY_FROM_THE_SEA_DESCRIPTION" Language="zh_Hans_CN">

@@ -28,7 +28,7 @@
 			<Text>Will of the Iron Blood</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_DESCRIPTION" Language="en_US">
-			<Text>All cities can build an additional district, and after researching the "Construction", an additional district can be built. Additional Military policy slot, and +2 [ICON_STRENGTH] Combat Strength for every Military Policy slotted. The amount of [icon_GOLD] Gold and resources required to upgrade is reduced by 40%, and the combat experience gained is increased by 100%. +15% [ICON_Science] Science and [ICON_Culture] Culture for all cities when not at war, and +3 [ICON_Amenities] Amenity for all cities when at war.</Text>
+			<Text>All cities can build an additional district, and after researching the "Construction", an additional district can be built. Additional Military policy slot, and +2 [ICON_STRENGTH] Combat Strength for every Military Policy slotted. The amount of [ICON_GOLD] Gold and resources required to upgrade is reduced by 40%, and the combat experience gained is increased by 100%. +15% [ICON_SCIENCE] Science and [ICON_Culture] Culture for all cities when not at war, and +3 [ICON_Amenities] Amenity for all cities when at war.</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_IRON_BLOOD_POLICY_SLOT_COMBAT_BONUS_DESCRIPTION" Language="en_US">
 			<Text>For every military policy in the current regime, +2 [ICON_Strength] Combat Strength</Text>
@@ -38,16 +38,16 @@
 			<Text>Ruhr</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_RUHR_DESCRIPTION" Language="en_US">
-			<Text>Iron Blood unique district. Replaces the Industrial Zone district, unlock earlier and cost less. [icon_PRODUCTION] Production Adjacent Bonus also provides [ICON_Culture] Culture. After Flight is researched receive [ICON_Tourism] Tourism equal to the [icon_PRODUCTION] Production output.[NEWLINE][NEWLINE]+20% [icon_PRODUCTION] Production in this city, and +1 [icon_PRODUCTION] Production, +1 [ICON_Culture] for each Mine in this city.[NEWLINE]+2 [icon_PRODUCTION] Production bonus for each adjacent Commercial Hub and river. +1 [icon_PRODUCTION] Production bonus for each adjacent resource. Provides a +2 [icon_GOLD] gold bonus to each adjacent Commercial Hub.</Text>
+			<Text>Iron Blood unique district. Replaces the Industrial Zone district, unlock earlier and cost less. [ICON_PRODUCTION] Production Adjacent Bonus also provides [ICON_Culture] Culture. After Flight is researched receive [ICON_Tourism] Tourism equal to the [ICON_PRODUCTION] Production output.[NEWLINE][NEWLINE]+20% [ICON_PRODUCTION] Production in this city, and +1 [ICON_PRODUCTION] Production, +1 [ICON_Culture] for each Mine in this city.[NEWLINE]+2 [ICON_PRODUCTION] Production bonus for each adjacent Commercial Hub and river. +1 [ICON_PRODUCTION] Production bonus for each adjacent resource. Provides a +2 [ICON_GOLD] gold bonus to each adjacent Commercial Hub.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_KRUPP_NAME" Language="en_US">
 			<Text>Krupp</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_KRUPP_DESCRIPTION" Language="en_US">
-			<Text>Iron Blood unique district. Replaces the Encampment district, cost less and have no population demand (Therefore, it is not a specialty district). Buildings in the Krupp receive +4 [ICON_GOLD] Gold and +2 [ICON_SCIENCE] Science. When the Krupp and buildings in this district are constructed, receive a Melee unit. Units granted from this district +5 [ICON_Strength] Combat Strength.[NEWLINE][NEWLINE]The time it takes for the city to produce military units is reduced by 50%, and gains [ICON_Science] Science equal to 25% of the unit's cost when a non-civilian unit is trained. All Melee units trained by this city +1 [ICON_MOVEMENT] Movement, Heavy Cavalry units +5 [ICON_Strength] Combat Strength, Ranged and Siege units +1 [ICON_Range] Range.[NEWLINE]Provides a +2 [icon_PRODUCTION] Production to each adjacent Ruhr and a +2 [ICON_Science] Science bonus to each adjacent Campus.</Text>
+			<Text>Iron Blood unique district. Replaces the Encampment district, cost less and have no population demand (Therefore, it is not a specialty district). Buildings in the Krupp receive +4 [ICON_GOLD] Gold and +2 [ICON_SCIENCE] Science. When the Krupp and buildings in this district are constructed, receive a Melee unit. Units granted from this district +5 [ICON_Strength] Combat Strength.[NEWLINE][NEWLINE]The time it takes for the city to produce military units is reduced by 50%, and gains [ICON_SCIENCE] Science equal to 25% of the unit's cost when a non-civilian unit is trained. All Melee units trained by this city +1 [ICON_MOVEMENT] Movement, Heavy Cavalry units +5 [ICON_Strength] Combat Strength, Ranged and Siege units +1 [ICON_Range] Range.[NEWLINE]Provides a +2 [ICON_PRODUCTION] Production to each adjacent Ruhr and a +2 [ICON_SCIENCE] Science bonus to each adjacent Campus.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_KRUPP_DESCRIPTION_XP2" Language="en_US">
-			<Text>Iron Blood unique district. Replaces the Encampment district, cost less and have no population demand (Therefore, it is not a specialty district). Buildings in the Krupp receive +4 [ICON_GOLD] Gold and +2 [ICON_SCIENCE] Science. When the Krupp and buildings in this district are constructed, receive a Melee unit. Units granted from this district do not have a resource maintenance cost, and +3 [ICON_Strength] Combat Strength per unused [ICON_MOVEMENT] Movement. [NEWLINE][NEWLINE]The time it takes for the city to produce military units is reduced by 50%, and gains [ICON_Science] Science equal to 25% of the unit's cost when a non-civilian unit is trained. All Melee units trained by this city +1 [ICON_MOVEMENT] Movement, Heavy Cavalry units +5 [ICON_Strength] Combat Strength, Ranged and Siege units +1 [ICON_Range] Range.[NEWLINE]Provides a +2 [icon_PRODUCTION] Production to each adjacent Ruhr and a +2 [ICON_Science] Science bonus to each adjacent Campus.</Text>
+			<Text>Iron Blood unique district. Replaces the Encampment district, cost less and have no population demand (Therefore, it is not a specialty district). Buildings in the Krupp receive +4 [ICON_GOLD] Gold and +2 [ICON_SCIENCE] Science. When the Krupp and buildings in this district are constructed, receive a Melee unit. Units granted from this district do not have a resource maintenance cost, and +3 [ICON_Strength] Combat Strength per unused [ICON_MOVEMENT] Movement. [NEWLINE][NEWLINE]The time it takes for the city to produce military units is reduced by 50%, and gains [ICON_SCIENCE] Science equal to 25% of the unit's cost when a non-civilian unit is trained. All Melee units trained by this city +1 [ICON_MOVEMENT] Movement, Heavy Cavalry units +5 [ICON_Strength] Combat Strength, Ranged and Siege units +1 [ICON_Range] Range.[NEWLINE]Provides a +2 [ICON_PRODUCTION] Production to each adjacent Ruhr and a +2 [ICON_SCIENCE] Science bonus to each adjacent Campus.</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_KRUPP_FREE_MELEE_UNITS_XP2_DESCRIPTION" Language="en_US">
 			<Text>No need to maintain resources and +3 [ICON_Strength] Combat Strength per unused [ICON_MOVEMENT] Movement</Text>
@@ -66,23 +66,23 @@
 		</Replace>
 		<!--特殊加成-->
 		<Replace Tag="LOC_River_Ruhr" Language="en_US">
-			<Text>+{1_num} [icon_PRODUCTION] Production from each adjacent river tile.</Text>
+			<Text>+{1_num} [ICON_PRODUCTION] Production from each adjacent river tile.</Text>
 		</Replace>
 		<Replace Tag="LOC_Ruhr_Krupp" Language="en_US">
-			<Text>+{1_num} [icon_PRODUCTION] Production from each adjacent Krupp tile.</Text>
+			<Text>+{1_num} [ICON_PRODUCTION] Production from each adjacent Krupp tile.</Text>
 		</Replace>
 		<Replace Tag="LOC_Ruhr_Commercial_Hub" Language="en_US">
-			<Text>+{1_num} [icon_GOLD] Gold from each adjacent Ruhr tile.</Text>
+			<Text>+{1_num} [ICON_GOLD] Gold from each adjacent Ruhr tile.</Text>
 		</Replace>
 		<Replace Tag="LOC_Krupp_Campus" Language="en_US">
-			<Text>+{1_num} [ICON_Science] Science from each adjacent Krupp tile.</Text>
+			<Text>+{1_num} [ICON_SCIENCE] Science from each adjacent Krupp tile.</Text>
 		</Replace>
 		<!--特殊建筑-->
 		<Replace Tag="LOC_BUILDING_ANNETTE_NAME" Language="en_US">
 			<Text>Wiblingen Monastery Library</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ANNETTE_DESCRIPTION" Language="en_US">
-			<Text>A building unique to Iron Blood, replacing the Library and can hold [ICON_GreatWork_WRITING] Great Works of Writing. +1 [ICON_Science] Science per turn for each [ICON_CITIZEN] Citizen in the city. If you use Z46, unlock the "Name pursuit" Project, which provides [ICON_Culture] Culture and [ICON_Science] Science for 20% of the current city's [icon_PRODUCTION] Production each turn, awards [ICON_GreatWriter] Great Writers, [ICON_GreatArtist] Great Artists and [ICON_GreatMusician] Great Musicians points once finished, and grants a free [ICON_GreatWriter] Great Writers.</Text>
+			<Text>A building unique to Iron Blood, replacing the Library and can hold [ICON_GreatWork_WRITING] Great Works of Writing. +1 [ICON_SCIENCE] Science per turn for each [ICON_CITIZEN] Citizen in the city. If you use Z46, unlock the "Name pursuit" Project, which provides [ICON_Culture] Culture and [ICON_SCIENCE] Science for 20% of the current city's [ICON_PRODUCTION] Production each turn, awards [ICON_GreatWriter] Great Writers, [ICON_GreatArtist] Great Artists and [ICON_GreatMusician] Great Musicians points once finished, and grants a free [ICON_GreatWriter] Great Writers.</Text>
 		</Replace>
 		<!--城市名-->
 		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_1" Language="en_US">

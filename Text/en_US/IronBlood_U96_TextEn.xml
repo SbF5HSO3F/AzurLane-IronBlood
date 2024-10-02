@@ -64,7 +64,7 @@
 			<Text>From the Sea</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_FROM_THE_SEA_DESCRIPTION" Language="en_US">
-			<Text>All units can enter the ocean tiles from the beginning, gain [ICON_Science] Science and [ICON_Culture] Culture equal to the killed unit's Combat Strength when killed. Military units cost no [ICON_MOVEMENT] Movement to Pillage, and +3 [ICON_STRENGTH] Combat Strength for the turn after each Pillaging. Naval units +10 [ICON_STRENGTH] Combat Strength, +1 [ICON_MOVEMENT] Movement and +1 [ICON_Range] Range when located in Ocean tiles. Yields gained from pillaging, coastal raids and plundering [ICON_TradeRoute] Trade Routes are +100%. Gain the VIIC U-Boat unique unit when the Electricity technology are researched.</Text>
+			<Text>All units can enter the ocean tiles from the beginning, gain [ICON_SCIENCE] Science and [ICON_Culture] Culture equal to the killed unit's Combat Strength when killed. Military units cost no [ICON_MOVEMENT] Movement to Pillage, and +3 [ICON_STRENGTH] Combat Strength for the turn after each Pillaging. Naval units +10 [ICON_STRENGTH] Combat Strength, +1 [ICON_MOVEMENT] Movement and +1 [ICON_Range] Range when located in Ocean tiles. Yields gained from pillaging, coastal raids and plundering [ICON_TradeRoute] Trade Routes are +100%. Gain the VIIC U-Boat unique unit when the Electricity technology are researched.</Text>
 		</Replace>
 		<!--能力加成-->
 		<Replace Tag="LOC_ABILITY_FROM_THE_SEA_DESCRIPTION" Language="en_US">

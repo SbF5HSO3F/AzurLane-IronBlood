@@ -53,10 +53,10 @@
 			<!--What Once Was Her World-->
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_THE_GIRL_PURSUING_NAME_DESCRIPTION" Language="zh_Hant_HK">
-			<Text>[ICON_GreatWork_WRITING] 著作巨作+4 [ICON_Science] 科技值並可產出3倍的 [ICON_Tourism] 旅遊業績。所有區域每與一個區域相鄰便+1 [ICON_Culture] 文化值。您的文明創作巨作時，所在城市所有區域將+20% [ICON_Culture] 文化值相鄰加成。所有軍事單位與重騎兵作戰時+10 [ICON_Strength] 戰鬥力。研究完「聯合作戰」後獲得特色單位「1936C型驅逐艦」。</Text>
+			<Text>[ICON_GreatWork_WRITING] 著作巨作+4 [ICON_SCIENCE] 科技值並可產出3倍的 [ICON_Tourism] 旅遊業績。所有區域每與一個區域相鄰便+1 [ICON_Culture] 文化值。您的文明創作巨作時，所在城市所有區域將+20% [ICON_Culture] 文化值相鄰加成。所有軍事單位與重騎兵作戰時+10 [ICON_Strength] 戰鬥力。研究完「聯合作戰」後獲得特色單位「1936C型驅逐艦」。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_THE_GIRL_PURSUING_NAME_DESCRIPTION_XP2" Language="zh_Hant_HK">
-			<Text>[ICON_GreatWork_WRITING] 著作巨作+4 [ICON_Science] 科技值、+2 [ICON_Culture] 文化值。全部槽位填滿時，建築和奇觀自動獲得主題。所有區域每與一個區域相鄰便+1 [ICON_Culture] 文化值。您的文明創作巨作時，所在城市所有區域將+20% [ICON_Culture] 文化值相鄰加成。所有軍事單位與重騎兵作戰時+10 [ICON_Strength] 戰鬥力。研究完「聯合作戰」後獲得特色單位「1936C型驅逐艦」。</Text>
+			<Text>[ICON_GreatWork_WRITING] 著作巨作+4 [ICON_SCIENCE] 科技值、+2 [ICON_Culture] 文化值。全部槽位填滿時，建築和奇觀自動獲得主題。所有區域每與一個區域相鄰便+1 [ICON_Culture] 文化值。您的文明創作巨作時，所在城市所有區域將+20% [ICON_Culture] 文化值相鄰加成。所有軍事單位與重騎兵作戰時+10 [ICON_Strength] 戰鬥力。研究完「聯合作戰」後獲得特色單位「1936C型驅逐艦」。</Text>
 		</Replace>
 		<!--特殊加成-->
 		<Replace Tag="LOC_Z46_Culture_Adjacency_From_District" Language="zh_Hant_HK">
@@ -70,7 +70,7 @@
 			<Text>名字追尋</Text>
 		</Replace>
 		<Replace Tag="LOC_PROJECT_Z46_DESCRIPTION" Language="zh_Hant_HK">
-			<Text>每回合提供當前城市20% [icon_PRODUCTION] 生產力的 [ICON_Culture] 文化值和 [ICON_Science] 科技值，項目完成後提供 [ICON_GreatWriter] 大作家、[ICON_GreatArtist] 大藝術家和 [ICON_GreatMusician] 大音樂家點數，並可獲得一位 [ICON_GreatWriter] 大作家。</Text>
+			<Text>每回合提供當前城市20% [ICON_PRODUCTION] 生產力的 [ICON_Culture] 文化值和 [ICON_SCIENCE] 科技值，項目完成後提供 [ICON_GreatWriter] 大作家、[ICON_GreatArtist] 大藝術家和 [ICON_GreatMusician] 大音樂家點數，並可獲得一位 [ICON_GreatWriter] 大作家。</Text>
 		</Replace>
 		<!--領袖單位-->
 		<!--Pallada-class Protected Cruiser-->

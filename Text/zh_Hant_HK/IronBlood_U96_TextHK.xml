@@ -64,7 +64,7 @@
 			<Text>從海底出擊</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_FROM_THE_SEA_DESCRIPTION" Language="zh_Hant_HK">
-			<Text>所有單位初始便可進入海洋單元格，擊殺單位後獲得等同於被擊殺單位戰鬥力的 [ICON_Science] 科技值與 [ICON_Culture] 文化值。軍事單位掠奪不消耗 [ICON_MOVEMENT] 移動力，發動掠奪後本回合內+3 [ICON_STRENGTH] 戰鬥力。海軍單位位於海洋單元格時+10 [ICON_STRENGTH] 戰鬥力、+1 [ICON_MOVEMENT] 移動力並+1 [ICON_Range] 射程。掠奪、海岸掃蕩和掠奪 [ICON_TradeRoute] 貿易路線的收益+100%。研究完「電力」後獲得特色單位「VIIC型潛艇」。</Text>
+			<Text>所有單位初始便可進入海洋單元格，擊殺單位後獲得等同於被擊殺單位戰鬥力的 [ICON_SCIENCE] 科技值與 [ICON_Culture] 文化值。軍事單位掠奪不消耗 [ICON_MOVEMENT] 移動力，發動掠奪後本回合內+3 [ICON_STRENGTH] 戰鬥力。海軍單位位於海洋單元格時+10 [ICON_STRENGTH] 戰鬥力、+1 [ICON_MOVEMENT] 移動力並+1 [ICON_Range] 射程。掠奪、海岸掃蕩和掠奪 [ICON_TradeRoute] 貿易路線的收益+100%。研究完「電力」後獲得特色單位「VIIC型潛艇」。</Text>
 		</Replace>
 		<!--能力加成-->
 		<Replace Tag="LOC_ABILITY_FROM_THE_SEA_DESCRIPTION" Language="zh_Hant_HK">
