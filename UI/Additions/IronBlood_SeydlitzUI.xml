@@ -3,9 +3,16 @@
 <!-- Author: jjj -->
 <!-- DateCreated: 2024/8/26 12:26:22 -->
 <Context Name="SeydlitzContext">
-	<Grid ID="Seydlitz_Grid" Anchor="R,B" Size="46,41" AutoSizePadding="2,0" Texture="SelectionPanel_ActionGroupSlot" SliceCorner="5,19" SliceSize="1,1" SliceTextureSize="12,41" ConsumeMouse="1" Hidden="1">
-		<Button ID="Seydlitz_Button" Anchor="C,B" Size="44,53" Texture="UnitPanel_ActionButton">
-			<Image ID="Seydlitz_Icon" Anchor="C,C" Offset="0,-2" Size="38,38" Icon="ICON_UNITOPERATION_TELEPORT_TO_CITY"/>
-		</Button>
+	<Grid ID="SeydlitzGrid" Anchor="R,B" Size="46,41" AutoSizePadding="2,0" Texture="SelectionPanel_ActionGroupSlot" SliceCorner="5,19" SliceSize="1,1" SliceTextureSize="12,41" ConsumeMouse="1" Hidden="1">
+		<Stack ID="SeydlitzActionStack" Anchor="C,B" StackGrowth="Right" StackPadding="2">
+
+			<Button ID="MilitaryButton" Anchor="C,B" Size="44,53" Texture="UnitPanel_ActionButton">
+				<Image ID="MilitaryIcon" Anchor="C,C" Offset="0,-2" Size="38,38" Icon="ICON_UNITOPERATION_TELEPORT_TO_CITY"/>
+			</Button>
+
+			<Button ID="GreatPersonButton" Anchor="C,B" Size="44,53" Texture="UnitPanel_ActionButton">
+				<Image ID="GreatPersonIcon" Anchor="C,C" Offset="0,-2" Size="38,38" Icon="ICON_SEYDLITZ_GENERAL"/>
+			</Button>
+		</Stack>
 	</Grid>
 </Context>

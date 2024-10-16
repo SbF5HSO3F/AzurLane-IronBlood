@@ -2,7 +2,7 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>IronBloodCivilization</Name>
+    <Name>LOC_IRON_BLOOD_NAME</Name>
     <Guid>5e55884c-f1f8-46cd-b365-ca40716dbcc4</Guid>
     <ProjectGuid>35ae10b0-950f-4386-b1d0-28e78899eef2</ProjectGuid>
     <ModVersion>1</ModVersion>
@@ -114,7 +114,6 @@
           </Properties>
           <File>UI/Additions/IronBlood_Z23UI.xml</File>
           <File>UI/Additions/IronBlood_SeydlitzUI.xml</File>
-          <File>UI/Additions/IronBlood_SeydlitzGreatPresonUI.xml</File>
         </AddUserInterfaces>
         <AddGameplayScripts id="Scripts">
           <File>Scripts/IronBlood_U96.lua</File>
@@ -468,12 +467,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Text\zh_Hant_HK\IronBlood_Z46_TextHK.xml">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="UI\Additions\IronBlood_SeydlitzGreatPresonUI.lua">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="UI\Additions\IronBlood_SeydlitzGreatPresonUI.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="UI\Additions\IronBlood_SeydlitzUI.lua">
