@@ -14,7 +14,7 @@ local key_1 = 'U96Pillaged'
 --Unit On Piliaged
 function U96Pillaged(unitPlayerID, unitID)
     --check the leader is the U-96
-    if IronBloodLeaderTypeMatched(unitPlayerID, 'LEADER_U_96_VIIC') then
+    if IronCore.CheckLeaderMatched(unitPlayerID, 'LEADER_U_96_VIIC') then
         --get the unit
         local pUnit = UnitManager.GetUnit(unitPlayerID, unitID)
         if pUnit == nil then return end
@@ -29,7 +29,7 @@ end
 --when the U-96 turns begin
 function U96TurnStarted(playerID)
     --check the leader is the U-96
-    if IronBloodLeaderTypeMatched(playerID, 'LEADER_U_96_VIIC') then
+    if IronCore.CheckLeaderMatched(playerID, 'LEADER_U_96_VIIC') then
         --get the player
         local pPlayer = Players[playerID]
         --begin the loop about the unit

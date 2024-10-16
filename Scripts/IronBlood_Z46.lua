@@ -10,7 +10,7 @@ include('IronBlood_Core.lua')
 --Create GreatWork City Buff
 function Z46CreateGreatWorkCityBuff(playerID, unitID, iCityPlotX, iCityPlotY)
     --is Z46?
-    if not IronBloodLeaderTypeMatched(playerID, 'LEADER_Z46_1936C') then
+    if not IronCore.CheckLeaderMatched(playerID, 'LEADER_Z46_1936C') then
         return
     end
 

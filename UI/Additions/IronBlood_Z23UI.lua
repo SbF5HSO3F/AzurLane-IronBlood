@@ -20,7 +20,7 @@ local turns = ExposedMembers.Z23.LastTurn
 function Z23GetButtonVisibility(playerID, unitID)
     local pUnit = UnitManager.GetUnit(playerID, unitID)
     if pUnit then
-        if not IronBloodLeaderTypeMatched(playerID, 'LEADER_Z23_1936A') then
+        if not IronCore.CheckLeaderMatched(playerID, 'LEADER_Z23_1936A') then
             return false
         end
         local unitInfo = GameInfo.Units[pUnit:GetType()]

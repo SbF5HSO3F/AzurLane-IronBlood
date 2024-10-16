@@ -31,7 +31,7 @@ end
 --get the button's Visibility
 function SeydlitzGetButtonVisibility(pUnit)
     if pUnit then
-        if not IronBloodLeaderTypeMatched(pUnit:GetOwner(), 'LEADER_SEYDLITZ') then
+        if not IronCore.CheckLeaderMatched(pUnit:GetOwner(), 'LEADER_SEYDLITZ') then
             return false
         end
         local unitInfo = GameInfo.Units[pUnit:GetType()]

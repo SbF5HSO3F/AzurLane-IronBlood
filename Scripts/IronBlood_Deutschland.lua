@@ -13,9 +13,9 @@ function DeutschlandRewardFormula(pCity, YieldType, baseNum)
         local cityPop = pCity:GetPopulation()
         local cityYield = pCity:GetYield(YieldType)
         --CostMultiplier
-        local Reward = IronBloodSpeedModifier(cityPop * (2 * cityYield + baseNum))
+        local Reward = IronCore:ModifyBySpeed(cityPop * (2 * cityYield + baseNum))
         --[[local speedModifier = GameInfo.GameSpeeds[GameConfiguration.GetGameSpeedType()].CostMultiplier / 100
-        local Reward = IronBloodNumRound(cityPop * (2 * cityYield + baseNum) * speedModifier)]]
+        local Reward = IronCore.Round(cityPop * (2 * cityYield + baseNum) * speedModifier)]]
         return Reward
     end
 end
@@ -25,7 +25,7 @@ end
 --Deutschland Capture City
 function DeutschlandConquerCity(newPlayerID, oldPlayerID, newCityID, iCityX, iCityY)
     --is Deutschland?
-    if not IronBloodLeaderTypeMatched(newPlayerID, 'LEADER_DEUTSCHLAND_A') then
+    if not IronCore.CheckLeaderMatched(newPlayerID, 'LEADER_DEUTSCHLAND_A') then
         return
     end
 

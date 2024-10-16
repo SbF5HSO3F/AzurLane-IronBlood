@@ -16,7 +16,7 @@ ExposedMembers.Z23 = ExposedMembers.Z23 or {}
 --Heal Num
 ExposedMembers.Z23.HealNum  = 25
 --Turns
-ExposedMembers.Z23.LastTurn = IronBloodSpeedModifier(10)
+ExposedMembers.Z23.LastTurn = IronCore:ModifyBySpeed(10)
 --||===================glabol variables===================||--
 
 --||===================local variables====================||--
@@ -39,14 +39,14 @@ function Z23BoostValue(playerID, index, percent, isCivic)
             local culture = pPlayer:GetCulture()
             if culture then
                 --Calculate the data
-                value = IronBloodNumRound(culture:GetCultureCost(index) * percent)
+                value = IronCore.Round(culture:GetCultureCost(index) * percent)
             end
         else
             --get techs
             local techs = pPlayer:GetTechs()
             if techs then
                 --Calculate the data
-                value = IronBloodNumRound(techs:GetResearchCost(index) * percent)
+                value = IronCore.Round(techs:GetResearchCost(index) * percent)
             end
         end
         return value
@@ -59,7 +59,7 @@ end
 --When boost triggered
 function Z23OnBoostTriggered(playerID, index, isCivic)
     --is Z23?
-    if not IronBloodLeaderTypeMatched(playerID, 'LEADER_Z23_1936A') then
+    if not IronCore.CheckLeaderMatched(playerID, 'LEADER_Z23_1936A') then
         return
     end
 
@@ -103,7 +103,7 @@ end
 --Clear the unit abilities and reduce the count
 function Z23OnPlayerTurnStarted(playerID)
     --is Z23? no return
-    if not IronBloodLeaderTypeMatched(playerID, 'LEADER_Z23_1936A') then
+    if not IronCore.CheckLeaderMatched(playerID, 'LEADER_Z23_1936A') then
         return
     end
 

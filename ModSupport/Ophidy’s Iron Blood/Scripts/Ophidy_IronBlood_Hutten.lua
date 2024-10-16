@@ -22,8 +22,8 @@ local modifierTable = {
 --Districts complete
 function HuttenOnDistrictComplete(playerID, districtID, cityID, iX, iY, districtType, era, civilization, percentComplete)
     --check the leader is Hutten
-    if IronBloodLeaderTypeMatched(playerID, 'LEADER_OP_HUTTEN') or
-        IronBloodLeaderTypeMatched(playerID, 'LEADER_OP_HUTTEN_CCXC') then
+    if IronCore.CheckLeaderMatched(playerID, 'LEADER_OP_HUTTEN') or
+        IronCore.CheckLeaderMatched(playerID, 'LEADER_OP_HUTTEN_CCXC') then
         --get the player
         local pPlayer = Players[playerID]
         --get the district

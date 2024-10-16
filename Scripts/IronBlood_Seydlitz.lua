@@ -23,7 +23,7 @@ local perHp = 10
 --when damage change
 function SeydlitzSetProperty(playerID, unitID)
     --the leader is Seydlitz?
-    if IronBloodLeaderTypeMatched(playerID, 'LEADER_SEYDLITZ') then
+    if IronCore.CheckLeaderMatched(playerID, 'LEADER_SEYDLITZ') then
         --get the unit
         local pUnit = UnitManager.GetUnit(playerID, unitID)
         if not pUnit then return end

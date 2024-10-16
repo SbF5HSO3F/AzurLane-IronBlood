@@ -11,7 +11,7 @@ local generalIndex = GameInfo.Units['UNIT_GREAT_GENERAL'].Index
 local admiralIndex = GameInfo.Units['UNIT_GREAT_ADMIRAL'].Index
 local eReason_1    = DB.MakeHash("SeydlitzSetUpUnit")
 local key          = 'SeydlitzSetUpUnitTurns'
-local lastTurns    = IronBloodSpeedModifier(10)
+local lastTurns    = IronCore:ModifyBySpeed(10)
 local multiplier   = GlobalParameters.GOLD_PURCHASE_MULTIPLIER * GlobalParameters.GOLD_EQUIVALENT_OTHER_YIELDS
 local standardType = MilitaryFormationTypes.STANDARD_FORMATION
 local corpsType    = MilitaryFormationTypes.CORPS_FORMATION
@@ -59,16 +59,16 @@ function SeydlitzGetGreatPresonButtonDetail(pUnit)
                     hasUnit = true
                     detail.UnitID = unitID
                     detail.Name = Locale.Lookup(unit:GetName())
-                    detail.Reward = IronBloodSpeedModifier(unitDef.Cost * multiplier)
-                    detail.Points = IronBloodSpeedModifier(unit:GetCombat())
+                    detail.Reward = IronCore:ModifyBySpeed(unitDef.Cost * multiplier)
+                    detail.Points = IronCore:ModifyBySpeed(unit:GetCombat())
                     detail.Type = corpsType
                     break
                 elseif unit:GetMilitaryFormation() == corpsType then
                     hasUnit = true
                     detail.UnitID = unitID
                     detail.Name = Locale.Lookup(unit:GetName())
-                    detail.Reward = IronBloodSpeedModifier(unitDef.Cost * 2 * multiplier)
-                    detail.Points = IronBloodSpeedModifier(unit:GetCombat())
+                    detail.Reward = IronCore:ModifyBySpeed(unitDef.Cost * 2 * multiplier)
+                    detail.Points = IronCore:ModifyBySpeed(unit:GetCombat())
                     detail.Type = armyType
                     break
                 end
@@ -88,7 +88,7 @@ end
 function SeydlitzResetGreatPersonButton()
     --get the unit
     local pUnit = UI.GetHeadSelectedUnit()
-    if pUnit and IronBloodLeaderTypeMatched(
+    if pUnit and IronCore.CheckLeaderMatched(
             pUnit:GetOwner(), 'LEADER_SEYDLITZ'
         ) and (
             pUnit:GetType() == generalIndex or
