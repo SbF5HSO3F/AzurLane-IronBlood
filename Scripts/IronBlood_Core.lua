@@ -37,6 +37,36 @@ function IronCore:ModifyBySpeed(num)
     return num
 end
 
+--judge a plot can have a unit or not (GamePlay, UI)
+function IronCore.CanHaveUnit(plot, unitdef)
+    if plot == nil then return false end
+    local canHave = true
+    for _, unit in ipairs(Units.GetUnitsInPlot(plot)) do
+        if unit then
+            local unitInfo = GameInfo.Units[unit:GetType()]
+            if unitInfo then
+                if unitInfo.IgnoreMoves == false then
+                    if unitInfo.Domain == unitdef.Domain and unitInfo.FormationClass == unitdef.FormationClass then
+                        canHave = false
+                    end
+                end
+            end
+        end
+    end
+    return canHave
+end
+
+--check a unit is a millitary unit or not (GamePlay, UI)
+function IronCore.IsMilitary(unit)
+    if unit == nil then return false end
+    local unitInfo = GameInfo.Units[unit:GetType()]
+    if unitInfo == nil then return false end
+    local unitFormation = unitInfo.FormationClass
+    return unitFormation == 'FORMATION_CLASS_LAND_COMBAT'
+        or unitFormation == 'FORMATION_CLASS_NAVAL'
+        or unitFormation == 'FORMATION_CLASS_AIR'
+end
+
 --||=========================UI=========================||--
 
 --mouse enter the button

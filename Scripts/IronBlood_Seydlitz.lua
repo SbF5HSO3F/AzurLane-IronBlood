@@ -12,7 +12,6 @@ include('IronBlood_Core.lua')
 local key_A = 'UnSinkableLegendAttack'
 local key_D = 'UnSinkableLegendDefend'
 local key_L = 'SeydlitzSetUpUnitTurns'
-local maxHp = GlobalParameters.COMBAT_MAX_HIT_POINTS
 local perHp = 10
 
 --||====================base functions====================||--
@@ -29,6 +28,7 @@ function SeydlitzSetProperty(playerID, unitID)
         if not pUnit then return end
         --get the unit damage
         local LoseHp = pUnit:GetDamage()
+        local maxHp = pUnit:GetMaxDamage()
         local HaveHp = maxHp - LoseHp
         --set the key
         pUnit:SetProperty(key_A, math.floor(HaveHp / perHp))

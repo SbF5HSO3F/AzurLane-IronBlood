@@ -10,44 +10,66 @@ include('IronBlood_Core.lua')
 local COLOR = UILens.CreateLensLayerHash("Hex_Coloring_Movement")
 local m_SeydlitzSelected, m_SeydlitzPlot = false, nil
 
---||====================base functions====================||--
+--||======================MetaTable=======================||--
 
---judge the plot can place unit
-function SeydlitzPlotCanHasUnits(pPlot, unitFormation)
-    if pPlot == nil then return false end
-    --loop
-    for _, unit in ipairs(Units.GetUnitsInPlot(pPlot)) do
-        if unit ~= nil then
-            local unitInfo = GameInfo.Units[unit:GetType()]
-            --has the unit, return false
-            if unitInfo and unitInfo.FormationClass == unitFormation then
-                return false
-            end
-        end
+SeydlitzContext = {}
+
+--reset all
+function SeydlitzContext:Reset()
+    --get the unit
+    local pUnit = UI.GetHeadSelectedUnit()
+    --check the leader is Seydlitz
+    if IronCore.CheckLeaderMatched(
+            Game.GetLocalPlayer(), 'LEADER_SEYDLITZ'
+        ) and pUnit
+    then
+        --reset the Military button
+        local show_1 = self.Military:Reset(pUnit)
+        --the final show
+        local show = not show_1
+        Controls.Seydlitz_Grid:SetHide(show)
+    else
+        --hide the grid
+        Controls.Seydlitz_Grid:SetHide(true)
     end
-    return true
+    --reset the Unit Panel
+    ContextPtr:LookUpControl("/InGame/UnitPanel"):RequestRefresh()
 end
 
+--init
+function SeydlitzContext:Init()
+    local context = ContextPtr:LookUpControl("/InGame/UnitPanel/StandardActionsStack")
+    if context then
+        --change the parent
+        Controls.Seydlitz_Grid:ChangeParent(context)
+        --Register Callback
+        SeydlitzContext.Military:Register()
+        --reset the button
+        self:Reset()
+    end
+end
+
+--||====================base functions====================||--
+
+--military button
+
+SeydlitzContext.Military = {
+    --Button = Controls.Seydlitz_Button
+}
+
 --get the button's Visibility
-function SeydlitzGetButtonVisibility(pUnit)
+function SeydlitzContext.Military.GetVisibility(pUnit)
     if pUnit then
         if not IronCore.CheckLeaderMatched(pUnit:GetOwner(), 'LEADER_SEYDLITZ') then
             return false
         end
-        local unitInfo = GameInfo.Units[pUnit:GetType()]
-        if not unitInfo then
-            return false
-        end
-        local unitFormation = unitInfo.FormationClass
-        return unitFormation == 'FORMATION_CLASS_LAND_COMBAT'
-            or unitFormation == 'FORMATION_CLASS_NAVAL'
-            or unitFormation == 'FORMATION_CLASS_AIR'
+        return IronCore.IsMilitary(pUnit)
     end
     return false
 end
 
 --get the plot can return
-function SeydlitzGetPlots(pUnit)
+function SeydlitzContext.Military.GetPlots(pUnit)
     -- UIManager:SetUICursor(CursorTypes.RANGE_ATTACK)
     -- local eOperation = 509098169--UI.GetInterfaceModeParameter(UnitOperationTypes.PARAM_OPERATION_TYPE)
     -- print(eOperation)
@@ -62,7 +84,6 @@ function SeydlitzGetPlots(pUnit)
     local unitInfo = GameInfo.Units[pUnit:GetType()]
     if unitInfo then
         local domain = unitInfo.Domain
-        local unitFormation = unitInfo.FormationClass
         --get the player
         local pPlayer = Players[pUnit:GetOwner()]
         --get cities
@@ -72,7 +93,7 @@ function SeydlitzGetPlots(pUnit)
             --get the city plot
             local plot = Map.GetPlot(city:GetX(), city:GetY())
             --add the plot index to the table
-            if SeydlitzPlotCanHasUnits(plot, unitFormation) then
+            if IronCore.CanHaveUnit(plot, unitInfo) then
                 --if the unit domain is sea
                 if domain == 'DOMAIN_SEA' then
                     if plot:IsAdjacentToShallowWater() then
@@ -94,7 +115,7 @@ function SeydlitzGetPlots(pUnit)
                     if districtInfo and districtInfo.MilitaryDomain == domain then
                         --get the district plot
                         local d_plot = Map.GetPlot(district:GetX(), district:GetY())
-                        if SeydlitzPlotCanHasUnits(d_plot, unitFormation) then
+                        if IronCore.CanHaveUnit(d_plot, unitInfo) then
                             table.insert(plots, d_plot:GetIndex())
                             hash[d_plot:GetIndex()] = 1
                         end
@@ -108,7 +129,7 @@ function SeydlitzGetPlots(pUnit)
 end
 
 --quit the reback mode
-function SeydlitzQuitSelectMode(quit)
+function SeydlitzContext.Military.Quit(quit)
     if quit then
         UI.SetInterfaceMode(InterfaceModeTypes.SELECTION)
     end
@@ -120,26 +141,26 @@ function SeydlitzQuitSelectMode(quit)
 end
 
 --set the button state
-function SeydlitzSetButtonState(state, pUnit)
+function SeydlitzContext.Military:ChangeState(state, pUnit)
     --set ui state
     if state then
         UI.SetInterfaceMode(InterfaceModeTypes.SELECTION)
         UI.SetInterfaceMode(InterfaceModeTypes.WB_SELECT_PLOT)
-        local plots, hash = SeydlitzGetPlots(pUnit)
+        local plots, hash = self.GetPlots(pUnit)
         m_SeydlitzPlot = hash
         if #plots > 0 then
             UILens.SetLayerHexesArea(COLOR, Game.GetLocalPlayer(), plots)
             UILens.ToggleLayerOn(COLOR)
         end
     else
-        SeydlitzQuitSelectMode(true)
+        self.Quit(true)
     end
     --set the button selected state
     Controls.Seydlitz_Button:SetSelected(state)
 end
 
 --get the button detail
-function SeydlitzGetButtonDetail(pUnit)
+function SeydlitzContext.Military:GetDetail(pUnit)
     local detail = { Disable = true, Reason = 'NONE' }
     -- if pUnit:GetDamage() == 0 then
     --     --damage, disabled
@@ -149,7 +170,7 @@ function SeydlitzGetButtonDetail(pUnit)
         --no movement, disabled
         detail.Reason = Locale.Lookup('LOC_UNITCOMMAND_UNSINKABLE_LEGEND_NOMOVEMENT')
     else
-        local plots = SeydlitzGetPlots(pUnit)
+        local plots = self.GetPlots(pUnit)
         if plots and #plots > 0 then
             detail.Disable = false
         else
@@ -164,13 +185,12 @@ function SeydlitzGetButtonDetail(pUnit)
 end
 
 --Reset the button
-function SeydlitzResetButton()
-    --get the unit
-    local pUnit = UI.GetHeadSelectedUnit()
-    if pUnit and SeydlitzGetButtonVisibility(pUnit) then
-        Controls.Seydlitz_Grid:SetHide(false)
+function SeydlitzContext.Military:Reset(pUnit)
+    --check the button visibility
+    if pUnit and self.GetVisibility(pUnit) then
+        Controls.Seydlitz_Button:SetHide(false)
         --get the detail of the button
-        local detail = SeydlitzGetButtonDetail(pUnit)
+        local detail = self:GetDetail(pUnit)
         --get the disable
         local disable = detail.Disable
         --Set the Button
@@ -184,78 +204,80 @@ function SeydlitzResetButton()
                 Locale.Lookup('LOC_UNITCOMMAND_UNSINKABLE_LEGEND_DISABLE') ..
                 '[NEWLINE]' .. detail.Reason
             --quit the mode
-            SeydlitzQuitSelectMode(false)
+            self.Quit(false)
         end
         --set the tooltip
         Controls.Seydlitz_Button:SetToolTipString(tooltip)
+        return true
     else
-        Controls.Seydlitz_Grid:SetHide(true)
+        Controls.Seydlitz_Button:SetHide(true)
+        return false
     end
-
-    --reset the Unit Panel
-    ContextPtr:LookUpControl("/InGame/UnitPanel"):RequestRefresh()
 end
 
 --When button is clicked
-function SeydlitzOnButtonClicked()
+function SeydlitzContext.Military:Callback()
     --Get the unit and set param
     local pUnit = UI.GetHeadSelectedUnit()
     if pUnit then
         --Switched Selected State
         m_SeydlitzSelected = not m_SeydlitzSelected
         --set the button state
-        SeydlitzSetButtonState(m_SeydlitzSelected, pUnit)
+        self:ChangeState(m_SeydlitzSelected, pUnit)
     end
+end
+
+--Register Callback
+function SeydlitzContext.Military:Register()
+    Controls.Seydlitz_Button:RegisterCallback(Mouse.eLClick, function() self:Callback() end)
+    Controls.Seydlitz_Button:RegisterCallback(Mouse.eMouseEnter, function() UI.PlaySound("Main_Menu_Mouse_Over") end)
 end
 
 --||===================Events functions===================||--
 
+--reset the grid
+function SeydlitzGridReset()
+    SeydlitzContext:Reset()
+end
+
 --When the unit is selected
 function SeydlitzOnUnitSelectChanged(playerId, unitId, locationX, locationY, locationZ, isSelected, isEditable)
     if isSelected and playerId == Game.GetLocalPlayer() then
-        SeydlitzResetButton()
+        SeydlitzGridReset()
     end
 end
 
 --On ui mode change
 function SeydlitzUIModeChange(intPara, currentInterfaceMode)
     if m_SeydlitzSelected and currentInterfaceMode ~= InterfaceModeTypes.WB_SELECT_PLOT then
-        SeydlitzQuitSelectMode(false)
+        SeydlitzContext.Military.Quit(false)
     end
 end
 
 --Add a button to Unit Panel
 function SeydlitzOnLoadGameViewStateDone()
-    local pContext = ContextPtr:LookUpControl("/InGame/UnitPanel/StandardActionsStack")
-    if pContext ~= nil then
-        Controls.Seydlitz_Grid:ChangeParent(pContext)
-        Controls.Seydlitz_Button:RegisterCallback(Mouse.eLClick, SeydlitzOnButtonClicked)
-        Controls.Seydlitz_Button:RegisterCallback(Mouse.eMouseEnter, IronBloodEnter)
-
-        SeydlitzResetButton()
-    end
+    SeydlitzContext:Init()
 end
 
 --||=================LuaEvents functions==================||--
 
 --On selected plot
 function SeydlitzSelectPlot(plotID, edge, lbutton, rbutton)
-    if not lbutton then
-        if rbutton then
-            SeydlitzQuitSelectMode(true)
-        else
-            local pUnit = UI.GetHeadSelectedUnit()
-            if pUnit and m_SeydlitzPlot and m_SeydlitzPlot[plotID] == 1 then
-                SeydlitzQuitSelectMode(true)
-                UI.RequestPlayerOperation(Game.GetLocalPlayer(),
-                    PlayerOperations.EXECUTE_SCRIPT, {
-                        OnStart = 'SeydlitzRePlaceUnit',
-                        unitID = pUnit:GetID(),
-                        x = Map.GetPlotByIndex(plotID):GetX(),
-                        y = Map.GetPlotByIndex(plotID):GetY(),
-                    }
-                ); m_SeydlitzPlot = nil; UI.PlaySound("Unit_CondemnHeretic_2D")
-            end
+    if lbutton then return end
+    if rbutton then
+        SeydlitzContext.Military.Quit(true)
+    else
+        local pUnit = UI.GetHeadSelectedUnit()
+        if pUnit and m_SeydlitzPlot and m_SeydlitzPlot[plotID] == 1 then
+            SeydlitzContext.Military.Quit(true)
+            UI.RequestPlayerOperation(Game.GetLocalPlayer(),
+                PlayerOperations.EXECUTE_SCRIPT, {
+                    OnStart = 'SeydlitzRePlaceUnit',
+                    unitID = pUnit:GetID(),
+                    x = Map.GetPlotByIndex(plotID):GetX(),
+                    y = Map.GetPlotByIndex(plotID):GetY(),
+                }
+            ); m_SeydlitzPlot = nil; UI.PlaySound("Unit_CondemnHeretic_2D")
         end
     end
 end
@@ -268,21 +290,21 @@ function Initialize()
     Events.UnitSelectionChanged.Add(SeydlitzOnUnitSelectChanged)
     -- Events.UnitActivate.Add(Z23UnitActive)
     ------------------------------------------
-    Events.UnitOperationSegmentComplete.Add(SeydlitzResetButton)
-    Events.UnitCommandStarted.Add(SeydlitzResetButton)
-    Events.UnitDamageChanged.Add(SeydlitzResetButton)
-    Events.UnitMoveComplete.Add(SeydlitzResetButton)
-    Events.UnitChargesChanged.Add(SeydlitzResetButton)
-    Events.UnitPromoted.Add(SeydlitzResetButton)
-    Events.UnitOperationsCleared.Add(SeydlitzResetButton)
-    Events.UnitOperationAdded.Add(SeydlitzResetButton)
-    Events.UnitOperationDeactivated.Add(SeydlitzResetButton)
-    Events.UnitMovementPointsChanged.Add(SeydlitzResetButton)
-    Events.UnitMovementPointsCleared.Add(SeydlitzResetButton)
-    Events.UnitMovementPointsRestored.Add(SeydlitzResetButton)
-    Events.UnitAbilityLost.Add(SeydlitzResetButton)
+    Events.UnitOperationSegmentComplete.Add(SeydlitzGridReset)
+    Events.UnitCommandStarted.Add(SeydlitzGridReset)
+    Events.UnitDamageChanged.Add(SeydlitzGridReset)
+    Events.UnitMoveComplete.Add(SeydlitzGridReset)
+    Events.UnitChargesChanged.Add(SeydlitzGridReset)
+    Events.UnitPromoted.Add(SeydlitzGridReset)
+    Events.UnitOperationsCleared.Add(SeydlitzGridReset)
+    Events.UnitOperationAdded.Add(SeydlitzGridReset)
+    Events.UnitOperationDeactivated.Add(SeydlitzGridReset)
+    Events.UnitMovementPointsChanged.Add(SeydlitzGridReset)
+    Events.UnitMovementPointsCleared.Add(SeydlitzGridReset)
+    Events.UnitMovementPointsRestored.Add(SeydlitzGridReset)
+    Events.UnitAbilityLost.Add(SeydlitzGridReset)
     ------------------------------------------
-    Events.PhaseBegin.Add(SeydlitzResetButton)
+    Events.PhaseBegin.Add(SeydlitzGridReset)
     Events.InterfaceModeChanged.Add(SeydlitzUIModeChange)
     ------------------------------------------
     LuaEvents.WorldInput_WBSelectPlot.Add(SeydlitzSelectPlot)
