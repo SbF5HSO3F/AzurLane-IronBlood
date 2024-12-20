@@ -16,7 +16,7 @@
 			 Name="LOC_CIVILIZATION_IRON_BLOOD_NAME"
 			 Description="LOC_CIVILIZATION_IRON_BLOOD_DESCRIPTION" 
 			 Adjective="LOC_CIVILIZATION_IRON_BLOOD_ADJECTIVE"
-			 RandomCityNameDepth="20"
+			 RandomCityNameDepth="40"
 			 StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV"
 			 Ethnicity="ETHNICITY_EURO"/>
 	</Civilizations>
@@ -80,6 +80,20 @@
 		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_38"/>
 		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_39"/>
 		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_40"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_41"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_42"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_43"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_44"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_45"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_46"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_47"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_48"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_49"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_50"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_51"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_52"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_53"/>
+		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CityName="LOC_CITY_NAME_IRON_BLOOD_54"/>
 	</CityNames>
 	<CivilizationCitizenNames>
 		<Row CivilizationType="CIVILIZATION_IRON_BLOOD" CitizenName="LOC_CITIZEN_NAME_IRON_BLOOD_1" Female="1"/>

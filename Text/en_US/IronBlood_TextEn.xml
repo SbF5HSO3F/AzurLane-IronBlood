@@ -205,6 +205,48 @@
 		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_40" Language="en_US">
 			<Text>Strassburg</Text>
 		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_41" Language="en_US">
+			<Text>Stettin</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_42" Language="en_US">
+			<Text>Schwerin</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_43" Language="en_US">
+			<Text>Dortmund</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_44" Language="en_US">
+			<Text>Neubrandenburg</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_45" Language="en_US">
+			<Text>Flensburg</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_46" Language="en_US">
+			<Text>Osnabrück</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_47" Language="en_US">
+			<Text>Düsseldorf</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_48" Language="en_US">
+			<Text>Dresden</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_49" Language="en_US">
+			<Text>Ulm</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_50" Language="en_US">
+			<Text>Regensburg</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_51" Language="en_US">
+			<Text>Braunschweig</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_52" Language="en_US">
+			<Text>Pressburg</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_53" Language="en_US">
+			<Text>Elbing</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_54" Language="en_US">
+			<Text>Hansestadt Rostock</Text>
+		</Replace>
 		<!--市民名-->
 		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_1" Language="en_US">
 			<Text>Prinz Eugen</Text>

@@ -2,6 +2,15 @@
 -- Author: jjj
 -- DateCreated: 2024/4/14 20:02:02
 --------------------------------------------------------------
+--更新首都
+UPDATE CivilizationLeaders
+SET CapitalName = 'LOC_CITY_NAME_IRON_BLOOD_18'
+WHERE LeaderType = 'LEADER_OP_FRIEDRICH_CCXC';
+
+UPDATE CivilizationLeaders
+SET CapitalName = 'LOC_CITY_NAME_IRON_BLOOD_7'
+WHERE LeaderType = 'LEADER_OP_HUTTEN_CCXC';
+
 --更新文本
 UPDATE Traits
 SET Description = 'LOC_TRAIT_LEADER_POET_OF_REVO_SBF5_DESCRIPTION'

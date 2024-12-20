@@ -7,87 +7,52 @@ include('IronBlood_Core.lua')
 
 --||====================ExposedMembers====================||--
 
---GameEvents
---ExposedMembers.GameEvents = GameEvents
---ExposedMembers
 ExposedMembers.Z23 = ExposedMembers.Z23 or {}
-
-
 --Heal Num
-ExposedMembers.Z23.HealNum  = 25
+ExposedMembers.Z23.HealNum = 25
 --Turns
 ExposedMembers.Z23.LastTurn = IronCore:ModifyBySpeed(10)
---||===================glabol variables===================||--
 
 --||===================local variables====================||--
 
-local Z23percent            = 0.15
-local ability               = 'ABILITY_Z23_COMBAT_UNIT_EXTRA_BUFF'
-local abilityExtra          = 'ABILITY_Z23_COMBAT_UNIT_PILLAGE_COMBAT'
-local combatProperty        = 'Z23_PILLAGE_COMBAT'
-local TurnLast              = 'Z23TurnLast'
+local Z23percent = 0.15
+local ability = 'ABILITY_Z23_COMBAT_UNIT_EXTRA_BUFF'
+local abilityExtra = 'ABILITY_Z23_COMBAT_UNIT_PILLAGE_COMBAT'
+local combatProperty = 'Z23_PILLAGE_COMBAT'
+local TurnLast = 'Z23TurnLast'
 
 --||====================base functions====================||--
 
---Gets tech or civic and returns value
-function Z23BoostValue(playerID, index, percent, isCivic)
+--get the tech boost
+function Z23GetTechBoost(playerID, tech, percent)
     --get the player
     local pPlayer, value = Players[playerID], 0
+    --if has player
     if pPlayer then
-        if isCivic then
-            --get culture
-            local culture = pPlayer:GetCulture()
-            if culture then
-                --Calculate the data
-                value = IronCore.Round(culture:GetCultureCost(index) * percent)
-            end
-        else
-            --get techs
-            local techs = pPlayer:GetTechs()
-            if techs then
-                --Calculate the data
-                value = IronCore.Round(techs:GetResearchCost(index) * percent)
-            end
+        --get techs
+        local techs = pPlayer:GetTechs()
+        if techs then
+            --Calculate the data
+            value = IronCore.Round(techs:GetResearchCost(tech) * percent)
         end
-        return value
-    else
-        print('No player found!')
-        return 0
     end
+    return value
 end
 
---When boost triggered
-function Z23OnBoostTriggered(playerID, index, isCivic)
-    --is Z23?
-    if not IronCore.CheckLeaderMatched(playerID, 'LEADER_Z23_1936A') then
-        return
-    end
-
+--get the civic boost
+function Z23GetCivicBoost(playerID, civic, percent)
+    --get the player
     local pPlayer, value = Players[playerID], 0
-    if isCivic then
-        --get the value
-        value = Z23BoostValue(playerID, index, Z23percent, true)
-        --Get Culture
-        pPlayer:GetCulture():ChangeCurrentCulturalProgress(value)
-    else
-        --get the value
-        value = Z23BoostValue(playerID, index, Z23percent, false)
-        --Get Science
-        pPlayer:GetTechs():ChangeCurrentResearchProgress(value)
-    end
-    --details
-    print('Gain ' .. value .. ((isCivic and ' Culture') or ' Science'))
-end
-
---Get replaced districts
-function Z23GetReplacedDistrict(districtType)
-    --get the district information
-    local districtInfo = GameInfo.Districts[districtType]
-    for replace in GameInfo.DistrictReplaces() do
-        if replace.CivUniqueDistrictType == districtInfo.DistrictType then
-            return replace.ReplacesDistrictType
+    --if has player
+    if pPlayer then
+        --get techs
+        local civics = pPlayer:GetCulture()
+        if civics then
+            --Calculate the data
+            value = IronCore.Round(civics:GetCultureCost(civic) * percent)
         end
     end
+    return value
 end
 
 --Clear the ability
@@ -95,6 +60,30 @@ function Z23ClearAbilities(pUnit, eAbility)
     if pUnit then
         local unitAbility = pUnit:GetAbility()
         unitAbility:ChangeAbilityCount(eAbility, -unitAbility:GetAbilityCount(eAbility))
+    end
+end
+
+--||===================Events functions===================||--
+
+function Z23TirggerTechBoost(playerID, tech)
+    --is Z23?
+    if IronCore.CheckLeaderMatched(playerID, 'LEADER_Z23_1936A') then
+        local pPlayer, value = Players[playerID], 0
+        --get the value
+        value = Z23GetTechBoost(playerID, tech, Z23percent)
+        --Get Science
+        pPlayer:GetTechs():ChangeCurrentResearchProgress(value)
+    end
+end
+
+function Z23TirggerCivicBoost(playerID, civic)
+    --is Z23?
+    if IronCore.CheckLeaderMatched(playerID, 'LEADER_Z23_1936A') then
+        local pPlayer, value = Players[playerID], 0
+        --get the value
+        value = Z23GetCivicBoost(playerID, civic, Z23percent)
+        --Get Culture
+        pPlayer:GetCulture():ChangeCurrentCulturalProgress(value)
     end
 end
 
@@ -161,18 +150,15 @@ function Z23ChangeMode(playerID, param)
                 local pCity = pDistrict:GetCity()
 
                 if pCity then
-                    --if the district replaces district, get it
-                    --local replaceDistrict = Z23GetReplacedDistrict(pDistrict:GetType())
+                    --Get the buildings in the city
                     local cityBuildings = pCity:GetBuildings()
                     -- and their buildings...
                     for row in GameInfo.Buildings() do
-                        --if row.PrereqDistrict == districtInfo.DistrictType or row.PrereqDistrict == replaceDistrict then
                         if cityBuildings:HasBuilding(row.Index) and not cityBuildings:IsPillaged(row.Index) and cityBuildings:GetBuildingLocation(row.Index) == pPlotID then
                             pCity:GetBuildings():SetPillaged(row.Index, true)
                             --Add Combat Strength
                             pUnit:SetProperty(combatProperty, pUnit:GetProperty(combatProperty) + 3)
                         end
-                        --end
                     end
                 end
             else
@@ -198,12 +184,8 @@ end
 --initialization function
 function Initialize()
     -----------------Events-----------------
-    Events.TechBoostTriggered.Add(function(playerID, iTechBoosted)
-        Z23OnBoostTriggered(playerID, iTechBoosted, false)
-    end)
-    Events.CivicBoostTriggered.Add(function(playerID, iBoostedCivic)
-        Z23OnBoostTriggered(playerID, iBoostedCivic, true)
-    end)
+    Events.TechBoostTriggered.Add(Z23TirggerTechBoost)
+    Events.CivicBoostTriggered.Add(Z23TirggerCivicBoost)
     ---------------GameEvents---------------
     GameEvents.PlayerTurnStarted.Add(Z23OnPlayerTurnStarted)
     GameEvents.Z23ChangeNewMode.Add(Z23ChangeMode)
@@ -213,3 +195,5 @@ function Initialize()
 end
 
 Initialize()
+
+include(true)

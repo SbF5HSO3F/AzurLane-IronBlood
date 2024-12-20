@@ -21,17 +21,17 @@
     <LocalizedTextData><![CDATA[
       <LocalizedText>
         <Text id="LOC_IRON_BLOOD_NAME">
-            <en_US>Azur Lane-Iron Blood Civilization</en_US>
+            <en_US>Azur Lane-Iron Blood</en_US>
             <zh_Hans_CN>碧蓝航线·铁血公国</zh_Hans_CN>
             <zh_Hant_HK>碧藍航線·鐵血公國</zh_Hant_HK>
         </Text>
         <Text id="LOC_IRON_BLOOD_TEASER">
-            <en_US>Added a powerful civilization from the game "Azur Lane" - Iron Blood Civilization.</en_US>
+            <en_US>Added a powerful civilization from the game "Azur Lane" - Iron Blood.</en_US>
             <zh_Hans_CN>为游戏添加了一个来自游戏作品《碧蓝航线》的强大文明——铁血公国。</zh_Hans_CN>
             <zh_Hant_HK>為遊戲添加了一個來自遊戲作品《碧藍航線》的強大文明——鐵血公國。</zh_Hant_HK>
         </Text>
         <Text id="LOC_IRON_BLOOD_DESCRIPTION">
-            <en_US>Added a civilization based on the Iron Blood in the game work "Azur Lane" - the Iron Blood civilization, which has a strong army and productivity. This mod has added 5 leaders: U-96, Z46, Deutschland, Z23 and Seydlitz.</en_US>
+            <en_US>Added a civilization based on the Iron Blood in the game work "Azur Lane" - the Iron Blood, which has a strong army and productivity. This mod has added 5 leaders: U-96, Z46, Deutschland, Z23 and Seydlitz.</en_US>
             <zh_Hans_CN>为游戏添加了一个以游戏作品《碧蓝航线》中的铁血公国为原型的文明——铁血公国，拥有强大的军队和生产力。本模组为其添加了5名领袖：U-96、Z46、德意志、Z23和塞德利茨。</zh_Hans_CN>
             <zh_Hant_HK>為遊戲添加了一個以遊戲作品《碧藍航線》中的鐵血公國為原型的文明——鐵血公國，擁有強大的軍隊和生產力。本模組為其添加了5名領袖：U-96、Z46、德意誌、Z23和塞德利茨。</zh_Hant_HK>
         </Text>
@@ -129,8 +129,8 @@
           <File priority="70">Data/IronBlood_Districts.xml</File>
           <File priority="60">Data/IronBlood_UnitAbilities.xml</File>
         </UpdateDatabase>
-        <UpdateDatabase id="IronBlood_MODE">
-          <Criteria>IronBlood_MODE</Criteria>
+        <UpdateDatabase id="IronBlood_Mode">
+          <Criteria>IRONBLOOD_MODE</Criteria>
           <File>Data/IronBlood_SecretSocieties.sql</File>
         </UpdateDatabase>
         <UpdateDatabase id="IronBlood_XP2">
@@ -152,7 +152,7 @@
           <File>Data/IronBlood_Districts.sql</File>
         </UpdateDatabase>
         <UpdateDatabase id="U96">
-          <File priority="100">Data/U-96/IronBlood_Leader_U96.xml</File>
+          <File priority="100">Data/U-96/IronBlood_U96_Leader.xml</File>
           <File priority="90">Data/U-96/IronBlood_U96_UnitAbilities.xml</File>
           <File priority="80">Data/U-96/IronBlood_U96_Units.xml</File>
           <File priority="70">Data/U-96/IronBlood_U96_Agenda.xml</File>
@@ -163,7 +163,7 @@
           <File priority="80">Text/zh_Hant_HK/IronBlood_U96_TextHK.xml</File>
         </UpdateText>
         <UpdateDatabase id="Z46">
-          <File priority="100">Data/Z46/IronBlood_Leader_Z46.xml</File>
+          <File priority="100">Data/Z46/IronBlood_Z46_Leader.xml</File>
           <File priority="90">Data/Z46/IronBlood_Z46_UnitAbilities.xml</File>
           <File priority="80">Data/Z46/IronBlood_Z46_Units.xml</File>
           <File priority="70">Data/Z46/IronBlood_Z46_Projects.xml</File>
@@ -173,7 +173,7 @@
           <Properties>
             <LoadOrder>99999</LoadOrder>
           </Properties>
-          <File>Data/Z46/IronBlood_Leader_Z46.sql</File>
+          <File>Data/Z46/IronBlood_Z46_Leader.sql</File>
         </UpdateDatabase>
         <UpdateDatabase id="Z46_XP2">
           <Properties>
@@ -187,7 +187,7 @@
           <File priority="80">Text/zh_Hant_HK/IronBlood_Z46_TextHK.xml</File>
         </UpdateText>
         <UpdateDatabase id="Deutschland">
-          <File priority="100">Data/Deutschland/IronBlood_Leader_Deutschland.xml</File>
+          <File priority="100">Data/Deutschland/IronBlood_Deutschland_Leader.xml</File>
           <File priority="90">Data/Deutschland/IronBlood_Deutschland_UnitAbilities.xml</File>
           <File priority="80">Data/Deutschland/IronBlood_Deutschland_Agenda.xml</File>
         </UpdateDatabase>
@@ -201,8 +201,9 @@
           <File priority="100">Text/en_US/IronBlood_Deutschland_TextEn.xml</File>
           <File priority="90">Text/zh_Hans_CN/IronBlood_Deutschland_TextCN.xml</File>
           <File priority="80">Text/zh_Hant_HK/IronBlood_Deutschland_TextHK.xml</File>
-        </UpdateText><UpdateDatabase id="Z23">
-          <File priority="100">Data/Z23/IronBlood_Leader_Z23.xml</File>
+        </UpdateText>
+        <UpdateDatabase id="Z23">
+          <File priority="100">Data/Z23/IronBlood_Z23_Leader.xml</File>
           <File priority="90">Data/Z23/IronBlood_Z23_UnitAbilities.xml</File>
           <File priority="80">Data/Z23/IronBlood_Z23_Units.xml</File>
           <File priority="70">Data/Z23/IronBlood_Z23_Agenda.xml</File>
@@ -254,7 +255,7 @@
     ]]></InGameActionData>
     <ActionCriteriaData><![CDATA[
       <ActionCriteria>
-        <Criteria id="IronBlood_MODE">
+        <Criteria id="IRONBLOOD_MODE">
           <ConfigurationValueMatches>
             <ConfigurationId>GAMEMODE_SECRETSOCIETIES</ConfigurationId>
             <Group>Game</Group>
@@ -280,7 +281,7 @@
     <Content Include="Data\Deutschland\IronBlood_Deutschland_UnitAbilities.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Data\Deutschland\IronBlood_Leader_Deutschland.xml">
+    <Content Include="Data\Deutschland\IronBlood_Deutschland_Leader.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Data\Deutschland\IronBlood_Deutschland_XP2.sql">
@@ -328,7 +329,7 @@
     <Content Include="Data\Seydlitz\IronBlood_Seydlitz_XP2.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Data\U-96\IronBlood_Leader_U96.xml">
+    <Content Include="Data\U-96\IronBlood_U96_Leader.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Data\U-96\IronBlood_U96_Agenda.xml">
@@ -340,7 +341,7 @@
     <Content Include="Data\U-96\IronBlood_U96_Units.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Data\Z23\IronBlood_Leader_Z23.xml">
+    <Content Include="Data\Z23\IronBlood_Z23_Leader.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Data\Z23\IronBlood_Z23_Agenda.xml">
@@ -355,10 +356,10 @@
     <Content Include="Data\Z23\IronBlood_Z23_XP2.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Data\Z46\IronBlood_Leader_Z46.sql">
+    <Content Include="Data\Z46\IronBlood_Z46_Leader.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Data\Z46\IronBlood_Leader_Z46.xml">
+    <Content Include="Data\Z46\IronBlood_Z46_Leader.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Data\Z46\IronBlood_Z46_Agenda.xml">

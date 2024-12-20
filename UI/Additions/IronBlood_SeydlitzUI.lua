@@ -59,8 +59,8 @@ function SeydlitzContext:Init()
         --change the parent
         Controls.SeydlitzGrid:ChangeParent(context)
         --Register Callback
-        SeydlitzContext.Military:Register()
-        SeydlitzContext.GreatPerson:Register()
+        self.Military:Register()
+        self.GreatPerson:Register()
         --reset the button
         self:Reset()
     end
