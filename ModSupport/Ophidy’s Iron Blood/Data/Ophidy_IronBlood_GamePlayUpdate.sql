@@ -4,11 +4,11 @@
 --------------------------------------------------------------
 --更新首都
 UPDATE CivilizationLeaders
-SET CapitalName = 'LOC_CITY_NAME_IRON_BLOOD_18'
+SET CapitalName = 'LOC_CITY_NAME_IRON_BLOOD_POTSDAM'
 WHERE LeaderType = 'LEADER_OP_FRIEDRICH_CCXC';
 
 UPDATE CivilizationLeaders
-SET CapitalName = 'LOC_CITY_NAME_IRON_BLOOD_7'
+SET CapitalName = 'LOC_CITY_NAME_IRON_BLOOD_COLOGNE'
 WHERE LeaderType = 'LEADER_OP_HUTTEN_CCXC';
 
 --更新文本

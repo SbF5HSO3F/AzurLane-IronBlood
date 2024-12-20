@@ -4,15 +4,6 @@
 <!-- DateCreated: 4/15/2023 3:17:49 PM -->
 <GameData>
 	<LocalizedText>
-		<Replace Tag="LOC_IronBloodCivilization_NAME" Language="zh_Hans_CN">
-			<Text>碧蓝航线·铁血公国</Text>
-		</Replace>
-		<Replace Tag="LOC_IronBloodCivilization_TEASER" Language="zh_Hans_CN">
-			<Text>为游戏添加了一个来自游戏作品《碧蓝航线》的强大文明——铁血公国，共有3名所属领袖。</Text>
-		</Replace>
-		<Replace Tag="LOC_IronBloodCivilization_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>为游戏添加了一个以游戏作品《碧蓝航线》中的铁血为原型的文明——铁血文明，拥有强大的工业与军事实力。当前该文明共有3名领袖，U-96、Z46和德意志。</Text>
-		</Replace>
 		<!--文明相关-->
 		<Replace Tag="LOC_CIVILIZATION_IRON_BLOOD_NAME" Language="zh_Hans_CN">
 			<Text>铁血公国</Text>
@@ -23,6 +14,21 @@
 		<Replace Tag="LOC_CIVILIZATION_IRON_BLOOD_ADJECTIVE" Language="zh_Hans_CN">
 			<Text>铁血公国的</Text>
 		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_IRON_BLOOD_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>拥有众多优秀的科学家，在与塞壬的战争中获得了大量新技术，并着眼于对这些技术的进一步开发，这使得铁血的人工智能控制技术和生物工程技术遥遥领先于其他势力。退出碧蓝航线阵营后，铁血一度处于消息不明的状态，现在则是作为赤色中轴阵营的成员而活动着。</Text>
+		</Replace>
+    	<Replace Tag="LOC_CIVINFO_AZURLANE_CORRESPOND" Language="zh_Hans_CN">
+      		<Text>参考原型</Text>
+    	</Replace>
+		<Replace Tag="LOC_CIVINFO_CORRESPOND_IRON_BLOOD" Language="zh_Hans_CN">
+      		<Text>德意志国</Text>
+    	</Replace>
+    	<Replace Tag="LOC_CIVINFO_AZURLANE_ROLE" Language="zh_Hans_CN">
+      		<Text>实装角色数</Text>
+    	</Replace>
+    	<Replace Tag="LOC_CIVINFO_ROLE_IRON_BLOOD" Language="zh_Hans_CN">
+      		<Text>78位</Text>
+    	</Replace>
 		<!--文明能力-->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_NAME" Language="zh_Hans_CN">
 			<Text>铁血的意志</Text>
@@ -109,257 +115,266 @@
 			<Text>维布林根修道院图书馆建于1744年，位于乌尔姆南郊的维布林根镇。华丽的装饰使之成为巴洛克风格建筑艺术的典范，曾被路透社评价为“十大被忽视的建筑瑰宝”。</Text>
 		</Replace>
 		<!--城市名-->
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_1" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_BERLIN" Language="zh_Hans_CN">
 			<Text>柏林</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_2" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_KIEL" Language="zh_Hans_CN">
 			<Text>基尔</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_3" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_HAMBURG" Language="zh_Hans_CN">
 			<Text>汉堡</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_4" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_WILHELMSHAVEN" Language="zh_Hans_CN">
 			<Text>威廉港</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_5" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_MUNICH" Language="zh_Hans_CN">
 			<Text>慕尼黑</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_6" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_FRANKFURT_AM_MAIN" Language="zh_Hans_CN">
 			<Text>美因河畔法兰克福</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_7" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_COLOGNE" Language="zh_Hans_CN">
 			<Text>科隆</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_8" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_HANOVER" Language="zh_Hans_CN">
 			<Text>汉诺威</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_9" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_PRAGUE" Language="zh_Hans_CN">
 			<Text>布拉格</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_10" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_NUREMBERG" Language="zh_Hans_CN">
 			<Text>纽伦堡</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_11" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_INGOLSTADT" Language="zh_Hans_CN">
 			<Text>因戈尔施塔特</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_12" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_STUTTGART" Language="zh_Hans_CN">
 			<Text>斯图加特</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_13" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_ERLANGEN" Language="zh_Hans_CN">
 			<Text>埃尔朗根</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_14" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_AACHEN" Language="zh_Hans_CN">
 			<Text>亚琛</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_15" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_LUBECK" Language="zh_Hans_CN">
 			<Text>吕贝克</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_16" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_BREMEN" Language="zh_Hans_CN">
 			<Text>不莱梅</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_17" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_ERFURT" Language="zh_Hans_CN">
 			<Text>埃尔富特</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_18" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_POTSDAM" Language="zh_Hans_CN">
 			<Text>波茨坦</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_19" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_AUGSBURG" Language="zh_Hans_CN">
 			<Text>奥格斯堡</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_20" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_WIESBADEN" Language="zh_Hans_CN">
 			<Text>威斯巴登</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_21" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_VIENNA" Language="zh_Hans_CN">
 			<Text>维也纳</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_22" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_SALZBURG" Language="zh_Hans_CN">
 			<Text>萨尔茨堡</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_23" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_HALLSTATT" Language="zh_Hans_CN">
 			<Text>哈尔施塔特</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_24" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_INNSBRUCK" Language="zh_Hans_CN">
 			<Text>因斯布鲁克</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_25" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_GMUNDEN" Language="zh_Hans_CN">
 			<Text>格蒙登</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_26" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_MELK" Language="zh_Hans_CN">
 			<Text>梅尔克</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_27" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_GRAZ" Language="zh_Hans_CN">
 			<Text>格拉茨</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_28" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_MEMEL" Language="zh_Hans_CN">
 			<Text>梅梅尔</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_29" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_KONIGSBERG" Language="zh_Hans_CN">
 			<Text>柯尼斯堡</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_30" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_BRESLAU" Language="zh_Hans_CN">
 			<Text>布雷斯劳</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_31" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_METZ" Language="zh_Hans_CN">
 			<Text>梅斯</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_32" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_ESSEN" Language="zh_Hans_CN">
 			<Text>埃森</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_33" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_DANZIG" Language="zh_Hans_CN">
 			<Text>但泽</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_34" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_LUXEMBURG" Language="zh_Hans_CN">
 			<Text>卢森堡</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_35" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_SAARBRUCKEN" Language="zh_Hans_CN">
 			<Text>萨尔布吕肯</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_36" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_LEIPZIG" Language="zh_Hans_CN">
 			<Text>莱比锡</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_37" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_RIGA" Language="zh_Hans_CN">
 			<Text>里加</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_38" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_MUNSTER" Language="zh_Hans_CN">
 			<Text>明斯特</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_39" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_CLEIWITZ" Language="zh_Hans_CN">
 			<Text>格莱维茨</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_40" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_STRASSBURG" Language="zh_Hans_CN">
 			<Text>斯特拉斯堡</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_41" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_STETTIN" Language="zh_Hans_CN">
 			<Text>斯德丁</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_42" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_SCHWERIN" Language="zh_Hans_CN">
 			<Text>什未林</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_43" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_DORTMUND" Language="zh_Hans_CN">
 			<Text>多特蒙德</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_44" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_NEUBRANDENBURG" Language="zh_Hans_CN">
 			<Text>新勃兰登堡</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_45" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_FLENSBURG" Language="zh_Hans_CN">
 			<Text>弗伦斯堡</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_46" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_OSNABRUCK" Language="zh_Hans_CN">
 			<Text>奥斯纳布吕克</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_47" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_DUSSELDORF" Language="zh_Hans_CN">
 			<Text>杜塞尔多夫</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_48" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_DRESDEN" Language="zh_Hans_CN">
 			<Text>德累斯顿</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_49" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_ULM" Language="zh_Hans_CN">
 			<Text>乌尔姆</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_50" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_REGENSBURG" Language="zh_Hans_CN">
 			<Text>雷根斯堡</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_51" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_BRAUNSCHWEIG" Language="zh_Hans_CN">
 			<Text>不伦瑞克</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_52" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_PRESSBURG" Language="zh_Hans_CN">
 			<Text>普莱斯堡</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_53" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_ELBING" Language="zh_Hans_CN">
 			<Text>埃尔宾</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_54" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_HANSESTADT_ROSTOCK" Language="zh_Hans_CN">
 			<Text>汉萨城市罗斯托克</Text>
 		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_COTTBUS" Language="zh_Hans_CN">
+			<Text>科特布斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_BRANDENBUURG_AN_DER_HAVEL" Language="zh_Hans_CN">
+			<Text>哈弗尔河畔勃兰登堡</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_FRANKFURT_AN_DER_ODER" Language="zh_Hans_CN">
+			<Text>奥得河畔法兰克福</Text>
+		</Replace>
 		<!--市民名-->
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_1" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_PRINZ_EUGEN" Language="zh_Hans_CN">
 			<Text>欧根亲王</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_2" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_U_410" Language="zh_Hans_CN">
 			<Text>U-410</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_3" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_AUGUST_VON_PARSEVAL" Language="zh_Hans_CN">
 			<Text>奥古斯特·冯·帕塞瓦尔</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_4" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_PETER_STRASSER" Language="zh_Hans_CN">
 			<Text>彼得·史特拉塞</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_5" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_ODIN" Language="zh_Hans_CN">
 			<Text>奥丁</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_6" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_PRINZ_RUPPRECHT" Language="zh_Hans_CN">
 			<Text>鲁普雷希特亲王</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_7" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_REGENSBURG" Language="zh_Hans_CN">
 			<Text>雷根斯堡</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_8" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_PRINZ_HEINRICH" Language="zh_Hans_CN">
 			<Text>海因里希亲王</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_9" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_PRINZ_ADALBERT" Language="zh_Hans_CN">
 			<Text>阿达尔伯特亲王</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_10" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_BLUCHER" Language="zh_Hans_CN">
 			<Text>布吕歇尔</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_11" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_EMDEN" Language="zh_Hans_CN">
 			<Text>埃姆登</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_12" Language="zh_Hans_CN">
-			<Text>吕佐夫</Text>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_DUISBURG" Language="zh_Hans_CN">
+			<Text>杜伊斯堡</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_13" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_ADMIRAL_HIPPER" Language="zh_Hans_CN">
 			<Text>希佩尔海军上将</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_14" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_BRUNHILDE" Language="zh_Hans_CN">
 			<Text>布伦希尔德</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_15" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_MAINZ" Language="zh_Hans_CN">
 			<Text>美因茨</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_16" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_U_81" Language="zh_Hans_CN">
 			<Text>U-81</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_17" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_ROON" Language="zh_Hans_CN">
 			<Text>罗恩</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_18" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_SCHARNHORST" Language="zh_Hans_CN">
 			<Text>沙恩霍斯特</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_19" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_GNEISENAU" Language="zh_Hans_CN">
 			<Text>格奈森瑙</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_20" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_Z1" Language="zh_Hans_CN">
 			<Text>Z1</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_21" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_BISMARCK" Language="zh_Hans_CN">
 			<Text>俾斯麦</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_22" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_FRIEDRICH_CARL" Language="zh_Hans_CN">
 			<Text>腓特烈·卡尔</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_23" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_ELBE" Language="zh_Hans_CN">
 			<Text>易北</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_24" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_JADE" Language="zh_Hans_CN">
 			<Text>亚德</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_25" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_THURINGEN" Language="zh_Hans_CN">
 			<Text>图林根</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_26" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_LEIPZIG" Language="zh_Hans_CN">
 			<Text>莱比锡</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_27" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_KARLSRUHE" Language="zh_Hans_CN">
 			<Text>卡尔斯鲁厄</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_28" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_ADMIRAL_GRAF_SPEE" Language="zh_Hans_CN">
 			<Text>斯佩伯爵海军上将</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_29" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_HINDENBURG" Language="zh_Hans_CN">
 			<Text>兴登堡</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_30" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_Z2" Language="zh_Hans_CN">
 			<Text>Z2</Text>
 		</Replace>
 	</LocalizedText>

@@ -4,15 +4,6 @@
 <!-- DateCreated: 4/23/2023 9:12:34 PM -->
 <GameData>
 	<LocalizedText>
-		<Replace Tag="LOC_IronBloodCivilization_NAME" Language="en_US">
-			<Text>AuzrLane-Iron Blood Civilization</Text>
-		</Replace>
-		<Replace Tag="LOC_IronBloodCivilization_TEASER" Language="en_US">
-			<Text>Added a powerful civilization from the game "Azur Lane" - Iron Blood, with a total of 3 leader.</Text>
-		</Replace>
-		<Replace Tag="LOC_IronBloodCivilization_DESCRIPTION" Language="en_US">
-			<Text>Added a civilization based on the iron blood in the game work "Azur Lane" - the iron blood civilization, with strong industrial and military strength. There is currently three leader of the civilization, U-96, Z46 and Deutschland.</Text>
-		</Replace>
 		<!--文明相关-->
 		<Replace Tag="LOC_CIVILIZATION_IRON_BLOOD_NAME" Language="en_US">
 			<Text>Iron Blood</Text>
@@ -23,6 +14,21 @@
 		<Replace Tag="LOC_CIVILIZATION_IRON_BLOOD_ADJECTIVE" Language="en_US">
 			<Text>Iron Blood's</Text>
 		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_IRON_BLOOD_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Replace>
+    	<Replace Tag="LOC_CIVINFO_AZURLANE_CORRESPOND" Language="en_US">
+      		<Text>Reference Prototype</Text>
+    	</Replace>
+		<Replace Tag="LOC_CIVINFO_CORRESPOND_IRON_BLOOD" Language="en_US">
+      		<Text>Deutsches Reich</Text>
+    	</Replace>
+    	<Replace Tag="LOC_CIVINFO_AZURLANE_ROLE" Language="en_US">
+      		<Text>Number of Characters installed</Text>
+    	</Replace>
+    	<Replace Tag="LOC_CIVINFO_ROLE_IRON_BLOOD" Language="en_US">
+      		<Text>78</Text>
+    	</Replace>
 		<!--文明能力-->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_WILL_OF_THE_IRON_BLOOD_NAME" Language="en_US">
 			<Text>Will of the Iron Blood</Text>
@@ -85,257 +91,266 @@
 			<Text>A building unique to Iron Blood, replacing the Library and can hold [ICON_GreatWork_WRITING] Great Works of Writing. +1 [ICON_SCIENCE] Science per turn for each [ICON_CITIZEN] Citizen in the city. If you use Z46, unlock the "Name pursuit" Project, which provides [ICON_Culture] Culture and [ICON_SCIENCE] Science for 20% of the current city's [ICON_PRODUCTION] Production each turn, awards [ICON_GreatWriter] Great Writers, [ICON_GreatArtist] Great Artists and [ICON_GreatMusician] Great Musicians points once finished, and grants a free [ICON_GreatWriter] Great Writers.</Text>
 		</Replace>
 		<!--城市名-->
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_1" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_BERLIN" Language="en_US">
 			<Text>Berlin</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_2" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_KIEL" Language="en_US">
 			<Text>Kiel</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_3" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_HAMBURG" Language="en_US">
 			<Text>Hamburg</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_4" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_WILHELMSHAVEN" Language="en_US">
 			<Text>Wilhelmshaven</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_5" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_MUNICH" Language="en_US">
 			<Text>Munich</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_6" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_FRANKFURT_AM_MAIN" Language="en_US">
 			<Text>Frankfurt am Main</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_7" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_COLOGNE" Language="en_US">
 			<Text>Cologne</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_8" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_HANOVER" Language="en_US">
 			<Text>Hanover</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_9" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_PRAGUE" Language="en_US">
 			<Text>Prague</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_10" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_NUREMBERG" Language="en_US">
 			<Text>Nuremberg</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_11" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_INGOLSTADT" Language="en_US">
 			<Text>Ingolstadt</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_12" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_STUTTGART" Language="en_US">
 			<Text>Stuttgart</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_13" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_ERLANGEN" Language="en_US">
 			<Text>Erlangen</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_14" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_AACHEN" Language="en_US">
 			<Text>Aachen</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_15" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_LUBECK" Language="en_US">
 			<Text>Lübeck</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_16" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_BREMEN" Language="en_US">
 			<Text>Bremen</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_17" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_ERFURT" Language="en_US">
 			<Text>Erfurt</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_18" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_POTSDAM" Language="en_US">
 			<Text>Potsdam</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_19" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_AUGSBURG" Language="en_US">
 			<Text>Augsburg</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_20" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_WIESBADEN" Language="en_US">
 			<Text>Wiesbaden</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_21" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_VIENNA" Language="en_US">
 			<Text>Vienna</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_22" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_SALZBURG" Language="en_US">
 			<Text>Salzburg</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_23" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_HALLSTATT" Language="en_US">
 			<Text>Hallstatt</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_24" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_INNSBRUCK" Language="en_US">
 			<Text>Innsbruck</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_25" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_GMUNDEN" Language="en_US">
 			<Text>Gmunden</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_26" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_MELK" Language="en_US">
 			<Text>Melk</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_27" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_GRAZ" Language="en_US">
 			<Text>Graz</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_28" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_MEMEL" Language="en_US">
 			<Text>Memel</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_29" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_KONIGSBERG" Language="en_US">
 			<Text>Königsberg</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_30" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_BRESLAU" Language="en_US">
 			<Text>Breslau</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_31" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_METZ" Language="en_US">
 			<Text>Metz</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_32" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_ESSEN" Language="en_US">
 			<Text>Essen</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_33" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_DANZIG" Language="en_US">
 			<Text>Danzig</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_34" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_LUXEMBURG" Language="en_US">
 			<Text>Luxemburg</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_35" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_SAARBRUCKEN" Language="en_US">
 			<Text>Saarbrücken</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_36" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_LEIPZIG" Language="en_US">
 			<Text>Leipzig</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_37" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_RIGA" Language="en_US">
 			<Text>Riga</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_38" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_MUNSTER" Language="en_US">
 			<Text>Münster</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_39" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_CLEIWITZ" Language="en_US">
 			<Text>Gleiwitz</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_40" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_STRASSBURG" Language="en_US">
 			<Text>Strassburg</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_41" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_STETTIN" Language="en_US">
 			<Text>Stettin</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_42" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_SCHWERIN" Language="en_US">
 			<Text>Schwerin</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_43" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_DORTMUND" Language="en_US">
 			<Text>Dortmund</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_44" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_NEUBRANDENBURG" Language="en_US">
 			<Text>Neubrandenburg</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_45" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_FLENSBURG" Language="en_US">
 			<Text>Flensburg</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_46" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_OSNABRUCK" Language="en_US">
 			<Text>Osnabrück</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_47" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_DUSSELDORF" Language="en_US">
 			<Text>Düsseldorf</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_48" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_DRESDEN" Language="en_US">
 			<Text>Dresden</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_49" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_ULM" Language="en_US">
 			<Text>Ulm</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_50" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_REGENSBURG" Language="en_US">
 			<Text>Regensburg</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_51" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_BRAUNSCHWEIG" Language="en_US">
 			<Text>Braunschweig</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_52" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_PRESSBURG" Language="en_US">
 			<Text>Pressburg</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_53" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_ELBING" Language="en_US">
 			<Text>Elbing</Text>
 		</Replace>
-		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_54" Language="en_US">
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_HANSESTADT_ROSTOCK" Language="en_US">
 			<Text>Hansestadt Rostock</Text>
 		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_COTTBUS" Language="en_US">
+			<Text>Cottbus</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_BRANDENBUURG_AN_DER_HAVEL" Language="en_US">
+			<Text>Brandenburg an der Havel</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_FRANKFURT_AN_DER_ODER" Language="en_US">
+			<Text>Frankfurt an der Oder</Text>
+		</Replace>
 		<!--市民名-->
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_1" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_PRINZ_EUGEN" Language="en_US">
 			<Text>Prinz Eugen</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_2" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_U_410" Language="en_US">
 			<Text>U-410</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_3" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_AUGUST_VON_PARSEVAL" Language="en_US">
 			<Text>August von Parseval</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_4" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_PETER_STRASSER" Language="en_US">
 			<Text>Peter Strasser</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_5" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_ODIN" Language="en_US">
 			<Text>Odin</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_6" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_PRINZ_RUPPRECHT" Language="en_US">
 			<Text>Prinz Rupprecht</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_7" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_REGENSBURG" Language="en_US">
 			<Text>Regensburg</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_8" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_PRINZ_HEINRICH" Language="en_US">
 			<Text>Prinz Heinrich</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_9" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_PRINZ_ADALBERT" Language="en_US">
 			<Text>Prinz Adalbert</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_10" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_BLUCHER" Language="en_US">
 			<Text>Blücher</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_11" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_EMDEN" Language="en_US">
 			<Text>Emden</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_12" Language="en_US">
-			<Text>Lützow</Text>
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_DUISBURG" Language="en_US">
+			<Text>Duisburg</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_13" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_ADMIRAL_HIPPER" Language="en_US">
 			<Text>Admiral Hipper</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_14" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_BRUNHILDE" Language="en_US">
 			<Text>Brünhilde</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_15" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_MAINZ" Language="en_US">
 			<Text>Mainz</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_16" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_U_81" Language="en_US">
 			<Text>U-81</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_17" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_ROON" Language="en_US">
 			<Text>Roon</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_18" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_SCHARNHORST" Language="en_US">
 			<Text>Scharnhorst</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_19" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_GNEISENAU" Language="en_US">
 			<Text>Gneisenau</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_20" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_Z1" Language="en_US">
 			<Text>Z1</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_21" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_BISMARCK" Language="en_US">
 			<Text>Bismarck</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_22" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_FRIEDRICH_CARL" Language="en_US">
 			<Text>Friedrich Carl</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_23" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_ELBE" Language="en_US">
 			<Text>Elbe</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_24" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_JADE" Language="en_US">
 			<Text>Jade</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_25" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_THURINGEN" Language="en_US">
 			<Text>Thüringen</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_26" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_LEIPZIG" Language="en_US">
 			<Text>Leipzig</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_27" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_KARLSRUHE" Language="en_US">
 			<Text>Karlsruhe</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_28" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_ADMIRAL_GRAF_SPEE" Language="en_US">
 			<Text>Admiral Graf.Spee</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_29" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_HINDENBURG" Language="en_US">
 			<Text>Hindenburg</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_30" Language="en_US">
+		<Replace Tag="LOC_CITIZEN_NAME_IRON_BLOOD_Z2" Language="en_US">
 			<Text>Z2</Text>
 		</Replace>
 	</LocalizedText>
