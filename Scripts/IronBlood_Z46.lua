@@ -1,5 +1,5 @@
 -- IronBlood_Z46
--- Author: jjj
+-- Author: HSbF6HSO3F
 -- DateCreated: 2023/10/14 19:34:50
 --------------------------------------------------------------
 --||=======================include========================||--
@@ -48,6 +48,6 @@ function Initialize()
     print('Initial success!')
 end
 
-Initialize()
+include('IronBlood_Z46_', true)
 
-include('IronBlood_', true)
+Initialize()

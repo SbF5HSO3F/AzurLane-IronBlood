@@ -1,5 +1,5 @@
 -- Ophidy_IronBlood_Text
--- Author: jjj
+-- Author: HSbF6HSO3F
 -- DateCreated: 2024/4/14 19:23:56
 --------------------------------------------------------------
 INSERT OR REPLACE INTO LocalizedText

@@ -1,5 +1,5 @@
 -- Ophidy_IronBlood_Hutten
--- Author: jjj
+-- Author: HSbF6HSO3F
 -- DateCreated: 2024/4/14 20:25:47
 --------------------------------------------------------------
 --||=======================include========================||--
@@ -82,6 +82,6 @@ function Initialize()
     print('Initial success!')
 end
 
-Initialize()
+include('Ophidy_IronBlood_Hutten_', true)
 
-include('IronBlood_', true)
+Initialize()

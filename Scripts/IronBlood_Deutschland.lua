@@ -1,5 +1,5 @@
 -- IronBlood_Deutschland
--- Author: jjj
+-- Author: HSbF6HSO3F
 -- DateCreated: 2023/11/16 13:35:04
 --------------------------------------------------------------
 --||=======================include========================||--
@@ -86,6 +86,6 @@ function Initialize()
     print('Initial success!')
 end
 
-Initialize()
+include('IronBlood_Deutschland_', true)
 
-include('IronBlood_', true)
+Initialize()

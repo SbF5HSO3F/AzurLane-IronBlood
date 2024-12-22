@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- IronBlood_Civilization -->
-<!-- Author: jjj -->
+<!-- Author: HSbF6HSO3F -->
 <!-- 优先级：999-->
 <!-- DateCreated: 4/15/2023 3:02:35 PM -->
 <GameData>
@@ -16,7 +16,7 @@
 			 Name="LOC_CIVILIZATION_IRON_BLOOD_NAME"
 			 Description="LOC_CIVILIZATION_IRON_BLOOD_DESCRIPTION" 
 			 Adjective="LOC_CIVILIZATION_IRON_BLOOD_ADJECTIVE"
-			 RandomCityNameDepth="40"
+			 RandomCityNameDepth="50"
 			 StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV"
 			 Ethnicity="ETHNICITY_EURO"/>
 	</Civilizations>

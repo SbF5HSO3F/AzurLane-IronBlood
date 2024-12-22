@@ -1,5 +1,5 @@
 -- IronBlood_U96
--- Author: jjj
+-- Author: HSbF6HSO3F
 -- DateCreated: 2024/4/13 23:43:35
 --------------------------------------------------------------
 --||=======================include========================||--
@@ -52,6 +52,6 @@ function Initialize()
     print('Initial success!')
 end
 
-Initialize()
+include('IronBlood_U96_', true)
 
-include('IronBlood_', true)
+Initialize()

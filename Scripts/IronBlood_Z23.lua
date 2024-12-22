@@ -1,5 +1,5 @@
 -- IronBlood_Z23
--- Author: jjj
+-- Author: HSbF6HSO3F
 -- DateCreated: 2023/12/27 21:04:38
 --------------------------------------------------------------
 --||=======================include========================||--
@@ -194,6 +194,6 @@ function Initialize()
     print('Error: Z404 Not Found')
 end
 
-Initialize()
+include('IronBlood_Z23_', true)
 
-include('IronBlood_', true)
+Initialize()

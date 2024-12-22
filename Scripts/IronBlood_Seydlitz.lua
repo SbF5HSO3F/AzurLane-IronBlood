@@ -1,5 +1,5 @@
 -- IronBlood_Seydlitz
--- Author: jjj
+-- Author: HSbF6HSO3F
 -- DateCreated: 2024/8/22 19:36:27
 --------------------------------------------------------------
 --||=======================include========================||--
@@ -112,6 +112,6 @@ function Initialize()
     print('Initial success!')
 end
 
-Initialize()
+include('IronBlood_Seydlitz_', true)
 
-include('IronBlood_', true)
+Initialize()
