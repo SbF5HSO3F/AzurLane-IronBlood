@@ -83,14 +83,14 @@
         </UpdateText>
         <UpdateText id="OphidyText">
           <Criteria>OPHIDY_IRONBLOOD</Criteria>
-          <File>ModSupport/Ophidy’s Iron Blood/Text/Ophidy_IronBlood_Text.sql</File>
+          <File>ModSupport/Ophidy%27s Iron Blood/Text/Ophidy_IronBlood_Text.sql</File>
         </UpdateText>
         <UpdateDatabase id="OphidyConfigUpdate">
           <Criteria>OPHIDY_IRONBLOOD</Criteria>
           <Properties>
             <LoadOrder>2000</LoadOrder>
           </Properties>
-          <File>ModSupport/Ophidy’s Iron Blood/Ophidy_IronBlood_ConfigUpdate.sql</File>
+          <File>ModSupport/Ophidy%27s Iron Blood/Ophidy_IronBlood_ConfigUpdate.sql</File>
         </UpdateDatabase>
       </FrontEndActions>
     ]]></FrontEndActionData>
@@ -238,18 +238,18 @@
         </UpdateText>
         <UpdateText id="OphidyText">
           <Criteria>OPHIDY_IRONBLOOD</Criteria>
-          <File>ModSupport/Ophidy’s Iron Blood/Text/Ophidy_IronBlood_Text.sql</File>
+          <File>ModSupport/Ophidy%27s Iron Blood/Text/Ophidy_IronBlood_Text.sql</File>
         </UpdateText>
         <UpdateDatabase id="OphidyGamePlayUpdate">
           <Criteria>OPHIDY_IRONBLOOD</Criteria>
           <Properties>
             <LoadOrder>12000</LoadOrder>
           </Properties>
-          <File>ModSupport/Ophidy’s Iron Blood/Data/Ophidy_IronBlood_GamePlayUpdate.sql</File>
+          <File>ModSupport/Ophidy%27s Iron Blood/Data/Ophidy_IronBlood_GamePlayUpdate.sql</File>
         </UpdateDatabase>
         <AddGameplayScripts id="OphidyLua">
           <Criteria>OPHIDY_IRONBLOOD</Criteria>
-          <File>ModSupport/Ophidy’s Iron Blood/Scripts/Ophidy_IronBlood_Hutten.lua</File>
+          <File>ModSupport/Ophidy%27s Iron Blood/Scripts/Ophidy_IronBlood_Hutten.lua</File>
         </AddGameplayScripts>
       </InGameActions>
     ]]></InGameActionData>
@@ -404,16 +404,16 @@
     <Content Include="Scripts\IronBlood_Z46.lua">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="ModSupport\Ophidy’s Iron Blood\Data\Ophidy_IronBlood_GamePlayUpdate.sql">
+    <Content Include="ModSupport\Ophidy%27s Iron Blood\Data\Ophidy_IronBlood_GamePlayUpdate.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="ModSupport\Ophidy’s Iron Blood\Scripts\Ophidy_IronBlood_Hutten.lua">
+    <Content Include="ModSupport\Ophidy%27s Iron Blood\Scripts\Ophidy_IronBlood_Hutten.lua">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="ModSupport\Ophidy’s Iron Blood\Ophidy_IronBlood_ConfigUpdate.sql">
+    <Content Include="ModSupport\Ophidy%27s Iron Blood\Ophidy_IronBlood_ConfigUpdate.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="ModSupport\Ophidy’s Iron Blood\Text\Ophidy_IronBlood_Text.sql">
+    <Content Include="ModSupport\Ophidy%27s Iron Blood\Text\Ophidy_IronBlood_Text.sql">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Text\en_US\IronBlood_Deutschland_TextEn.xml">
@@ -492,10 +492,10 @@
     <Folder Include="Data\U-96" />
     <Folder Include="Scripts" />
     <Folder Include="ModSupport" />
-    <Folder Include="ModSupport\Ophidy’s Iron Blood" />
-    <Folder Include="ModSupport\Ophidy’s Iron Blood\Scripts" />
-    <Folder Include="ModSupport\Ophidy’s Iron Blood\Data" />
-    <Folder Include="ModSupport\Ophidy’s Iron Blood\Text" />
+    <Folder Include="ModSupport\Ophidy%27s Iron Blood" />
+    <Folder Include="ModSupport\Ophidy%27s Iron Blood\Scripts" />
+    <Folder Include="ModSupport\Ophidy%27s Iron Blood\Data" />
+    <Folder Include="ModSupport\Ophidy%27s Iron Blood\Text" />
     <Folder Include="Text\zh_Hant_HK" />
     <Folder Include="UI" />
     <Folder Include="Text" />
