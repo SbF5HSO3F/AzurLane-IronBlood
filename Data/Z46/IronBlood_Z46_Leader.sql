@@ -26,23 +26,15 @@ INSERT INTO ModifierArguments
 		(ModifierId,	Name,			Value)
 SELECT	ModifierId,		'Amount',		1
 FROM temp_Z46_Table;
-
-INSERT INTO ModifierArguments
-		(ModifierId,	Name,			Value)
+UNION ALL
 SELECT	ModifierId,		'Description',	'LOC_Z46_Culture_Adjacency_From_District'
 FROM temp_Z46_Table;
-
-INSERT INTO ModifierArguments
-		(ModifierId,	Name,			Value)
+UNION ALL
 SELECT	ModifierId,		'DistrictType',	DistrictType
 FROM temp_Z46_Table;
-
-INSERT INTO ModifierArguments
-		(ModifierId,	Name,			Value)
+UNION ALL
 SELECT	ModifierId,		'TilesRequired',1
 FROM temp_Z46_Table;
-
-INSERT INTO ModifierArguments
-		(ModifierId,	Name,			Value)
+UNION ALL
 SELECT	ModifierId,		'YieldType',	'YIELD_CULTURE'
 FROM temp_Z46_Table;

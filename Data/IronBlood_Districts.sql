@@ -9,9 +9,9 @@ CREATE TEMPORARY TABLE temp_Krupp_Table (
 );
 
 INSERT INTO temp_Krupp_Table
-	(ModifierId_Gold,		                ModifierId_Sinence,				            BuildingType)
+	(ModifierId_Gold,												ModifierId_Sinence,													BuildingType)
 SELECT
-	'KRUPP_ADD_' || BuildingType || '_GLOD','KRUPP_ADD_' || BuildingType || '_SINENCE',	BuildingType
+	'KRUPP_ADD_' || REPLACE(BuildingType,'BUILDING_','') || '_GLOD','KRUPP_ADD_' || REPLACE(BuildingType,'BUILDING_','') || '_SINENCE',	BuildingType
 FROM Buildings WHERE PrereqDistrict = 'DISTRICT_ENCAMPMENT' AND BuildingType NOT IN (SELECT CivUniqueBuildingType FROM BuildingReplaces);
 
 --Building Add Gold
@@ -28,20 +28,14 @@ SELECT
 FROM temp_Krupp_Table;
 
 INSERT INTO ModifierArguments
-	(ModifierId,	Name,		Value)
-SELECT
-	ModifierId_Gold,'Amount',   4
-FROM temp_Krupp_Table;
-
-INSERT INTO ModifierArguments
-	(ModifierId,	Name,		Value)
-SELECT
-	ModifierId_Gold,'YieldType','YIELD_GOLD'
-FROM temp_Krupp_Table;
-
-INSERT INTO ModifierArguments
 	(ModifierId,	Name,			Value)
 SELECT
+	ModifierId_Gold,'Amount',   	4
+FROM temp_Krupp_Table;
+UNION ALL
+	ModifierId_Gold,'YieldType',	'YIELD_GOLD'
+FROM temp_Krupp_Table;
+UNION ALL
 	ModifierId_Gold,'BuildingType',	BuildingType
 FROM temp_Krupp_Table;
 
@@ -59,19 +53,15 @@ SELECT
 FROM temp_Krupp_Table;
 
 INSERT INTO ModifierArguments
-	(ModifierId,	    Name,		Value)
-SELECT
-	ModifierId_Sinence,'Amount',   2
-FROM temp_Krupp_Table;
-
-INSERT INTO ModifierArguments
-	(ModifierId,	    Name,		Value)
-SELECT
-	ModifierId_Sinence,'YieldType','YIELD_SCIENCE'
-FROM temp_Krupp_Table;
-
-INSERT INTO ModifierArguments
 	(ModifierId,	    Name,			Value)
+SELECT
+	ModifierId_Sinence,'Amount',		2
+FROM temp_Krupp_Table;
+UNION ALL
+SELECT
+	ModifierId_Sinence,'YieldType',		'YIELD_SCIENCE'
+FROM temp_Krupp_Table;
+UNION ALL
 SELECT
 	ModifierId_Sinence,'BuildingType',	BuildingType
 FROM temp_Krupp_Table;

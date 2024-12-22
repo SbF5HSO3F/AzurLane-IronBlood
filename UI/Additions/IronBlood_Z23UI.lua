@@ -79,7 +79,7 @@ function Z23ResetButton()
         local disable = detail.Disable
         --Set the Button
         Controls.Z23_Button:SetDisabled(disable)
-        Controls.Z23_Button:SetAlpha((disable and 0.4) or 1)
+        Controls.Z23_Button:SetAlpha((disable and 0.7) or 1)
 
         local string = Locale.Lookup('LOC_UNITCOMMAND_Z23') ..
             '[NEWLINE][NEWLINE]' .. Locale.Lookup('LOC_UNITCOMMAND_Z23_DESC', heal, turns)
