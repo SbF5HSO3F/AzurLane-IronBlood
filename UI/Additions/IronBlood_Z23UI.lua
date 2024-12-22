@@ -72,14 +72,14 @@ function Z23ResetButton()
     if pUnit and Z23GetButtonVisibility(
             pUnit:GetOwner(), pUnit:GetID()
         ) then
-        Controls.Z23_Grid:SetHide(false)
+        Controls.Z23Grid:SetHide(false)
         --get the detail of the button
         local detail = Z23GetButtonDetail(pUnit)
         --get the disable
         local disable = detail.Disable
         --Set the Button
-        Controls.Z23_Button:SetDisabled(disable)
-        Controls.Z23_Button:SetAlpha((disable and 0.7) or 1)
+        Controls.DestructionButton:SetDisabled(disable)
+        Controls.DestructionButton:SetAlpha((disable and 0.7) or 1)
 
         local string = Locale.Lookup('LOC_UNITCOMMAND_Z23') ..
             '[NEWLINE][NEWLINE]' .. Locale.Lookup('LOC_UNITCOMMAND_Z23_DESC', heal, turns)
@@ -92,9 +92,9 @@ function Z23ResetButton()
             string = string .. '[NEWLINE][NEWLINE]' .. detail.Reason
         end
 
-        Controls.Z23_Button:SetToolTipString(string)
+        Controls.DestructionButton:SetToolTipString(string)
     else
-        Controls.Z23_Grid:SetHide(true)
+        Controls.Z23Grid:SetHide(true)
     end
 
     --reset the Unit Panel
@@ -140,9 +140,9 @@ end
 function Z23OnLoadGameViewStateDone()
     local pContext = ContextPtr:LookUpControl("/InGame/UnitPanel/StandardActionsStack")
     if pContext ~= nil then
-        Controls.Z23_Grid:ChangeParent(pContext)
-        Controls.Z23_Button:RegisterCallback(Mouse.eLClick, Z23OnButtonClicked)
-        Controls.Z23_Button:RegisterCallback(Mouse.eMouseEnter, IronBloodEnter)
+        Controls.Z23Grid:ChangeParent(pContext)
+        Controls.DestructionButton:RegisterCallback(Mouse.eLClick, Z23OnButtonClicked)
+        Controls.DestructionButton:RegisterCallback(Mouse.eMouseEnter, IronBloodEnter)
 
         Z23ResetButton()
     end
@@ -174,5 +174,7 @@ function Initialize()
     ------------------------------------------
     print('Initial success!')
 end
+
+include('IronBlood_Z23UI_', true)
 
 Initialize()

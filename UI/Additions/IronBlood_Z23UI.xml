@@ -3,11 +3,11 @@
 <!-- Author: HSbF6HSO3F -->
 <!-- DateCreated: 2023/12/28 22:57:20 -->
 <Context>
-	<Grid ID="Z23_Grid" Anchor="R,B" Size="46,41" AutoSizePadding="2,0" Texture="SelectionPanel_ActionGroupSlot" SliceCorner="5,19" SliceSize="1,1" SliceTextureSize="12,41" ConsumeMouse="1" Hidden="1">
+	<Grid ID="Z23Grid" Anchor="R,B" Size="46,41" AutoSizePadding="2,0" Texture="SelectionPanel_ActionGroupSlot" SliceCorner="5,19" SliceSize="1,1" SliceTextureSize="12,41" ConsumeMouse="1" Hidden="1">
 		<!-- A Button that controls ON/OFF of Z23 Mode -->
-		<Button ID="Z23_Button" Anchor="C,B" Size="44,53" Texture="UnitPanel_ActionButton">
+		<Button ID="DestructionButton" Anchor="C,B" Size="44,53" Texture="UnitPanel_ActionButton">
 			<!-- An Image inside the Button that requires a texture -->
-			<Image ID="Z23_Icon" Anchor="C,C" Offset="0,-2" Size="38,38" Icon="ICON_UNITOPERATION_LAUNCH_INQUISITION"/>
+			<Image ID="DestructionIcon" Anchor="C,C" Offset="0,-2" Size="38,38" Icon="ICON_UNITOPERATION_LAUNCH_INQUISITION"/>
 		</Button>
 	</Grid>
 </Context>

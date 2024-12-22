@@ -526,4 +526,6 @@ function Initialize()
     print('Initial success!')
 end
 
+include('IronBlood_SeydlitzUI_', true)
+
 Initialize()
