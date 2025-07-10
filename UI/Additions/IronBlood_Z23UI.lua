@@ -3,7 +3,7 @@
 -- DateCreated: 2023/12/28 22:57:33
 --------------------------------------------------------------
 --||=======================include========================||--
-include('IronBlood_Core.lua')
+include('IronBloodCore.lua')
 
 --||====================ExposedMembers====================||--
 
@@ -83,9 +83,9 @@ function Z23ResetButton()
 
         local string = Locale.Lookup('LOC_UNITCOMMAND_Z23') ..
             '[NEWLINE][NEWLINE]' .. Locale.Lookup('LOC_UNITCOMMAND_Z23_DESC', heal, turns)
-        local lastTruns = pUnit:GetProperty(TurnLast)
-        if lastTruns and lastTruns > 0 then
-            string = string .. '[NEWLINE][NEWLINE]' .. Locale.Lookup('LOC_UNITCOMMAND_Z23_LAST', lastTruns)
+        local lastturns = pUnit:GetProperty(TurnLast)
+        if lastturns and lastturns > 0 then
+            string = string .. '[NEWLINE][NEWLINE]' .. Locale.Lookup('LOC_UNITCOMMAND_Z23_LAST', lastturns)
         end
 
         if disable then

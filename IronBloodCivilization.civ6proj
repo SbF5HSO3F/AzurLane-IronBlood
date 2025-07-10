@@ -8,7 +8,7 @@
     <ModVersion>1</ModVersion>
     <Teaser>LOC_IRON_BLOOD_TEASER</Teaser>
     <Description>LOC_IRON_BLOOD_DESCRIPTION</Description>
-    <Authors>SbF5HSO3F</Authors>
+    <Authors>HSbF6HSO3F</Authors>
     <SpecialThanks>
     </SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
@@ -21,19 +21,19 @@
     <LocalizedTextData><![CDATA[
       <LocalizedText>
         <Text id="LOC_IRON_BLOOD_NAME">
-            <en_US>Azur Lane-Iron Blood</en_US>
-            <zh_Hans_CN>碧蓝航线·铁血公国</zh_Hans_CN>
-            <zh_Hant_HK>碧藍航線·鐵血公國</zh_Hant_HK>
+          <en_US>Azur Lane-Iron Blood</en_US>
+          <zh_Hans_CN>碧蓝航线·铁血公国</zh_Hans_CN>
+          <zh_Hant_HK>碧藍航線·鐵血公國</zh_Hant_HK>
         </Text>
         <Text id="LOC_IRON_BLOOD_TEASER">
-            <en_US>Added a powerful civilization from the game "Azur Lane" - Iron Blood.</en_US>
-            <zh_Hans_CN>为游戏添加了一个来自游戏作品《碧蓝航线》的强大文明——铁血公国。</zh_Hans_CN>
-            <zh_Hant_HK>為遊戲添加了一個來自遊戲作品《碧藍航線》的強大文明——鐵血公國。</zh_Hant_HK>
+          <en_US>Added a powerful civilization from the game "Azur Lane" - Iron Blood.</en_US>
+          <zh_Hans_CN>为游戏添加了一个来自游戏作品《碧蓝航线》的强大文明——铁血公国。</zh_Hans_CN>
+          <zh_Hant_HK>為遊戲添加了一個來自遊戲作品《碧藍航線》的強大文明——鐵血公國。</zh_Hant_HK>
         </Text>
         <Text id="LOC_IRON_BLOOD_DESCRIPTION">
-            <en_US>Added a civilization based on the Iron Blood in the game work "Azur Lane" - the Iron Blood, which has a strong army and productivity. This mod has added 5 leaders: U-96, Z46, Deutschland, Z23 and Seydlitz.</en_US>
-            <zh_Hans_CN>为游戏添加了一个以游戏作品《碧蓝航线》中的铁血公国为原型的文明——铁血公国，拥有强大的军队和生产力。本模组为其添加了5名领袖：U-96、Z46、德意志、Z23和塞德利茨。</zh_Hans_CN>
-            <zh_Hant_HK>為遊戲添加了一個以遊戲作品《碧藍航線》中的鐵血公國為原型的文明——鐵血公國，擁有強大的軍隊和生產力。本模組為其添加了5名領袖：U-96、Z46、德意誌、Z23和塞德利茨。</zh_Hant_HK>
+          <en_US>Added a civilization based on the Iron Blood in the game work "Azur Lane" - the Iron Blood, which has a strong army and productivity. This mod has added 5 leaders: U-96, Z46, Deutschland, Z23 and Seydlitz.</en_US>
+          <zh_Hans_CN>为游戏添加了一个以游戏作品《碧蓝航线》中的铁血公国为原型的文明——铁血公国，拥有强大的军队和生产力。本模组为其添加了5名领袖：U-96、Z46、德意志、Z23和塞德利茨。</zh_Hans_CN>
+          <zh_Hant_HK>為遊戲添加了一個以遊戲作品《碧藍航線》中的鐵血公國為原型的文明——鐵血公國，擁有強大的軍隊和生產力。本模組為其添加了5名領袖：U-96、Z46、德意誌、Z23和塞德利茨。</zh_Hant_HK>
         </Text>
     </LocalizedText>
     ]]></LocalizedTextData>
@@ -106,7 +106,8 @@
           <File>IronBlood_Colors.xml</File>
         </UpdateColors>
         <ImportFiles id="Import">
-          <File>Scripts/IronBlood_Core.lua</File>
+          <File>Import/IronBloodCore.lua</File>
+          <File>Import/IronBloodDebug.lua</File>
         </ImportFiles>
         <AddUserInterfaces id="UI">
           <Properties>
@@ -377,6 +378,12 @@
     <Content Include="Data\Z46\IronBlood_Z46_XP2.sql">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Import\IronBloodCore.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Import\IronBloodDebug.lua">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="IronBlood_Colors.xml">
       <SubType>Content</SubType>
     </Content>
@@ -384,9 +391,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="IronBlood_Icons.xml">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Scripts\IronBlood_Core.lua">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Scripts\IronBlood_Deutschland.lua">
@@ -490,6 +494,7 @@
     <Folder Include="Data\Z23" />
     <Folder Include="Data\Z46" />
     <Folder Include="Data\U-96" />
+    <Folder Include="Import" />
     <Folder Include="Scripts" />
     <Folder Include="ModSupport" />
     <Folder Include="ModSupport\Ophidy%27s Iron Blood" />
