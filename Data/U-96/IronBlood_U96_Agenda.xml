@@ -63,7 +63,7 @@
 		<Row>
 			<ModifierId>AGENDA_DIE_EICHENLAUBFAHRT_IN_WAR</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
-			<SubjectRequirementSetId>IRON_BLOOD_PLAYER_AT_WAR</SubjectRequirementSetId>
+			<SubjectRequirementSetId>IRON_BLOOD_PLAYER_IS_AT_WAR</SubjectRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>AGENDA_DIE_EICHENLAUBFAHRT_SURPRISE_WAR</ModifierId>
@@ -115,24 +115,6 @@
 			<Value>LOC_AGENDA_DIE_EICHENLAUBFAHRT_SURPRISE_WAR</Value>
 		</Row>
 	</ModifierArguments>
-	<RequirementSets>
-		<Row>
-			<RequirementSetId>IRON_BLOOD_PLAYER_AT_WAR</RequirementSetId>
-			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
-		</Row>
-	</RequirementSets>
-	<RequirementSetRequirements>
-		<Row>
-			<RequirementSetId>IRON_BLOOD_PLAYER_AT_WAR</RequirementSetId>
-			<RequirementId>REQ_IRON_BLOOD_PLAYER_AT_WAR</RequirementId>
-		</Row>
-	</RequirementSetRequirements>
-	<Requirements>
-		<Row>
-			<RequirementId>REQ_IRON_BLOOD_PLAYER_AT_WAR</RequirementId>
-			<RequirementType>REQUIREMENT_PLAYER_IS_AT_WAR</RequirementType>
-		</Row>
-	</Requirements>
 	<ModifierStrings>
 		<Row ModifierId="AGENDA_DIE_EICHENLAUBFAHRT_IN_WAR"			Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
 		<Row ModifierId="AGENDA_DIE_EICHENLAUBFAHRT_SURPRISE_WAR"	Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>

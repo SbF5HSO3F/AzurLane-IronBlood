@@ -12,7 +12,6 @@
 	<TypeTags>
 		<Row Type="ABILITY_FROM_THE_SEA"			Tag="CLASS_ALL_UNITS"/>
 		<Row Type="ABILITY_FROM_THE_SEA_COMBATS"	Tag="CLASS_ALL_COMBAT_UNITS"/>
-		<Row Type="ABILITY_FROM_THE_SEA_COMBATS"	Tag="CLASS_NAVAL_CARRIER"/>
 		<Row Type="ABILITY_FROM_THE_SEA_NAVAL"		Tag="CLASS_NAVAL_MELEE"/>
 		<Row Type="ABILITY_FROM_THE_SEA_NAVAL"		Tag="CLASS_NAVAL_RANGED"/>
 		<Row Type="ABILITY_FROM_THE_SEA_NAVAL"		Tag="CLASS_NAVAL_CARRIER"/>
@@ -85,17 +84,17 @@
 		<Row>
 			<ModifierId>FROM_THE_SEA_BUFF_STRENFTH</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
-			<OwnerRequirementSetId>REQ_U96_UNIT_IN_THE_SEA</OwnerRequirementSetId>
+			<OwnerRequirementSetId>IRON_BLOOD_TERRAIN_OCEAN</OwnerRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>FROM_THE_SEA_BUFF_MOVEMENT</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
-			<OwnerRequirementSetId>REQ_U96_UNIT_IN_THE_SEA</OwnerRequirementSetId>
+			<OwnerRequirementSetId>IRON_BLOOD_TERRAIN_OCEAN</OwnerRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>FROM_THE_SEA_BUFF_RANGE</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_ATTACK_RANGE</ModifierType>
-			<OwnerRequirementSetId>REQ_U96_UNIT_IN_THE_SEA</OwnerRequirementSetId>
+			<OwnerRequirementSetId>IRON_BLOOD_TERRAIN_OCEAN</OwnerRequirementSetId>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -149,16 +148,4 @@
 			<Value>1</Value>
 		</Row>
 	</ModifierArguments>
-	<RequirementSets>
-		<Row>
-			<RequirementSetId>REQ_U96_UNIT_IN_THE_SEA</RequirementSetId>
-			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
-		</Row>
-	</RequirementSets>
-	<RequirementSetRequirements>
-		<Row>
-			<RequirementSetId>REQ_U96_UNIT_IN_THE_SEA</RequirementSetId>
-			<RequirementId>REQUIRES_TERRAIN_OCEAN</RequirementId>
-		</Row>
-	</RequirementSetRequirements>
 </GameData>
