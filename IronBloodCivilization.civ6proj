@@ -105,10 +105,13 @@
         <UpdateColors id="Colors">
           <File>IronBlood_Colors.xml</File>
         </UpdateColors>
-        <ImportFiles id="Import">
-          <File>Import/IronBloodCore.lua</File>
-          <File>Import/IronBloodDebug.lua</File>
+        <ImportFiles id="Modules">
+          <File>Import/Modules/IronDebug.lua</File>
+          <File>Import/Modules/IronMath.lua</File>
+          <File>Import/Modules/IronCore.lua</File>
         </ImportFiles>
+        <DoNothing id="Import">
+        </DoNothing>
         <AddUserInterfaces id="UI">
           <Properties>
             <Context>InGame</Context>

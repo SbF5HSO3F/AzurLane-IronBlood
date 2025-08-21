@@ -3,7 +3,7 @@
 -- DateCreated: 2024/8/26 12:26:33
 --------------------------------------------------------------
 --||=======================include========================||--
-include('IronBloodCore.lua')
+include('IronCore.lua')
 
 --||===================local variables====================||--
 
@@ -16,7 +16,7 @@ local generalIndex = GameInfo.Units['UNIT_GREAT_GENERAL'].Index
 local admiralIndex = GameInfo.Units['UNIT_GREAT_ADMIRAL'].Index
 local eReason_1    = DB.MakeHash("SeydlitzSetUpUnit")
 local key          = 'SeydlitzSetUpUnitTurns'
-local lastTurns    = IronCore:ModifyBySpeed(10)
+local lastTurns    = IronMath:ModifyBySpeed(10)
 local multiplier   = GlobalParameters.GOLD_PURCHASE_MULTIPLIER * GlobalParameters.GOLD_EQUIVALENT_OTHER_YIELDS
 local standardType = MilitaryFormationTypes.STANDARD_FORMATION
 local corpsType    = MilitaryFormationTypes.CORPS_FORMATION
@@ -293,16 +293,16 @@ function SeydlitzContext.GreatPerson.GetDetail(pUnit)
                     hasUnit = true
                     detail.UnitID = unitID
                     detail.Name = Locale.Lookup(unit:GetName())
-                    detail.Reward = IronCore:ModifyBySpeed(unitDef.Cost * multiplier)
-                    detail.Points = IronCore:ModifyBySpeed(unit:GetCombat())
+                    detail.Reward = IronMath:ModifyBySpeed(unitDef.Cost * multiplier)
+                    detail.Points = IronMath:ModifyBySpeed(unit:GetCombat())
                     detail.Type = corpsType
                     break
                 elseif unit:GetMilitaryFormation() == corpsType then
                     hasUnit = true
                     detail.UnitID = unitID
                     detail.Name = Locale.Lookup(unit:GetName())
-                    detail.Reward = IronCore:ModifyBySpeed(unitDef.Cost * 2 * multiplier)
-                    detail.Points = IronCore:ModifyBySpeed(unit:GetCombat())
+                    detail.Reward = IronMath:ModifyBySpeed(unitDef.Cost * 2 * multiplier)
+                    detail.Points = IronMath:ModifyBySpeed(unit:GetCombat())
                     detail.Type = armyType
                     break
                 end
@@ -425,7 +425,7 @@ function SeydlitzContext.GreatPerson:Callback()
                 Reward = detail.Reward,
                 Points = detail.Points,
             }
-        )
+        ); Network.BroadcastPlayerInfo()
     end
 end
 
@@ -490,6 +490,7 @@ function SeydlitzSelectPlot(plotID, edge, lbutton, rbutton)
                     y = Map.GetPlotByIndex(plotID):GetY(),
                 }
             ); m_SeydlitzPlot = nil; UI.PlaySound("Unit_CondemnHeretic_2D")
+            Network.BroadcastPlayerInfo()
         end
     end
 end

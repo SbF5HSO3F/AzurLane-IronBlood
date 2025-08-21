@@ -7,6 +7,21 @@ IronDebug = {}
 
 --||====================Based functions===================||--
 
+function AzurDebug:printt(t, indent, str)
+    indent = indent or 0
+    if str then print('--||==================Print==================||--') end
+    for k, v in pairs(t) do
+        if type(v) == "table" then
+            print(string.rep(" ", indent) .. k .. ": {")
+            self:printt(v, indent + 4)
+            print(string.rep(" ", indent) .. "}")
+        else
+            print(string.rep(" ", indent) .. k .. ": " .. tostring(v))
+        end
+    end
+    if str then print('--||=========================================||--') end
+end
+
 function IronDebug:printd(t, tab, title)
     if type(t) == 'table' then
         tab = tab or ''

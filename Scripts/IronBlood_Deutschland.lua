@@ -3,7 +3,7 @@
 -- DateCreated: 2023/11/16 13:35:04
 --------------------------------------------------------------
 --||=======================include========================||--
-include('IronBloodCore.lua')
+include('IronCore.lua')
 
 --||====================base functions====================||--
 
@@ -13,9 +13,9 @@ function DeutschlandRewardFormula(pCity, YieldType, baseNum)
         local cityPop = pCity:GetPopulation()
         local cityYield = pCity:GetYield(YieldType)
         --CostMultiplier
-        local Reward = IronCore:ModifyBySpeed(cityPop * (2 * cityYield + baseNum))
+        local Reward = IronMath:ModifyBySpeed(cityPop * (2 * cityYield + baseNum))
         --[[local speedModifier = GameInfo.GameSpeeds[GameConfiguration.GetGameSpeedType()].CostMultiplier / 100
-        local Reward = IronCore.Round(cityPop * (2 * cityYield + baseNum) * speedModifier)]]
+        local Reward = IronMath.Round(cityPop * (2 * cityYield + baseNum) * speedModifier)]]
         return Reward
     end
 end

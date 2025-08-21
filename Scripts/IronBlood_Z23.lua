@@ -3,7 +3,7 @@
 -- DateCreated: 2023/12/27 21:04:38
 --------------------------------------------------------------
 --||=======================include========================||--
-include('IronBloodCore.lua')
+include('IronCore.lua')
 
 --||====================ExposedMembers====================||--
 
@@ -11,7 +11,7 @@ ExposedMembers.Z23 = ExposedMembers.Z23 or {}
 --Heal Num
 ExposedMembers.Z23.HealNum = 25
 --Turns
-ExposedMembers.Z23.LastTurn = IronCore:ModifyBySpeed(10)
+ExposedMembers.Z23.LastTurn = IronMath:ModifyBySpeed(10)
 
 --||===================local variables====================||--
 
@@ -33,7 +33,7 @@ function Z23GetTechBoost(playerID, tech, percent)
         local techs = pPlayer:GetTechs()
         if techs then
             --Calculate the data
-            value = IronCore.Round(techs:GetResearchCost(tech) * percent)
+            value = IronMath.Round(techs:GetResearchCost(tech) * percent)
         end
     end
     return value
@@ -49,7 +49,7 @@ function Z23GetCivicBoost(playerID, civic, percent)
         local civics = pPlayer:GetCulture()
         if civics then
             --Calculate the data
-            value = IronCore.Round(civics:GetCultureCost(civic) * percent)
+            value = IronMath.Round(civics:GetCultureCost(civic) * percent)
         end
     end
     return value

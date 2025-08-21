@@ -3,7 +3,7 @@
 -- DateCreated: 2023/12/28 22:57:33
 --------------------------------------------------------------
 --||=======================include========================||--
-include('IronBloodCore.lua')
+include('IronCore.lua')
 
 --||====================ExposedMembers====================||--
 
@@ -116,6 +116,7 @@ function Z23OnButtonClicked()
             OnStart = 'Z23ChangeNewMode',
         }
     ); UI.PlaySound("Unit_CondemnHeretic_2D")
+    Network.BroadcastPlayerInfo()
 end
 
 --||===================Events functions===================||--
