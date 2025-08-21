@@ -378,10 +378,13 @@
     <Content Include="Data\Z46\IronBlood_Z46_XP2.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Import\IronBloodCore.lua">
+    <Content Include="Import\Modules\IronCore.lua">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Import\IronBloodDebug.lua">
+    <Content Include="Import\Modules\IronDebug.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Import\Modules\IronMath.lua">
       <SubType>Content</SubType>
     </Content>
     <Content Include="IronBlood_Colors.xml">
@@ -495,6 +498,7 @@
     <Folder Include="Data\Z46" />
     <Folder Include="Data\U-96" />
     <Folder Include="Import" />
+    <Folder Include="Import\Modules" />
     <Folder Include="Scripts" />
     <Folder Include="ModSupport" />
     <Folder Include="ModSupport\Ophidy%27s Iron Blood" />
