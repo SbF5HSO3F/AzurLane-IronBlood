@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GoldenAgeFit_en_US -->
+<!-- Author: HSbF6HSO3F -->
+<!-- DateCreated: 2025/8/22 7:48:57 -->
+<GameData>
+    <LocalizedText>
+		<!--都市圈-->
+		<Replace Tag="LOC_GA_RUHR_PRODUCTION_STANDARD" Language="en_US">
+			<Text>+{1_num} [ICON_PRODUCTION] Production from each adjacent Ruhr.</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_RUHR_PRODUCTION" Language="en_US">
+			<Text>+{1_num} [ICON_PRODUCTION] Production from each adjacent Ruhr (Civil Service).</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_RUHR_PRODUCTION_MEGA" Language="en_US">
+			<Text>+{1_num} [ICON_PRODUCTION] Production from each adjacent Ruhr (Urbanization).</Text>
+		</Replace>
+        <!--国家奇观-->
+
+        <!--人文与地域-->
+		<Replace Tag="LOC_GOLDEN_CIVILIZATION_IRON_BLOOD_CUSTOM_FEATURES_NAME" Language="en_US">
+			<Text>{LOC_GOLDEN_CUSTOM_FEATURES_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_GOLDEN_CIVILIZATION_IRON_BLOOD_CUSTOM_FEATURES_DESCRIPTION" Language="en_US">
+			<Text>[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_CENTRAL_EASTERN_EUROPE_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_PLANTING_DESC}</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

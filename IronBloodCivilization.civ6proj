@@ -82,16 +82,24 @@
           <File priority="80">Text/zh_Hant_HK/IronBlood_Seydlitz_TextHK.xml</File>
         </UpdateText>
         <UpdateText id="OphidyText">
-          <Criteria>OPHIDY_IRONBLOOD</Criteria>
+          <Criteria>OphidyIronBlood</Criteria>
           <File>ModSupport/Ophidy%27s Iron Blood/Text/Ophidy_IronBlood_Text.sql</File>
         </UpdateText>
         <UpdateDatabase id="OphidyConfigUpdate">
-          <Criteria>OPHIDY_IRONBLOOD</Criteria>
+          <Criteria>OphidyIronBlood</Criteria>
           <Properties>
             <LoadOrder>2000</LoadOrder>
           </Properties>
           <File>ModSupport/Ophidy%27s Iron Blood/Ophidy_IronBlood_ConfigUpdate.sql</File>
         </UpdateDatabase>
+        <UpdateDatabase id="GoldenAge" criteria="GoldenAge">
+          <File>ModSupport/GoldenAge/GoldenAge_Config.sql</File>
+        </UpdateDatabase>
+        <UpdateText id="NorthernParliamentGoldenAgeText" criteria="GoldenAge">
+          <File priority="9">ModSupport/GoldenAge/Text/GoldenAgeFit_en_US.xml</File>
+          <File priority="8">ModSupport/GoldenAge/Text/GoldenAgeFit_zh_Hans_CN.xml</File>
+          <File priority="7">ModSupport/GoldenAge/Text/GoldenAgeFit_zh_Hant_HK.xml</File>
+        </UpdateText>
       </FrontEndActions>
     ]]></FrontEndActionData>
     <InGameActionData><![CDATA[
@@ -134,7 +142,7 @@
           <File priority="60">Data/IronBlood_UnitAbilities.xml</File>
         </UpdateDatabase>
         <UpdateDatabase id="IronBlood_Mode">
-          <Criteria>IRONBLOOD_MODE</Criteria>
+          <Criteria>SercetSociety</Criteria>
           <File>Data/IronBlood_SecretSocieties.sql</File>
         </UpdateDatabase>
         <UpdateDatabase id="IronBlood_XP2">
@@ -241,33 +249,86 @@
           <File priority="80">Text/zh_Hant_HK/IronBlood_Seydlitz_TextHK.xml</File>
         </UpdateText>
         <UpdateText id="OphidyText">
-          <Criteria>OPHIDY_IRONBLOOD</Criteria>
+          <Criteria>OphidyIronBlood</Criteria>
           <File>ModSupport/Ophidy%27s Iron Blood/Text/Ophidy_IronBlood_Text.sql</File>
         </UpdateText>
         <UpdateDatabase id="OphidyGamePlayUpdate">
-          <Criteria>OPHIDY_IRONBLOOD</Criteria>
+          <Criteria>OphidyIronBlood</Criteria>
           <Properties>
             <LoadOrder>12000</LoadOrder>
           </Properties>
           <File>ModSupport/Ophidy%27s Iron Blood/Data/Ophidy_IronBlood_GamePlayUpdate.sql</File>
         </UpdateDatabase>
         <AddGameplayScripts id="OphidyLua">
-          <Criteria>OPHIDY_IRONBLOOD</Criteria>
+          <Criteria>OphidyIronBlood</Criteria>
           <File>ModSupport/Ophidy%27s Iron Blood/Scripts/Ophidy_IronBlood_Hutten.lua</File>
         </AddGameplayScripts>
+        <UpdateDatabase id="NorthernParliament_Megalopolis" criteria="GoldenAgeMegalopolis">
+          <File>ModSupport/GoldenAge/Data/Mode_Megalopolis.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="NorthernParliament_NationalWonder" criteria="GoldenAgeNationalWonder">
+          <File>ModSupport/GoldenAge/Data/Mode_NationalWonder.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="NorthernParliament_CustomTraits" criteria="GoldenAgeCustomTraits">
+          <File>ModSupport/GoldenAge/Data/Mode_CustomTraits.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="NorthernParliament_Warfare" criteria="GoldenAgeWarfare">
+          <File>ModSupport/GoldenAge/Data/Mode_Warfare.sql</File>
+        </UpdateDatabase>
+        <UpdateText id="NorthernParliamentGoldenAgeText" criteria="GoldenAge">
+          <File priority="9">ModSupport/GoldenAge/Text/GoldenAgeFit_en_US.xml</File>
+          <File priority="8">ModSupport/GoldenAge/Text/GoldenAgeFit_zh_Hans_CN.xml</File>
+          <File priority="7">ModSupport/GoldenAge/Text/GoldenAgeFit_zh_Hant_HK.xml</File>
+        </UpdateText>
       </InGameActions>
     ]]></InGameActionData>
     <ActionCriteriaData><![CDATA[
       <ActionCriteria>
-        <Criteria id="IRONBLOOD_MODE">
+        <Criteria id="SercetSociety">
           <ConfigurationValueMatches>
             <ConfigurationId>GAMEMODE_SECRETSOCIETIES</ConfigurationId>
             <Group>Game</Group>
             <Value>1</Value>
           </ConfigurationValueMatches>
         </Criteria>
-        <Criteria id="OPHIDY_IRONBLOOD">
+        <Criteria id="OphidyIronBlood">
           <ModInUse>661a3458-36c3-48c3-9e60-a096d502a6b1</ModInUse>
+        </Criteria>
+        <Criteria id="GoldenAge" any="1">
+          <ModInUse>236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>
+          <ModInUse>a739fbf8-0b8d-40a3-8fd7-ddd8c8e2183b</ModInUse>
+        </Criteria>
+        <Criteria id="GoldenAgeMegalopolis">
+          <ModInUse>236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>
+          <ConfigurationValueMatches>
+            <ConfigurationId>GA_MEGALOPOLIS</ConfigurationId>
+            <Group>Game</Group>
+            <Value>1</Value>
+          </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="GoldenAgeNationalWonder">
+          <ModInUse>236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>
+          <ConfigurationValueMatches>
+            <ConfigurationId>GA_NATIONALWONDER</ConfigurationId>
+            <Group>Game</Group>
+            <Value>1</Value>
+          </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="GoldenAgeCustomTraits">
+          <ModInUse>a739fbf8-0b8d-40a3-8fd7-ddd8c8e2183b</ModInUse>
+          <ConfigurationValueMatches>
+            <ConfigurationId>EXTRA_TRAITS_OPTION</ConfigurationId>
+            <Group>Game</Group>
+            <Value>1</Value>
+          </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="GoldenAgeWarfare">
+          <ModInUse>a739fbf8-0b8d-40a3-8fd7-ddd8c8e2183b</ModInUse>
+          <ConfigurationValueMatches>
+            <ConfigurationId>WARFARE_OPTION</ConfigurationId>
+            <Group>Game</Group>
+            <Value>1</Value>
+          </ConfigurationValueMatches>
         </Criteria>
       </ActionCriteria>
     ]]></ActionCriteriaData>
@@ -399,6 +460,30 @@
     <Content Include="IronBlood_Icons.xml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ModSupport\GoldenAge\Data\Mode_CustomTraits.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModSupport\GoldenAge\Data\Mode_Megalopolis.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModSupport\GoldenAge\Data\Mode_NationalWonder.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModSupport\GoldenAge\Data\Mode_Warfare.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModSupport\GoldenAge\GoldenAge_Config.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModSupport\GoldenAge\Text\GoldenAgeFit_en_US.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModSupport\GoldenAge\Text\GoldenAgeFit_zh_Hans_CN.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModSupport\GoldenAge\Text\GoldenAgeFit_zh_Hant_HK.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Scripts\IronBlood_Deutschland.lua">
       <SubType>Content</SubType>
     </Content>
@@ -502,6 +587,9 @@
     <Folder Include="Data\U-96" />
     <Folder Include="Import" />
     <Folder Include="Import\Modules" />
+    <Folder Include="ModSupport\GoldenAge" />
+    <Folder Include="ModSupport\GoldenAge\Data" />
+    <Folder Include="ModSupport\GoldenAge\Text" />
     <Folder Include="Scripts" />
     <Folder Include="ModSupport" />
     <Folder Include="ModSupport\Ophidy%27s Iron Blood" />

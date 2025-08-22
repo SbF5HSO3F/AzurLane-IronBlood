@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GoldenAgeFit_zh_Hant_HK -->
+<!-- Author: HSbF6HSO3F -->
+<!-- DateCreated: 2025/8/22 7:49:12 -->
+<GameData>
+    <LocalizedText>
+		<!--都市圈-->
+		<Replace Tag="LOC_GA_RUHR_PRODUCTION_STANDARD" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_PRODUCTION] 生產力來自每個相鄰魯爾工業區</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_RUHR_PRODUCTION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_PRODUCTION] 生產力來自每個相鄰魯爾工業區（行政部門）</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_RUHR_PRODUCTION_MEGA" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_PRODUCTION] 生產力來自每個相鄰魯爾工業區（城市化）</Text>
+		</Replace>
+        <!--國家奇觀-->
+
+        <!--人文與地域-->
+		<Replace Tag="LOC_GOLDEN_CIVILIZATION_IRON_BLOOD_CUSTOM_FEATURES_NAME" Language="zh_Hant_HK">
+			<Text>{LOC_GOLDEN_CUSTOM_FEATURES_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_GOLDEN_CIVILIZATION_IRON_BLOOD_CUSTOM_FEATURES_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_CENTRAL_EASTERN_EUROPE_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_PLANTING_DESC}</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
