@@ -108,21 +108,7 @@
 		<Replace Tag="LOC_UNITCOMMAND_Z23_DESC" Language="zh_Hant_HK">
 			<Text>該單位恢復{1_num}點生命值，本回合內+2 [ICON_Strength] 移動力，+10 [ICON_Strength] 戰鬥力並恢復全部 [ICON_Movement] 移動力和攻擊次數。如單位處於敵方區域上，還將掠奪此區域和其中全部建築並獲得額外的 [ICON_Strength] 戰鬥力加成。需要{2_num}回合冷卻。</Text>
 		</Replace>
-		<Replace Tag="LOC_UNITCOMMAND_Z23_LAST" Language="zh_Hant_HK">
-			<Text>[ICON_Bullet]剩余{1_num}回合冷卻</Text>
-		</Replace>
-		<Replace Tag="LOC_UNITCOMMAND_Z23_DISABLE" Language="zh_Hant_HK">
-			<Text>[COLOR_RED]因下列原因，該命令不可用：[ENDCOLOR]</Text>
-		</Replace>
-		<Replace Tag="LOC_UNITCOMMAND_Z23_NO_UNIT" Language="zh_Hant_HK">
-			<Text>[ICON_Bullet][COLOR_RED]該單位不存在[ENDCOLOR]</Text>
-		</Replace>
-		<Replace Tag="LOC_UNITCOMMAND_Z23_NO_PLAYER" Language="zh_Hant_HK">
-			<Text>[ICON_Bullet][COLOR_RED]該單位沒有所屬玩家[ENDCOLOR]</Text>
-		</Replace>
-		<Replace Tag="LOC_UNITCOMMAND_Z23_DISABLE_LAST" Language="zh_Hant_HK">
-			<Text>[ICON_Bullet][COLOR_RED]「毀滅模式」還在冷卻中[ENDCOLOR]</Text>
-		</Replace>
+		
 		<!--特殊晉升-->
 
 		<!--外交對話-->

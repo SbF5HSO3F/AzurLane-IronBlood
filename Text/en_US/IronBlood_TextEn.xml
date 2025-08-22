@@ -90,6 +90,35 @@
 		<Replace Tag="LOC_BUILDING_ANNETTE_DESCRIPTION" Language="en_US">
 			<Text>A building unique to Iron Blood, replacing the Library and can hold [ICON_GreatWork_WRITING] Great Works of Writing. +1 [ICON_SCIENCE] Science per turn for each [ICON_CITIZEN] Citizen in the city. If you use Z46, unlock the "Name pursuit" Project, which provides [ICON_Culture] Culture and [ICON_SCIENCE] Science for 20% of the current city's [ICON_PRODUCTION] Production each turn, awards [ICON_GreatWriter] Great Writers, [ICON_GreatArtist] Great Artists and [ICON_GreatMusician] Great Musicians points once finished, and grants a free [ICON_GreatWriter] Great Writers.</Text>
 		</Replace>
+		<!--单位命令-->
+		<Replace Tag="LOC_IRON_ACTION_COOLDOWN_LAST" Language="en_US">
+			<Text>[ICON_Bullet]Remaining {1_num} {1_num : plural 1?turn; other?turns;} on cooldown.</Text>
+		</Replace>
+		<!--Warning-->
+		<Replace Tag="LOC_IRON_ACTION_REASON_UNIT_IS_NIL" Language="en_US">
+			<Text>[COLOR_RED]Unit does not exist.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_IRON_ACTION_REASON_PLAYER_IS_NIL" Language="en_US">
+			<Text>[COLOR_RED]Player does not exist.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_IRON_ACTION_REASON_STILL_IN_COOLDOWN" Language="en_US">
+			<Text>[COLOR_RED]The command still is cooling down.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_IRON_ACTION_REASON_UNIT_NO_DAMAGED" Language="en_US">
+			<Text>[COLOR_RED]Unit is not damaged.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_IRON_ACTION_REASON_NO_MOVEMENT" Language="en_US">
+			<Text>[COLOR_RED]No remaining Movement.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_IRON_ACTION_REASON_NO_TARGET" Language="en_US">
+			<Text>[COLOR_RED]No valid target.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_IRON_ACTION_REASON_NO_DISTRICTS_TO_RETREAT" Language="en_US">
+			<Text>[COLOR_RED]No districts available for retreat.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_IRON_ACTION_REASON_NOT_GENERAL_OR_ADMIRAL" Language="en_US">
+			<Text>[COLOR_RED]Unit is not a [ICON_GreatGeneral] Great General or [ICON_GreatAdmiral] Great Admiral.[ENDCOLOR]</Text>
+		</Replace>
 		<!--城市名-->
 		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_BERLIN" Language="en_US">
 			<Text>Berlin</Text>

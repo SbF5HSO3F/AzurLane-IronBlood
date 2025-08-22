@@ -179,18 +179,18 @@ function SeydlitzContext.Military:GetDetail(pUnit)
     local detail = { Disable = true, Reason = 'NONE' }
     -- if pUnit:GetDamage() == 0 then
     --     --damage, disabled
-    --     detail.Reason = Locale.Lookup('LOC_UNITCOMMAND_UNSINKABLE_LEGEND_NODAMAGE')
+    --     detail.Reason = Locale.Lookup('LOC_IRON_ACTION_REASON_UNIT_NO_DAMAGED')
     -- else
     if pUnit:GetMovesRemaining() == 0 then
         --no movement, disabled
-        detail.Reason = Locale.Lookup('LOC_UNITCOMMAND_UNSINKABLE_LEGEND_NOMOVEMENT')
+        detail.Reason = Locale.Lookup('LOC_IRON_ACTION_REASON_NO_MOVEMENT')
     else
         local plots = self.GetPlots(pUnit)
         if plots and #plots > 0 then
             detail.Disable = false
         else
             --no plot, disabled
-            detail.Reason = Locale.Lookup('LOC_UNITCOMMAND_UNSINKABLE_LEGEND_NOPLOT')
+            detail.Reason = Locale.Lookup('LOC_IRON_ACTION_REASON_NO_DISTRICTS_TO_RETREAT')
         end
     end
     --end
@@ -215,9 +215,7 @@ function SeydlitzContext.Military:Reset(pUnit)
         local tooltip = Locale.Lookup('LOC_UNITCOMMAND_UNSINKABLE_LEGEND_TITLE') ..
             '[NEWLINE][NEWLINE]' .. Locale.Lookup('LOC_UNITCOMMAND_UNSINKABLE_LEGEND_DESC')
         if disable then
-            tooltip = tooltip .. '[NEWLINE][NEWLINE]' ..
-                Locale.Lookup('LOC_UNITCOMMAND_UNSINKABLE_LEGEND_DISABLE') ..
-                '[NEWLINE]' .. detail.Reason
+            tooltip = tooltip .. '[NEWLINE][NEWLINE]' .. detail.Reason
             --quit the mode
             self.Quit(false)
         end
@@ -268,14 +266,14 @@ function SeydlitzContext.GreatPerson.GetDetail(pUnit)
     local Formation = pUnit:GetType() == generalIndex and 'FORMATION_CLASS_LAND_COMBAT' or 'FORMATION_CLASS_NAVAL'
     --check the unit
     if pUnit == nil then
-        detail.Reason = Locale.Lookup('LOC_UNITCOMMAND_IRON_WILLED_LEADER_NOUNIT')
+        detail.Reason = Locale.Lookup('LOC_IRON_ACTION_REASON_NOT_GENERAL_OR_ADMIRAL')
         return detail
     end
     --get the turns
     local turns = pUnit:GetProperty(key) or -lastTurns
     local last  = Game.GetCurrentGameTurn() - turns
     if last < lastTurns then
-        detail.Reason = Locale.Lookup('LOC_UNITCOMMAND_IRON_WILLED_LEADER_LAST', lastTurns - last)
+        detail.Reason = Locale.Lookup('LOC_IRON_ACTION_COOLDOWN_LAST', lastTurns - last)
         return detail
     end
     --check the plot has unit
@@ -310,7 +308,7 @@ function SeydlitzContext.GreatPerson.GetDetail(pUnit)
         end
     end
     if not hasUnit then
-        detail.Reason = Locale.Lookup('LOC_UNITCOMMAND_IRON_WILLED_LEADER_NOTARGET')
+        detail.Reason = Locale.Lookup('LOC_IRON_ACTION_REASON_NO_TARGET')
     else
         detail.SetUp = true
         detail.Disable = false

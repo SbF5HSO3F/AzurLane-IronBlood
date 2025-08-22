@@ -108,21 +108,6 @@
 		<Replace Tag="LOC_UNITCOMMAND_Z23_DESC" Language="en_US">
 			<Text>The unit heals {1_num} HP, +2 [ICON_Strength] Movement, +10 [ICON_Strength] Combat Strength and regains all [ICON_Movement] Movement and attack capability for the turn. If the unit is on an enemy District, it will also loot the District and all buildings in it and gain an additional [ICON_Strength] Combat Strength bonus. Requires {2_num} {2_num : plural 1?turn; other?turns;} cooldown.</Text>
 		</Replace>
-		<Replace Tag="LOC_UNITCOMMAND_Z23_LAST" Language="en_US">
-			<Text>[ICON_Bullet]Remaining {1_num} {1_num : plural 1?turn; other?turns;} on cooldown</Text>
-		</Replace>
-		<Replace Tag="LOC_UNITCOMMAND_Z23_DISABLE" Language="en_US">
-			<Text>[COLOR_RED]The command is not available for the following reasons:[ENDCOLOR]</Text>
-		</Replace>
-		<Replace Tag="LOC_UNITCOMMAND_Z23_NO_UNIT" Language="en_US">
-			<Text>[ICON_Bullet][COLOR_RED]The unit does not exist[ENDCOLOR]</Text>
-		</Replace>
-		<Replace Tag="LOC_UNITCOMMAND_Z23_NO_PLAYER" Language="en_US">
-			<Text>[ICON_Bullet][COLOR_RED]The unit has no affiliated players[ENDCOLOR]</Text>
-		</Replace>
-		<Replace Tag="LOC_UNITCOMMAND_Z23_DISABLE_LAST" Language="en_US">
-			<Text>[ICON_Bullet][COLOR_RED]"Destruction Mode" is still cooling down.[ENDCOLOR]</Text>
-		</Replace>
 		<!--特殊晋升-->
 
 		<!--外交对话-->

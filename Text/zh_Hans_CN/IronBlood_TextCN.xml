@@ -114,6 +114,35 @@
 		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_ANNETTE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN" >
 			<Text>维布林根修道院图书馆建于1744年，位于乌尔姆南郊的维布林根镇。华丽的装饰使之成为巴洛克风格建筑艺术的典范，曾被路透社评价为“十大被忽视的建筑瑰宝”。</Text>
 		</Replace>
+		<!--单位命令-->
+		<Replace Tag="LOC_IRON_ACTION_COOLDOWN_LAST" Language="zh_Hans_CN">
+			<Text>[ICON_Bullet]剩余{1_num}回合冷却</Text>
+		</Replace>
+		<!--Warning-->
+		<Replace Tag="LOC_IRON_ACTION_REASON_UNIT_IS_NIL" Language="zh_Hans_CN">
+			<Text>[COLOR_RED]该单位不存在[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_IRON_ACTION_REASON_PLAYER_IS_NIL" Language="zh_Hans_CN">
+			<Text>[COLOR_RED]该玩家不存在[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_IRON_ACTION_REASON_STILL_IN_COOLDOWN" Language="zh_Hans_CN">
+			<Text>[COLOR_RED]该命令处于冷却中[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_IRON_ACTION_REASON_UNIT_NO_DAMAGED" Language="zh_Hans_CN">
+			<Text>[COLOR_RED]该单位尚未受伤[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_IRON_ACTION_REASON_NO_MOVEMENT" Language="zh_Hans_CN">
+			<Text>[COLOR_RED]无剩余移动力[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_IRON_ACTION_REASON_NO_TARGET" Language="zh_Hans_CN">
+			<Text>[COLOR_RED]无可用目标[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_IRON_ACTION_REASON_NO_DISTRICTS_TO_RETREAT" Language="zh_Hans_CN">
+			<Text>[COLOR_RED]没有可供撤退的区域[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_IRON_ACTION_REASON_NOT_GENERAL_OR_ADMIRAL" Language="zh_Hans_CN">
+			<Text>[COLOR_RED]该单位不为 [ICON_GreatGeneral] 大将军或 [ICON_GreatAdmiral] 海军统帅[ENDCOLOR]</Text>
+		</Replace>
 		<!--城市名-->
 		<Replace Tag="LOC_CITY_NAME_IRON_BLOOD_BERLIN" Language="zh_Hans_CN">
 			<Text>柏林</Text>

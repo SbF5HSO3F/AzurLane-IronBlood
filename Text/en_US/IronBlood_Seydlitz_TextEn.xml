@@ -147,27 +147,6 @@
 		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_PIONTS_FLOAT" Language="en_US">
 			<Text>[COLOR:COLOR_FLOAT_FOOD]+{1_num} {2_text} points[ENDCOLOR]</Text>
 		</Replace>
-		<Replace Tag="LOC_UNITCOMMAND_UNSINKABLE_LEGEND_DISABLE" Language="en_US">
-			<Text>[COLOR_RED]The command is not available for the following reasons:[ENDCOLOR]</Text>
-		</Replace>
-		<Replace Tag="LOC_UNITCOMMAND_UNSINKABLE_LEGEND_NODAMAGE" Language="en_US">
-			<Text>[ICON_Bullet][COLOR_RED]The unit is not damaged.[ENDCOLOR]</Text>
-		</Replace>
-		<Replace Tag="LOC_UNITCOMMAND_UNSINKABLE_LEGEND_NOMOVEMENT" Language="en_US">
-			<Text>[ICON_Bullet][COLOR_RED]The unit has no remaining [ICON_MOVEMENT] Movement.[ENDCOLOR]</Text>
-		</Replace>
-		<Replace Tag="LOC_UNITCOMMAND_UNSINKABLE_LEGEND_NOPLOT" Language="en_US">
-			<Text>[ICON_Bullet][COLOR_RED]The unit has no available retreat districts.[ENDCOLOR]</Text>
-		</Replace>
-		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_NOUNIT" Language="en_US">
-			<Text>[ICON_Bullet][COLOR_RED]The unit is not a [ICON_GreatGeneral] Great General or [ICON_GreatAdmiral] Great Admiral.[ENDCOLOR]</Text>
-		</Replace>
-		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_LAST" Language="en_US">
-			<Text>[ICON_Bullet]Remaining {1_num} {1_num : plural 1?turn; other?turns;} on cooldown.</Text>
-		</Replace>
-		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_NOTARGET" Language="en_US">
-			<Text>[ICON_Bullet][COLOR_RED]No available targets.[ENDCOLOR]</Text>
-		</Replace>
 		<!--特殊晋升-->
 
 		<!--外交对话-->

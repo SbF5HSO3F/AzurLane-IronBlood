@@ -40,21 +40,21 @@ function Z23UnitPanel.GetDetail(pUnit)
     --the unit isn't nil
     if pUnit == nil then
         detail.Disable = true
-        detail.Reason = Locale.Lookup('LOC_UNITCOMMAND_Z23_NO_UNIT')
+        detail.Reason = Locale.Lookup('LOC_IRON_ACTION_REASON_UNIT_IS_NIL')
         return detail
     end
 
     --the owner isn't nil
     if Players[pUnit:GetOwner()] == nil then
         detail.Disable = true
-        detail.Reason = Locale.Lookup('LOC_UNITCOMMAND_Z23_NO_PLAYER')
+        detail.Reason = Locale.Lookup('LOC_IRON_ACTION_REASON_PLAYER_IS_NIL')
         return detail
     end
 
     --last turn > 0
     if pUnit:GetProperty(TurnLast) and pUnit:GetProperty(TurnLast) > 0 then
         detail.Disable = true
-        detail.Reason = Locale.Lookup('LOC_UNITCOMMAND_Z23_DISABLE_LAST')
+        detail.Reason = Locale.Lookup('LOC_IRON_ACTION_REASON_STILL_IN_COOLDOWN')
         return detail
     end
 
@@ -79,7 +79,7 @@ function Z23UnitPanel:Refresh()
             '[NEWLINE][NEWLINE]' .. Locale.Lookup('LOC_UNITCOMMAND_Z23_DESC', heal, turns)
         local lastturns = pUnit:GetProperty(TurnLast)
         if lastturns and lastturns > 0 then
-            string = string .. '[NEWLINE][NEWLINE]' .. Locale.Lookup('LOC_UNITCOMMAND_Z23_LAST', lastturns)
+            string = string .. '[NEWLINE][NEWLINE]' .. Locale.Lookup('LOC_IRON_ACTION_COOLDOWN_LAST', lastturns)
         end
 
         if disable then

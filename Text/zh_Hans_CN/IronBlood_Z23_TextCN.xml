@@ -108,21 +108,6 @@
 		<Replace Tag="LOC_UNITCOMMAND_Z23_DESC" Language="zh_Hans_CN">
 			<Text>该单位恢复{1_num}点生命值，本回合内+2 [ICON_Strength] 移动力，+10 [ICON_Strength] 战斗力并恢复全部 [ICON_Movement] 移动力和攻击次数。如单位处于敌方区域上，还将掠夺此区域和其中全部建筑并获得额外的 [ICON_Strength] 战斗力加成。需要{2_num}回合冷却。</Text>
 		</Replace>
-		<Replace Tag="LOC_UNITCOMMAND_Z23_LAST" Language="zh_Hans_CN">
-			<Text>[ICON_Bullet]剩余{1_num}回合冷却</Text>
-		</Replace>
-		<Replace Tag="LOC_UNITCOMMAND_Z23_DISABLE" Language="zh_Hans_CN">
-			<Text>[COLOR_RED]因下列原因，该命令不可用：[ENDCOLOR]</Text>
-		</Replace>
-		<Replace Tag="LOC_UNITCOMMAND_Z23_NO_UNIT" Language="zh_Hans_CN">
-			<Text>[ICON_Bullet][COLOR_RED]该单位不存在[ENDCOLOR]</Text>
-		</Replace>
-		<Replace Tag="LOC_UNITCOMMAND_Z23_NO_PLAYER" Language="zh_Hans_CN">
-			<Text>[ICON_Bullet][COLOR_RED]该单位没有所属玩家[ENDCOLOR]</Text>
-		</Replace>
-		<Replace Tag="LOC_UNITCOMMAND_Z23_DISABLE_LAST" Language="zh_Hans_CN">
-			<Text>[ICON_Bullet][COLOR_RED]“毁灭模式”还在冷却中[ENDCOLOR]</Text>
-		</Replace>
 		<!--特殊晋升-->
 
 		<!--外交对话-->

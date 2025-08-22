@@ -147,27 +147,6 @@
 		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_PIONTS_FLOAT" Language="zh_Hant_HK">
 			<Text>[COLOR:COLOR_FLOAT_FOOD]+{1_num} {2_text}點數[ENDCOLOR]</Text>
 		</Replace>
-		<Replace Tag="LOC_UNITCOMMAND_UNSINKABLE_LEGEND_DISABLE" Language="zh_Hant_HK">
-			<Text>[COLOR_RED]因以下原因，該行動不可用：[ENDCOLOR]</Text>
-		</Replace>
-		<Replace Tag="LOC_UNITCOMMAND_UNSINKABLE_LEGEND_NODAMAGE" Language="zh_Hant_HK">
-			<Text>[ICON_Bullet][COLOR_RED]該單位未受傷[ENDCOLOR]</Text>
-		</Replace>
-		<Replace Tag="LOC_UNITCOMMAND_UNSINKABLE_LEGEND_NOMOVEMENT" Language="zh_Hant_HK">
-			<Text>[ICON_Bullet][COLOR_RED]該單位沒有剩余 [ICON_MOVEMENT] 移動力[ENDCOLOR]</Text>
-		</Replace>
-		<Replace Tag="LOC_UNITCOMMAND_UNSINKABLE_LEGEND_NOPLOT" Language="zh_Hant_HK">
-			<Text>[ICON_Bullet][COLOR_RED]該單位沒有可供撤退的區域[ENDCOLOR]</Text>
-		</Replace>
-		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_NOUNIT" Language="zh_Hant_HK">
-			<Text>[ICON_Bullet][COLOR_RED]該單位不為 [ICON_GreatGeneral] 大將軍或 [ICON_GreatAdmiral] 海軍統帥[ENDCOLOR]</Text>
-		</Replace>
-		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_LAST" Language="zh_Hant_HK">
-			<Text>[ICON_Bullet]剩余{1_num}回合冷卻</Text>
-		</Replace>
-		<Replace Tag="LOC_UNITCOMMAND_IRON_WILLED_LEADER_NOTARGET" Language="zh_Hant_HK">
-			<Text>[ICON_Bullet][COLOR_RED]無可用目標[ENDCOLOR]</Text>
-		</Replace>
 		<!--特殊晉升-->
 
 		<!--外交對話-->
