@@ -124,15 +124,15 @@
           <Properties>
             <Context>InGame</Context>
           </Properties>
-          <File>UI/Additions/IronBlood_Z23UI.xml</File>
-          <File>UI/Additions/IronBlood_SeydlitzUI.xml</File>
+          <File>UI/Additions/Z23UnitPanel.xml</File>
+          <File>UI/Additions/SeydlitzUnitPanel.xml</File>
         </AddUserInterfaces>
         <AddGameplayScripts id="Scripts">
-          <File>Scripts/IronBlood_U96.lua</File>
-          <File>Scripts/IronBlood_Z46.lua</File>
-          <File>Scripts/IronBlood_Deutschland.lua</File>
-          <File>Scripts/IronBlood_Z23.lua</File>
-          <File>Scripts/IronBlood_Seydlitz.lua</File>
+          <File>Scripts/IronBloodU96.lua</File>
+          <File>Scripts/IronBloodZ46.lua</File>
+          <File>Scripts/IronBloodDeutschland.lua</File>
+          <File>Scripts/IronBloodZ23.lua</File>
+          <File>Scripts/IronBloodSeydlitz.lua</File>
         </AddGameplayScripts>
         <UpdateDatabase id="IronBlood">
           <File priority="100">Data/IronBlood_Core.sql</File>
@@ -484,19 +484,19 @@
     <Content Include="ModSupport\GoldenAge\Text\GoldenAgeFit_zh_Hant_HK.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Scripts\IronBlood_Deutschland.lua">
+    <Content Include="Scripts\IronBloodDeutschland.lua">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Scripts\IronBlood_Seydlitz.lua">
+    <Content Include="Scripts\IronBloodSeydlitz.lua">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Scripts\IronBlood_U96.lua">
+    <Content Include="Scripts\IronBloodU96.lua">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Scripts\IronBlood_Z23.lua">
+    <Content Include="Scripts\IronBloodZ23.lua">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Scripts\IronBlood_Z46.lua">
+    <Content Include="Scripts\IronBloodZ46.lua">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModSupport\Ophidy%27s Iron Blood\Data\Ophidy_IronBlood_GamePlayUpdate.sql">
@@ -565,16 +565,16 @@
     <Content Include="Text\zh_Hant_HK\IronBlood_Z46_TextHK.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="UI\Additions\IronBlood_SeydlitzUI.lua">
+    <Content Include="UI\Additions\SeydlitzUnitPanel.lua">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="UI\Additions\IronBlood_SeydlitzUI.xml">
+    <Content Include="UI\Additions\SeydlitzUnitPanel.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="UI\Additions\IronBlood_Z23UI.lua">
+    <Content Include="UI\Additions\Z23UnitPanel.lua">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="UI\Additions\IronBlood_Z23UI.xml">
+    <Content Include="UI\Additions\Z23UnitPanel.xml">
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>

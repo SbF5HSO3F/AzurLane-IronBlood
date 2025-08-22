@@ -1,4 +1,4 @@
--- IronBlood_SeydlitzUI
+-- SeydlitzUnitPanel
 -- Author: HSbF6HSO3F
 -- DateCreated: 2024/8/26 12:26:33
 --------------------------------------------------------------
@@ -527,6 +527,6 @@ function Initialize()
     print('Initial success!')
 end
 
-include('IronBlood_SeydlitzUI_', true)
+include('SeydlitzUnitPanel_', true)
 
 Initialize()

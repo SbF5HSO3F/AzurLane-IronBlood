@@ -1,4 +1,4 @@
--- IronBlood_Z23UI
+-- Z23UnitPanel
 -- Author: HSbF6HSO3F
 -- DateCreated: 2023/12/28 22:57:33
 --------------------------------------------------------------
@@ -176,6 +176,6 @@ function Initialize()
     print('Initial success!')
 end
 
-include('IronBlood_Z23UI_', true)
+include('Z23UnitPanel_', true)
 
 Initialize()
