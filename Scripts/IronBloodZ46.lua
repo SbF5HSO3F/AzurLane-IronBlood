@@ -48,6 +48,6 @@ function Initialize()
     print('Initial success!')
 end
 
-include('IronBlood_Z46_', true)
+include('IronBloodZ46_', true)
 
 Initialize()

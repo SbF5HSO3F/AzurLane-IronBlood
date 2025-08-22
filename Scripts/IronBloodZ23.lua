@@ -194,6 +194,6 @@ function Initialize()
     print('Error: Z404 Not Found')
 end
 
-include('IronBlood_Z23_', true)
+include('IronBloodZ23_', true)
 
 Initialize()

@@ -52,6 +52,6 @@ function Initialize()
     print('Initial success!')
 end
 
-include('IronBlood_U96_', true)
+include('IronBloodU96_', true)
 
 Initialize()

@@ -112,6 +112,6 @@ function Initialize()
     print('Initial success!')
 end
 
-include('IronBlood_Seydlitz_', true)
+include('IronBloodSeydlitz_', true)
 
 Initialize()

@@ -14,8 +14,6 @@ function DeutschlandRewardFormula(pCity, YieldType, baseNum)
         local cityYield = pCity:GetYield(YieldType)
         --CostMultiplier
         local Reward = IronMath:ModifyBySpeed(cityPop * (2 * cityYield + baseNum))
-        --[[local speedModifier = GameInfo.GameSpeeds[GameConfiguration.GetGameSpeedType()].CostMultiplier / 100
-        local Reward = IronMath.Round(cityPop * (2 * cityYield + baseNum) * speedModifier)]]
         return Reward
     end
 end
@@ -86,6 +84,6 @@ function Initialize()
     print('Initial success!')
 end
 
-include('IronBlood_Deutschland_', true)
+include('IronBloodDeutschland_', true)
 
 Initialize()

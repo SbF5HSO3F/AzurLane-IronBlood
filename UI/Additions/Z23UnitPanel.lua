@@ -14,67 +14,61 @@ local TurnLast = 'Z23TurnLast'
 local heal = ExposedMembers.Z23.HealNum
 local turns = ExposedMembers.Z23.LastTurn
 
+--||======================MetaTable=======================||--
+
+Z23UnitPanel = {}
+
 --||====================base functions====================||--
 
 --get the button's Visibility
-function Z23GetButtonVisibility(playerID, unitID)
-    local pUnit = UnitManager.GetUnit(playerID, unitID)
+function Z23UnitPanel.GetVisibility(pUnit)
     if pUnit then
-        if not IronCore.CheckLeaderMatched(playerID, 'LEADER_Z23_1936A') then
+        if not IronCore.CheckLeaderMatched(
+                pUnit:GetOwner(), 'LEADER_Z23_1936A'
+            ) then
             return false
         end
-        local unitInfo = GameInfo.Units[pUnit:GetType()]
-        if not unitInfo then
-            return false
-        end
-        local unitFormation = unitInfo.FormationClass
-        return unitFormation == 'FORMATION_CLASS_LAND_COMBAT'
-            or unitFormation == 'FORMATION_CLASS_NAVAL'
-            or unitFormation == 'FORMATION_CLASS_AIR'
+        return IronCore.IsMilitary(pUnit)
     end
     return false
 end
 
 --Get the Button's Detail
-function Z23GetButtonDetail(pUnit)
+function Z23UnitPanel.GetDetail(pUnit)
     --set the detail
     local detail = { Disable = false, Reason = 'NONE' }
-    --set the Reason
-    detail.Reason = Locale.Lookup('LOC_UNITCOMMAND_Z23_DISABLE')
     --the unit isn't nil
     if pUnit == nil then
         detail.Disable = true
-        detail.Reason = detail.Reason ..
-            '[NEWLINE]' .. Locale.Lookup('LOC_UNITCOMMAND_Z23_NO_UNIT')
+        detail.Reason = Locale.Lookup('LOC_UNITCOMMAND_Z23_NO_UNIT')
+        return detail
     end
 
     --the owner isn't nil
     if Players[pUnit:GetOwner()] == nil then
         detail.Disable = true
-        detail.Reason = detail.Reason .. '[NEWLINE]'
-            .. Locale.Lookup('LOC_UNITCOMMAND_Z23_NO_PLAYER')
+        detail.Reason = Locale.Lookup('LOC_UNITCOMMAND_Z23_NO_PLAYER')
+        return detail
     end
 
     --last turn > 0
     if pUnit:GetProperty(TurnLast) and pUnit:GetProperty(TurnLast) > 0 then
         detail.Disable = true
-        detail.Reason = detail.Reason .. '[NEWLINE]'
-            .. Locale.Lookup('LOC_UNITCOMMAND_Z23_DISABLE_LAST')
+        detail.Reason = Locale.Lookup('LOC_UNITCOMMAND_Z23_DISABLE_LAST')
+        return detail
     end
 
     return detail
 end
 
 --Reset Button
-function Z23ResetButton()
+function Z23UnitPanel:Refresh()
     --get the unit
     local pUnit = UI.GetHeadSelectedUnit()
-    if pUnit and Z23GetButtonVisibility(
-            pUnit:GetOwner(), pUnit:GetID()
-        ) then
+    if pUnit and self.GetVisibility(pUnit) then
         Controls.Z23Grid:SetHide(false)
         --get the detail of the button
-        local detail = Z23GetButtonDetail(pUnit)
+        local detail = self.GetDetail(pUnit)
         --get the disable
         local disable = detail.Disable
         --Set the Button
@@ -102,7 +96,7 @@ function Z23ResetButton()
 end
 
 --When button is clicked
-function Z23OnButtonClicked()
+function Z23UnitPanel:Callback()
     --Get the unit and set param
     local pUnit = UI.GetHeadSelectedUnit()
     --request operations
@@ -119,33 +113,44 @@ function Z23OnButtonClicked()
     Network.BroadcastPlayerInfo()
 end
 
---||===================Events functions===================||--
-
---When the unit is selected
-function Z23OnUnitSelectChanged(playerId, unitId, locationX, locationY, locationZ, isSelected, isEditable)
-    if isSelected and playerId == Game.GetLocalPlayer() then
-        Z23ResetButton()
-    end
+-- Resigter the function to the button
+function Z23UnitPanel:Register()
+    Controls.DestructionButton:RegisterCallback(Mouse.eLClick, function() self:Callback() end)
+    Controls.DestructionButton:RegisterCallback(Mouse.eMouseEnter, IronBloodEnter)
 end
 
---On Unit Active
-function Z23UnitActive(owner, unitID, x, y, eReason)
-    local pUnit = UnitManager.GetUnit(owner, unitID);
-    if eReason == eReason_1 then
-        Z23ResetButton()
-        SimUnitSystem.SetAnimationState(pUnit, "SPAWN", "IDLE")
-    end
-end
-
---Add a button to Unit Panel
-function Z23OnLoadGameViewStateDone()
+-- Initialize the button
+function Z23UnitPanel:Init()
     local pContext = ContextPtr:LookUpControl("/InGame/UnitPanel/StandardActionsStack")
     if pContext ~= nil then
         Controls.Z23Grid:ChangeParent(pContext)
-        Controls.DestructionButton:RegisterCallback(Mouse.eLClick, Z23OnButtonClicked)
-        Controls.DestructionButton:RegisterCallback(Mouse.eMouseEnter, IronBloodEnter)
+        self:Register(); self:Refresh()
+    end
+end
 
-        Z23ResetButton()
+--||===================Events functions===================||--
+
+-- Refresh the button
+function Z23Refresh()
+    Z23UnitPanel:Refresh()
+end
+
+-- Add the button to the Unit Panel
+function Z23AddButton()
+    Z23UnitPanel:Init()
+end
+
+-- When the unit is selected
+function Z23UnitSelectChanged(playerId, unitId, locationX, locationY, locationZ, isSelected, isEditable)
+    if isSelected and playerId == Game.GetLocalPlayer() then Z23UnitPanel:Refresh() end
+end
+
+-- On Unit Active
+function Z23UnitActive(owner, unitID, x, y, eReason)
+    local pUnit = UnitManager.GetUnit(owner, unitID);
+    if eReason == eReason_1 then
+        Z23UnitPanel:Refresh()
+        SimUnitSystem.SetAnimationState(pUnit, "SPAWN", "IDLE")
     end
 end
 
@@ -153,25 +158,25 @@ end
 
 --Initialize
 function Initialize()
-    Events.LoadGameViewStateDone.Add(Z23OnLoadGameViewStateDone)
-    Events.UnitSelectionChanged.Add(Z23OnUnitSelectChanged)
+    Events.LoadGameViewStateDone.Add(Z23AddButton)
+    Events.UnitSelectionChanged.Add(Z23UnitSelectChanged)
     Events.UnitActivate.Add(Z23UnitActive)
     ------------------------------------------
-    Events.UnitOperationSegmentComplete.Add(Z23ResetButton)
-    Events.UnitCommandStarted.Add(Z23ResetButton)
-    Events.UnitDamageChanged.Add(Z23ResetButton)
-    Events.UnitMoveComplete.Add(Z23ResetButton)
-    Events.UnitChargesChanged.Add(Z23ResetButton)
-    Events.UnitPromoted.Add(Z23ResetButton)
-    Events.UnitOperationsCleared.Add(Z23ResetButton)
-    Events.UnitOperationAdded.Add(Z23ResetButton)
-    Events.UnitOperationDeactivated.Add(Z23ResetButton)
-    Events.UnitMovementPointsChanged.Add(Z23ResetButton)
-    Events.UnitMovementPointsCleared.Add(Z23ResetButton)
-    Events.UnitMovementPointsRestored.Add(Z23ResetButton)
-    Events.UnitAbilityLost.Add(Z23ResetButton)
+    Events.UnitOperationSegmentComplete.Add(Z23Refresh)
+    Events.UnitCommandStarted.Add(Z23Refresh)
+    Events.UnitDamageChanged.Add(Z23Refresh)
+    Events.UnitMoveComplete.Add(Z23Refresh)
+    Events.UnitChargesChanged.Add(Z23Refresh)
+    Events.UnitPromoted.Add(Z23Refresh)
+    Events.UnitOperationsCleared.Add(Z23Refresh)
+    Events.UnitOperationAdded.Add(Z23Refresh)
+    Events.UnitOperationDeactivated.Add(Z23Refresh)
+    Events.UnitMovementPointsChanged.Add(Z23Refresh)
+    Events.UnitMovementPointsCleared.Add(Z23Refresh)
+    Events.UnitMovementPointsRestored.Add(Z23Refresh)
+    Events.UnitAbilityLost.Add(Z23Refresh)
     ------------------------------------------
-    Events.PhaseBegin.Add(Z23ResetButton)
+    Events.PhaseBegin.Add(Z23Refresh)
     ------------------------------------------
     print('Initial success!')
 end
